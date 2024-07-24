@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0  7/10/2012 1:49:59 PM
+#
+$CMP CONN_9
+D Symbole general de connecteur
+K CONN
+$ENDCMP
+#
+$CMP SW_PUSH
+D Push Button
+K Switch
+$ENDCMP
+#
+#End Doc Library

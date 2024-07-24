@@ -1,0 +1,359 @@
+EESchema Schematic File Version 2  date 6/3/2012 12:53:24 PM
+LIBS:mostafa
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Tx-cache
+EELAYER 25  0
+EELAYER END
+$Descr A4 11700 8267
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "3 jun 2012"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L PWR_FLAG #FLG01
+U 1 1 4FCA117C
+P 4500 4050
+F 0 "#FLG01" H 4500 4320 30  0001 C CNN
+F 1 "PWR_FLAG" H 4500 4280 30  0000 C CNN
+	1    4500 4050
+	1    0    0    -1  
+$EndComp
+Connection ~ 4650 3800
+Wire Wire Line
+	4650 3800 4650 4100
+Wire Wire Line
+	4650 4100 4500 4100
+Wire Wire Line
+	4500 4100 4500 4050
+Wire Wire Line
+	7700 3800 7700 3900
+Wire Wire Line
+	7150 3150 7400 3150
+Wire Wire Line
+	7400 3150 7400 3550
+Wire Wire Line
+	7400 3550 7550 3550
+Wire Wire Line
+	7150 2950 7850 2950
+Wire Wire Line
+	7850 2950 7850 2850
+Wire Wire Line
+	7850 2850 7750 2850
+Wire Wire Line
+	7150 2750 7650 2750
+Wire Wire Line
+	7650 2750 7650 2250
+Wire Wire Line
+	7350 2200 7350 2300
+Wire Wire Line
+	7350 2300 7550 2300
+Wire Wire Line
+	7550 2300 7550 2250
+Connection ~ 5700 3450
+Wire Wire Line
+	5850 3450 5700 3450
+Connection ~ 5700 3250
+Wire Wire Line
+	5850 3250 5700 3250
+Connection ~ 5700 3050
+Wire Wire Line
+	5850 3050 5700 3050
+Connection ~ 5700 2850
+Wire Wire Line
+	5850 2850 5700 2850
+Wire Wire Line
+	5700 3550 5700 2650
+Wire Wire Line
+	5700 2650 5850 2650
+Connection ~ 4950 2650
+Wire Wire Line
+	4950 2500 4950 2750
+Connection ~ 3650 3800
+Wire Wire Line
+	4950 3800 3150 3800
+Wire Wire Line
+	3150 3800 3150 3000
+Wire Wire Line
+	3150 3000 2800 3000
+Wire Wire Line
+	4950 3250 4950 3350
+Connection ~ 3650 2650
+Wire Wire Line
+	3900 2650 3450 2650
+Wire Wire Line
+	2800 2650 3050 2650
+Wire Wire Line
+	1500 2550 1800 2550
+Wire Wire Line
+	1500 2750 1600 2750
+Wire Wire Line
+	1600 2750 1600 2900
+Wire Wire Line
+	1600 2900 1800 2900
+Wire Wire Line
+	3650 2650 3650 2800
+Wire Wire Line
+	4950 2650 4700 2650
+Wire Wire Line
+	3650 3800 3650 3200
+Wire Wire Line
+	4300 2950 4300 3800
+Connection ~ 4300 3800
+Wire Wire Line
+	4950 3950 4950 3750
+Connection ~ 4950 3800
+Wire Wire Line
+	5850 2750 5700 2750
+Connection ~ 5700 2750
+Wire Wire Line
+	5850 2950 5700 2950
+Connection ~ 5700 2950
+Wire Wire Line
+	5850 3150 5700 3150
+Connection ~ 5700 3150
+Wire Wire Line
+	5850 3350 5700 3350
+Connection ~ 5700 3350
+Wire Wire Line
+	7150 2650 7300 2650
+Wire Wire Line
+	7300 2650 7300 2550
+Wire Wire Line
+	7750 2250 7750 2400
+Wire Wire Line
+	7250 2850 7150 2850
+Wire Wire Line
+	7150 3050 7950 3050
+Wire Wire Line
+	7950 3050 7950 2800
+Wire Wire Line
+	8400 3050 8250 3050
+Wire Wire Line
+	8250 3050 8250 3250
+Wire Wire Line
+	8250 3250 7700 3250
+Wire Wire Line
+	7700 3250 7700 3300
+NoConn ~ 2800 2800
+NoConn ~ 2800 2450
+NoConn ~ 8400 3250
+NoConn ~ 7150 3450
+NoConn ~ 7150 3350
+NoConn ~ 7150 3250
+$Comp
+L CONN_2 P2
+U 1 1 4FCA1177
+P 8750 3150
+F 0 "P2" V 8700 3150 40  0000 C CNN
+F 1 "I/P" V 8800 3150 40  0000 C CNN
+	1    8750 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 4FCA1176
+P 7700 3900
+F 0 "#PWR02" H 7700 3900 30  0001 C CNN
+F 1 "GND" H 7700 3830 30  0001 C CNN
+	1    7700 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L POT RV1
+U 1 1 4FCA1175
+P 7700 3550
+F 0 "RV1" H 7700 3450 50  0000 C CNN
+F 1 "POT" H 7700 3550 50  0000 C CNN
+	1    7700 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L VCC #PWR03
+U 1 1 4FCA1174
+P 7950 2800
+F 0 "#PWR03" H 7950 2900 30  0001 C CNN
+F 1 "VCC" H 7950 2900 30  0000 C CNN
+	1    7950 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 4FCA1149
+P 7500 2850
+F 0 "R2" V 7580 2850 50  0000 C CNN
+F 1 "750k-0.25w" V 7500 2850 50  0000 C CNN
+	1    7500 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR04
+U 1 1 4FCA1139
+P 7750 2400
+F 0 "#PWR04" H 7750 2400 30  0001 C CNN
+F 1 "GND" H 7750 2330 30  0001 C CNN
+	1    7750 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR05
+U 1 1 4FCA112E
+P 7350 2200
+F 0 "#PWR05" H 7350 2300 30  0001 C CNN
+F 1 "VCC" H 7350 2300 30  0000 C CNN
+	1    7350 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_3 K1
+U 1 1 4FCA1123
+P 7650 1900
+F 0 "K1" V 7600 1900 50  0000 C CNN
+F 1 "RF-TX" V 7700 1900 40  0000 C CNN
+	1    7650 1900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L VCC #PWR06
+U 1 1 4FCA1106
+P 7300 2550
+F 0 "#PWR06" H 7300 2650 30  0001 C CNN
+F 1 "VCC" H 7300 2650 30  0000 C CNN
+	1    7300 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR07
+U 1 1 4FCA1092
+P 5700 3550
+F 0 "#PWR07" H 5700 3550 30  0001 C CNN
+F 1 "GND" H 5700 3480 30  0001 C CNN
+	1    5700 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L HT-12E U2
+U 1 1 4FCA1084
+P 6500 3050
+F 0 "U2" H 6500 2850 70  0000 C CNN
+F 1 "HT-12E" H 6500 2550 70  0000 C CNN
+	1    6500 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR08
+U 1 1 4FCA1034
+P 4950 3950
+F 0 "#PWR08" H 4950 3950 30  0001 C CNN
+F 1 "GND" H 4950 3880 30  0001 C CNN
+	1    4950 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR09
+U 1 1 4FCA1023
+P 4950 2500
+F 0 "#PWR09" H 4950 2600 30  0001 C CNN
+F 1 "VCC" H 4950 2600 30  0000 C CNN
+	1    4950 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D2
+U 1 1 4FCA0FA3
+P 4950 3550
+F 0 "D2" H 4950 3650 50  0000 C CNN
+F 1 "GREEN LED" H 4950 3450 50  0000 C CNN
+	1    4950 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L R R1
+U 1 1 4FCA0F9D
+P 4950 3000
+F 0 "R1" V 5030 3000 50  0000 C CNN
+F 1 "330R-0.25w" V 4950 3000 50  0000 C CNN
+	1    4950 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 7805 U1
+U 1 1 4FCA0F8A
+P 4300 2700
+F 0 "U1" H 4450 2504 60  0000 C CNN
+F 1 "7805" H 4300 2900 60  0000 C CNN
+	1    4300 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1 C1
+U 1 1 4FCA0F73
+P 3650 3000
+F 0 "C1" H 3700 3100 50  0000 L CNN
+F 1 "220uF-25v" H 3700 2900 50  0000 L CNN
+	1    3650 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D1
+U 1 1 4FCA0F69
+P 3250 2650
+F 0 "D1" H 3250 2750 40  0000 C CNN
+F 1 "1N4001" H 3250 2550 40  0000 C CNN
+	1    3250 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L SWITCH_6PIN SW1
+U 1 1 4FCA0F3B
+P 2350 2550
+F 0 "SW1" H 2100 2650 50  0000 C CNN
+F 1 "SWITCH_6PIN" H 2150 2050 50  0000 C CNN
+	1    2350 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_2 P1
+U 1 1 4FCA0E5D
+P 1150 2650
+F 0 "P1" V 1100 2650 40  0000 C CNN
+F 1 "POWER" V 1200 2650 40  0000 C CNN
+	1    1150 2650
+	-1   0    0    1   
+$EndComp
+$EndSCHEMATC

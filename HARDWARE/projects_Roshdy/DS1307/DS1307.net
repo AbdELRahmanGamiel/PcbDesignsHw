@@ -1,0 +1,54 @@
+# EESchema Netlist Version 1.1 created  4/10/2013 10:42:08 AM
+(
+ ( /51627D37 SIL-2 BT1 BATTERY
+  ( 1 N-000003 )
+  ( 2 N-000002 )
+ )
+ ( /51627A9A DIP-8__300_ELL IC1 DS1307
+  ( 1 N-000006 )
+  ( 2 N-000007 )
+  ( 3 N-000003 )
+  ( 4 N-000002 )
+  ( 5 N-000004 )
+  ( 6 N-000005 )
+  ( 7 N-000001 )
+  ( 8 N-000008 )
+ )
+ ( /51627EA7 SIL-5 P1 CONN_5
+  ( 1 N-000002 )
+  ( 2 N-000008 )
+  ( 3 N-000008 )
+  ( 4 N-000001 )
+  ( 5 N-000008 )
+ )
+ ( /51627D19 R4 R1 R
+  ( 1 N-000008 )
+  ( 2 N-000005 )
+ )
+ ( /51627D13 R4 R2 R
+  ( 1 N-000008 )
+  ( 2 N-000004 )
+ )
+ ( /51627D77 CRYSTAL_ETC X1 CRYSTAL
+  ( 1 N-000007 )
+  ( 2 N-000006 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}

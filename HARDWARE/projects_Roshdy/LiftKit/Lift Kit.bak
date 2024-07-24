@@ -1,0 +1,262 @@
+EESchema Schematic File Version 2  date 12/25/2013 10:26:10 AM
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 43  0
+EELAYER END
+$Descr A4 11700 8267
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "25 dec 2013"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Connection ~ 6400 3650
+Wire Wire Line
+	7000 3650 6100 3650
+Wire Wire Line
+	7000 3650 7000 3600
+Wire Wire Line
+	5150 3550 5100 3550
+Wire Wire Line
+	5100 3550 5100 3200
+Wire Wire Line
+	5450 3400 5450 3450
+Wire Wire Line
+	5450 3450 5250 3450
+Wire Wire Line
+	5250 3450 5250 3400
+Connection ~ 5450 2950
+Wire Wire Line
+	5450 3000 5450 2900
+Connection ~ 5750 3100
+Wire Wire Line
+	5750 3000 5750 3400
+Wire Wire Line
+	5750 3000 5600 3000
+Wire Wire Line
+	5600 3000 5600 2900
+Wire Wire Line
+	5750 3100 5800 3100
+Wire Wire Line
+	5750 3400 5800 3400
+Wire Wire Line
+	6400 3650 6400 3600
+Wire Wire Line
+	6100 3650 6100 2950
+Wire Wire Line
+	6100 2950 6450 2950
+Wire Wire Line
+	6450 2950 6450 2900
+Wire Wire Line
+	6950 3150 7100 3150
+Wire Wire Line
+	7100 3150 7100 3250
+Wire Wire Line
+	7100 3250 6200 3250
+Connection ~ 6400 3150
+Wire Wire Line
+	6400 3200 6400 3000
+Wire Wire Line
+	6650 3000 7000 3000
+Wire Wire Line
+	6650 3000 6650 2900
+Wire Wire Line
+	6550 2900 6550 3000
+Wire Wire Line
+	6550 3000 6400 3000
+Wire Wire Line
+	7000 3000 7000 3200
+Connection ~ 7000 3150
+Wire Wire Line
+	6200 3100 6300 3100
+Wire Wire Line
+	6300 3100 6300 3150
+Wire Wire Line
+	6300 3150 6450 3150
+Wire Wire Line
+	6200 3400 6250 3400
+Wire Wire Line
+	6250 3400 6250 3550
+Wire Wire Line
+	6250 3550 6200 3550
+Wire Wire Line
+	5800 3250 5750 3250
+Connection ~ 5750 3250
+Wire Wire Line
+	5800 2900 5800 2950
+Wire Wire Line
+	5800 2950 5450 2950
+Wire Wire Line
+	5250 2900 5250 3000
+Wire Wire Line
+	5500 2950 5500 3200
+Connection ~ 5500 2950
+Wire Wire Line
+	5500 3200 5100 3200
+Wire Wire Line
+	5550 3550 5800 3550
+$Comp
+L VR VR?
+U 1 1 52BA92CF
+P 6700 3150
+F 0 "VR?" V 6780 3150 50  0000 C CNN
+F 1 "VR" V 6700 3150 50  0000 C CNN
+	1    6700 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 52BA8FFC
+P 5350 3550
+F 0 "D?" H 5350 3650 40  0000 C CNN
+F 1 "1.5KE440A" H 5350 3450 40  0000 C CNN
+	1    5350 3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 52BA8FD0
+P 5250 3200
+F 0 "D?" H 5350 3250 40  0000 C CNN
+F 1 "1.5KE440A" H 5250 3100 40  0000 C CNN
+	1    5250 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 52BA8FC9
+P 5450 3200
+F 0 "D?" H 5550 3250 40  0000 C CNN
+F 1 "Ska3/17" H 5450 3150 40  0000 C CNN
+	1    5450 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 52BA8EF2
+P 6000 3550
+F 0 "D?" H 6020 3695 40  0000 C CNN
+F 1 "1.5KE440A" H 5990 3610 40  0000 C CNN
+	1    6000 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 52BA8EEE
+P 6000 3400
+F 0 "D?" H 6010 3555 40  0000 C CNN
+F 1 "1.5KE440A" H 6005 3340 40  0000 C CNN
+	1    6000 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 52BA8EEA
+P 6000 3250
+F 0 "D?" H 5985 3255 40  0000 C CNN
+F 1 "Ska3/17" H 5995 3180 40  0000 C CNN
+	1    6000 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 52BA8ED6
+P 6000 3100
+F 0 "D?" H 5985 3105 40  0000 C CNN
+F 1 "Ska3/17" H 6000 3035 40  0000 C CNN
+	1    6000 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 52BA8EB0
+P 6400 3400
+F 0 "D?" H 6400 3500 40  0000 C CNN
+F 1 "Ska3/17" H 6400 3300 40  0000 C CNN
+	1    6400 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 52BA8EA6
+P 7000 3400
+F 0 "D?" H 7000 3500 40  0000 C CNN
+F 1 "Ska3/17" H 7000 3300 40  0000 C CNN
+	1    7000 3400
+	0    -1   -1   0   
+$EndComp
+Text Notes 5250 2900 0    60   ~ 0
+7
+Text Notes 5450 2900 0    60   ~ 0
+6
+Text Notes 5600 2900 0    60   ~ 0
+5
+Text Notes 5800 2900 0    60   ~ 0
+4
+Text Notes 6450 2900 0    60   ~ 0
+3
+Text Notes 6550 2900 0    60   ~ 0
+2
+Text Notes 6650 2900 0    60   ~ 0
+1
+$Comp
+L CONN_2 P?
+U 1 1 52BA8D2F
+P 5350 2550
+F 0 "P?" V 5300 2550 40  0000 C CNN
+F 1 "CONN_2" V 5400 2550 40  0000 C CNN
+	1    5350 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_2 P?
+U 1 1 52BA8D28
+P 5700 2550
+F 0 "P?" V 5650 2550 40  0000 C CNN
+F 1 "CONN_2" V 5750 2550 40  0000 C CNN
+	1    5700 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_3 K?
+U 1 1 52BA8D1E
+P 6550 2550
+F 0 "K?" V 6500 2550 50  0000 C CNN
+F 1 "CONN_3" V 6600 2550 40  0000 C CNN
+	1    6550 2550
+	0    -1   -1   0   
+$EndComp
+$EndSCHEMATC

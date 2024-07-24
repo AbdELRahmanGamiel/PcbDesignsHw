@@ -1,0 +1,238 @@
+# EESchema Netlist Version 1.1 created  2013/2/28 7:07:41 PM
+(
+ ( /51067373 $noname  RV1 Rvar {Lib=POT}
+  (    1 N-000016 )
+  (    2 VCC )
+  (    3 VCC )
+ )
+ ( /51067AB8 $noname  D2 BRIDGE {Lib=BRIDGE}
+  (    1 GND )
+  (    2 N-000005 )
+  (    3 VCC )
+  (    4 N-000014 )
+ )
+ ( /5106773D $noname  C2 220uf/25v {Lib=CP1}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /510676D6 $noname  C1 564J/400V {Lib=C}
+  (    1 N-000005 )
+  (    2 N-000007 )
+ )
+ ( /510676C6 $noname  R1 R {Lib=R}
+  (    1 N-000009 )
+  (    2 N-000007 )
+ )
+ ( /51067675 $noname  P2 NUTRAL {Lib=CONN_1}
+  (    1 N-000001 )
+ )
+ ( /5106766D $noname  P4 LMP {Lib=CONN_1}
+  (    1 N-000009 )
+ )
+ ( /51067663 $noname  P3 LINE {Lib=CONN_1}
+  (    1 N-000014 )
+ )
+ ( /510675B5 $noname  SW1 SWITCH {Lib=SW_PUSH}
+  (    1 N-000001 )
+  (    2 N-000009 )
+ )
+ ( /51067561 $noname  F1 FUSE {Lib=FUSE}
+  (    1 N-000002 )
+  (    2 N-000001 )
+ )
+ ( /51067535 $noname  D1 1N4007 {Lib=DIODE}
+  (    1 GND )
+  (    2 N-000015 )
+ )
+ ( /51067507 $noname  relay1 RELAY {Lib=RELAY}
+  (    1 N-000015 )
+  (    2 N-000002 )
+  (    3 GND )
+  (    4 ? )
+  (    5 N-000009 )
+ )
+ ( /510674E0 $noname  D3 1N4007 {Lib=DIODE}
+  (    1 N-000010 )
+  (    2 N-000015 )
+ )
+ ( /510674A7 $noname  C4 j63/650RN {Lib=C}
+  (    1 N-000011 )
+  (    2 GND )
+ )
+ ( /5106747D $noname  D4 ZENER {Lib=ZENER}
+  (    1 GND )
+  (    2 N-000012 )
+ )
+ ( /51067447 $noname  R4 R {Lib=R}
+  (    1 N-000012 )
+  (    2 VCC )
+ )
+ ( /51067428 $noname  R2 R {Lib=R}
+  (    1 N-000008 )
+  (    2 N-000013 )
+ )
+ ( /51067405 $noname  R3 Rout {Lib=R}
+  (    1 N-000013 )
+  (    2 N-000016 )
+ )
+ ( /510673D9 $noname  C5 220uf/25v {Lib=CP1}
+  (    1 N-000008 )
+  (    2 GND )
+ )
+ ( /51067384 $noname  u1 LM555N {Lib=LM555N}
+  (    1 GND )
+  (    2 N-000008 )
+  (    3 N-000010 )
+  (    4 VCC )
+  (    5 N-000011 )
+  (    6 N-000008 )
+  (    7 N-000013 )
+  (    8 VCC )
+ )
+ ( /510672F8 $noname  C3 104j {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /510672D4 $noname  P1 LAMP {Lib=CONN_2}
+  (    1 N-000009 )
+  (    2 N-000014 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C2
+ CP*
+ SM*
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component D1
+ D?
+ S*
+$endlist
+$component D3
+ D?
+ S*
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component D4
+ D?
+ SO*
+ SM*
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C5
+ CP*
+ SM*
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "" ""
+ P2 1
+ SW1 1
+ F1 2
+Net 2 "" ""
+ F1 1
+ relay1 2
+Net 3 "GND" "GND"
+ C5 2
+ u1 1
+ C3 2
+ C4 2
+ D4 1
+ D1 1
+ relay1 3
+ D2 1
+ C2 2
+Net 5 "" ""
+ D2 2
+ C1 1
+Net 6 "VCC" "VCC"
+ R4 2
+ D2 3
+ C2 1
+ u1 8
+ RV1 3
+ RV1 2
+ u1 4
+ C3 1
+Net 7 "" ""
+ R1 2
+ C1 2
+Net 8 "" ""
+ u1 6
+ u1 2
+ C5 1
+ R2 1
+Net 9 "" ""
+ P1 1
+ relay1 5
+ P4 1
+ SW1 2
+ R1 1
+Net 10 "" ""
+ u1 3
+ D3 1
+Net 11 "" ""
+ u1 5
+ C4 1
+Net 12 "" ""
+ D4 2
+ R4 1
+Net 13 "" ""
+ u1 7
+ R2 2
+ R3 1
+Net 14 "" ""
+ P3 1
+ D2 4
+ P1 2
+Net 15 "" ""
+ relay1 1
+ D1 2
+ D3 2
+Net 16 "" ""
+ R3 2
+ RV1 1
+}
+#End

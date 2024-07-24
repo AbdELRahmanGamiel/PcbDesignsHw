@@ -1,0 +1,122 @@
+Cmp-Mod V01 Created by CvPCB (2011-04-29 BZR 2986)-stable date = 4/14/2013 3:31:46 PM
+
+BeginCmp
+TimeStamp = /516AA2C7;
+Reference = P1;
+ValeurCmp = CONN_8;
+IdModule  = SIL-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /516A9CE6;
+Reference = SW1;
+ValeurCmp = SW_PUSH;
+IdModule  = press_bule_m;
+EndCmp
+
+BeginCmp
+TimeStamp = /516A9CE7;
+Reference = SW2;
+ValeurCmp = SW_PUSH;
+IdModule  = press_bule_m;
+EndCmp
+
+BeginCmp
+TimeStamp = /516A9CE5;
+Reference = SW3;
+ValeurCmp = SW_PUSH;
+IdModule  = press_bule_m;
+EndCmp
+
+BeginCmp
+TimeStamp = /516A9CE4;
+Reference = SW4;
+ValeurCmp = SW_PUSH;
+IdModule  = press_bule_m;
+EndCmp
+
+BeginCmp
+TimeStamp = /516A9CDD;
+Reference = SW5;
+ValeurCmp = SW_PUSH;
+IdModule  = press_bule_m;
+EndCmp
+
+BeginCmp
+TimeStamp = /516A9CDC;
+Reference = SW6;
+ValeurCmp = SW_PUSH;
+IdModule  = press_bule_m;
+EndCmp
+
+BeginCmp
+TimeStamp = /516A9CDE;
+Reference = SW7;
+ValeurCmp = SW_PUSH;
+IdModule  = press_bule_m;
+EndCmp
+
+BeginCmp
+TimeStamp = /516A9CDF;
+Reference = SW8;
+ValeurCmp = SW_PUSH;
+IdModule  = press_bule_m;
+EndCmp
+
+BeginCmp
+TimeStamp = /516A9CD8;
+Reference = SW9;
+ValeurCmp = SW_PUSH;
+IdModule  = press_bule_m;
+EndCmp
+
+BeginCmp
+TimeStamp = /516A9CD9;
+Reference = SW10;
+ValeurCmp = SW_PUSH;
+IdModule  = press_bule_m;
+EndCmp
+
+BeginCmp
+TimeStamp = /516A9CD7;
+Reference = SW11;
+ValeurCmp = SW_PUSH;
+IdModule  = press_bule_m;
+EndCmp
+
+BeginCmp
+TimeStamp = /516A9CD6;
+Reference = SW12;
+ValeurCmp = SW_PUSH;
+IdModule  = press_bule_m;
+EndCmp
+
+BeginCmp
+TimeStamp = /516A9CCA;
+Reference = SW13;
+ValeurCmp = SW_PUSH;
+IdModule  = press_bule_m;
+EndCmp
+
+BeginCmp
+TimeStamp = /516A9CB4;
+Reference = SW14;
+ValeurCmp = SW_PUSH;
+IdModule  = press_bule_m;
+EndCmp
+
+BeginCmp
+TimeStamp = /516A9CD0;
+Reference = SW15;
+ValeurCmp = SW_PUSH;
+IdModule  = press_bule_m;
+EndCmp
+
+BeginCmp
+TimeStamp = /516A9CD1;
+Reference = SW16;
+ValeurCmp = SW_PUSH;
+IdModule  = press_bule_m;
+EndCmp
+
+EndListe

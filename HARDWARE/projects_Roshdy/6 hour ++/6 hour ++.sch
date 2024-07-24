@@ -1,0 +1,223 @@
+EESchema Schematic File Version 2  date 6/30/2014 5:33:34 PM
+LIBS:mostafa
+LIBS:SGEC
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 43  0
+EELAYER END
+$Descr A4 11700 8267
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "30 jun 2014"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	5400 2900 5900 2900
+Wire Wire Line
+	5550 2200 5550 2160
+Wire Wire Line
+	4150 3350 4150 3300
+Wire Wire Line
+	4150 3300 4200 3300
+Wire Wire Line
+	3350 3550 3250 3550
+Wire Wire Line
+	3350 3550 3350 3500
+Wire Wire Line
+	3250 3550 3250 3000
+Wire Wire Line
+	3250 3000 3200 3000
+Connection ~ 3350 2900
+Wire Wire Line
+	3350 3000 3350 2850
+Wire Wire Line
+	4100 2900 4200 2900
+Connection ~ 5550 2900
+Wire Wire Line
+	5900 3000 5800 3000
+Wire Wire Line
+	5900 2800 5800 2800
+Wire Wire Line
+	5550 2900 5550 2700
+Wire Wire Line
+	5800 3000 5800 3100
+Wire Wire Line
+	3350 2900 3600 2900
+Wire Wire Line
+	3350 2350 3350 2300
+Wire Wire Line
+	3350 2300 3250 2300
+Wire Wire Line
+	3250 2300 3250 2800
+Wire Wire Line
+	3250 2800 3200 2800
+Wire Wire Line
+	3300 3550 3300 3600
+Connection ~ 3300 3550
+Wire Wire Line
+	3850 3040 3850 3080
+Wire Wire Line
+	5400 3300 5450 3300
+Wire Wire Line
+	5450 3300 5450 3400
+$Comp
+L GNDA #PWR01
+U 1 1 53B18131
+P 4150 3350
+F 0 "#PWR01" H 4150 3350 40  0001 C CNN
+F 1 "GNDA" H 4150 3280 40  0000 C CNN
+	1    4150 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDA #PWR02
+U 1 1 53B1812E
+P 3300 3600
+F 0 "#PWR02" H 3300 3600 40  0001 C CNN
+F 1 "GNDA" H 3300 3530 40  0000 C CNN
+	1    3300 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDA #PWR03
+U 1 1 53B18129
+P 3850 3080
+F 0 "#PWR03" H 3850 3080 40  0001 C CNN
+F 1 "GNDA" H 3850 3010 40  0000 C CNN
+	1    3850 3080
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR04
+U 1 1 53B180B4
+P 5450 3400
+F 0 "#PWR04" H 5450 3400 30  0001 C CNN
+F 1 "GND" H 5450 3330 30  0001 C CNN
+	1    5450 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR05
+U 1 1 53B17FF2
+P 5800 3100
+F 0 "#PWR05" H 5800 3100 30  0001 C CNN
+F 1 "GND" H 5800 3030 30  0001 C CNN
+	1    5800 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR06
+U 1 1 53B17FC7
+P 5800 2800
+F 0 "#PWR06" H 5800 2900 30  0001 C CNN
+F 1 "VCC" H 5800 2900 30  0000 C CNN
+	1    5800 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR07
+U 1 1 53B17FB1
+P 5550 2160
+F 0 "#PWR07" H 5550 2260 30  0001 C CNN
+F 1 "VCC" H 5550 2260 30  0000 C CNN
+	1    5550 2160
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 53B17F5D
+P 5550 2450
+F 0 "R1" V 5630 2450 50  0000 C CNN
+F 1 "10k" V 5550 2450 50  0000 C CNN
+	1    5550 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_3 K1
+U 1 1 53B17F46
+P 6250 2900
+F 0 "K1" V 6200 2900 50  0000 C CNN
+F 1 "CONN_3" V 6300 2900 40  0000 C CNN
+	1    6250 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L RVAR R3
+U 1 1 53B17ED1
+P 3850 2900
+F 0 "R3" V 3930 2850 50  0000 C CNN
+F 1 "1k" V 3770 2960 50  0000 C CNN
+	1    3850 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L R R4
+U 1 1 53B17EB8
+P 3350 3250
+F 0 "R4" V 3430 3250 50  0000 C CNN
+F 1 "3k" V 3350 3250 50  0000 C CNN
+	1    3350 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 53B17EB6
+P 3350 2600
+F 0 "R2" V 3430 2600 50  0000 C CNN
+F 1 "9k" V 3350 2600 50  0000 C CNN
+	1    3350 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L PHOTOCOUPLER U1
+U 1 1 53B17E97
+P 4800 3100
+F 0 "U1" H 4810 3420 70  0000 C CNN
+F 1 "PHOTOCOUPLER" H 4810 2780 70  0000 C CNN
+	1    4800 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_2 P1
+U 1 1 53B17E17
+P 2850 2900
+F 0 "P1" V 2800 2900 40  0000 C CNN
+F 1 "CONN_2" V 2900 2900 40  0000 C CNN
+	1    2850 2900
+	-1   0    0    1   
+$EndComp
+$EndSCHEMATC

@@ -1,0 +1,122 @@
+Cmp-Mod V01 Created by CvPCB (2011-04-29 BZR 2986)-stable date = 5/14/2012 2:49:50 PM
+
+BeginCmp
+TimeStamp = /4FB0D7B6;
+Reference = K1;
+ValeurCmp = RELAY_2RT;
+IdModule  = Relay8pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB0D9D8;
+Reference = K2;
+ValeurCmp = CONN_3;
+IdModule  = ROZT_3_PIN_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB0D9DD;
+Reference = K3;
+ValeurCmp = CONN_3;
+IdModule  = ROZT_3_PIN_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB0D98D;
+Reference = K4;
+ValeurCmp = RELAY_2RT;
+IdModule  = Relay8pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB0D9EC;
+Reference = K5;
+ValeurCmp = CONN_3;
+IdModule  = ROZT_3_PIN_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB0D9E0;
+Reference = K6;
+ValeurCmp = CONN_3;
+IdModule  = ROZT_3_PIN_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB0DB1A;
+Reference = P1;
+ValeurCmp = POWER;
+IdModule  = ROZT_2_PIN_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB0D822;
+Reference = P2;
+ValeurCmp = LEVEL1;
+IdModule  = ROZT_2_PIN_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB0DA6B;
+Reference = P3;
+ValeurCmp = LEVEL2;
+IdModule  = ROZT_2_PIN_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB0D6F0;
+Reference = Q1;
+ValeurCmp = C1096;
+IdModule  = C1096;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB0D971;
+Reference = Q2;
+ValeurCmp = C1096;
+IdModule  = C1096;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB0D6BA;
+Reference = R1;
+ValeurCmp = 10K-0.25W;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB0D7F7;
+Reference = R2;
+ValeurCmp = 10K-0.25W;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB0D89F;
+Reference = R3;
+ValeurCmp = 10K-0.25W;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB0D942;
+Reference = R4;
+ValeurCmp = 10K-0.25W;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB0DB4A;
+Reference = SW1;
+ValeurCmp = SWITCH_6PIN_MIDDEL;
+IdModule  = SW_2_ACTION_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB0D642;
+Reference = U1;
+ValeurCmp = 4011;
+IdModule  = DIP-14__300_ELL;
+EndCmp
+
+EndListe

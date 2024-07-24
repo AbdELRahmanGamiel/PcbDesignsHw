@@ -1,0 +1,87 @@
+Cmp-Mod V01 Created by CvPCB (2011-04-29 BZR 2986)-stable date = 5/19/2013 3:29:12 PM
+
+BeginCmp
+TimeStamp = /5198B992;
+Reference = AFF1;
+ValeurCmp = HDSP-7XXX-A;
+IdModule  = small_7seg;
+EndCmp
+
+BeginCmp
+TimeStamp = /5198B98D;
+Reference = AFF2;
+ValeurCmp = HDSP-7XXX-A;
+IdModule  = small_7seg;
+EndCmp
+
+BeginCmp
+TimeStamp = /5198B97B;
+Reference = AFF3;
+ValeurCmp = HDSP-7XXX-A;
+IdModule  = small_7seg;
+EndCmp
+
+BeginCmp
+TimeStamp = /5198B978;
+Reference = AFF4;
+ValeurCmp = HDSP-7XXX-A;
+IdModule  = small_7seg;
+EndCmp
+
+BeginCmp
+TimeStamp = /5198B974;
+Reference = AFF5;
+ValeurCmp = HDSP-7XXX-A;
+IdModule  = small_7seg;
+EndCmp
+
+BeginCmp
+TimeStamp = /5198B967;
+Reference = AFF6;
+ValeurCmp = HDSP-7XXX-A;
+IdModule  = small_7seg;
+EndCmp
+
+BeginCmp
+TimeStamp = /5198B788;
+Reference = P1;
+ValeurCmp = CONN_8;
+IdModule  = ROZT_8_PIN_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /5198B783;
+Reference = P2;
+ValeurCmp = CONN_8;
+IdModule  = ROZT_8_PIN_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /5198B777;
+Reference = P3;
+ValeurCmp = CONN_8;
+IdModule  = ROZT_8_PIN_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /5198B773;
+Reference = P4;
+ValeurCmp = CONN_8;
+IdModule  = ROZT_8_PIN_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /5198B770;
+Reference = P5;
+ValeurCmp = CONN_8;
+IdModule  = ROZT_8_PIN_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /5198B76D;
+Reference = P6;
+ValeurCmp = CONN_8;
+IdModule  = ROZT_8_PIN_ETC;
+EndCmp
+
+EndListe

@@ -1,0 +1,421 @@
+# EESchema Netlist Version 1.1 created  12/28/2016 5:05:03 PM
+(
+ ( /5264DB00 C-P_ETC_L C1 0.1UF
+  ( 1 VDD )
+  ( 2 GNDA )
+ )
+ ( /5264DB02 C-P_ETC_L C2 22P
+  ( 1 GNDA )
+  ( 2 N-000070 )
+ )
+ ( /5264DD8B C-P_ETC_L C3 104
+  ( 1 VDD )
+  ( 2 GNDA )
+ )
+ ( /5264DB01 C-P_ETC_L C4 22P
+  ( 1 GNDA )
+  ( 2 N-000049 )
+ )
+ ( /5863ACDF CAP-25V C5 50uf
+  ( 1 N-000075 )
+  ( 2 GNDA )
+ )
+ ( /5863AC8D CAP-25V C6 50uf
+  ( 1 +3.3V )
+  ( 2 GNDA )
+ )
+ ( /526CDBAC C-P_ETC_L C7 334
+  ( 1 N-000074 )
+  ( 2 GNDA )
+ )
+ ( /526CDBAB C-P_ETC_L C8 104
+  ( 1 VDD )
+  ( 2 GNDA )
+ )
+ ( /5863BF03 CAP-25V C9 50uf
+  ( 1 +3.3V )
+  ( 2 GNDA )
+ )
+ ( /526CDBAE D6 D1 DIODE_3A
+  ( 1 N-000068 )
+  ( 2 +12V )
+ )
+ ( /526CDBA7 LED-5MM_ETC D2 LED
+  ( 1 N-000069 )
+  ( 2 GNDA )
+ )
+ ( /526CDBAF Fuse_ETC F1 FUSE
+  ( 1 N-000059 )
+  ( 2 N-000068 )
+ )
+ ( /5264DB04 DIP-40__600_ELL IC1 ATMEGA32-P
+  ( 1 N-000067 )
+  ( 2 N-000026 )
+  ( 3 N-000072 )
+  ( 4 N-000027 )
+  ( 5 N-000073 )
+  ( 6 /SI )
+  ( 7 /SO )
+  ( 8 /SCK )
+  ( 9 /RESET )
+  ( 10 VDD )
+  ( 11 GNDA )
+  ( 12 N-000070 )
+  ( 13 N-000049 )
+  ( 14 /RX )
+  ( 15 /TX )
+  ( 16 N-000071 )
+  ( 17 N-000066 )
+  ( 18 ? )
+  ( 19 ? )
+  ( 20 /RST )
+  ( 21 /EN )
+  ( 22 /C0 )
+  ( 23 /C1 )
+  ( 24 /C2 )
+  ( 25 /C3 )
+  ( 26 /C4 )
+  ( 27 /C5 )
+  ( 28 /C6 )
+  ( 29 /C7 )
+  ( 30 VDD )
+  ( 31 GNDA )
+  ( 32 ? )
+  ( 33 /A7 )
+  ( 34 /A6 )
+  ( 35 /A5 )
+  ( 36 /A4 )
+  ( 37 /A3 )
+  ( 38 /A2 )
+  ( 39 /A1 )
+  ( 40 /A0 )
+ )
+ ( /55D88DC2 DC-soket J1 JACK_2P
+  ( 1 N-000059 )
+  ( 2 GNDA )
+  ( 3 GNDA )
+ )
+ ( /5264DC46 SIL-8 P2 CONN_8
+  ( 1 /A0 )
+  ( 2 /A1 )
+  ( 3 /A2 )
+  ( 4 /A3 )
+  ( 5 /A4 )
+  ( 6 /A5 )
+  ( 7 /A6 )
+  ( 8 /A7 )
+ )
+ ( /55D82CC2 1pin P3 CONN_1
+  ( 1 ? )
+ )
+ ( /55D82CCB 1pin P4 CONN_1
+  ( 1 ? )
+ )
+ ( /55D82CD0 1pin P5 CONN_1
+  ( 1 ? )
+ )
+ ( /55D82CCF 1pin P6 CONN_1
+  ( 1 ? )
+ )
+ ( /5264DEBA TO18CBE Q1 PNP
+  ( 1 VDD )
+  ( 2 N-000043 )
+  ( 3 N-000048 )
+ )
+ ( /5264DB06 R_0.25WATT_ETC R1 10k
+  ( 1 VDD )
+  ( 2 /RESET )
+ )
+ ( /526CDBA9 R_2.5WATT_ETC R2 20R_2W
+  ( 1 N-000074 )
+  ( 2 +12V )
+ )
+ ( /5264DF33 R_0.25WATT_ETC R3 10k
+  ( 1 N-000043 )
+  ( 2 /C0 )
+ )
+ ( /526CDBA8 R_0.25WATT_ETC R4 470
+  ( 1 VDD )
+  ( 2 N-000069 )
+ )
+ ( /5863C0C0 R_0.25WATT_ETC R5 10R/3W
+  ( 1 N-000075 )
+  ( 2 +12V )
+ )
+ ( /5863BB72 R_0.25WATT_ETC R6 10K
+  ( 1 /TX )
+  ( 2 N-000017 )
+ )
+ ( /5863BB7A R_ETC R7 10K
+  ( 1 N-000017 )
+  ( 2 GNDA )
+ )
+ ( /5863ACF6 R_ETC R8 12K
+  ( 1 +3.3V )
+  ( 2 /EN )
+ )
+ ( /5863ACFB R_ETC R9 12K
+  ( 1 +3.3V )
+  ( 2 /RST )
+ )
+ ( /5863ACFE R_ETC R10 12K
+  ( 1 +3.3V )
+  ( 2 /IO2 )
+ )
+ ( /5863AD00 R_ETC R11 12K
+  ( 1 +3.3V )
+  ( 2 /IO0 )
+ )
+ ( /5863AD07 R_ETC R12 12K
+  ( 1 GNDA )
+  ( 2 /IO15 )
+ )
+ ( /5276AEE1 R_0.25WATT_ETC R29 10k
+  ( 1 N-000067 )
+  ( 2 VDD )
+ )
+ ( /5264DE39 VAR RV1 POT
+  ( 1 VDD )
+  ( 2 N-000055 )
+  ( 3 GNDA )
+ )
+ ( /5276AF1B SIL-2 SW3 SW_PUSH
+  ( 1 GNDA )
+  ( 2 N-000067 )
+ )
+ ( /5264DC19 lcd_small_etc U1 LCD_2*20
+  ( 1 GNDA )
+  ( 2 VDD )
+  ( 3 N-000055 )
+  ( 4 /C1 )
+  ( 5 /C2 )
+  ( 6 /C3 )
+  ( 7 ? )
+  ( 8 ? )
+  ( 9 ? )
+  ( 10 ? )
+  ( 11 /C4 )
+  ( 12 /C5 )
+  ( 13 /C6 )
+  ( 14 /C7 )
+  ( 15 N-000048 )
+  ( 16 GNDA )
+ )
+ ( /526CDBAD LM78XX_ETC U2 7805
+  ( GND GNDA )
+  ( VI N-000074 )
+  ( VO VDD )
+ )
+ ( /5863AC3C SOT223 U3 3.3V
+  ( 1 GNDA )
+  ( 2 +3.3V )
+  ( 3 N-000075 )
+  ( 4 ? )
+ )
+ ( /55D82FEB SIL-4 U4 4PIN
+  ( 1 N-000026 )
+  ( 2 N-000072 )
+  ( 3 N-000027 )
+  ( 4 N-000073 )
+ )
+ ( /5863A20B SOT223 U5 3.3V
+  ( 1 GNDA )
+  ( 2 +3.3V )
+  ( 3 N-000075 )
+  ( 4 ? )
+ )
+ ( /5863A1D9 ESP12 U6 ESP12
+  ( 1 /RST )
+  ( 2 ? )
+  ( 3 /EN )
+  ( 4 ? )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 ? )
+  ( 8 +3.3V )
+  ( 9 ? )
+  ( 10 ? )
+  ( 11 ? )
+  ( 12 ? )
+  ( 13 ? )
+  ( 14 ? )
+  ( 15 GNDA )
+  ( 16 /IO15 )
+  ( 17 /IO2 )
+  ( 18 /IO0 )
+  ( 19 ? )
+  ( 20 ? )
+  ( 21 N-000017 )
+  ( 22 /RX )
+ )
+ ( /55D82488 SIL-2 U7 2PIN
+  ( 1 N-000071 )
+  ( 2 N-000066 )
+ )
+ ( /55D82D60 SIL-6 U8 6PIN-SPI
+  ( 1 GNDA )
+  ( 2 VDD )
+  ( 3 /RESET )
+  ( 4 /SCK )
+  ( 5 /SO )
+  ( 6 /SI )
+ )
+ ( /5264DB03 HC-49V X1 XTAL
+  ( 1 N-000070 )
+  ( 2 N-000049 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ CP*
+ SM*
+$endlist
+$component C6
+ CP*
+ SM*
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component C9
+ CP*
+ SM*
+$endlist
+$component D1
+ D?
+ S*
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component IC1
+ 40DIP-ELL600
+ 40dip600
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R12
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R29
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}

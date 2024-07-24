@@ -1,0 +1,143 @@
+Cmp-Mod V01 Created by CvPCB (2011-04-29 BZR 2986)-stable date = 2015/07/05 2:44:38 PM
+
+BeginCmp
+TimeStamp = /5598FBF5;
+Reference = C1;
+ValeurCmp = C;
+IdModule  = C_1UF_300V_AC;
+EndCmp
+
+BeginCmp
+TimeStamp = /5598065B;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED-5MM-etc;
+EndCmp
+
+BeginCmp
+TimeStamp = /559807DC;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = LED-5MM_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /5598FBB8;
+Reference = D3;
+ValeurCmp = BRIDGE;
+IdModule  = Bridge_1A_O_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /5598FC35;
+Reference = F1;
+ValeurCmp = FUSE;
+IdModule  = FUSE_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /559800FF;
+Reference = P1;
+ValeurCmp = IC_14_PIN;
+IdModule  = DIP-14__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /559901AB;
+Reference = P2;
+ValeurCmp = CONN_2;
+IdModule  = ROS_2PIN_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /5599011E;
+Reference = P3;
+ValeurCmp = CONN_2;
+IdModule  = ROS_2PIN_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /55991864;
+Reference = P4;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /55991861;
+Reference = P5;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /55991841;
+Reference = P6;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /5599185B;
+Reference = P7;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /559801AD;
+Reference = Q2;
+ValeurCmp = NPN;
+IdModule  = 2NXXX_etc;
+EndCmp
+
+BeginCmp
+TimeStamp = /559804D0;
+Reference = R1;
+ValeurCmp = R;
+IdModule  = R_0.25WATT_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /55980509;
+Reference = R2;
+ValeurCmp = R;
+IdModule  = R_0.25WATT_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /559807ED;
+Reference = R3;
+ValeurCmp = R;
+IdModule  = R_0.25WATT_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /5598FC48;
+Reference = R4;
+ValeurCmp = R;
+IdModule  = R_2WATT;
+EndCmp
+
+BeginCmp
+TimeStamp = /559903E9;
+Reference = R5;
+ValeurCmp = R;
+IdModule  = R_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /5598050C;
+Reference = U1;
+ValeurCmp = PHOTOCOUPLER;
+IdModule  = EL817-POTO-CUPLER;
+EndCmp
+
+BeginCmp
+TimeStamp = /5597FFE4;
+Reference = U2;
+ValeurCmp = PHOTOCOUPLER;
+IdModule  = EL817-POTO-CUPLER;
+EndCmp
+
+EndListe

@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name ESP_32module)(type KiCad)(uri ${KIPRJMOD}/ESP_32module.pretty)(options "")(descr ""))
+  (lib (name AC_Socket)(type KiCad)(uri ${KIPRJMOD}/AC_Socket.pretty)(options "")(descr ""))
+  (lib (name PS_12VDC)(type KiCad)(uri ${KIPRJMOD}/PS_12VDC.pretty)(options "")(descr ""))
+)

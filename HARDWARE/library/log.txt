@@ -1,0 +1,2 @@
+EET 12:19:02 : Library <mostafa> component load error error <error <error <yrror <ypror <ypror <yprer <ypree <ypree <y> in DRAW command X> occurred at line 271 .
+EET 12:19:02 : Library <fesha 328-cache> component load error error <error <error <yrror <ypror <ypror <yprer <ypree <ypree <y> in DRAW command X> occurred at line 60 .

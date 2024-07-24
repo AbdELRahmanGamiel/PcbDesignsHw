@@ -1,0 +1,52 @@
+Cmp-Mod V01 Created by CvPCB (2011-04-29 BZR 2986)-stable date = 6/30/2014 5:32:34 PM
+
+BeginCmp
+TimeStamp = /53B17F46;
+Reference = K1;
+ValeurCmp = CONN_3;
+IdModule  = ROZT_3_PIN_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B17E17;
+Reference = P1;
+ValeurCmp = CONN_2;
+IdModule  = ROZT_2_PIN_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B17F5D;
+Reference = R1;
+ValeurCmp = 10k;
+IdModule  = R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B17EB6;
+Reference = R2;
+ValeurCmp = 9k;
+IdModule  = R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B17ED1;
+Reference = R3;
+ValeurCmp = 1k;
+IdModule  = VAR;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B17EB8;
+Reference = R4;
+ValeurCmp = 3k;
+IdModule  = R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B17E97;
+Reference = U1;
+ValeurCmp = PHOTOCOUPLER;
+IdModule  = EL817-POTO-CUPLER;
+EndCmp
+
+EndListe

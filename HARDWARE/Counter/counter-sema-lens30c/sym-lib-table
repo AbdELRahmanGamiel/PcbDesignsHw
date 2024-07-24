@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name counter-sema-lens30cm-rescue)(type Legacy)(uri ${KIPRJMOD}/counter-sema-lens30cm-rescue.lib)(options "")(descr ""))
+)

@@ -1,0 +1,266 @@
+EESchema Schematic File Version 2  date 4/27/2014 1:49:13 PM
+LIBS:mostafa
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:DS-cache
+EELAYER 25  0
+EELAYER END
+$Descr A4 11700 8267
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "27 apr 2014"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Connection ~ 5850 4000
+Wire Wire Line
+	5700 4000 5900 4000
+Connection ~ 5850 3800
+Wire Wire Line
+	5775 3800 5900 3800
+Wire Wire Line
+	5850 3800 5850 3750
+Wire Wire Line
+	5900 3300 5850 3300
+Wire Wire Line
+	5850 3300 5850 3350
+Wire Wire Line
+	5900 3500 5850 3500
+Wire Wire Line
+	5850 3500 5850 3450
+Wire Bus Line
+	6400 4100 6400 2250
+Wire Bus Line
+	6450 2300 4500 2300
+Wire Bus Line
+	6450 2300 6450 4150
+Wire Bus Line
+	6450 4150 4500 4150
+Wire Bus Line
+	4500 4150 4500 2300
+Wire Wire Line
+	5050 3150 5000 3150
+Wire Wire Line
+	5000 3150 5000 2550
+Wire Wire Line
+	5000 2550 4800 2550
+Wire Wire Line
+	4800 2550 4800 2600
+Wire Wire Line
+	5750 2800 5750 2750
+Wire Wire Line
+	5750 2750 5650 2750
+Wire Wire Line
+	5650 2750 5650 2800
+Connection ~ 5750 3350
+Wire Wire Line
+	5750 3300 5750 3350
+Wire Wire Line
+	5850 3450 5450 3450
+Wire Wire Line
+	4800 4000 4800 4050
+Wire Wire Line
+	5050 3350 4800 3350
+Wire Wire Line
+	4800 3350 4800 3400
+Wire Wire Line
+	5850 3350 5450 3350
+Wire Wire Line
+	5650 3300 5650 3450
+Connection ~ 5650 3450
+Wire Wire Line
+	5450 3150 5500 3150
+Wire Wire Line
+	5050 3250 4800 3250
+Wire Wire Line
+	4800 3250 4800 3200
+Wire Bus Line
+	6400 4100 4450 4100
+Wire Bus Line
+	4450 4100 4450 2250
+Wire Bus Line
+	4450 2250 6400 2250
+Wire Wire Line
+	5050 3450 5000 3450
+Wire Wire Line
+	5000 3450 5000 3500
+Wire Wire Line
+	5850 4000 5850 4050
+Wire Wire Line
+	5275 3800 5250 3800
+Wire Wire Line
+	5250 3800 5250 4000
+Wire Wire Line
+	5250 4000 5300 4000
+$Comp
+L R R3
+U 1 1 524804EE
+P 5525 3800
+F 0 "R3" V 5450 3775 50  0000 C CNN
+F 1 "330R" V 5525 3800 50  0000 C CNN
+	1    5525 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D1
+U 1 1 52480438
+P 5500 4000
+F 0 "D1" H 5500 4075 50  0000 C CNN
+F 1 "green Led" H 5500 3925 50  0000 C CNN
+	1    5500 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR4
+U 1 1 523C4F93
+P 5850 3750
+F 0 "#PWR4" H 5850 3850 30  0001 C CNN
+F 1 "VCC" H 5850 3850 30  0000 C CNN
+	1    5850 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR7
+U 1 1 523C4F8E
+P 5850 4050
+F 0 "#PWR7" H 5850 4050 30  0001 C CNN
+F 1 "GND" H 5850 3980 30  0001 C CNN
+	1    5850 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR6
+U 1 1 523C4F8A
+P 4800 4050
+F 0 "#PWR6" H 4800 4050 30  0001 C CNN
+F 1 "GND" H 4800 3980 30  0001 C CNN
+	1    4800 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR3
+U 1 1 523C4F87
+P 5000 3500
+F 0 "#PWR3" H 5000 3500 30  0001 C CNN
+F 1 "GND" H 5000 3430 30  0001 C CNN
+	1    5000 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_2 P3
+U 1 1 523C4F6E
+P 6250 3900
+F 0 "P3" V 6200 3900 40  0000 C CNN
+F 1 "CONN_2" V 6300 3900 40  0000 C CNN
+	1    6250 3900
+	1    0    0    -1  
+$EndComp
+Text Notes 5250 2450 0    60   Italic 12
+RTC
+$Comp
+L VCC #PWR2
+U 1 1 523C4BB0
+P 5500 3150
+F 0 "#PWR2" H 5500 3250 30  0001 C CNN
+F 1 "VCC" H 5500 3250 30  0000 C CNN
+	1    5500 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR1
+U 1 1 523C4BA1
+P 5700 2750
+F 0 "#PWR1" H 5700 2850 30  0001 C CNN
+F 1 "VCC" H 5700 2850 30  0000 C CNN
+	1    5700 2750
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5450 3250
+$Comp
+L CONN_2 P2
+U 1 1 523C4B22
+P 6250 3400
+F 0 "P2" V 6200 3400 40  0000 C CNN
+F 1 "CONN_2" V 6300 3400 40  0000 C CNN
+	1    6250 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 523C4A5B
+P 5750 3050
+F 0 "R2" V 5650 3050 50  0000 C CNN
+F 1 "10K" V 5750 3050 50  0000 C CNN
+	1    5750 3050
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R1
+U 1 1 523C4A59
+P 5650 3050
+F 0 "R1" V 5730 3050 50  0000 C CNN
+F 1 "10K" V 5650 3050 50  0000 C CNN
+	1    5650 3050
+	-1   0    0    1   
+$EndComp
+$Comp
+L DIP6 P1
+U 1 1 523C4A50
+P 5250 3300
+F 0 "P1" H 5250 3550 50  0000 C CNN
+F 1 "DS1307" H 5250 3050 40  0000 C CNN
+	1    5250 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L BATTERY BT1
+U 1 1 523C4A47
+P 4800 3700
+F 0 "BT1" H 4800 3900 50  0000 C CNN
+F 1 "BATTERY 3.7V" H 4800 3510 50  0000 C CNN
+	1    4800 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L CRYSTAL X1
+U 1 1 523C4A3E
+P 4800 2900
+F 0 "X1" H 4800 3050 60  0000 C CNN
+F 1 "32KHZ" H 4800 2750 60  0000 C CNN
+	1    4800 2900
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC

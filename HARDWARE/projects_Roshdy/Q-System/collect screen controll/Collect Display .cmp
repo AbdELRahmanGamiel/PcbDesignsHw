@@ -1,0 +1,332 @@
+Cmp-Mod V01 Genere par PcbNew le 12/24/2014 5:18:16 AM
+
+BeginCmp
+TimeStamp = /548DD298;
+Reference = C1;
+ValeurCmp = 10u;
+IdModule  = CAP-25V;
+EndCmp
+
+BeginCmp
+TimeStamp = /548DD297;
+Reference = C2;
+ValeurCmp = 104;
+IdModule  = C1_.01uf;
+EndCmp
+
+BeginCmp
+TimeStamp = /5499F173;
+Reference = C3;
+ValeurCmp = 104p;
+IdModule  = C1_.01uf;
+EndCmp
+
+BeginCmp
+TimeStamp = /5264D583;
+Reference = C11;
+ValeurCmp = 0.1UF;
+IdModule  = C1_.01uf;
+EndCmp
+
+BeginCmp
+TimeStamp = /5264D566;
+Reference = C12;
+ValeurCmp = 22P;
+IdModule  = C1_.01uf;
+EndCmp
+
+BeginCmp
+TimeStamp = /5264D56B;
+Reference = C14;
+ValeurCmp = 22P;
+IdModule  = C1_.01uf;
+EndCmp
+
+BeginCmp
+TimeStamp = /526BEB71;
+Reference = C16;
+ValeurCmp = 334;
+IdModule  = C1_.01uf;
+EndCmp
+
+BeginCmp
+TimeStamp = /526BEB78;
+Reference = C17;
+ValeurCmp = 104;
+IdModule  = C1_.01uf;
+EndCmp
+
+BeginCmp
+TimeStamp = /548DCFF1;
+Reference = D1;
+ValeurCmp = ZENER;
+IdModule  = ZENER_SMALL_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /526BE650;
+Reference = D4;
+ValeurCmp = DIODE_3A;
+IdModule  = D6;
+EndCmp
+
+BeginCmp
+TimeStamp = /526C09AD;
+Reference = D5;
+ValeurCmp = LED;
+IdModule  = LED-5MM_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /526BE628;
+Reference = F2;
+ValeurCmp = FUSE;
+IdModule  = FUSE;
+EndCmp
+
+BeginCmp
+TimeStamp = /5264D531;
+Reference = IC2;
+ValeurCmp = ATMEGA32-P;
+IdModule  = DIP-40__600_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /549A19FE;
+Reference = J1;
+ValeurCmp = SIL4;
+IdModule  = SIL-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /549A19FF;
+Reference = J2;
+ValeurCmp = SIL4;
+IdModule  = SIL-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /549A19F6;
+Reference = J3;
+ValeurCmp = SIL4;
+IdModule  = SIL-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /549A19F5;
+Reference = J4;
+ValeurCmp = SIL4;
+IdModule  = SIL-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /549A19D0;
+Reference = J5;
+ValeurCmp = SIL4;
+IdModule  = SIL-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /549A19E1;
+Reference = J6;
+ValeurCmp = SIL4;
+IdModule  = SIL-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /549A1A13;
+Reference = J7;
+ValeurCmp = SIL4;
+IdModule  = SIL-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /549A1A12;
+Reference = J8;
+ValeurCmp = SIL4;
+IdModule  = SIL-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /549A1A14;
+Reference = J9;
+ValeurCmp = SIL4;
+IdModule  = SIL-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /549A1A15;
+Reference = J10;
+ValeurCmp = SIL4;
+IdModule  = SIL-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /549A1A17;
+Reference = J11;
+ValeurCmp = SIL4;
+IdModule  = SIL-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /549A1A16;
+Reference = J12;
+ValeurCmp = SIL4;
+IdModule  = SIL-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /526C08FD;
+Reference = P4;
+ValeurCmp = Roseta_2_pin;
+IdModule  = ROS-2PIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /548DCFAC;
+Reference = R1;
+ValeurCmp = R;
+IdModule  = R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /548DD254;
+Reference = R2;
+ValeurCmp = R;
+IdModule  = R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /5264D4F0;
+Reference = R5;
+ValeurCmp = 10k;
+IdModule  = R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /526C093E;
+Reference = R16;
+ValeurCmp = R_2W;
+IdModule  = R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /526C099E;
+Reference = R27;
+ValeurCmp = R;
+IdModule  = R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /5264D4FD;
+Reference = SW2;
+ValeurCmp = SW_PUSH;
+IdModule  = SW_PUSH_SMALL;
+EndCmp
+
+BeginCmp
+TimeStamp = /548DD06F;
+Reference = U1;
+ValeurCmp = JUMPER;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /548DD267;
+Reference = U2;
+ValeurCmp = JUMPER;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /548DD33C;
+Reference = U3;
+ValeurCmp = 3.3V;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /549A0AAF;
+Reference = U4;
+ValeurCmp = 74L595;
+IdModule  = DIP-16__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /549A0AAE;
+Reference = U5;
+ValeurCmp = 74L595;
+IdModule  = DIP-16__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /549A0AAD;
+Reference = U6;
+ValeurCmp = 74L595;
+IdModule  = DIP-16__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /526BE7DC;
+Reference = U7;
+ValeurCmp = 7805;
+IdModule  = LM78XX_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /549A0A4C;
+Reference = U8;
+ValeurCmp = 74L595;
+IdModule  = DIP-16__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /549A0A8E;
+Reference = U9;
+ValeurCmp = 74L595;
+IdModule  = DIP-16__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /548DD299;
+Reference = U10;
+ValeurCmp = LD33CV;
+IdModule  = LD33_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /549A0A9D;
+Reference = U11;
+ValeurCmp = 74L595;
+IdModule  = DIP-16__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /549A1AE6;
+Reference = U12;
+ValeurCmp = 2PIN;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /548ED7F0;
+Reference = U13;
+ValeurCmp = Spi;
+IdModule  = SIL-6;
+EndCmp
+
+BeginCmp
+TimeStamp = /549A1AF2;
+Reference = U14;
+ValeurCmp = 3PIN;
+IdModule  = SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5264D547;
+Reference = X2;
+ValeurCmp = XTAL;
+IdModule  = Crystal_ETC;
+EndCmp
+
+EndListe

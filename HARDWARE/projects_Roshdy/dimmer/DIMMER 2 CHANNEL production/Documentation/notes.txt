@@ -1,0 +1,8 @@
+sw_6pin lay out 
+10000uf cap lay out &pads
+rozeta 4pin in input 
+rotate triac if you can 
+pico cap lay out 
+fuse foot print & lay out 
+2 pot only on pic 
+2n2222 lay out

@@ -1,0 +1,31 @@
+Drill report for G:/Projects/_7SEG/_7SEG_CONTROL/_7SEG_CONTROL.kicad_pcb
+Created on 04/21/2021 04:58:17 PM
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file '_7SEG_CONTROL-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.76mm  0.030"  (2 holes)  (with 2 slots)
+    T2  0.80mm  0.031"  (110 holes)
+    T3  0.90mm  0.035"  (2 holes)
+    T4  1.00mm  0.039"  (24 holes)  (with 3 slots)
+    T5  1.10mm  0.043"  (11 holes)
+    T6  1.20mm  0.047"  (8 holes)
+    T7  1.30mm  0.051"  (2 holes)
+    T8  1.60mm  0.063"  (2 holes)
+
+    Total plated holes count 161
+
+
+Drill file '_7SEG_CONTROL-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  2.50mm  0.098"  (2 holes)
+    T2  2.70mm  0.106"  (1 hole)
+
+    Total unplated holes count 3

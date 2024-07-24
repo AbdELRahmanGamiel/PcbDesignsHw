@@ -1,0 +1,122 @@
+Cmp-Mod V01 Created by CvPCB (2011-04-29 BZR 2986)-stable date = 6/2/2012 4:38:25 PM
+
+BeginCmp
+TimeStamp = /4FCA05F8;
+Reference = C1;
+ValeurCmp = 220uF-25v;
+IdModule  = C1V5;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FCA05DE;
+Reference = D1;
+ValeurCmp = 1N4001;
+IdModule  = D4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FCA0603;
+Reference = D2;
+ValeurCmp = GREEN_LED;
+IdModule  = LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FCA0732;
+Reference = D3;
+ValeurCmp = LED;
+IdModule  = LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FCA087F;
+Reference = D4;
+ValeurCmp = 1n4148;
+IdModule  = D4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FCA06C7;
+Reference = K1;
+ValeurCmp = RF-RX;
+IdModule  = ROZT_3_PIN_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FCA07AC;
+Reference = K2;
+ValeurCmp = RELAY_5PIN;
+IdModule  = RELAY_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FCA0898;
+Reference = K3;
+ValeurCmp = OUT;
+IdModule  = ROZT_3_PIN_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FCA058F;
+Reference = P1;
+ValeurCmp = PWR;
+IdModule  = ROZT_2_PIN_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FCA05FF;
+Reference = R1;
+ValeurCmp = 330R-0.25w;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FCA0722;
+Reference = R2;
+ValeurCmp = 220R-0.25w;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FCA06F1;
+Reference = R3;
+ValeurCmp = 33k-0.25w;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FCA0817;
+Reference = R4;
+ValeurCmp = 180R-0.25W;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FCA05B0;
+Reference = SW1;
+ValeurCmp = SWITCH_6PIN;
+IdModule  = SW_2_ACTION_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FCA05F0;
+Reference = U1;
+ValeurCmp = 7805;
+IdModule  = LM78XX_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FCA068A;
+Reference = U2;
+ValeurCmp = HT-12D;
+IdModule  = DIP-18__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FCA0801;
+Reference = U3;
+ValeurCmp = EL817;
+IdModule  = DIP-4__300_ELL;
+EndCmp
+
+EndListe

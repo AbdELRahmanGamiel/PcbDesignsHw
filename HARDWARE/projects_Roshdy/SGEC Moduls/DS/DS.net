@@ -1,0 +1,79 @@
+# EESchema Netlist Version 1.1 created  9/29/2013 1:02:22 PM
+(
+ ( /523C4A47 CR2032H BT1 BATTERY_3.7V
+  ( 1 N-000005 )
+  ( 2 GND )
+ )
+ ( /52480438 LED-5MM D1 green_Led
+  ( 1 N-000002 )
+  ( 2 GND )
+ )
+ ( /523C4A50 DIP-8__300_ELL P1 DS1307
+  ( 1 N-000004 )
+  ( 2 N-000003 )
+  ( 3 N-000005 )
+  ( 4 GND )
+  ( 5 N-000010 )
+  ( 6 N-000008 )
+  ( 7 ? )
+  ( 8 VCC )
+ )
+ ( /523C4B22 SIL-2 P2 CONN_2
+  ( 1 N-000008 )
+  ( 2 N-000010 )
+ )
+ ( /523C4F6E SIL-2 P3 CONN_2
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /523C4A59 R3-LARGE_PADS R1 10K
+  ( 1 N-000010 )
+  ( 2 N-000009 )
+ )
+ ( /523C4A5B R3-LARGE_PADS R2 10K
+  ( 1 N-000008 )
+  ( 2 N-000009 )
+ )
+ ( /524804EE R_ETC R3 330R
+  ( 1 VCC )
+  ( 2 N-000002 )
+ )
+ ( /523C4A3E SIL-2 X1 32KHZ
+  ( 1 N-000004 )
+  ( 2 N-000003 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}

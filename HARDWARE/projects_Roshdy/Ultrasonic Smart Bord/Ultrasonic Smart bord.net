@@ -1,0 +1,652 @@
+# EESchema Netlist Version 1.1 created  6/6/2015 4:37:01 PM
+(
+ ( /5547624E C-P_ETC C1 103P
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /4F8EACC5 C-P_ETC C2 .1uF
+  ( 1 N-000081 )
+  ( 2 GND )
+ )
+ ( /4F8EAC13 C-P_ETC C3 22pF
+  ( 1 N-000053 )
+  ( 2 GND )
+ )
+ ( /4F8EAC1A C-P_ETC C4 22pF
+  ( 1 N-000080 )
+  ( 2 GND )
+ )
+ ( /556ACAAE CAP_2200_25V C5 220/25V
+  ( 1 N-000087 )
+  ( 2 GND )
+ )
+ ( /556AE24E CAP-25V C6 334
+  ( 1 N-000087 )
+  ( 2 GND )
+ )
+ ( /556AC56E CAP-25V C7 104
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /556AE258 CAP-25V C8 104
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /556B209B CAP-25V C9 CP1
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /556ACA87 D_ETC D2 1N4001
+  ( 1 N-000035 )
+  ( 2 N-000033 )
+ )
+ ( /556ACBE2 LED-5MM-etc D4 LED
+  ( 1 N-000101 )
+  ( 2 GND )
+ )
+ ( /556AF2E4 FUSE F1 FUSE
+  ( 1 N-000033 )
+  ( 2 N-000032 )
+ )
+ ( /556ACAC1 FUSE F2 FUSE
+  ( 1 N-000031 )
+  ( 2 VCC )
+ )
+ ( /556B1DC5 HEAT_THINK_3.5 heat_think1 HEAT_THINK
+  ( 1 ? )
+  ( 2 ? )
+ )
+ ( /556B1DC6 HEAT_THINK_3.5 heat_think2 HEAT_THINK
+  ( 1 ? )
+  ( 2 ? )
+ )
+ ( /556B1DC0 HEAT_THINK_3.5 heat_think3 HEAT_THINK
+  ( 1 ? )
+  ( 2 ? )
+ )
+ ( /556B1D0F HEAT_THINK_3.5 heat_think4 HEAT_THINK
+  ( 1 ? )
+  ( 2 ? )
+ )
+ ( /556B1DCC HEAT_THINK_3.5 heat_think5 HEAT_THINK
+  ( 1 ? )
+  ( 2 ? )
+ )
+ ( /55476648 SIL-8 J1 Key_pad
+  ( 1 N-000069 )
+  ( 2 N-000070 )
+  ( 3 N-000071 )
+  ( 4 N-000072 )
+  ( 5 N-000084 )
+  ( 6 N-000009 )
+  ( 7 N-000083 )
+  ( 8 N-000008 )
+ )
+ ( /5550F84C ROZT_4_PIN_ETC P1 AV_in
+  ( 1 /LINE )
+  ( 2 /LINE )
+  ( 3 /NEUTRRAL )
+  ( 4 /NEUTRRAL )
+ )
+ ( /5550F7EA ROZT_4_PIN_ETC P2 H1
+  ( 1 /NEUTRRAL )
+  ( 2 /NEUTRRAL )
+  ( 3 /HEATER1 )
+  ( 4 /HEATER1 )
+ )
+ ( /5550F7E5 ROZT_4_PIN_ETC P3 H2
+  ( 1 /NEUTRRAL )
+  ( 2 /NEUTRRAL )
+  ( 3 /HEATER2 )
+  ( 4 /HEATER2 )
+ )
+ ( /5550F7DF ROZT_4_PIN_ETC P4 H3
+  ( 1 /NEUTRRAL )
+  ( 2 /NEUTRRAL )
+  ( 3 /HEATER3 )
+  ( 4 /HEATER3 )
+ )
+ ( /5550F7BB ROZT_4_PIN_ETC P5 H4
+  ( 1 /NEUTRRAL )
+  ( 2 /NEUTRRAL )
+  ( 3 /HEATER4 )
+  ( 4 /HEATER4 )
+ )
+ ( /55475DB7 ROS-2PIN P6 5V_in
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /5550A486 ROS-2PIN P7 thermistor
+  ( 1 VCC )
+  ( 2 /RA0 )
+ )
+ ( /5550AA87 1pin P8 CONN_1
+  ( 1 ? )
+ )
+ ( /5550AA8E 1pin P9 CONN_1
+  ( 1 ? )
+ )
+ ( /5550AA91 1pin P10 CONN_1
+  ( 1 ? )
+ )
+ ( /5550AA96 1pin P11 CONN_1
+  ( 1 ? )
+ )
+ ( /555310C2 ROZT_4_PIN_ETC P12 E/D_Ultrasonic
+  ( 1 /NEUTRRAL )
+  ( 2 /NEUTRRAL )
+  ( 3 /ultra )
+  ( 4 /ultra )
+ )
+ ( /556ACA4C ROS_2PIN_ETC P13 IN_12V
+  ( 1 N-000037 )
+  ( 2 N-000082 )
+ )
+ ( /556ACC9D ROS_2PIN_ETC P14 IN_5V
+  ( 1 N-000100 )
+  ( 2 N-000086 )
+ )
+ ( /556AC460 TO18CBE Q1 PNP
+  ( 1 VCC )
+  ( 2 N-000023 )
+  ( 3 N-000024 )
+ )
+ ( /4F8EAC82 R_ETC R1 10K
+  ( 1 VCC )
+  ( 2 N-000081 )
+ )
+ ( /5550A392 R_ETC R2 10k
+  ( 1 N-000084 )
+  ( 2 VCC )
+ )
+ ( /5550A39E R_ETC R3 10k
+  ( 1 N-000009 )
+  ( 2 VCC )
+ )
+ ( /5550A3A2 R_ETC R4 10k
+  ( 1 N-000083 )
+  ( 2 VCC )
+ )
+ ( /5550A3A4 R_ETC R5 10k
+  ( 1 N-000008 )
+  ( 2 VCC )
+ )
+ ( /55475D73 R_ETC R6 360R
+  ( 1 /LINE )
+  ( 2 N-000066 )
+ )
+ ( /55475D72 R_ETC R7 1k
+  ( 1 N-000067 )
+  ( 2 /RC2 )
+ )
+ ( /55477100 R_ETC R8 360R
+  ( 1 /LINE )
+  ( 2 N-000068 )
+ )
+ ( /55477101 R_ETC R9 1k
+  ( 1 N-000017 )
+  ( 2 /RC2 )
+ )
+ ( /55475D70 R_ETC R10 360R
+  ( 1 /HEATER1 )
+  ( 2 N-000088 )
+ )
+ ( /55477103 R_ETC R11 360R
+  ( 1 /HEATER3 )
+  ( 2 N-000013 )
+ )
+ ( /55474F4A R_ETC R12 360R
+  ( 1 /LINE )
+  ( 2 N-000052 )
+ )
+ ( /55475846 R_ETC R13 1k
+  ( 1 N-000078 )
+  ( 2 /RC2 )
+ )
+ ( /55477107 R_ETC R14 360R
+  ( 1 /LINE )
+  ( 2 N-000020 )
+ )
+ ( /55477106 R_ETC R15 1k
+  ( 1 N-000021 )
+  ( 2 /RC2 )
+ )
+ ( /554758FC R_ETC R16 360R
+  ( 1 /HEATER2 )
+  ( 2 N-000077 )
+ )
+ ( /55477104 R_ETC R17 360R
+  ( 1 /HEATER4 )
+  ( 2 N-000105 )
+ )
+ ( /5550A4B2 R_ETC R18 5k
+  ( 1 /RA0 )
+  ( 2 GND )
+ )
+ ( /55530FE5 R_ETC R19 360R
+  ( 1 /LINE )
+  ( 2 N-000042 )
+ )
+ ( /55530FE4 R_ETC R20 1k
+  ( 1 N-000043 )
+  ( 2 /RA2 )
+ )
+ ( /55530FE2 R_ETC R21 360R
+  ( 1 /ultra )
+  ( 2 N-000089 )
+ )
+ ( /556ACA8D R_2WATT R22 35/1W
+  ( 1 N-000087 )
+  ( 2 N-000032 )
+ )
+ ( /556ACBCC R_ETC R23 330R
+  ( 1 VCC )
+  ( 2 N-000101 )
+ )
+ ( /556AC4AA R_ETC R24 10k
+  ( 1 N-000023 )
+  ( 2 /B0 )
+ )
+ ( /554754EE VAR RV1 10K
+  ( 1 VCC )
+  ( 2 N-000051 )
+  ( 3 GND )
+ )
+ ( /556AD62B SW_2_ACTION_ETC SW1 SWITCH_6PIN_MIDDEL
+  ( 1 ? )
+  ( 2 N-000086 )
+  ( 3 N-000031 )
+  ( 4 GND )
+  ( 5 N-000100 )
+  ( 6 ? )
+ )
+ ( /4F8EACA3 SW_PUSH_SMALL SW2 SW_PUSH
+  ( 1 N-000081 )
+  ( 2 GND )
+ )
+ ( /556ACA78 SW_2_ACTION_ETC SW3 SWITCH_6PIN_MIDDEL
+  ( 1 ? )
+  ( 2 N-000082 )
+  ( 3 N-000035 )
+  ( 4 GND )
+  ( 5 N-000037 )
+  ( 6 ? )
+ )
+ ( /55475D75 DIP-6__300_ELL U1 MOC-3063
+  ( 1 N-000067 )
+  ( 2 GND )
+  ( 3 ? )
+  ( 4 N-000088 )
+  ( 5 ? )
+  ( 6 N-000066 )
+ )
+ ( /4F8EABD6 DIP-40__600_ELL U2 PIC16F877A
+  ( 1 N-000081 )
+  ( 2 /RA0 )
+  ( 3 ? )
+  ( 4 /RA2 )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 ? )
+  ( 8 ? )
+  ( 9 ? )
+  ( 10 ? )
+  ( 11 VCC )
+  ( 12 GND )
+  ( 13 N-000053 )
+  ( 14 N-000080 )
+  ( 15 ? )
+  ( 16 ? )
+  ( 17 /RC2 )
+  ( 18 ? )
+  ( 19 N-000069 )
+  ( 20 N-000070 )
+  ( 21 N-000071 )
+  ( 22 N-000072 )
+  ( 23 ? )
+  ( 24 ? )
+  ( 25 ? )
+  ( 26 ? )
+  ( 27 N-000084 )
+  ( 28 N-000009 )
+  ( 29 N-000083 )
+  ( 30 N-000008 )
+  ( 31 GND )
+  ( 32 VCC )
+  ( 33 /B0 )
+  ( 34 /B1 )
+  ( 35 /B2 )
+  ( 36 /B3 )
+  ( 37 /B4 )
+  ( 38 /B5 )
+  ( 39 /B6 )
+  ( 40 /B7 )
+ )
+ ( /554770FE DIP-6__300_ELL U3 MOC-3063
+  ( 1 N-000017 )
+  ( 2 GND )
+  ( 3 ? )
+  ( 4 N-000013 )
+  ( 5 ? )
+  ( 6 N-000068 )
+ )
+ ( /55475D74 TRIAC_25A U4 TRIAC
+  ( 1 /HEATER1 )
+  ( 2 /LINE )
+  ( 3 N-000088 )
+ )
+ ( /554770FF TRIAC_25A U5 TRIAC
+  ( 1 /HEATER3 )
+  ( 2 /LINE )
+  ( 3 N-000013 )
+ )
+ ( /55474E0A DIP-6__300_ELL U6 MOC-3063
+  ( 1 N-000078 )
+  ( 2 GND )
+  ( 3 ? )
+  ( 4 N-000077 )
+  ( 5 ? )
+  ( 6 N-000052 )
+ )
+ ( /55477109 DIP-6__300_ELL U7 MOC-3063
+  ( 1 N-000021 )
+  ( 2 GND )
+  ( 3 ? )
+  ( 4 N-000105 )
+  ( 5 ? )
+  ( 6 N-000020 )
+ )
+ ( /55474E82 TRIAC_25A U8 TRIAC
+  ( 1 /HEATER2 )
+  ( 2 /LINE )
+  ( 3 N-000077 )
+ )
+ ( /55477108 TRIAC_25A U9 TRIAC
+  ( 1 /HEATER4 )
+  ( 2 /LINE )
+  ( 3 N-000105 )
+ )
+ ( /555311F5 SIL-16_ETC U10 LCD_2*20
+  ( 1 GND )
+  ( 2 VCC )
+  ( 3 N-000051 )
+  ( 4 /B1 )
+  ( 5 /B2 )
+  ( 6 /B3 )
+  ( 7 ? )
+  ( 8 ? )
+  ( 9 ? )
+  ( 10 ? )
+  ( 11 /B4 )
+  ( 12 /B5 )
+  ( 13 /B6 )
+  ( 14 /B7 )
+  ( 15 N-000024 )
+  ( 16 GND )
+ )
+ ( /55530FE7 DIP-6__300_ELL U11 MOC-3063
+  ( 1 N-000043 )
+  ( 2 GND )
+  ( 3 ? )
+  ( 4 N-000089 )
+  ( 5 ? )
+  ( 6 N-000042 )
+ )
+ ( /55530FE6 TRIAC_25A U12 TRIAC
+  ( 1 /ultra )
+  ( 2 /LINE )
+  ( 3 N-000089 )
+ )
+ ( /556ACAB8 LM78XX U13 7805
+  ( GND GND )
+  ( VI N-000087 )
+  ( VO VCC )
+ )
+ ( /4F8EABE4 Crystal_ETC X1 4MHz
+  ( 1 N-000080 )
+  ( 2 N-000053 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ CP*
+ SM*
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component C9
+ CP*
+ SM*
+$endlist
+$component D2
+ D?
+ S*
+$endlist
+$component D4
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component heat_think1
+ heat_think
+$endlist
+$component heat_think2
+ heat_think
+$endlist
+$component heat_think3
+ heat_think
+$endlist
+$component heat_think4
+ heat_think
+$endlist
+$component heat_think5
+ heat_think
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R12
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R13
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R14
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R15
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R16
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R17
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R18
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R19
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R20
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R21
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R22
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R23
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R24
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}

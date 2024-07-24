@@ -1,0 +1,96 @@
+# EESchema Netlist Version 1.1 created  12/25/2013 10:38:14 AM
+(
+ ( /52BA8ED6 Diod_3A_etc D1 Ska3/17
+  ( 1 N-000009 )
+  ( 2 N-000006 )
+ )
+ ( /52BA8FD0 Diod_3A_etc D2 1.5KE440A
+  ( 1 N-000002 )
+  ( 2 N-000001 )
+ )
+ ( /52BA8FC9 Diod_3A_etc D3 Ska3/17
+  ( 1 N-000004 )
+  ( 2 N-000001 )
+ )
+ ( /52BA8EEA Diod_3A_etc D4 Ska3/17
+  ( 1 N-000007 )
+  ( 2 N-000006 )
+ )
+ ( /52BA8EEE Diod_3A_etc D5 1.5KE440A
+  ( 1 N-000008 )
+  ( 2 N-000006 )
+ )
+ ( /52BA8EB0 Diod_3A_etc D6 Ska3/17
+  ( 1 N-000005 )
+  ( 2 N-000009 )
+ )
+ ( /52BA8EA6 Diod_3A_etc D7 Ska3/17
+  ( 1 N-000005 )
+  ( 2 N-000007 )
+ )
+ ( /52BA8FFC Diod_3A_etc D8 1.5KE440A
+  ( 1 N-000003 )
+  ( 2 N-000004 )
+ )
+ ( /52BA8EF2 Diod_3A_etc D9 1.5KE440A
+  ( 1 N-000003 )
+  ( 2 N-000008 )
+ )
+ ( /52BA8D1E ROZT_3_PIN_ETC K1 CONN_3
+  ( 1 N-000005 )
+  ( 2 N-000009 )
+  ( 3 N-000007 )
+ )
+ ( /52BA8D2F ROZT_2_PIN_ETC P1 CONN_2
+  ( 1 N-000002 )
+  ( 2 N-000004 )
+ )
+ ( /52BA8D28 ROZT_2_PIN_ETC P2 CONN_2
+  ( 1 N-000006 )
+  ( 2 N-000004 )
+ )
+ ( /52BA92CF CP1_10000UF_25V_ETC VR1 S_20_K460
+  ( 1 N-000007 )
+  ( 2 N-000009 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component D1
+ D?
+ S*
+$endlist
+$component D2
+ D?
+ S*
+$endlist
+$component D3
+ D?
+ S*
+$endlist
+$component D4
+ D?
+ S*
+$endlist
+$component D5
+ D?
+ S*
+$endlist
+$component D6
+ D?
+ S*
+$endlist
+$component D7
+ D?
+ S*
+$endlist
+$component D8
+ D?
+ S*
+$endlist
+$component D9
+ D?
+ S*
+$endlist
+$endfootprintlist
+}

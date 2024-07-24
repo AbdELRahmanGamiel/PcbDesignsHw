@@ -1,0 +1,165 @@
+# EESchema Netlist Version 1.1 created  6/3/2012 12:53:02 PM
+(
+ ( /4FCA1177 $noname  P2 I/P {Lib=CONN_2}
+  (    1 N-000006 )
+  (    2 ? )
+ )
+ ( /4FCA1175 $noname  RV1 POT {Lib=POT}
+  (    1 GND )
+  (    2 N-000012 )
+  (    3 N-000006 )
+ )
+ ( /4FCA1149 $noname  R2 750k-0.25w {Lib=R}
+  (    1 N-000013 )
+  (    2 N-000014 )
+ )
+ ( /4FCA1123 $noname  K1 RF-TX {Lib=CONN_3}
+  (    1 VCC )
+  (    2 N-000015 )
+  (    3 GND )
+ )
+ ( /4FCA1084 $noname  U2 HT-12E {Lib=HT-12E}
+  (    1 GND )
+  (    2 GND )
+  (    3 GND )
+  (    4 GND )
+  (    5 GND )
+  (    6 GND )
+  (    7 GND )
+  (    8 GND )
+  (    9 GND )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 N-000012 )
+  (   14 VCC )
+  (   15 N-000013 )
+  (   16 N-000014 )
+  (   17 N-000015 )
+  (   18 VCC )
+ )
+ ( /4FCA0FA3 $noname  D2 GREEN_LED {Lib=LED}
+  (    1 N-000017 )
+  (    2 GND )
+ )
+ ( /4FCA0F9D $noname  R1 330R-0.25w {Lib=R}
+  (    1 VCC )
+  (    2 N-000017 )
+ )
+ ( /4FCA0F8A $noname  U1 7805 {Lib=7805}
+  (  GND GND )
+  (   VI N-000018 )
+  (   VO VCC )
+ )
+ ( /4FCA0F73 $noname  C1 220uF-25v {Lib=CP1}
+  (    1 N-000018 )
+  (    2 GND )
+ )
+ ( /4FCA0F69 $noname  D1 1N4001 {Lib=DIODE}
+  (    1 N-000008 )
+  (    2 N-000018 )
+ )
+ ( /4FCA0F3B $noname  SW1 SWITCH_6PIN {Lib=SWITCH_6PIN}
+  (    1 ? )
+  (    2 N-000008 )
+  (    3 N-000011 )
+  (    4 ? )
+  (    5 GND )
+  (    6 N-000010 )
+ )
+ ( /4FCA0E5D $noname  P1 POWER {Lib=CONN_2}
+  (    1 N-000010 )
+  (    2 N-000011 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C1
+ CP*
+ SM*
+$endlist
+$component D1
+ D?
+ S*
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "GND" "GND"
+ D2 2
+ U2 9
+ U2 8
+ SW1 5
+ RV1 1
+ U1 GND
+ K1 3
+ U2 1
+ C1 2
+ U2 2
+ U2 3
+ U2 4
+ U2 5
+ U2 6
+ U2 7
+Net 6 "" ""
+ P2 1
+ RV1 3
+Net 8 "" ""
+ D1 1
+ SW1 2
+Net 10 "" ""
+ P1 1
+ SW1 6
+Net 11 "" ""
+ SW1 3
+ P1 2
+Net 12 "" ""
+ U2 13
+ RV1 2
+Net 13 "" ""
+ R2 1
+ U2 15
+Net 14 "" ""
+ R2 2
+ U2 16
+Net 15 "" ""
+ K1 2
+ U2 17
+Net 16 "VCC" "VCC"
+ U2 18
+ U1 VO
+ R1 1
+ U2 14
+ K1 1
+Net 17 "" ""
+ R1 2
+ D2 1
+Net 18 "" ""
+ C1 1
+ U1 VI
+ D1 2
+}
+#End

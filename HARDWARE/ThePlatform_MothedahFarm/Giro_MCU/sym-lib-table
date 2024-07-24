@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name ESP32_module)(type Legacy)(uri G:/kikad/ThePlatform_MothedahFarm/Giro_ESP_Platform/ESP32_module.lib)(options "")(descr ""))
+  (lib (name giro_compass)(type Legacy)(uri G:/kikad/ThePlatform_MothedahFarm/Giro_ESP_Platform/giro_compass.lib)(options "")(descr ""))
+)

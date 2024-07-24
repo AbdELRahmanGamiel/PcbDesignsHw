@@ -1,0 +1,30 @@
+eeschema (2011-04-29 BZR 2986)-stable  >> Creation date: 2013/3/6 1:44:08 PM
+
+#Cmp ( order = Reference )
+| C1         22pf        
+| C2         22pf        
+| C3         22pf        
+| C4         22pf        
+| C5         4.7uf       
+| C6         100nf       
+| D1         LED         
+| D2         LED         
+| D3         ZENER 3.6   
+| D4         ZENER 3.6V  
+| IC1        ATMEGA8A-P  
+| J1         USB         
+| JP1        JUMPER      
+| K1         jumper      
+| P1         CONN_6      
+| P2         ZIFF SOKET  
+| R1         10k         
+| R2         10k         
+| R3         10k         
+| R4         89R         
+| R5         89R         
+| R6         89R         
+| X1         CRYSTAL 12M 
+| X2         CRYSTAL 12M 
+#End Cmp
+
+#End List

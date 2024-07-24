@@ -1,0 +1,24 @@
+Drill report for G:\Projects\kikad\_7SEG\_7SEG_CONTROL\DisplayBoard\_7SEG_Display_Board.kicad_pcb
+Created on 04/12/2021 05:18:42 PM
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file '_7SEG_Display_Board-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.80mm  0.031"  (112 holes)
+    T2  0.90mm  0.035"  (210 holes)
+    T3  1.00mm  0.039"  (15 holes)
+
+    Total plated holes count 337
+
+
+Drill file '_7SEG_Display_Board-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0

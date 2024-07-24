@@ -1,0 +1,35 @@
+eeschema (2011-04-29 BZR 2986)-stable  >> Creation date: 11/28/2012 9:33:44 PM
+
+#Cmp ( order = Reference )
+| C1         0.47uf 400v AC
+| C2          47uf 25V   
+| C3          0.01uf 25V 
+| C4          0.01uf 25V 
+| D1         ZENER 16V   
+| D2         ZENER 16V   
+| D3         BRIDGE 1A   
+| F1         fuse 1 A    
+| P1         pin header 2pin
+| P2         pin header 2 pin
+| R1         100 omh 1watt
+| R2         1k ohm 2watt
+| U1         7805        
+#End Cmp
+
+#Cmp ( order = Value )
+|  0.01uf 25V  C3        
+|  0.01uf 25V  C4        
+|  47uf 25V    C2        
+| 0.47uf 400v AC C1        
+| 100 omh 1watt R1        
+| 1k ohm 2watt R2        
+| 7805         U1        
+| BRIDGE 1A    D3        
+| fuse 1 A     F1        
+| pin header 2 pin P2        
+| pin header 2pin P1        
+| ZENER 16V    D1        
+| ZENER 16V    D2        
+#End Cmp
+
+#End List

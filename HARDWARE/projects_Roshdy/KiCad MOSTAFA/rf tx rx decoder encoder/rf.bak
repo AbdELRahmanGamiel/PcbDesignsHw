@@ -1,0 +1,297 @@
+EESchema Schematic File Version 2  date 6/2/2012 2:19:18 PM
+LIBS:mostafa
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 43  0
+EELAYER END
+$Descr A4 11700 8267
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "2 jun 2012"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Connection ~ 6000 2750
+Wire Wire Line
+	6000 3200 6000 2350
+Wire Wire Line
+	6000 2350 5900 2350
+Wire Wire Line
+	4900 2350 4800 2350
+Connection ~ 6000 2950
+Wire Wire Line
+	5900 2950 6000 2950
+Wire Wire Line
+	6000 2750 5900 2750
+Wire Wire Line
+	5400 2950 5500 2950
+Wire Wire Line
+	5400 2750 5500 2750
+Wire Wire Line
+	4900 2950 4800 2950
+Wire Wire Line
+	4900 2750 4800 2750
+Wire Wire Line
+	4800 2550 5450 2550
+Wire Wire Line
+	5450 2550 5450 2450
+Wire Wire Line
+	5450 2450 5400 2450
+Wire Wire Line
+	4800 2650 5350 2650
+Wire Wire Line
+	5350 2650 5350 1600
+Wire Wire Line
+	5250 1600 5250 1700
+Wire Wire Line
+	5250 1700 5100 1700
+Wire Wire Line
+	5100 1700 5100 1550
+Connection ~ 3350 2950
+Wire Wire Line
+	3500 2950 3350 2950
+Connection ~ 3350 2750
+Wire Wire Line
+	3500 2750 3350 2750
+Connection ~ 3350 2550
+Wire Wire Line
+	3500 2550 3350 2550
+Connection ~ 3350 2350
+Wire Wire Line
+	3500 2350 3350 2350
+Wire Wire Line
+	3350 3300 3350 2250
+Wire Wire Line
+	3350 2250 3500 2250
+Wire Wire Line
+	3500 2450 3350 2450
+Connection ~ 3350 2450
+Wire Wire Line
+	3500 2650 3350 2650
+Connection ~ 3350 2650
+Wire Wire Line
+	3500 2850 3350 2850
+Connection ~ 3350 2850
+Wire Wire Line
+	3500 3050 3350 3050
+Connection ~ 3350 3050
+Wire Wire Line
+	5450 1600 5450 1800
+Wire Wire Line
+	4900 2450 4800 2450
+Wire Wire Line
+	4950 2100 4950 2250
+Wire Wire Line
+	4950 2250 4800 2250
+Wire Wire Line
+	4900 2850 4800 2850
+Wire Wire Line
+	4900 3050 4800 3050
+Wire Wire Line
+	5400 2850 5500 2850
+Wire Wire Line
+	5400 3050 5500 3050
+Wire Wire Line
+	5900 2850 6000 2850
+Connection ~ 6000 2850
+Wire Wire Line
+	5900 3050 6000 3050
+Connection ~ 6000 3050
+Wire Wire Line
+	5400 2350 5500 2350
+$Comp
+L LED D?
+U 1 1 4FC9F6A0
+P 5700 2350
+F 0 "D?" H 5700 2450 50  0000 C CNN
+F 1 "LED" H 5700 2250 50  0000 C CNN
+	1    5700 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 4FC9F695
+P 5150 2350
+F 0 "R?" V 5230 2350 50  0000 C CNN
+F 1 "220R-0.25w" V 5150 2350 50  0000 C CNN
+	1    5150 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4FC9F678
+P 6000 3200
+F 0 "#PWR?" H 6000 3200 30  0001 C CNN
+F 1 "GND" H 6000 3130 30  0001 C CNN
+	1    6000 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FC9F656
+P 5700 3050
+F 0 "D?" H 5700 3150 50  0000 C CNN
+F 1 "LED" H 5700 2950 50  0000 C CNN
+	1    5700 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FC9F652
+P 5700 2950
+F 0 "D?" H 5700 3050 50  0000 C CNN
+F 1 "LED" H 5700 2850 50  0000 C CNN
+	1    5700 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FC9F64D
+P 5700 2850
+F 0 "D?" H 5700 2950 50  0000 C CNN
+F 1 "LED" H 5700 2750 50  0000 C CNN
+	1    5700 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FC9F648
+P 5700 2750
+F 0 "D?" H 5700 2850 50  0000 C CNN
+F 1 "LED" H 5700 2650 50  0000 C CNN
+	1    5700 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 4FC9F63D
+P 5150 3050
+F 0 "R?" V 5230 3050 50  0000 C CNN
+F 1 "220R-0.25w" V 5150 3050 50  0000 C CNN
+	1    5150 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 4FC9F63A
+P 5150 2950
+F 0 "R?" V 5230 2950 50  0000 C CNN
+F 1 "220R-0.25w" V 5150 2950 50  0000 C CNN
+	1    5150 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 4FC9F637
+P 5150 2850
+F 0 "R?" V 5230 2850 50  0000 C CNN
+F 1 "220R-0.25w" V 5150 2850 50  0000 C CNN
+	1    5150 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 4FC9F627
+P 5150 2750
+F 0 "R?" V 5230 2750 50  0000 C CNN
+F 1 "220R-0.25w" V 5150 2750 50  0000 C CNN
+	1    5150 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 4FC9F610
+P 4950 2100
+F 0 "#PWR?" H 4950 2200 30  0001 C CNN
+F 1 "VCC" H 4950 2200 30  0000 C CNN
+	1    4950 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 4FC9F5ED
+P 5150 2450
+F 0 "R?" V 5230 2450 50  0000 C CNN
+F 1 "33k-0.25w" V 5150 2450 50  0000 C CNN
+	1    5150 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4FC9F5AC
+P 5450 1800
+F 0 "#PWR?" H 5450 1800 30  0001 C CNN
+F 1 "GND" H 5450 1730 30  0001 C CNN
+	1    5450 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 4FC9F5A0
+P 5100 1550
+F 0 "#PWR?" H 5100 1650 30  0001 C CNN
+F 1 "VCC" H 5100 1650 30  0000 C CNN
+	1    5100 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_3 K?
+U 1 1 4FC9F593
+P 5350 1250
+F 0 "K?" V 5300 1250 50  0000 C CNN
+F 1 "RF-RX" V 5400 1250 40  0000 C CNN
+	1    5350 1250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4FC9F551
+P 3350 3300
+F 0 "#PWR?" H 3350 3300 30  0001 C CNN
+F 1 "GND" H 3350 3230 30  0001 C CNN
+	1    3350 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L HT-12D U?
+U 1 1 4FC9F543
+P 4150 2650
+F 0 "U?" H 4150 2450 70  0000 C CNN
+F 1 "HT-12D" H 4150 2150 70  0000 C CNN
+	1    4150 2650
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

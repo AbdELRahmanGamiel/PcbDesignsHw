@@ -1,0 +1,482 @@
+# EESchema Netlist Version 1.1 created  4/24/2012 3:10:32 PM
+(
+ ( /4F96715D C1 C1 27pF
+  ( 1 N-000035 )
+  ( 2 GND )
+ )
+ ( /4F967164 C1 C2 27pF
+  ( 1 N-000039 )
+  ( 2 GND )
+ )
+ ( /4F96725F C1 C3 .1uF
+  ( 1 N-000063 )
+  ( 2 GND )
+ )
+ ( /4F967009 C1V5 C4 220uF-25v
+  ( 1 N-000042 )
+  ( 2 GND )
+ )
+ ( /4F965F4F D4 D1 1N4001
+  ( 1 /VSP )
+  ( 2 N-000042 )
+ )
+ ( /4F967072 LED-5MM D2 GREEN_LED
+  ( 1 N-000051 )
+  ( 2 GND )
+ )
+ ( /4F9682C1 D4 D3 1n4148
+  ( 1 N-000006 )
+  ( 2 /VSP )
+ )
+ ( /4F9682D0 D4 D4 1n4148
+  ( 1 N-000078 )
+  ( 2 /VSP )
+ )
+ ( /4F968290 D4 D5 1n4148
+  ( 1 N-000075 )
+  ( 2 /VSP )
+ )
+ ( /4F96731C D4 D6 1n4148
+  ( 1 N-000062 )
+  ( 2 /VSP )
+ )
+ ( /4F967574 D4 D7 1n4148
+  ( 1 N-000077 )
+  ( 2 /VSP )
+ )
+ ( /4F967587 D4 D8 1n4148
+  ( 1 N-000053 )
+  ( 2 /VSP )
+ )
+ ( /4F967041 FUSE5-20 F1 1A
+  ( 1 N-000052 )
+  ( 2 VCC )
+ )
+ ( /4F966007 JACK_ALIM J1 JACK_I/P_SUPPLAY12V
+  ( 1 N-000081 )
+  ( 2 N-000045 )
+  ( 3 N-000045 )
+ )
+ ( /4F9682C0 RELAY_ETC K1 RELAY_5PIN
+  ( 1 /VSP )
+  ( 2 N-000006 )
+  ( 3 N-000005 )
+  ( 4 N-000007 )
+  ( 5 N-000016 )
+ )
+ ( /4F9682D1 RELAY_ETC K2 RELAY_5PIN
+  ( 1 /VSP )
+  ( 2 N-000078 )
+  ( 3 N-000009 )
+  ( 4 N-000011 )
+  ( 5 N-000010 )
+ )
+ ( /4F968291 RELAY_ETC K3 RELAY_5PIN
+  ( 1 /VSP )
+  ( 2 N-000075 )
+  ( 3 N-000054 )
+  ( 4 N-000055 )
+  ( 5 N-000074 )
+ )
+ ( /4F9682C2 ROZT_3_PIN_ETC K4 CONN_3
+  ( 1 N-000016 )
+  ( 2 N-000005 )
+  ( 3 N-000007 )
+ )
+ ( /4F9682CF ROZT_3_PIN_ETC K5 CONN_3
+  ( 1 N-000010 )
+  ( 2 N-000009 )
+  ( 3 N-000011 )
+ )
+ ( /4F96828F ROZT_3_PIN_ETC K6 CONN_3
+  ( 1 N-000074 )
+  ( 2 N-000054 )
+  ( 3 N-000055 )
+ )
+ ( /4F967311 RELAY_ETC K7 RELAY_5PIN
+  ( 1 /VSP )
+  ( 2 N-000062 )
+  ( 3 N-000072 )
+  ( 4 N-000073 )
+  ( 5 N-000071 )
+ )
+ ( /4F967575 RELAY_ETC K8 RELAY_5PIN
+  ( 1 /VSP )
+  ( 2 N-000077 )
+  ( 3 N-000064 )
+  ( 4 N-000066 )
+  ( 5 N-000065 )
+ )
+ ( /4F967586 RELAY_ETC K9 RELAY_5PIN
+  ( 1 /VSP )
+  ( 2 N-000053 )
+  ( 3 N-000076 )
+  ( 4 N-000061 )
+  ( 5 N-000060 )
+ )
+ ( /4F967334 ROZT_3_PIN_ETC K10 CONN_3
+  ( 1 N-000071 )
+  ( 2 N-000072 )
+  ( 3 N-000073 )
+ )
+ ( /4F967573 ROZT_3_PIN_ETC K11 CONN_3
+  ( 1 N-000065 )
+  ( 2 N-000064 )
+  ( 3 N-000066 )
+ )
+ ( /4F967588 ROZT_3_PIN_ETC K12 CONN_3
+  ( 1 N-000060 )
+  ( 2 N-000076 )
+  ( 3 N-000061 )
+ )
+ ( /4F965F40 ROZT_2_PIN_ETC P1 I/P_SUPPLAY12V
+  ( 1 N-000081 )
+  ( 2 N-000045 )
+ )
+ ( /4F969FAD ROZT_2_PIN_ETC P2 O/P_SUPPLAY5V
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /4F9682F2 ROZT_8_PIN_ETC P3 CONN_8
+  ( 1 N-000036 )
+  ( 2 N-000037 )
+  ( 3 N-000038 )
+  ( 4 N-000046 )
+  ( 5 N-000047 )
+  ( 6 N-000048 )
+  ( 7 N-000050 )
+  ( 8 N-000041 )
+ )
+ ( /4F9682FE ROZT_8_PIN_ETC P4 CONN_8
+  ( 1 N-000049 )
+  ( 2 N-000040 )
+  ( 3 N-000033 )
+  ( 4 N-000034 )
+  ( 5 /RD4 )
+  ( 6 /RD5 )
+  ( 7 /RD6 )
+  ( 8 /RD7 )
+ )
+ ( /4F967237 R_ETC R1 10K
+  ( 1 VCC )
+  ( 2 N-000063 )
+ )
+ ( /4F967061 R_ETC R2 330R
+  ( 1 VCC )
+  ( 2 N-000051 )
+ )
+ ( /4F969E8C R_ETC R3 10K
+  ( 1 VCC )
+  ( 2 /RD4 )
+ )
+ ( /4F969E9B R_ETC R4 10K
+  ( 1 VCC )
+  ( 2 /RD5 )
+ )
+ ( /4F969E9F R_ETC R5 10K
+  ( 1 VCC )
+  ( 2 /RD6 )
+ )
+ ( /4F969EA2 R_ETC R6 10K
+  ( 1 VCC )
+  ( 2 /RD7 )
+ )
+ ( /4F9682C3 R_ETC R7 180R
+  ( 1 N-000014 )
+  ( 2 /RC4 )
+ )
+ ( /4F9682CE R_ETC R8 180R
+  ( 1 N-000012 )
+  ( 2 /RC5 )
+ )
+ ( /4F96828E R_ETC R9 180R
+  ( 1 N-000056 )
+  ( 2 /RC3 )
+ )
+ ( /4F969A6B R_ETC R10 1M
+  ( 1 N-000018 )
+  ( 2 GND )
+ )
+ ( /4F96733E R_ETC R11 180R
+  ( 1 N-000069 )
+  ( 2 /RC0 )
+ )
+ ( /4F967572 R_ETC R12 180R
+  ( 1 N-000067 )
+  ( 2 /RC1 )
+ )
+ ( /4F967589 R_ETC R13 180R
+  ( 1 N-000058 )
+  ( 2 /RC2 )
+ )
+ ( /4F969ADA VAR-ETC RV1 10M
+  ( 1 N-000018 )
+  ( 2 N-000018 )
+  ( 3 /RA0 )
+ )
+ ( /4F965FE2 SW_2_ACTION_ETC SW1 SWITCH_6PIN
+  ( 1 ? )
+  ( 2 /VSP )
+  ( 3 N-000081 )
+  ( 4 ? )
+  ( 5 GND )
+  ( 6 N-000045 )
+ )
+ ( /4F967244 SW_PUSH_SMALL_1 SW2 SW_PUSH
+  ( 1 N-000063 )
+  ( 2 GND )
+ )
+ ( /4F96702C LM78XX U1 7805
+  ( GND GND )
+  ( VI N-000042 )
+  ( VO N-000052 )
+ )
+ ( /4F967121 40tex-Ell600 U2 PIC16F877A
+  ( 1 N-000063 )
+  ( 2 /RA0 )
+  ( 3 ? )
+  ( 4 ? )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 ? )
+  ( 8 ? )
+  ( 9 ? )
+  ( 10 ? )
+  ( 11 VCC )
+  ( 12 GND )
+  ( 13 N-000035 )
+  ( 14 N-000039 )
+  ( 15 /RC0 )
+  ( 16 /RC1 )
+  ( 17 /RC2 )
+  ( 18 /RC3 )
+  ( 19 N-000049 )
+  ( 20 N-000040 )
+  ( 21 N-000033 )
+  ( 22 N-000034 )
+  ( 23 /RC4 )
+  ( 24 /RC5 )
+  ( 25 ? )
+  ( 26 ? )
+  ( 27 /RD4 )
+  ( 28 /RD5 )
+  ( 29 /RD6 )
+  ( 30 /RD7 )
+  ( 31 GND )
+  ( 32 VCC )
+  ( 33 N-000036 )
+  ( 34 N-000037 )
+  ( 35 N-000038 )
+  ( 36 N-000046 )
+  ( 37 N-000047 )
+  ( 38 N-000048 )
+  ( 39 N-000050 )
+  ( 40 N-000041 )
+ )
+ ( /4F9694F8 TO92-CBE U3 LM35
+  ( GND GND )
+  ( VCC VCC )
+  ( VOUT N-000032 )
+ )
+ ( /4F9682BF DIP-4__300_ELL U4 PHOTOCOUPLER
+  ( 1 N-000014 )
+  ( 2 GND )
+  ( 3 GND )
+  ( 4 N-000006 )
+ )
+ ( /4F9682D2 DIP-4__300_ELL U5 PHOTOCOUPLER
+  ( 1 N-000012 )
+  ( 2 GND )
+  ( 3 GND )
+  ( 4 N-000078 )
+ )
+ ( /4F968292 DIP-4__300_ELL U6 PHOTOCOUPLER
+  ( 1 N-000056 )
+  ( 2 GND )
+  ( 3 GND )
+  ( 4 N-000075 )
+ )
+ ( /4F969A52 DIP-8__300_ELL U7 OP07
+  ( 1 ? )
+  ( 2 N-000018 )
+  ( 3 N-000032 )
+  ( 4 GND )
+  ( 5 ? )
+  ( 6 /RA0 )
+  ( 7 VCC )
+  ( 8 ? )
+ )
+ ( /4F967302 DIP-4__300_ELL U8 PHOTOCOUPLER
+  ( 1 N-000069 )
+  ( 2 GND )
+  ( 3 GND )
+  ( 4 N-000062 )
+ )
+ ( /4F967576 DIP-4__300_ELL U9 PHOTOCOUPLER
+  ( 1 N-000067 )
+  ( 2 GND )
+  ( 3 GND )
+  ( 4 N-000077 )
+ )
+ ( /4F967585 DIP-4__300_ELL U10 PHOTOCOUPLER
+  ( 1 N-000058 )
+  ( 2 GND )
+  ( 3 GND )
+  ( 4 N-000053 )
+ )
+ ( /4F96714F HC-49V X1 4MHz
+  ( 1 N-000035 )
+  ( 2 N-000039 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ CP*
+ SM*
+$endlist
+$component D1
+ D?
+ S*
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D3
+ D?
+ S*
+$endlist
+$component D4
+ D?
+ S*
+$endlist
+$component D5
+ D?
+ S*
+$endlist
+$component D6
+ D?
+ S*
+$endlist
+$component D7
+ D?
+ S*
+$endlist
+$component D8
+ D?
+ S*
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R12
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R13
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}

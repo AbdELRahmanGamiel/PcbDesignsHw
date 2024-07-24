@@ -1,0 +1,199 @@
+Cmp-Mod V01 Created by CvPCB (2011-04-29 BZR 2986)-stable date = 4/19/2012 3:21:56 PM
+
+BeginCmp
+TimeStamp = /4F8EBD3D;
+Reference = C1;
+ValeurCmp = 220uF-25v;
+IdModule  = C1V7;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F8EACC5;
+Reference = C2;
+ValeurCmp = .1uF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F8EAC13;
+Reference = C3;
+ValeurCmp = 27pF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F8EAC1A;
+Reference = C4;
+ValeurCmp = 27pF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F8EBE7F;
+Reference = D1;
+ValeurCmp = 1N4001;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F8EBF32;
+Reference = D2;
+ValeurCmp = GREEN_LED;
+IdModule  = LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F8EBC73;
+Reference = D3;
+ValeurCmp = 1n4148;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F8EBEE2;
+Reference = F1;
+ValeurCmp = 1A;
+IdModule  = FUSE_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F8EBF1E;
+Reference = J1;
+ValeurCmp = JACK_2P;
+IdModule  = JACK_ALIM;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F8EB96E;
+Reference = K1;
+ValeurCmp = RELAY_5PIN;
+IdModule  = RELAY_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F8EBBB5;
+Reference = K2;
+ValeurCmp = CONN_3;
+IdModule  = ROZT_3_PIN_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F8EBE67;
+Reference = P1;
+ValeurCmp = CONN_2;
+IdModule  = ROZT_2_PIN_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F8FCC5E;
+Reference = P2;
+ValeurCmp = CONN_8;
+IdModule  = SIL-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F8FCC7F;
+Reference = P3;
+ValeurCmp = CONN_8;
+IdModule  = SIL-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F8EAE7D;
+Reference = P4;
+ValeurCmp = CONN_2;
+IdModule  = ROZT_2_PIN_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F8EAC82;
+Reference = R1;
+ValeurCmp = 10K;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F8ECC81;
+Reference = R2;
+ValeurCmp = 330R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F8EB10A;
+Reference = R3;
+ValeurCmp = 180R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F8EAEDA;
+Reference = R4;
+ValeurCmp = 10K;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F900B2D;
+Reference = R5;
+ValeurCmp = 10K;
+IdModule  = R_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F900BC2;
+Reference = RV1;
+ValeurCmp = POT;
+IdModule  = VAR-ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F8ECBB1;
+Reference = SW1;
+ValeurCmp = SWITCH_6PIN;
+IdModule  = SW_2_ACTION_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F8EACA3;
+Reference = SW2;
+ValeurCmp = SW_PUSH;
+IdModule  = SW_PUSH_SMALL_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F900B37;
+Reference = SW3;
+ValeurCmp = SW_PUSH;
+IdModule  = SW_PUSH_SMALL_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F8EBECB;
+Reference = U1;
+ValeurCmp = 7805;
+IdModule  = LM78XX;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F8EABD6;
+Reference = U2;
+ValeurCmp = PIC16F877A;
+IdModule  = 40tex-Ell600;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F8EBB0F;
+Reference = U3;
+ValeurCmp = EL817;
+IdModule  = DIP-4__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F8EABE4;
+Reference = X1;
+ValeurCmp = 4MHz;
+IdModule  = HC-49V;
+EndCmp
+
+EndListe

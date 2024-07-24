@@ -1,0 +1,150 @@
+Cmp-Mod V01 Genere par PcbNew le 2/3/2015 1:27:26 PM
+
+BeginCmp
+TimeStamp = /54D0838C;
+Reference = C1;
+ValeurCmp = 334;
+IdModule  = C-P_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D08394;
+Reference = C2;
+ValeurCmp = 104;
+IdModule  = C-P_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FA679D4;
+Reference = C6;
+ValeurCmp = 1UF/300V;
+IdModule  = C_1UF_300V_AC_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D077F4;
+Reference = K1;
+ValeurCmp = wHITE_CAP;E;
+IdModule  = SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D078A9;
+Reference = P1;
+ValeurCmp = 220V;
+IdModule  = ROZT_2_PIN_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D08B07;
+Reference = P2;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D08B04;
+Reference = P3;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D08B02;
+Reference = P4;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D08AFE;
+Reference = P5;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /50DB3A11;
+Reference = P8;
+ValeurCmp = LAMP;
+IdModule  = ROZT_2PIN_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FA66BFC;
+Reference = Q1;
+ValeurCmp = 2N2222;
+IdModule  = 2n2222_narow_etc;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D08377;
+Reference = R1;
+ValeurCmp = CAL;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FA66C0A;
+Reference = R5;
+ValeurCmp = 15K/0.25W;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FA66C20;
+Reference = R8;
+ValeurCmp = 370/355/0.25W;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FA67856;
+Reference = R9;
+ValeurCmp = 360R/0.5W;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FA67844;
+Reference = R10;
+ValeurCmp = 330R/0.25W;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FA679CC;
+Reference = R11;
+ValeurCmp = 47R/0.25W;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D08311;
+Reference = U1;
+ValeurCmp = 3.3V;
+IdModule  = LD11173V3;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D084DF;
+Reference = U2;
+ValeurCmp = 3.3V;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FA67B6F;
+Reference = U3;
+ValeurCmp = MOC3020;
+IdModule  = DIP-6__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FA67888;
+Reference = U4;
+ValeurCmp = BTA24;
+IdModule  = TIP_142;
+EndCmp
+
+EndListe

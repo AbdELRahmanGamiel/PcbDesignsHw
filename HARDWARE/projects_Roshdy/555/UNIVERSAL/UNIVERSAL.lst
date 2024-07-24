@@ -1,0 +1,53 @@
+eeschema (2011-04-29 BZR 2986)-stable  >> Creation date: 2013/2/28 7:07:34 PM
+
+#Cmp ( order = Reference )
+| C1         564J/400V   
+| C2         220uf/25v   
+| C3         104j        
+| C4         j63/650RN   
+| C5         220uf/25v   
+| D1         1N4007      
+| D2         BRIDGE      
+| D3         1N4007      
+| D4         ZENER       
+| F1         FUSE        
+| P1         LAMP        
+| P2         NUTRAL      
+| P3         LINE        
+| P4         LMP         
+| R1         R           
+| R2         R           
+| R3         Rout        
+| R4         R           
+| relay1     RELAY       
+| RV1        Rvar        
+| SW1        SWITCH      
+| u1         LM555N      
+#End Cmp
+
+#Cmp ( order = Value )
+| 104j         C3        
+| 1N4007       D1        
+| 1N4007       D3        
+| 220uf/25v    C2        
+| 220uf/25v    C5        
+| 564J/400V    C1        
+| BRIDGE       D2        
+| FUSE         F1        
+| j63/650RN    C4        
+| LAMP         P1        
+| LINE         P3        
+| LM555N       u1        
+| LMP          P4        
+| NUTRAL       P2        
+| R            R1        
+| R            R2        
+| R            R4        
+| RELAY        relay1    
+| Rout         R3        
+| Rvar         RV1       
+| SWITCH       SW1       
+| ZENER        D4        
+#End Cmp
+
+#End List

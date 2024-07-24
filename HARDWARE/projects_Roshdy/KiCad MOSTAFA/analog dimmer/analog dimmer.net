@@ -1,0 +1,44 @@
+# EESchema Netlist Version 1.1 created  5/27/2012 9:50:05 AM
+(
+ ( /4FC0DBD8 C1 C1 150nf-250V
+  ( 1 N-000001 )
+  ( 2 N-000003 )
+ )
+ ( /4FC0DBDF ROZT_2_PIN_ETC P1 POTS
+  ( 1 N-000003 )
+  ( 2 N-000004 )
+ )
+ ( /4FC0DBE2 ROZT_2_PIN_ETC P2 LOAD
+  ( 1 N-000005 )
+  ( 2 N-000001 )
+ )
+ ( /4FC0D5E2 R3 R1 300R-0.25W
+  ( 1 N-000005 )
+  ( 2 N-000004 )
+ )
+ ( /4FC0DBCA D4 U1 DB3
+  ( 1 N-000003 )
+  ( 2 N-000002 )
+ )
+ ( /4FC0D5D3 TRIAC_ETC U2 BT137
+  ( 1 N-000001 )
+  ( 2 N-000005 )
+  ( 3 N-000002 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}

@@ -1,0 +1,233 @@
+# EESchema Netlist Version 1.1 created  9/30/2013 2:16:00 PM
+(
+ ( /524894D3 C1V5 C1 0.1UF
+  ( 1 +5VA )
+  ( 2 GND )
+ )
+ ( /524894CF C1V5 C2 100UF
+  ( 1 +5VA )
+  ( 2 GND )
+ )
+ ( /52488A78 LED-5MM D1 LED
+  ( 1 /2 )
+  ( 2 N-000014 )
+ )
+ ( /52488A82 LED-5MM D2 LED
+  ( 1 /3 )
+  ( 2 N-000014 )
+ )
+ ( /52488D7A D3 D3 DIODE
+  ( 1 /2 )
+  ( 2 VCC )
+ )
+ ( /52488D83 D3 D4 DIODE
+  ( 1 /3 )
+  ( 2 VCC )
+ )
+ ( /52488D87 D3 D5 DIODE
+  ( 1 /13 )
+  ( 2 VCC )
+ )
+ ( /52488D93 D3 D6 DIODE
+  ( 1 /14 )
+  ( 2 VCC )
+ )
+ ( /52488B3B LED-5MM D7 LED
+  ( 1 /13 )
+  ( 2 N-000020 )
+ )
+ ( /52488D2B D3 D8 DIODE
+  ( 1 GND )
+  ( 2 /2 )
+ )
+ ( /52488D5E D3 D9 DIODE
+  ( 1 GND )
+  ( 2 /3 )
+ )
+ ( /52488D66 D3 D10 DIODE
+  ( 1 GND )
+  ( 2 /13 )
+ )
+ ( /52488D72 D3 D11 DIODE
+  ( 1 GND )
+  ( 2 /14 )
+ )
+ ( /52488B3A LED-5MM D12 LED
+  ( 1 /14 )
+  ( 2 N-000020 )
+ )
+ ( /52488748 SIL-3 GS1 GS2
+  ( 1 N-000018 )
+  ( 2 N-000017 )
+ )
+ ( /5248871D SIL-3 GS2 GS2
+  ( 1 N-000018 )
+  ( 2 N-000011 )
+ )
+ ( /52486E3F SIL-3 GS3 GS2
+  ( 1 GND )
+  ( 2 N-000013 )
+ )
+ ( /52486E37 SIL-3 GS4 GS2
+  ( 1 GND )
+  ( 2 N-000009 )
+ )
+ ( /5248A79D ROZT_3_PIN_ETC K1 CONN_3
+  ( 1 +5V )
+  ( 2 GND )
+  ( 3 VCC )
+ )
+ ( /524896B1 swdip1 P1 DIP
+  ( 1 +5V )
+  ( 2 +5VA )
+ )
+ ( /52488ADE ROS_2PIN_ETC P2 CONN_2
+  ( 1 /2 )
+  ( 2 /3 )
+ )
+ ( /524886E2 ROS_2PIN_ETC P3 CONN_2
+  ( 1 N-000017 )
+  ( 2 N-000011 )
+ )
+ ( /52489FDD ROS_2PIN_ETC P4 INPUT_A
+  ( 1 N-000004 )
+  ( 2 N-000010 )
+ )
+ ( /52489FE4 ROS_2PIN_ETC P5 INPUT_B
+  ( 1 N-000005 )
+  ( 2 N-000012 )
+ )
+ ( /52488B39 ROS_2PIN_ETC P6 CONN_2
+  ( 1 /13 )
+  ( 2 /14 )
+ )
+ ( /52488C16 R3-LARGE_PADS R1 R
+  ( 1 N-000014 )
+  ( 2 GND )
+ )
+ ( /52488C1B R3-LARGE_PADS R2 R
+  ( 1 N-000020 )
+  ( 2 GND )
+ )
+ ( /52485664 L298 U1 L298KV
+  ( 1 N-000009 )
+  ( 2 /2 )
+  ( 3 /3 )
+  ( 4 VCC )
+  ( 5 N-000010 )
+  ( 6 N-000011 )
+  ( 7 N-000004 )
+  ( 8 GND )
+  ( 9 +5VA )
+  ( 10 N-000012 )
+  ( 11 N-000017 )
+  ( 12 N-000005 )
+  ( 13 /13 )
+  ( 14 /14 )
+  ( 15 N-000013 )
+ )
+ ( /52486ED7 SIL-3 U2 PH
+  ( 1 ? )
+  ( 2 GND )
+  ( 3 N-000013 )
+ )
+ ( /52486ED1 SIL-3 U3 PH
+  ( 1 N-000009 )
+  ( 2 GND )
+  ( 3 ? )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ CP*
+ SM*
+$endlist
+$component C2
+ CP*
+ SM*
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D3
+ D?
+ S*
+$endlist
+$component D4
+ D?
+ S*
+$endlist
+$component D5
+ D?
+ S*
+$endlist
+$component D6
+ D?
+ S*
+$endlist
+$component D7
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D8
+ D?
+ S*
+$endlist
+$component D9
+ D?
+ S*
+$endlist
+$component D10
+ D?
+ S*
+$endlist
+$component D11
+ D?
+ S*
+$endlist
+$component D12
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}

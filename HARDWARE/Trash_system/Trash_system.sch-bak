@@ -1,0 +1,600 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	-44820 -15170 -44820 -15230
+$Comp
+L Device:C C8
+U 1 1 5FB3BE1C
+P -44615 -15380
+F 0 "C8" V -44823 -15380 31  0000 C CNN
+F 1 "0.1UF" V -44761 -15380 31  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm" H -44577 -15530 50  0001 C CNN
+F 3 "~" H -44615 -15380 50  0001 C CNN
+	1    -44615 -15380
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-44495 -15530 -44615 -15530
+Wire Wire Line
+	-44615 -15530 -44655 -15530
+Connection ~ -44615 -15530
+$Comp
+L Device:Crystal Y1
+U 1 1 5FC9C6C4
+P -45650 -14555
+F 0 "Y1" H -45650 -14331 31  0000 C CNN
+F 1 "16MH" H -45650 -14393 31  0000 C CNN
+F 2 "Crystal:Resonator-2Pin_W10.0mm_H5.0mm" H -45650 -14555 50  0001 C CNN
+F 3 "~" H -45650 -14555 50  0001 C CNN
+	1    -45650 -14555
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-45420 -14470 -45510 -14470
+Wire Wire Line
+	-45510 -14470 -45510 -14405
+Wire Wire Line
+	-45510 -14405 -45650 -14405
+Wire Wire Line
+	-45420 -14670 -45510 -14670
+Wire Wire Line
+	-45510 -14670 -45510 -14705
+Wire Wire Line
+	-45510 -14705 -45650 -14705
+$Comp
+L Device:C C6
+U 1 1 5FC9C6C5
+P -45970 -14725
+F 0 "C6" H -46085 -14756 31  0000 R CNN
+F 1 "22P" H -46085 -14694 31  0000 R CNN
+F 2 "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm" H -45932 -14875 50  0001 C CNN
+F 3 "~" H -45970 -14725 50  0001 C CNN
+	1    -45970 -14725
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C5
+U 1 1 5FC9C6C6
+P -45970 -14375
+F 0 "C5" H -46085 -14406 31  0000 R CNN
+F 1 "22P" H -46085 -14344 31  0000 R CNN
+F 2 "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm" H -45932 -14525 50  0001 C CNN
+F 3 "~" H -45970 -14375 50  0001 C CNN
+	1    -45970 -14375
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-45650 -14705 -45820 -14705
+Wire Wire Line
+	-45820 -14705 -45820 -14725
+Connection ~ -45650 -14705
+Wire Wire Line
+	-45650 -14405 -45820 -14405
+Wire Wire Line
+	-45820 -14405 -45820 -14375
+Connection ~ -45650 -14405
+Wire Wire Line
+	-46120 -14375 -46270 -14375
+Wire Wire Line
+	-46120 -14725 -46270 -14725
+NoConn ~ -45420 -14270
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5FB3BE22
+P -46095 -15395
+F 0 "SW1" V -46126 -15247 31  0000 L CNN
+F 1 "SW_Push" V -46064 -15247 31  0000 L CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H7.3mm" H -46095 -15195 50  0001 C CNN
+F 3 "~" H -46095 -15195 50  0001 C CNN
+	1    -46095 -15395
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5F0302FA
+P -45990 -15825
+F 0 "R4" V -46153 -15825 31  0000 C CNN
+F 1 "10K" V -46091 -15825 31  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V -46060 -15825 50  0001 C CNN
+F 3 "~" H -45990 -15825 50  0001 C CNN
+	1    -45990 -15825
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:C C7
+U 1 1 5FC9C6C8
+P -45855 -15410
+F 0 "C7" H -45970 -15441 31  0000 R CNN
+F 1 "104" H -45970 -15379 31  0000 R CNN
+F 2 "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm" H -45817 -15560 50  0001 C CNN
+F 3 "~" H -45855 -15410 50  0001 C CNN
+	1    -45855 -15410
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	-45855 -15260 -45855 -15195
+Wire Wire Line
+	-46095 -15195 -45975 -15195
+Wire Wire Line
+	-45975 -15160 -45975 -15195
+Connection ~ -45975 -15195
+Wire Wire Line
+	-45975 -15195 -45855 -15195
+Wire Wire Line
+	-46095 -15660 -46095 -15595
+Wire Wire Line
+	-46095 -15660 -45990 -15660
+Wire Wire Line
+	-45990 -15675 -45990 -15660
+Connection ~ -45990 -15660
+Wire Wire Line
+	-45990 -15660 -45855 -15660
+Wire Wire Line
+	-45855 -15660 -45855 -15560
+Connection ~ -45855 -15660
+Wire Wire Line
+	-45420 -14870 -45420 -15660
+Wire Wire Line
+	-45855 -15660 -45420 -15660
+Text Label -44220 -13070 0    39   ~ 0
+RTC_SCL
+Text Label -44220 -12970 0    39   ~ 0
+RTC_SDA
+Text Label -45990 -15975 0    31   ~ 0
+5V
+Text Label -45975 -15160 3    31   ~ 0
+GND
+Text Label -44615 -15230 2    31   ~ 0
+GND
+Wire Wire Line
+	-44720 -15170 -44495 -15170
+Wire Wire Line
+	-44495 -15170 -44495 -15530
+Text Label -44655 -15530 2    31   ~ 0
+5V
+Text Label -44820 -15230 2    31   ~ 0
+5V
+Wire Wire Line
+	-46270 -14725 -46270 -14580
+Text Label -46205 -14535 0    31   ~ 0
+GND
+Wire Wire Line
+	-46270 -14580 -46205 -14580
+Wire Wire Line
+	-46205 -14580 -46205 -14535
+Connection ~ -46270 -14580
+Wire Wire Line
+	-46270 -14580 -46270 -14375
+Text Label -44820 -11170 0    31   ~ 0
+GND
+Text Label -44220 -12670 0    39   ~ 0
+SER
+Text Label -44220 -12870 0    39   ~ 0
+RCLK
+Text Label -44220 -11470 0    39   ~ 0
+REL_15
+Wire Notes Line
+	-46535 -16110 -46535 -11075
+Text Notes -45460 -16165 0    118  ~ 0
+MCU
+Text Label -44220 -11570 0    39   ~ 0
+EN_ESP32
+Text Label -44220 -12170 0    28   ~ 0
+RX-MCU
+Text Label -44220 -12070 0    28   ~ 0
+TX_MCU
+Text Label -44220 -13470 0    39   ~ 0
+MOSI
+Text Label -44220 -13370 0    39   ~ 0
+MISO
+Text Label -44220 -13270 0    39   ~ 0
+SCK
+Text Label -44220 -11670 0    39   ~ 0
+BOOT
+Text Label -44220 -13970 0    39   ~ 0
+SER_RELAYS
+Text Label -44220 -13670 0    39   ~ 0
+SCK_RELAYS
+Text Label -44220 -13770 0    39   ~ 0
+RCLK_RELAYS
+Text Label -44220 -13570 0    39   ~ 0
+Generator_Indicator
+Text Label -44220 -13870 0    31   ~ 0
+EN_SR
+Text Label -44220 -14170 0    39   ~ 0
+ROW1
+Text Label -44220 -14270 0    39   ~ 0
+ROW2
+Text Label -44220 -14370 0    39   ~ 0
+ROW3
+Text Label -44220 -14470 0    39   ~ 0
+ROW4
+Text Label -44220 -14570 0    39   ~ 0
+COL1
+Text Label -44220 -14670 0    39   ~ 0
+COL2
+Text Label -44220 -14770 0    39   ~ 0
+COL3
+Text Label -44220 -14870 0    39   ~ 0
+COL4
+Wire Notes Line
+	-43490 -16110 -43490 -11075
+Wire Notes Line
+	-46535 -11075 -43490 -11075
+Wire Notes Line
+	-46535 -16110 -43490 -16110
+Text Label -44220 -12470 0    39   ~ 0
+EN_BKL
+Text Label -44220 -11770 0    39   ~ 0
+Manual_Indicator
+$Comp
+L MCU_Microchip_ATmega:ATmega32-16PU U3
+U 1 1 5F030420
+P -44820 -13170
+F 0 "U3" H -44765 -13090 50  0000 R CNN
+F 1 "ATmega32-16PU" H -44620 -13155 31  0000 R CNN
+F 2 "Package_DIP:DIP-40_W15.24mm_Socket_LongPads" H -44820 -13170 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/doc2503.pdf" H -44820 -13170 50  0001 C CNN
+	1    -44820 -13170
+	1    0    0    -1  
+$EndComp
+Text Label -44220 -12770 0    39   ~ 0
+SRCLK
+Text Label -44220 -12570 0    39   ~ 0
+TX_logger
+Text Label -44220 -12370 0    39   ~ 0
+RX_logger
+Text Label -44220 -11970 0    39   ~ 0
+TX_Giro
+Text Label -44220 -11870 0    39   ~ 0
+RX_Giro
+Text Label -45420 -14870 2    39   ~ 0
+RST
+Wire Wire Line
+	-41115 -18035 -41115 -17990
+Text Label -40680 -15805 0    31   ~ 0
+GND
+Text Label -38895 -15835 0    31   ~ 0
+GND
+Wire Wire Line
+	-39420 -16220 -39420 -16120
+Connection ~ -39420 -16220
+Wire Wire Line
+	-38895 -16220 -38895 -16135
+Wire Wire Line
+	-39420 -16220 -38895 -16220
+$Comp
+L Device:C C10
+U 1 1 5FC41EB6
+P -38895 -15985
+F 0 "C10" H -38780 -15939 50  0000 L CNN
+F 1 "104" H -38780 -16030 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm" H -38857 -16135 50  0001 C CNN
+F 3 "~" H -38895 -15985 50  0001 C CNN
+	1    -38895 -15985
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-40265 -16235 -40265 -16115
+Connection ~ -40265 -16235
+Wire Wire Line
+	-40680 -16235 -40680 -16105
+Wire Wire Line
+	-40265 -16235 -40680 -16235
+$Comp
+L Device:C C3
+U 1 1 5FC2B8F6
+P -40680 -15955
+F 0 "C3" H -40565 -15909 50  0000 L CNN
+F 1 "334" H -40565 -16000 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm" H -40642 -16105 50  0001 C CNN
+F 3 "~" H -40680 -15955 50  0001 C CNN
+	1    -40680 -15955
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	-40875 -16815 -38595 -16815
+Wire Notes Line
+	-40875 -15525 -38595 -15525
+Wire Notes Line
+	-38595 -15525 -38595 -16815
+$Comp
+L Device:CP1 C9
+U 1 1 5FC00ED3
+P -39420 -15970
+F 0 "C9" H -39305 -15924 50  0000 L CNN
+F 1 "100UF" H -39305 -16015 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H -39420 -15970 50  0001 C CNN
+F 3 "~" H -39420 -15970 50  0001 C CNN
+	1    -39420 -15970
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C4
+U 1 1 5FC0024C
+P -40265 -15965
+F 0 "C4" H -40150 -15919 50  0000 L CNN
+F 1 "10UF" H -40150 -16010 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H -40265 -15965 50  0001 C CNN
+F 3 "~" H -40265 -15965 50  0001 C CNN
+	1    -40265 -15965
+	1    0    0    -1  
+$EndComp
+Text Notes -40135 -16755 0    59   ~ 0
+12-3.3V P.S\n 
+Text Notes -40335 -18515 0    59   ~ 0
+12-5V P.S\n 
+Text Label -39420 -15760 0    31   ~ 0
+GND
+Text Label -39845 -16130 0    31   ~ 0
+GND
+Text Label -40265 -15755 0    31   ~ 0
+GND
+Text Label -39420 -16525 0    39   ~ 0
+3.3V
+Connection ~ -39420 -16490
+Wire Wire Line
+	-39420 -16490 -39420 -16525
+Text Label -40770 -16525 0    39   ~ 0
+12V
+Wire Wire Line
+	-40770 -16490 -40770 -16525
+Text Label -41115 -17990 0    31   ~ 0
+GND
+Text Label -38555 -18235 0    31   ~ 0
+5V
+Wire Wire Line
+	-38555 -18185 -38555 -18235
+Text Label -40315 -18265 2    39   ~ 0
+12V
+Text Label -41595 -17740 2    31   ~ 0
+GND
+Text Label -39870 -17740 0    31   ~ 0
+GND
+Text Label -39495 -17830 0    31   ~ 0
+GND
+Text Label -39110 -17760 0    31   ~ 0
+GND
+Text Label -38755 -17475 0    31   ~ 0
+GND
+Wire Notes Line
+	-41900 -17200 -38415 -17200
+Wire Notes Line
+	-38415 -18570 -38415 -17200
+Wire Notes Line
+	-41900 -18570 -38415 -18570
+Wire Notes Line
+	-41900 -17200 -41900 -18570
+Wire Notes Line
+	-40875 -15525 -40875 -16815
+$Comp
+L Regulator_Linear:AMS1117-3.3 U2
+U 1 1 5EFD2210
+P -39845 -16490
+F 0 "U2" H -39845 -16248 50  0000 C CNN
+F 1 "AMS1117-3.3" H -39845 -16339 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H -39845 -16290 50  0001 C CNN
+F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H -39745 -16740 50  0001 C CNN
+	1    -39845 -16490
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-40265 -15755 -40265 -15815
+Wire Wire Line
+	-39420 -15760 -39420 -15820
+Wire Wire Line
+	-40770 -16490 -40660 -16490
+Wire Wire Line
+	-40360 -16490 -40265 -16490
+Wire Wire Line
+	-39420 -16490 -39420 -16220
+Wire Wire Line
+	-39545 -16490 -39420 -16490
+Wire Wire Line
+	-40265 -16490 -40265 -16235
+Connection ~ -40265 -16490
+Wire Wire Line
+	-40145 -16490 -40265 -16490
+Wire Wire Line
+	-39845 -16130 -39845 -16190
+$Comp
+L Device:R R3
+U 1 1 5EFD222E
+P -40510 -16490
+F 0 "R3" V -40717 -16490 50  0000 C CNN
+F 1 "10/3W" V -40626 -16490 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_Power_L20.0mm_W6.4mm_P25.40mm" V -40580 -16490 50  0001 C CNN
+F 3 "~" H -40510 -16490 50  0001 C CNN
+	1    -40510 -16490
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-41170 -18185 -41110 -18185
+Connection ~ -41170 -18185
+Wire Wire Line
+	-41170 -18105 -41170 -18185
+Wire Wire Line
+	-41000 -18105 -41170 -18105
+Wire Wire Line
+	-41000 -17805 -41000 -18105
+Wire Wire Line
+	-41220 -17805 -41000 -17805
+Wire Wire Line
+	-41220 -17920 -41220 -17805
+Wire Wire Line
+	-41595 -17920 -41220 -17920
+Wire Wire Line
+	-41595 -17840 -41595 -17920
+Wire Wire Line
+	-41240 -18185 -41170 -18185
+$Comp
+L Connector:Screw_Terminal_01x02 J2
+U 1 1 5EF55DDB
+P -41395 -17740
+F 0 "J2" V -41455 -17928 50  0000 R CNN
+F 1 "Input" V -41522 -17928 20  0000 R CNN
+F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal" H -41395 -17740 50  0001 C CNN
+F 3 "~" H -41395 -17740 50  0001 C CNN
+	1    -41395 -17740
+	1    0    0    1   
+$EndComp
+Connection ~ -41215 -18035
+Wire Wire Line
+	-41215 -18085 -41215 -18035
+Wire Wire Line
+	-41240 -18085 -41215 -18085
+Wire Wire Line
+	-41215 -18035 -41115 -18035
+Wire Wire Line
+	-41215 -17985 -41215 -18035
+Wire Wire Line
+	-41240 -17985 -41215 -17985
+Connection ~ -38755 -18185
+Wire Wire Line
+	-38555 -18185 -38755 -18185
+Wire Wire Line
+	-39110 -18185 -38755 -18185
+Connection ~ -39110 -18185
+Wire Wire Line
+	-39110 -18185 -39110 -18120
+Wire Wire Line
+	-39195 -18185 -39110 -18185
+Wire Wire Line
+	-38755 -17830 -38755 -17885
+Wire Wire Line
+	-38755 -17475 -38755 -17530
+$Comp
+L Device:R R2
+U 1 1 5E6CF33B
+P -38755 -18035
+F 0 "R2" H -38685 -17989 50  0000 L CNN
+F 1 "330" H -38685 -18080 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V -38825 -18035 50  0001 C CNN
+F 3 "~" H -38755 -18035 50  0001 C CNN
+	1    -38755 -18035
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 5E6CDFF8
+P -38755 -17680
+F 0 "D2" V -38716 -17797 50  0000 R CNN
+F 1 "LED" V -38807 -17797 50  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm" H -38755 -17680 50  0001 C CNN
+F 3 "~" H -38755 -17680 50  0001 C CNN
+	1    -38755 -17680
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Regulator_Linear:L7805 U1
+U 1 1 5FB3BE18
+P -39495 -18185
+F 0 "U1" H -39495 -17943 50  0000 C CNN
+F 1 "L7805" H -39495 -18034 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H -39470 -18335 50  0001 L CIN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H -39495 -18235 50  0001 C CNN
+	1    -39495 -18185
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5E6C8B29
+P -39110 -17970
+F 0 "C2" H -38995 -17924 50  0000 L CNN
+F 1 "104" H -38995 -18015 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm" H -39072 -18120 50  0001 C CNN
+F 3 "~" H -39110 -17970 50  0001 C CNN
+	1    -39110 -17970
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-39110 -17760 -39110 -17820
+Wire Wire Line
+	-39495 -17830 -39495 -17885
+Wire Wire Line
+	-39870 -17740 -39870 -17800
+Wire Wire Line
+	-39870 -18185 -39795 -18185
+Connection ~ -39870 -18185
+Wire Wire Line
+	-39870 -18100 -39870 -18185
+Wire Wire Line
+	-39960 -18185 -39870 -18185
+$Comp
+L Device:C C1
+U 1 1 5FB3BE17
+P -39870 -17950
+F 0 "C1" H -39755 -17904 50  0000 L CNN
+F 1 "334" H -39755 -17995 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm" H -39832 -18100 50  0001 C CNN
+F 3 "~" H -39870 -17950 50  0001 C CNN
+	1    -39870 -17950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-40315 -18185 -40260 -18185
+Connection ~ -40315 -18185
+Wire Wire Line
+	-40315 -18265 -40315 -18185
+Wire Wire Line
+	-40375 -18185 -40315 -18185
+$Comp
+L Device:R R1
+U 1 1 5FC9C6C3
+P -40110 -18185
+F 0 "R1" V -40317 -18185 50  0000 C CNN
+F 1 "10/2W" V -40226 -18185 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_Power_L20.0mm_W6.4mm_P25.40mm" V -40180 -18185 50  0001 C CNN
+F 3 "~" H -40110 -18185 50  0001 C CNN
+	1    -40110 -18185
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-40810 -18185 -40675 -18185
+$Comp
+L Diode:1N5407 D1
+U 1 1 5FB3BE14
+P -40525 -18185
+F 0 "D1" H -40525 -18401 50  0000 C CNN
+F 1 "1N5407" H -40525 -18310 50  0000 C CNN
+F 2 "Diode_THT:D_DO-201AD_P15.24mm_Horizontal" H -40525 -18360 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88516/1n5400.pdf" H -40525 -18185 50  0001 C CNN
+	1    -40525 -18185
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Fuse F1
+U 1 1 5FB3BE13
+P -40960 -18185
+F 0 "F1" V -41157 -18185 50  0000 C CNN
+F 1 "Fuse" V -41066 -18185 50  0000 C CNN
+F 2 "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open" V -41030 -18185 50  0001 C CNN
+F 3 "~" H -40960 -18185 50  0001 C CNN
+	1    -40960 -18185
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Barrel_Jack_Switch J1
+U 1 1 5E6B013A
+P -41540 -18085
+F 0 "J1" H -41483 -17768 50  0000 C CNN
+F 1 "Barrel_Jack_Switch" H -41483 -17859 50  0000 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H -41490 -18125 50  0001 C CNN
+F 3 "~" H -41490 -18125 50  0001 C CNN
+	1    -41540 -18085
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

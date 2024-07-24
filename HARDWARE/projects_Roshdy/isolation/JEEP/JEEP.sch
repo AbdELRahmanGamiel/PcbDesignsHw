@@ -1,0 +1,402 @@
+EESchema Schematic File Version 2  date 2013-07-24 5:53:58 PM
+LIBS:mostafa
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:JEEP-cache
+EELAYER 25  0
+EELAYER END
+$Descr A4 11700 8267
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "23 jul 2013"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 7720 2600 0    60   Italic 12
+3\n
+Text Notes 7710 2800 0    60   Italic 12
+2\n
+NoConn ~ 8020 1800
+NoConn ~ 8020 1900
+NoConn ~ 8020 2000
+NoConn ~ 8020 2100
+NoConn ~ 8020 2200
+NoConn ~ 8020 2300
+NoConn ~ 7650 2100
+NoConn ~ 7650 2200
+$Comp
+L GND #PWR01
+U 1 1 51EEDBF2
+P 7600 2350
+F 0 "#PWR01" H 7600 2350 30  0001 C CNN
+F 1 "GND" H 7600 2280 30  0001 C CNN
+	1    7600 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR02
+U 1 1 51EEDBE5
+P 8060 1650
+F 0 "#PWR02" H 8060 1750 30  0001 C CNN
+F 1 "VCC" H 8060 1750 30  0000 C CNN
+	1    8060 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8060 1650 8060 1700
+Wire Wire Line
+	8060 1700 8020 1700
+Wire Wire Line
+	7650 2000 7400 2000
+Wire Wire Line
+	7650 1800 7350 1800
+Wire Wire Line
+	7800 2800 7650 2800
+Wire Wire Line
+	7650 2800 7650 2700
+Wire Wire Line
+	7400 2650 7650 2650
+Wire Wire Line
+	7400 2650 7400 2000
+Connection ~ 6650 2400
+Wire Wire Line
+	6050 2400 7450 2400
+Wire Wire Line
+	7450 2400 7450 1900
+Wire Wire Line
+	6650 2000 6650 1950
+Wire Wire Line
+	6650 2400 6650 2450
+Wire Wire Line
+	6200 1850 6200 1800
+Connection ~ 6200 1500
+Wire Wire Line
+	6200 1450 6200 1500
+Connection ~ 6100 2000
+Wire Wire Line
+	6100 2050 6100 1900
+Wire Wire Line
+	6200 950  6200 900 
+Wire Wire Line
+	2050 2150 2050 2100
+Wire Wire Line
+	1800 1900 1800 2150
+Wire Wire Line
+	1800 1900 1700 1900
+Connection ~ 2050 1500
+Wire Wire Line
+	2150 1500 1800 1500
+Connection ~ 4800 2400
+Wire Wire Line
+	4850 1900 4800 1900
+Wire Wire Line
+	4800 1900 4800 2450
+Wire Wire Line
+	4800 2400 4850 2400
+Connection ~ 4150 1500
+Wire Wire Line
+	3700 2450 3600 2450
+Wire Wire Line
+	3600 2450 3600 2400
+Wire Wire Line
+	4150 1500 4150 1750
+Wire Wire Line
+	4150 1750 4050 1750
+Wire Wire Line
+	3300 1500 3600 1500
+Wire Wire Line
+	2050 1500 2050 1600
+Wire Wire Line
+	2650 1500 2800 1500
+Wire Wire Line
+	3600 1750 3650 1750
+Wire Wire Line
+	3600 1500 3600 1900
+Connection ~ 3600 1750
+Wire Wire Line
+	4200 2450 4250 2450
+Wire Wire Line
+	4850 1500 4100 1500
+Wire Wire Line
+	4800 2450 4750 2450
+Connection ~ 4650 1500
+Wire Wire Line
+	4650 2000 4850 2000
+Wire Wire Line
+	1800 1500 1800 1700
+Wire Wire Line
+	1800 1700 1700 1700
+Wire Wire Line
+	1800 2150 3400 2150
+Wire Wire Line
+	3400 2150 3400 2600
+Wire Wire Line
+	3400 2600 4650 2600
+Wire Wire Line
+	4650 2600 4650 1500
+Connection ~ 4650 2000
+Connection ~ 2050 2150
+Wire Wire Line
+	6100 1900 6050 1900
+Wire Wire Line
+	6100 2000 6050 2000
+Wire Wire Line
+	6200 2400 6200 2350
+Connection ~ 6200 2400
+Wire Wire Line
+	6650 1500 6650 1550
+Wire Wire Line
+	6650 2850 6650 2900
+Wire Wire Line
+	7450 1500 7450 1700
+Wire Wire Line
+	7450 1500 6050 1500
+Connection ~ 6650 1500
+Wire Wire Line
+	7350 1800 7350 2700
+Wire Wire Line
+	7350 2700 7650 2700
+Wire Wire Line
+	7800 2600 7650 2600
+Wire Wire Line
+	7650 2600 7650 2650
+Wire Wire Line
+	7450 1700 7650 1700
+Wire Wire Line
+	7450 1900 7650 1900
+Wire Wire Line
+	7650 2300 7600 2300
+Wire Wire Line
+	7600 2300 7600 2350
+$Comp
+L CONN_2 P3
+U 1 1 51EEDB93
+P 8150 2700
+F 0 "P3" V 8100 2700 40  0000 C CNN
+F 1 "CONN_2" V 8200 2700 40  0000 C CNN
+	1    8150 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L IC_14_PIN P2
+U 1 1 51EEA840
+P 7850 2000
+F 0 "P2" H 7800 2400 60  0000 C CNN
+F 1 "IC_14_PIN" H 7830 1610 50  0000 C CNN
+	1    7850 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 51EEA44C
+P 6650 2900
+F 0 "#PWR03" H 6650 2900 30  0001 C CNN
+F 1 "GND" H 6650 2830 30  0001 C CNN
+	1    6650 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR04
+U 1 1 51EEA447
+P 6650 2000
+F 0 "#PWR04" H 6650 2000 30  0001 C CNN
+F 1 "GND" H 6650 1930 30  0001 C CNN
+	1    6650 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1 C3
+U 1 1 51EEA3A4
+P 6650 2650
+F 0 "C3" H 6700 2750 50  0000 L CNN
+F 1 "100nf" H 6550 2550 50  0000 L CNN
+	1    6650 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1 C2
+U 1 1 51EEA398
+P 6650 1750
+F 0 "C2" H 6700 1850 50  0000 L CNN
+F 1 "100nf" H 6700 1650 50  0000 L CNN
+	1    6650 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR05
+U 1 1 51EEA364
+P 6200 1800
+F 0 "#PWR05" H 6200 1900 30  0001 C CNN
+F 1 "VCC" H 6200 1900 30  0000 C CNN
+	1    6200 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R7
+U 1 1 51EEA351
+P 6200 2100
+F 0 "R7" V 6280 2100 50  0000 C CNN
+F 1 "24k" V 6200 2100 50  0000 C CNN
+	1    6200 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR06
+U 1 1 51EEA302
+P 6100 2050
+F 0 "#PWR06" H 6100 2050 30  0001 C CNN
+F 1 "GND" H 6100 1980 30  0001 C CNN
+	1    6100 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR07
+U 1 1 51EEA2BF
+P 6200 900
+F 0 "#PWR07" H 6200 1000 30  0001 C CNN
+F 1 "VCC" H 6200 1000 30  0000 C CNN
+	1    6200 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R6
+U 1 1 51EEA291
+P 6200 1200
+F 0 "R6" V 6280 1200 50  0000 C CNN
+F 1 "24k" V 6200 1200 50  0000 C CNN
+	1    6200 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L PHOTOCOUPLER U2
+U 1 1 51EEA1B2
+P 5450 2200
+F 0 "U2" H 5460 2520 70  0000 C CNN
+F 1 "PHOTOCOUPLER" H 5450 1700 70  0000 C CNN
+	1    5450 2200
+	1    0    0    1   
+$EndComp
+$Comp
+L PHOTOCOUPLER U1
+U 1 1 51EEA1AD
+P 5450 1700
+F 0 "U1" H 5460 2020 70  0000 C CNN
+F 1 "PHOTOCOUPLER" H 5450 1150 70  0000 C CNN
+	1    5450 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIAC D2
+U 1 1 51EEA133
+P 4500 2450
+F 0 "D2" H 4500 2530 50  0000 C CNN
+F 1 "DIAC" H 4510 2370 40  0000 C CNN
+	1    4500 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIAC D1
+U 1 1 51EEA130
+P 3950 2450
+F 0 "D1" H 3950 2530 50  0000 C CNN
+F 1 "DIAC" H 3960 2370 40  0000 C CNN
+	1    3950 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C1
+U 1 1 51EE9FA4
+P 3850 1750
+F 0 "C1" H 3900 1850 50  0000 L CNN
+F 1 "10nf" H 3900 1650 50  0000 L CNN
+	1    3850 1750
+	0    1    1    0   
+$EndComp
+$Comp
+L R R4
+U 1 1 51EE9F9D
+P 3600 2150
+F 0 "R4" V 3680 2150 50  0000 C CNN
+F 1 "68K" V 3600 2150 50  0000 C CNN
+	1    3600 2150
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R5
+U 1 1 51EE9F97
+P 3850 1500
+F 0 "R5" V 3930 1500 50  0000 C CNN
+F 1 "68K" V 3850 1500 50  0000 C CNN
+	1    3850 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L R R3
+U 1 1 51EE9F92
+P 3050 1500
+F 0 "R3" V 3130 1500 50  0000 C CNN
+F 1 "68K" V 3050 1500 50  0000 C CNN
+	1    3050 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L R R2
+U 1 1 51EE9F89
+P 2400 1500
+F 0 "R2" V 2480 1500 50  0000 C CNN
+F 1 "68K" V 2400 1500 50  0000 C CNN
+	1    2400 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L R R1
+U 1 1 51EE9F83
+P 2050 1850
+F 0 "R1" V 2130 1850 50  0000 C CNN
+F 1 "68K" V 2050 1850 50  0000 C CNN
+	1    2050 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_2 P1
+U 1 1 51EE9F76
+P 1350 1800
+F 0 "P1" V 1300 1800 40  0000 C CNN
+F 1 "CONN_2" V 1400 1800 40  0000 C CNN
+	1    1350 1800
+	-1   0    0    1   
+$EndComp
+$EndSCHEMATC

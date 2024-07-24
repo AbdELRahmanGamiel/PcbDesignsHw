@@ -1,0 +1,650 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	9290 4475 9290 4415
+$Comp
+L Device:C C8
+U 1 1 5FB3BE1C
+P 9495 4265
+F 0 "C8" V 9287 4265 31  0000 C CNN
+F 1 "0.1UF" V 9349 4265 31  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm" H 9533 4115 50  0001 C CNN
+F 3 "~" H 9495 4265 50  0001 C CNN
+	1    9495 4265
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9615 4115 9495 4115
+Wire Wire Line
+	9495 4115 9455 4115
+Connection ~ 9495 4115
+NoConn ~ 8690 5375
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5FF45665
+P 8015 4250
+F 0 "SW1" V 7984 4398 31  0000 L CNN
+F 1 "SW_Push" V 8046 4398 31  0000 L CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H7.3mm" H 8015 4450 50  0001 C CNN
+F 3 "~" H 8015 4450 50  0001 C CNN
+	1    8015 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C7
+U 1 1 5FF4566E
+P 8255 4235
+F 0 "C7" H 8140 4204 31  0000 R CNN
+F 1 "104" H 8140 4266 31  0000 R CNN
+F 2 "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm" H 8293 4085 50  0001 C CNN
+F 3 "~" H 8255 4235 50  0001 C CNN
+	1    8255 4235
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8255 4385 8255 4450
+Wire Wire Line
+	8015 4450 8135 4450
+Wire Wire Line
+	8135 4485 8135 4450
+Connection ~ 8135 4450
+Wire Wire Line
+	8135 4450 8255 4450
+Wire Wire Line
+	8015 3985 8015 4050
+Wire Wire Line
+	8015 3985 8120 3985
+Wire Wire Line
+	8120 3970 8120 3985
+Connection ~ 8120 3985
+Wire Wire Line
+	8120 3985 8255 3985
+Wire Wire Line
+	8255 3985 8255 4085
+Connection ~ 8255 3985
+Wire Wire Line
+	8690 4775 8690 3985
+Wire Wire Line
+	8255 3985 8690 3985
+Text Label 8120 3670 0    31   ~ 0
+5V
+Text Label 8135 4485 3    31   ~ 0
+GND
+Text Label 9495 4415 2    31   ~ 0
+GND
+Wire Wire Line
+	9390 4475 9615 4475
+Wire Wire Line
+	9615 4475 9615 4115
+Text Label 9455 4115 2    31   ~ 0
+5V
+Text Label 9290 4415 2    31   ~ 0
+5V
+Text Label 9290 8475 0    31   ~ 0
+GND
+Text Notes 8655 3480 0    118  ~ 0
+MCU
+Wire Notes Line
+	7580 3535 10625 3535
+Text Label 8690 4775 2    39   ~ 0
+RST
+Wire Wire Line
+	12890 1585 12890 1630
+Text Label 13325 3815 0    31   ~ 0
+GND
+Text Label 15110 3785 0    31   ~ 0
+GND
+Wire Wire Line
+	14585 3400 14585 3500
+Connection ~ 14585 3400
+Wire Wire Line
+	15110 3400 15110 3485
+Wire Wire Line
+	14585 3400 15110 3400
+$Comp
+L Device:C C10
+U 1 1 5FC41EB6
+P 15110 3635
+F 0 "C10" H 15225 3681 50  0000 L CNN
+F 1 "104" H 15225 3590 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm" H 15148 3485 50  0001 C CNN
+F 3 "~" H 15110 3635 50  0001 C CNN
+	1    15110 3635
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13740 3385 13740 3505
+Connection ~ 13740 3385
+Wire Wire Line
+	13325 3385 13325 3515
+Wire Wire Line
+	13740 3385 13325 3385
+$Comp
+L Device:C C3
+U 1 1 5FC2B8F6
+P 13325 3665
+F 0 "C3" H 13440 3711 50  0000 L CNN
+F 1 "334" H 13440 3620 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm" H 13363 3515 50  0001 C CNN
+F 3 "~" H 13325 3665 50  0001 C CNN
+	1    13325 3665
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	13130 2805 15410 2805
+Wire Notes Line
+	13130 4095 15410 4095
+Wire Notes Line
+	15410 4095 15410 2805
+$Comp
+L Device:CP1 C9
+U 1 1 5FC00ED3
+P 14585 3650
+F 0 "C9" H 14700 3696 50  0000 L CNN
+F 1 "100UF" H 14700 3605 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 14585 3650 50  0001 C CNN
+F 3 "~" H 14585 3650 50  0001 C CNN
+	1    14585 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C4
+U 1 1 5FC0024C
+P 13740 3655
+F 0 "C4" H 13855 3701 50  0000 L CNN
+F 1 "10UF" H 13855 3610 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 13740 3655 50  0001 C CNN
+F 3 "~" H 13740 3655 50  0001 C CNN
+	1    13740 3655
+	1    0    0    -1  
+$EndComp
+Text Notes 13870 2865 0    59   ~ 0
+12-3.3V P.S\n 
+Text Notes 13670 1105 0    59   ~ 0
+12-5V P.S\n 
+Text Label 14585 3860 0    31   ~ 0
+GND
+Text Label 14160 3490 0    31   ~ 0
+GND
+Text Label 13740 3865 0    31   ~ 0
+GND
+Text Label 14585 3095 0    39   ~ 0
+3.3V
+Connection ~ 14585 3130
+Wire Wire Line
+	14585 3130 14585 3095
+Text Label 13235 3095 0    39   ~ 0
+12V
+Wire Wire Line
+	13235 3130 13235 3095
+Text Label 12890 1630 0    31   ~ 0
+GND
+Text Label 15450 1385 0    31   ~ 0
+5V
+Wire Wire Line
+	15450 1435 15450 1385
+Text Label 13690 1355 2    39   ~ 0
+12V
+Text Label 12410 1880 2    31   ~ 0
+GND
+Text Label 14135 1880 0    31   ~ 0
+GND
+Text Label 14510 1790 0    31   ~ 0
+GND
+Text Label 14895 1860 0    31   ~ 0
+GND
+Text Label 15250 2145 0    31   ~ 0
+GND
+Wire Notes Line
+	12105 2420 15590 2420
+Wire Notes Line
+	15590 1050 15590 2420
+Wire Notes Line
+	12105 1050 15590 1050
+Wire Notes Line
+	12105 2420 12105 1050
+Wire Notes Line
+	13130 4095 13130 2805
+$Comp
+L Regulator_Linear:AMS1117-3.3 U2
+U 1 1 5FF4565C
+P 14160 3130
+F 0 "U2" H 14160 3372 50  0000 C CNN
+F 1 "AMS1117-3.3" H 14160 3281 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 14160 3330 50  0001 C CNN
+F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 14260 2880 50  0001 C CNN
+	1    14160 3130
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13740 3865 13740 3805
+Wire Wire Line
+	14585 3860 14585 3800
+Wire Wire Line
+	13235 3130 13345 3130
+Wire Wire Line
+	13645 3130 13740 3130
+Wire Wire Line
+	14585 3130 14585 3400
+Wire Wire Line
+	14460 3130 14585 3130
+Wire Wire Line
+	13740 3130 13740 3385
+Connection ~ 13740 3130
+Wire Wire Line
+	13860 3130 13740 3130
+Wire Wire Line
+	14160 3490 14160 3430
+$Comp
+L Device:R R3
+U 1 1 5EFD222E
+P 13495 3130
+F 0 "R3" V 13288 3130 50  0000 C CNN
+F 1 "10/3W" V 13379 3130 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_Power_L20.0mm_W6.4mm_P25.40mm" V 13425 3130 50  0001 C CNN
+F 3 "~" H 13495 3130 50  0001 C CNN
+	1    13495 3130
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12835 1435 12895 1435
+Connection ~ 12835 1435
+Wire Wire Line
+	12835 1515 12835 1435
+Wire Wire Line
+	13005 1515 12835 1515
+Wire Wire Line
+	13005 1815 13005 1515
+Wire Wire Line
+	12785 1815 13005 1815
+Wire Wire Line
+	12785 1700 12785 1815
+Wire Wire Line
+	12410 1700 12785 1700
+Wire Wire Line
+	12410 1780 12410 1700
+Wire Wire Line
+	12765 1435 12835 1435
+$Comp
+L Connector:Screw_Terminal_01x02 J2
+U 1 1 5EF55DDB
+P 12610 1880
+F 0 "J2" V 12550 1692 50  0000 R CNN
+F 1 "Input" V 12483 1692 20  0000 R CNN
+F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal" H 12610 1880 50  0001 C CNN
+F 3 "~" H 12610 1880 50  0001 C CNN
+	1    12610 1880
+	1    0    0    1   
+$EndComp
+Connection ~ 12790 1585
+Wire Wire Line
+	12790 1535 12790 1585
+Wire Wire Line
+	12765 1535 12790 1535
+Wire Wire Line
+	12790 1585 12890 1585
+Wire Wire Line
+	12790 1635 12790 1585
+Wire Wire Line
+	12765 1635 12790 1635
+Connection ~ 15250 1435
+Wire Wire Line
+	15450 1435 15250 1435
+Wire Wire Line
+	14895 1435 15250 1435
+Connection ~ 14895 1435
+Wire Wire Line
+	14895 1435 14895 1500
+Wire Wire Line
+	14810 1435 14895 1435
+Wire Wire Line
+	15250 1790 15250 1735
+Wire Wire Line
+	15250 2145 15250 2090
+$Comp
+L Device:R R2
+U 1 1 5FF4565A
+P 15250 1585
+F 0 "R2" H 15320 1631 50  0000 L CNN
+F 1 "330" H 15320 1540 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 15180 1585 50  0001 C CNN
+F 3 "~" H 15250 1585 50  0001 C CNN
+	1    15250 1585
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 5E6CDFF8
+P 15250 1940
+F 0 "D2" V 15289 1823 50  0000 R CNN
+F 1 "LED" V 15198 1823 50  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm" H 15250 1940 50  0001 C CNN
+F 3 "~" H 15250 1940 50  0001 C CNN
+	1    15250 1940
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Regulator_Linear:L7805 U1
+U 1 1 5FF45663
+P 14510 1435
+F 0 "U1" H 14510 1677 50  0000 C CNN
+F 1 "L7805" H 14510 1586 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 14535 1285 50  0001 L CIN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 14510 1385 50  0001 C CNN
+	1    14510 1435
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5E6C8B29
+P 14895 1650
+F 0 "C2" H 15010 1696 50  0000 L CNN
+F 1 "104" H 15010 1605 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm" H 14933 1500 50  0001 C CNN
+F 3 "~" H 14895 1650 50  0001 C CNN
+	1    14895 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14895 1860 14895 1800
+Wire Wire Line
+	14510 1790 14510 1735
+Wire Wire Line
+	14135 1880 14135 1820
+Wire Wire Line
+	14135 1435 14210 1435
+Connection ~ 14135 1435
+Wire Wire Line
+	14135 1520 14135 1435
+Wire Wire Line
+	14045 1435 14135 1435
+$Comp
+L Device:C C1
+U 1 1 5FF45662
+P 14135 1670
+F 0 "C1" H 14250 1716 50  0000 L CNN
+F 1 "334" H 14250 1625 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm" H 14173 1520 50  0001 C CNN
+F 3 "~" H 14135 1670 50  0001 C CNN
+	1    14135 1670
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13690 1435 13745 1435
+Connection ~ 13690 1435
+Wire Wire Line
+	13690 1355 13690 1435
+Wire Wire Line
+	13630 1435 13690 1435
+$Comp
+L Device:R R1
+U 1 1 5FC9C6C3
+P 13895 1435
+F 0 "R1" V 13688 1435 50  0000 C CNN
+F 1 "10/2W" V 13779 1435 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_Power_L20.0mm_W6.4mm_P25.40mm" V 13825 1435 50  0001 C CNN
+F 3 "~" H 13895 1435 50  0001 C CNN
+	1    13895 1435
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13195 1435 13330 1435
+$Comp
+L Diode:1N5407 D1
+U 1 1 5FF45661
+P 13480 1435
+F 0 "D1" H 13480 1219 50  0000 C CNN
+F 1 "1N5407" H 13480 1310 50  0000 C CNN
+F 2 "Diode_THT:D_DO-201AD_P15.24mm_Horizontal" H 13480 1260 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88516/1n5400.pdf" H 13480 1435 50  0001 C CNN
+	1    13480 1435
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Fuse F1
+U 1 1 5FF45660
+P 13045 1435
+F 0 "F1" V 12848 1435 50  0000 C CNN
+F 1 "Fuse" V 12939 1435 50  0000 C CNN
+F 2 "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open" V 12975 1435 50  0001 C CNN
+F 3 "~" H 13045 1435 50  0001 C CNN
+	1    13045 1435
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Barrel_Jack_Switch J1
+U 1 1 5E6B013A
+P 12465 1535
+F 0 "J1" H 12522 1852 50  0000 C CNN
+F 1 "Barrel_Jack_Switch" H 12522 1761 50  0000 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 12515 1495 50  0001 C CNN
+F 3 "~" H 12515 1495 50  0001 C CNN
+	1    12465 1535
+	1    0    0    -1  
+$EndComp
+$Comp
+L Timer_RTC:DS1307+ U25
+U 1 1 5FBAF0A7
+P 14740 8980
+F 0 "U25" H 15284 9026 50  0000 L CNN
+F 1 "DS1307+" H 15284 8935 50  0000 L CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_Socket_LongPads" H 14740 8480 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/DS1307.pdf" H 14740 8780 50  0001 C CNN
+	1    14740 8980
+	1    0    0    -1  
+$EndComp
+NoConn ~ 15240 8980
+$Comp
+L Device:Crystal Y2
+U 1 1 5FBB2313
+P 13870 9135
+F 0 "Y2" V 13916 9004 50  0000 R CNN
+F 1 "Crystal" V 13670 9270 50  0000 R CNN
+F 2 "Crystal:Resonator-2Pin_W10.0mm_H5.0mm" H 13870 9135 50  0001 C CNN
+F 3 "~" H 13870 9135 50  0001 C CNN
+	1    13870 9135
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14240 9080 14140 9080
+Wire Wire Line
+	14140 9080 14140 8985
+Wire Wire Line
+	14140 8985 13870 8985
+Wire Wire Line
+	14240 9180 14150 9180
+Wire Wire Line
+	14150 9180 14150 9285
+Wire Wire Line
+	14150 9285 13870 9285
+Text Label 14240 8780 2    39   ~ 0
+RTC_SCL
+Text Label 14240 8880 2    39   ~ 0
+RTC_SDA
+$Comp
+L Device:Battery_Cell BT1
+U 1 1 5FBB7C72
+P 15340 9440
+F 0 "BT1" V 15085 9490 50  0000 C CNN
+F 1 "Battery_Cell" V 15176 9490 50  0000 C CNN
+F 2 "Battery:BatteryHolder_Keystone_103_1x20mm" V 15340 9500 50  0001 C CNN
+F 3 "~" V 15340 9500 50  0001 C CNN
+	1    15340 9440
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14740 8580 14740 8490
+Wire Wire Line
+	14740 8490 15675 8490
+$Comp
+L Device:R R57
+U 1 1 5FBC03CF
+P 13815 8780
+F 0 "R57" V 13740 8705 50  0000 L CNN
+F 1 "10K" V 13815 8715 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 13745 8780 50  0001 C CNN
+F 3 "~" H 13815 8780 50  0001 C CNN
+	1    13815 8780
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14240 8780 13965 8780
+Wire Wire Line
+	14240 8880 13965 8880
+$Comp
+L Device:R R58
+U 1 1 5FBC5DF4
+P 13815 8880
+F 0 "R58" V 13890 8810 50  0000 L CNN
+F 1 "10K" V 13815 8815 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 13745 8880 50  0001 C CNN
+F 3 "~" H 13815 8880 50  0001 C CNN
+	1    13815 8880
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13665 8880 13665 8780
+Wire Notes Line
+	15745 9730 15745 8360
+Wire Notes Line
+	15745 8360 13585 8360
+Wire Notes Line
+	13585 8360 13585 9730
+Wire Notes Line
+	13585 9730 15745 9730
+Text Notes 14545 8325 0    59   ~ 0
+RTC\n
+Wire Wire Line
+	15675 8490 15675 9440
+Wire Wire Line
+	15675 9440 15540 9440
+Text Label 14910 9530 0    31   ~ 0
+GND
+Wire Wire Line
+	14740 9440 14740 9380
+Wire Wire Line
+	14740 9440 14910 9440
+Wire Wire Line
+	14910 9530 14910 9440
+Connection ~ 14910 9440
+Wire Wire Line
+	14910 9440 15240 9440
+Text Label 14640 8580 0    31   ~ 0
+5V
+Wire Wire Line
+	13665 8780 13665 8735
+Connection ~ 13665 8780
+Text Label 13665 8735 0    31   ~ 0
+5V
+$Comp
+L MCU_Microchip_ATmega:ATmega128A-AU U?
+U 1 1 5FFB1E17
+P 9290 6475
+F 0 "U?" H 9290 4386 50  0000 C CNN
+F 1 "ATmega128A-AU" H 9290 4295 50  0000 C CNN
+F 2 "Package_QFP:TQFP-64_14x14mm_P0.8mm" H 9290 6475 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8151-8-bit-AVR-ATmega128A_Datasheet.pdf" H 9290 6475 50  0001 C CNN
+	1    9290 6475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7840 5065 7840 5270
+Connection ~ 7840 5065
+Wire Wire Line
+	7905 5065 7905 5110
+Wire Wire Line
+	7840 5065 7905 5065
+Text Label 7905 5110 0    31   ~ 0
+GND
+Wire Wire Line
+	7840 4920 7840 5065
+Wire Wire Line
+	7990 4920 7840 4920
+Wire Wire Line
+	7990 5270 7840 5270
+Connection ~ 8460 5240
+Wire Wire Line
+	8290 5240 8290 5270
+Wire Wire Line
+	8460 5240 8290 5240
+Connection ~ 8460 4940
+Wire Wire Line
+	8290 4940 8290 4920
+Wire Wire Line
+	8460 4940 8290 4940
+$Comp
+L Device:C C5
+U 1 1 5FF4566D
+P 8140 5270
+F 0 "C5" H 8025 5239 31  0000 R CNN
+F 1 "22P" H 8025 5301 31  0000 R CNN
+F 2 "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm" H 8178 5120 50  0001 C CNN
+F 3 "~" H 8140 5270 50  0001 C CNN
+	1    8140 5270
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C6
+U 1 1 5FF4566C
+P 8140 4920
+F 0 "C6" H 8025 4889 31  0000 R CNN
+F 1 "22P" H 8025 4951 31  0000 R CNN
+F 2 "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm" H 8178 4770 50  0001 C CNN
+F 3 "~" H 8140 4920 50  0001 C CNN
+	1    8140 4920
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8600 4940 8460 4940
+Wire Wire Line
+	8600 4975 8600 4940
+Wire Wire Line
+	8690 4975 8600 4975
+Wire Wire Line
+	8600 5240 8460 5240
+Wire Wire Line
+	8600 5175 8600 5240
+Wire Wire Line
+	8690 5175 8600 5175
+$Comp
+L Device:Crystal Y1
+U 1 1 5FC9C6C4
+P 8460 5090
+F 0 "Y1" H 8460 5314 31  0000 C CNN
+F 1 "16MH" H 8460 5252 31  0000 C CNN
+F 2 "Crystal:Resonator-2Pin_W10.0mm_H5.0mm" H 8460 5090 50  0001 C CNN
+F 3 "~" H 8460 5090 50  0001 C CNN
+	1    8460 5090
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5F0302FA
+P 8120 3820
+F 0 "R4" V 7957 3820 31  0000 C CNN
+F 1 "10K" V 8019 3820 31  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8050 3820 50  0001 C CNN
+F 3 "~" H 8120 3820 50  0001 C CNN
+	1    8120 3820
+	1    0    0    1   
+$EndComp
+Wire Notes Line
+	10625 8895 7580 8895
+Wire Notes Line
+	7580 3535 7580 8895
+Wire Notes Line
+	10625 3535 10625 8895
+$EndSCHEMATC

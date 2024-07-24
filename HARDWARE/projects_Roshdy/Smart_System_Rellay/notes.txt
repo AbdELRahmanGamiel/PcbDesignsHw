@@ -1,0 +1,6 @@
+1.layout pico
+2.layout relay 
+3.connect pin 9 to relay 3
+4.take 12v to keypad from 5v power suply
+5.zener layout (pic)
+6.thank you

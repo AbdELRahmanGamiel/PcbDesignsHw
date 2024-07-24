@@ -1,0 +1,400 @@
+# EESchema Netlist Version 1.1 created  6/22/2013 8:17:44 AM
+(
+ ( /513573D5 $noname  R4 89R {Lib=R}
+  (    1 /d- )
+  (    2 /14 )
+ )
+ ( /513573CD $noname  R5 89R {Lib=R}
+  (    1 /d- )
+  (    2 VCC )
+ )
+ ( /51357228 $noname  R6 89R {Lib=R}
+  (    1 /d+ )
+  (    2 /4 )
+ )
+ ( /513571E9 $noname  D4 ZENER_3.6V {Lib=ZENER}
+  (    1 GND )
+  (    2 /d+ )
+ )
+ ( /513571DD $noname  D3 ZENER_3.6 {Lib=ZENER}
+  (    1 GND )
+  (    2 /d- )
+ )
+ ( /51356E34 $noname  C5 4.7uf {Lib=CP1}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /51356E2C $noname  C6 100nf {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /5135599E $noname  C4 22pf {Lib=C}
+  (    1 GND )
+  (    2 /xtl )
+ )
+ ( /5135599D $noname  C3 22pf {Lib=C}
+  (    1 /C )
+  (    2 GND )
+ )
+ ( /5135599C $noname  X2 CRYSTAL_12M {Lib=CRYSTAL}
+  (    1 /xtl )
+  (    2 /C )
+ )
+ ( /51355869 $noname  K1 jumper {Lib=CONN_3}
+  (    1 /C )
+  (    2 /6_PIC )
+  (    3 /pin_36 )
+ )
+ ( /513551A8 $noname  J1 USB {Lib=USB}
+  (    1 VCC )
+  (    2 /d- )
+  (    3 /d+ )
+  (    4 GND )
+  (    5 ? )
+  (    6 ? )
+ )
+ ( /51354F70 $noname  P2 ZIFF_SOKET {Lib=DIL40}
+  (    1 ? )
+  (    2 /16 )
+  (    3 ? )
+  (    4 /16 )
+  (    5 /xtl )
+  (    6 /6_PIC )
+  (    7 /7_PIC )
+  (    8 /19 )
+  (    9 /16 )
+  (   10 VCC )
+  (   11 GND )
+  (   12 /C )
+  (   13 /xtl )
+  (   14 ? )
+  (   15 ? )
+  (   16 ? )
+  (   17 /16 )
+  (   18 /C )
+  (   19 /xtl )
+  (   20 GND )
+  (   21 /pin_36 )
+  (   22 /7_PIC )
+  (   23 /19 )
+  (   24 VCC )
+  (   25 ? )
+  (   26 /pin_36 )
+  (   27 /7_PIC )
+  (   28 /19 )
+  (   29 VCC )
+  (   30 VCC )
+  (   31 ? )
+  (   32 ? )
+  (   33 ? )
+  (   34 ? )
+  (   35 ? )
+  (   36 /pin_36 )
+  (   37 /7_PIC )
+  (   38 /19 )
+  (   39 VCC )
+  (   40 VCC )
+ )
+ ( /51354EA8 $noname  JP1 JUMPER {Lib=JUMPER}
+  (    1 GND )
+  (    2 /25 )
+ )
+ ( /51354E28 DIL28  IC1 ATMEGA8A-P {Lib=ATMEGA8A-P}
+  (    1 N-000040 )
+  (    2 ? )
+  (    3 ? )
+  (    4 /4 )
+  (    5 ? )
+  (    6 ? )
+  (    7 VCC )
+  (    8 GND )
+  (    9 N-000027 )
+  (   10 N-000043 )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 /14 )
+  (   15 /4 )
+  (   16 /16 )
+  (   17 /pin_36 )
+  (   18 /7_PIC )
+  (   19 /19 )
+  (   20 VCC )
+  (   21 ? )
+  (   22 GND )
+  (   23 /23 )
+  (   24 /24 )
+  (   25 /25 )
+  (   26 ? )
+  (   27 ? )
+  (   28 ? )
+ )
+ ( /51354D85 $noname  X1 CRYSTAL_12M {Lib=CRYSTAL}
+  (    1 N-000043 )
+  (    2 N-000027 )
+ )
+ ( /51354D7C $noname  C1 22pf {Lib=C}
+  (    1 N-000027 )
+  (    2 GND )
+ )
+ ( /51354D70 $noname  C2 22pf {Lib=C}
+  (    1 GND )
+  (    2 N-000043 )
+ )
+ ( /51354C55 $noname  D2 LED {Lib=LED}
+  (    1 VCC )
+  (    2 N-000034 )
+ )
+ ( /51354C4F $noname  D1 LED {Lib=LED}
+  (    1 VCC )
+  (    2 N-000033 )
+ )
+ ( /51354C49 $noname  R3 10k {Lib=R}
+  (    1 /24 )
+  (    2 N-000034 )
+ )
+ ( /51354C46 $noname  R2 10k {Lib=R}
+  (    1 /23 )
+  (    2 N-000033 )
+ )
+ ( /51354C3E $noname  R1 10k {Lib=R}
+  (    1 N-000040 )
+  (    2 VCC )
+ )
+ ( /51354C0F $noname  P1 CONN_6 {Lib=CONN_6}
+  (    1 /pin_36 )
+  (    2 /7_PIC )
+  (    3 /19 )
+  (    4 /16 )
+  (    5 VCC )
+  (    6 GND )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component D4
+ D?
+ SO*
+ SM*
+$endlist
+$component D3
+ D?
+ SO*
+ SM*
+$endlist
+$component C5
+ CP*
+ SM*
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component IC1
+ 28DIP-ELL600
+ 28dip600
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "GND" "GND"
+ C4 1
+ D4 1
+ C5 2
+ C6 2
+ D3 1
+ P1 6
+ IC1 8
+ C2 1
+ C1 2
+ IC1 22
+ P2 11
+ P2 20
+ JP1 1
+ C3 2
+ J1 4
+Net 4 "/d+" "d+"
+ D4 2
+ J1 3
+ R6 1
+Net 5 "VCC" "VCC"
+ D1 1
+ P2 40
+ P2 30
+ P2 10
+ D2 1
+ R1 2
+ P2 24
+ R5 2
+ P2 29
+ P2 39
+ J1 1
+ IC1 20
+ IC1 7
+ C5 1
+ P1 5
+ C6 1
+Net 14 "/6 PIC" "6 PIC"
+ K1 2
+ P2 6
+Net 15 "/C" "C"
+ P2 18
+ K1 1
+ X2 2
+ C3 1
+ P2 12
+Net 21 "/16" "16"
+ IC1 16
+ P2 17
+ P2 9
+ P1 4
+ P2 2
+ P2 4
+Net 22 "/4" "4"
+ R6 2
+ IC1 15
+ IC1 4
+Net 27 "" ""
+ X1 2
+ C1 1
+ IC1 9
+Net 30 "/7 PIC" "7 PIC"
+ P1 2
+ P2 22
+ IC1 18
+ P2 27
+ P2 37
+ P2 7
+Net 31 "/pin 36" "pin 36"
+ P2 26
+ P2 36
+ P1 1
+ IC1 17
+ P2 21
+ K1 3
+Net 32 "/24" "24"
+ R3 1
+ IC1 24
+Net 33 "" ""
+ D1 2
+ R2 2
+Net 34 "" ""
+ D2 2
+ R3 2
+Net 35 "/19" "19"
+ P2 23
+ P2 28
+ P2 38
+ P2 8
+ IC1 19
+ P1 3
+Net 37 "/xtl" "xtl"
+ C4 2
+ X2 1
+ P2 19
+ P2 5
+ P2 13
+Net 39 "/23" "23"
+ R2 1
+ IC1 23
+Net 40 "" ""
+ IC1 1
+ R1 1
+Net 41 "/25" "25"
+ JP1 2
+ IC1 25
+Net 43 "" ""
+ IC1 10
+ C2 2
+ X1 1
+Net 44 "/14" "14"
+ R4 2
+ IC1 14
+Net 46 "/d-" "d-"
+ D3 2
+ R5 1
+ J1 2
+ R4 1
+}
+#End

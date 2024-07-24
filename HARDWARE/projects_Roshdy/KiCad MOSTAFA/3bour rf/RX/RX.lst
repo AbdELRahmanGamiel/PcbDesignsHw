@@ -1,0 +1,23 @@
+eeschema (2011-04-29 BZR 2986)-stable  >> Creation date: 6/4/2012 10:38:37 AM
+
+#Cmp ( order = Reference )
+| C1         220uF-25v   
+| D1         1N4001      
+| D2         GREEN LED   
+| D3         LED         
+| D4         1n4148      
+| K1         RF-RX       
+| K2         RELAY_5PIN  
+| K3         OUT         
+| P1         PWR         
+| R1         330R-0.25w  
+| R2         220R-0.25w  
+| R3         33k-0.25w   
+| R4         180R-0.25W  
+| SW1        SWITCH_6PIN 
+| U1         7805        
+| U2         HT-12D      
+| U3         EL817       
+#End Cmp
+
+#End List

@@ -1,0 +1,199 @@
+Cmp-Mod V01 Created by CvPCB (2011-04-29 BZR 2986)-stable date = 4/27/2014 2:44:52 PM
+
+BeginCmp
+TimeStamp = /535CEE03;
+Reference = BT1;
+ValeurCmp = BATTERY;
+IdModule  = CR2032H;
+EndCmp
+
+BeginCmp
+TimeStamp = /535CE88F;
+Reference = C1;
+ValeurCmp = 2200UF_25v;
+IdModule  = CAP_2200_25V;
+EndCmp
+
+BeginCmp
+TimeStamp = /535CE895;
+Reference = C2;
+ValeurCmp = 103;
+IdModule  = C-P_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /535CE8B2;
+Reference = C3;
+ValeurCmp = 103;
+IdModule  = C-P_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /535CCB79;
+Reference = C4;
+ValeurCmp = 0.1uF;
+IdModule  = C-P_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /535CE50F;
+Reference = D1;
+ValeurCmp = 1n004;
+IdModule  = D_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /535CE4E9;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = LED-5MM-etc;
+EndCmp
+
+BeginCmp
+TimeStamp = /535CEADF;
+Reference = GS1;
+ValeurCmp = jumper;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /535CCB25;
+Reference = IC1;
+ValeurCmp = ATMEGA32-P;
+IdModule  = DIP-40__600_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /535CE973;
+Reference = J1;
+ValeurCmp = SIL4;
+IdModule  = SIL-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /535CE522;
+Reference = K1;
+ValeurCmp = RELAY_5PIN;
+IdModule  = RELAY_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /535CE547;
+Reference = K2;
+ValeurCmp = CONN_3;
+IdModule  = ROZT_3_PIN_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /535CE872;
+Reference = P1;
+ValeurCmp = input_12v;
+IdModule  = ROZITA_2PIN_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /535CE184;
+Reference = P2;
+ValeurCmp = from_pannel;
+IdModule  = ROZITA_2PIN_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /535CED53;
+Reference = P3;
+ValeurCmp = DIP6;
+IdModule  = DIP-8__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /535CE4F8;
+Reference = Q1;
+ValeurCmp = 2n2222;
+IdModule  = TO92-EBC;
+EndCmp
+
+BeginCmp
+TimeStamp = /535CCC0D;
+Reference = R1;
+ValeurCmp = 10K/0.25W;
+IdModule  = R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /535CE133;
+Reference = R2;
+ValeurCmp = 9k;
+IdModule  = R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /535CE137;
+Reference = R3;
+ValeurCmp = 1k;
+IdModule  = R4-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /535CE4CB;
+Reference = R4;
+ValeurCmp = 2.2k;
+IdModule  = R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /535CEDAE;
+Reference = R5;
+ValeurCmp = R;
+IdModule  = R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /535CEDAB;
+Reference = R6;
+ValeurCmp = R;
+IdModule  = R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /535CE4AB;
+Reference = R7;
+ValeurCmp = 180R;
+IdModule  = R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /535CCC03;
+Reference = SW1;
+ValeurCmp = SW_PUSH;
+IdModule  = SW_PUSH_SMALL;
+EndCmp
+
+BeginCmp
+TimeStamp = /535CE8A0;
+Reference = U1;
+ValeurCmp = 7805;
+IdModule  = LM78XX_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /535CE498;
+Reference = U2;
+ValeurCmp = pc817;
+IdModule  = EL817-POTO-CUPLER;
+EndCmp
+
+BeginCmp
+TimeStamp = /535CCC3B;
+Reference = X1;
+ValeurCmp = 16MHZ;
+IdModule  = CRYSTAL_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /535CEE41;
+Reference = X2;
+ValeurCmp = 32KHZ;
+IdModule  = SIL-2;
+EndCmp
+
+EndListe

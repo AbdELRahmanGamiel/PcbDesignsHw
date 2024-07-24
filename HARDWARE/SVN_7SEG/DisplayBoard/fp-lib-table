@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name AC_Socket)(type KiCad)(uri ${KIPRJMOD}/AC_Socket.pretty)(options "")(descr ""))
+)

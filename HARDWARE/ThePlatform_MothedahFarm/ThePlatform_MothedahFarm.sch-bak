@@ -1,0 +1,4199 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A2 23386 16535
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Barrel_Jack_Switch J1
+U 1 1 5E6B013A
+P 18990 1420
+F 0 "J1" H 19047 1737 50  0000 C CNN
+F 1 "Barrel_Jack_Switch" H 19047 1646 50  0000 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 19040 1380 50  0001 C CNN
+F 3 "~" H 19040 1380 50  0001 C CNN
+	1    18990 1420
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Fuse F1
+U 1 1 5FB3BE13
+P 19570 1320
+F 0 "F1" V 19373 1320 50  0000 C CNN
+F 1 "Fuse" V 19464 1320 50  0000 C CNN
+F 2 "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open" V 19500 1320 50  0001 C CNN
+F 3 "~" H 19570 1320 50  0001 C CNN
+	1    19570 1320
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1N5407 D1
+U 1 1 5FB3BE14
+P 20005 1320
+F 0 "D1" H 20005 1104 50  0000 C CNN
+F 1 "1N5407" H 20005 1195 50  0000 C CNN
+F 2 "Diode_THT:D_DO-201AD_P15.24mm_Horizontal" H 20005 1145 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88516/1n5400.pdf" H 20005 1320 50  0001 C CNN
+	1    20005 1320
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	19720 1320 19855 1320
+$Comp
+L Device:R R1
+U 1 1 5FC9C6C3
+P 20420 1320
+F 0 "R1" V 20213 1320 50  0000 C CNN
+F 1 "10/2W" V 20304 1320 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_Power_L20.0mm_W6.4mm_P25.40mm" V 20350 1320 50  0001 C CNN
+F 3 "~" H 20420 1320 50  0001 C CNN
+	1    20420 1320
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	20155 1320 20215 1320
+Wire Wire Line
+	20215 1240 20215 1320
+Connection ~ 20215 1320
+Wire Wire Line
+	20215 1320 20270 1320
+$Comp
+L Device:C C1
+U 1 1 5FB3BE17
+P 20660 1555
+F 0 "C1" H 20775 1601 50  0000 L CNN
+F 1 "334" H 20775 1510 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm" H 20698 1405 50  0001 C CNN
+F 3 "~" H 20660 1555 50  0001 C CNN
+	1    20660 1555
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	20570 1320 20660 1320
+Wire Wire Line
+	20660 1405 20660 1320
+Connection ~ 20660 1320
+Wire Wire Line
+	20660 1320 20735 1320
+Wire Wire Line
+	20660 1765 20660 1705
+Wire Wire Line
+	21035 1675 21035 1620
+Wire Wire Line
+	21420 1745 21420 1685
+$Comp
+L Device:C C2
+U 1 1 5E6C8B29
+P 21420 1535
+F 0 "C2" H 21535 1581 50  0000 L CNN
+F 1 "104" H 21535 1490 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm" H 21458 1385 50  0001 C CNN
+F 3 "~" H 21420 1535 50  0001 C CNN
+	1    21420 1535
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:L7805 U1
+U 1 1 5FB3BE18
+P 21035 1320
+F 0 "U1" H 21035 1562 50  0000 C CNN
+F 1 "L7805" H 21035 1471 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 21060 1170 50  0001 L CIN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 21035 1270 50  0001 C CNN
+	1    21035 1320
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 5E6CDFF8
+P 21775 1825
+F 0 "D2" V 21814 1708 50  0000 R CNN
+F 1 "LED" V 21723 1708 50  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm" H 21775 1825 50  0001 C CNN
+F 3 "~" H 21775 1825 50  0001 C CNN
+	1    21775 1825
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5E6CF33B
+P 21775 1470
+F 0 "R2" H 21845 1516 50  0000 L CNN
+F 1 "330" H 21845 1425 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 21705 1470 50  0001 C CNN
+F 3 "~" H 21775 1470 50  0001 C CNN
+	1    21775 1470
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	21775 2030 21775 1975
+Wire Wire Line
+	21775 1675 21775 1620
+Wire Wire Line
+	21335 1320 21420 1320
+Wire Wire Line
+	21420 1320 21420 1385
+Connection ~ 21420 1320
+Wire Wire Line
+	21420 1320 21775 1320
+Wire Wire Line
+	21975 1320 21775 1320
+Connection ~ 21775 1320
+Wire Wire Line
+	19290 1520 19315 1520
+Wire Wire Line
+	19315 1520 19315 1470
+Wire Wire Line
+	19315 1470 19415 1470
+Wire Wire Line
+	19290 1420 19315 1420
+Wire Wire Line
+	19315 1420 19315 1470
+Connection ~ 19315 1470
+$Comp
+L Connector:Screw_Terminal_01x02 J2
+U 1 1 5EF55DDB
+P 19135 1765
+F 0 "J2" V 19075 1577 50  0000 R CNN
+F 1 "Input" V 19008 1577 20  0000 R CNN
+F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal" H 19135 1765 50  0001 C CNN
+F 3 "~" H 19135 1765 50  0001 C CNN
+	1    19135 1765
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	19290 1320 19360 1320
+Wire Wire Line
+	18935 1665 18935 1585
+Wire Wire Line
+	18935 1585 19310 1585
+Wire Wire Line
+	19310 1585 19310 1700
+Wire Wire Line
+	19310 1700 19530 1700
+Wire Wire Line
+	19530 1700 19530 1400
+Wire Wire Line
+	19530 1400 19360 1400
+Wire Wire Line
+	19360 1400 19360 1320
+Connection ~ 19360 1320
+Wire Wire Line
+	19360 1320 19420 1320
+$Comp
+L Device:R R3
+U 1 1 5EFD222E
+P 20020 3015
+F 0 "R3" V 19813 3015 50  0000 C CNN
+F 1 "10/3W" V 19904 3015 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_Power_L20.0mm_W6.4mm_P25.40mm" V 19950 3015 50  0001 C CNN
+F 3 "~" H 20020 3015 50  0001 C CNN
+	1    20020 3015
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	20685 3375 20685 3315
+Wire Wire Line
+	20385 3015 20265 3015
+Connection ~ 20265 3015
+Wire Wire Line
+	20265 3015 20265 3270
+Wire Wire Line
+	20985 3015 21110 3015
+Wire Wire Line
+	21110 3015 21110 3285
+Wire Wire Line
+	20170 3015 20265 3015
+Wire Wire Line
+	19760 3015 19870 3015
+Wire Wire Line
+	21110 3745 21110 3685
+Wire Wire Line
+	20265 3750 20265 3690
+$Comp
+L Regulator_Linear:AMS1117-3.3 U2
+U 1 1 5EFD2210
+P 20685 3015
+F 0 "U2" H 20685 3257 50  0000 C CNN
+F 1 "AMS1117-3.3" H 20685 3166 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 20685 3215 50  0001 C CNN
+F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 20785 2765 50  0001 C CNN
+	1    20685 3015
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14620 6530 14620 6470
+$Comp
+L Device:C C8
+U 1 1 5FB3BE1C
+P 14825 6320
+F 0 "C8" V 14617 6320 31  0000 C CNN
+F 1 "0.1UF" V 14679 6320 31  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm" H 14863 6170 50  0001 C CNN
+F 3 "~" H 14825 6320 50  0001 C CNN
+	1    14825 6320
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14945 6170 14825 6170
+Wire Wire Line
+	14825 6170 14785 6170
+Connection ~ 14825 6170
+$Comp
+L Device:Crystal Y1
+U 1 1 5FC9C6C4
+P 13790 7145
+F 0 "Y1" H 13790 7369 31  0000 C CNN
+F 1 "16MH" H 13790 7307 31  0000 C CNN
+F 2 "Crystal:Resonator-2Pin_W10.0mm_H5.0mm" H 13790 7145 50  0001 C CNN
+F 3 "~" H 13790 7145 50  0001 C CNN
+	1    13790 7145
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14020 7230 13930 7230
+Wire Wire Line
+	13930 7230 13930 7295
+Wire Wire Line
+	13930 7295 13790 7295
+Wire Wire Line
+	14020 7030 13930 7030
+Wire Wire Line
+	13930 7030 13930 6995
+Wire Wire Line
+	13930 6995 13790 6995
+$Comp
+L Device:C C6
+U 1 1 5FC9C6C5
+P 13470 6975
+F 0 "C6" H 13355 6944 31  0000 R CNN
+F 1 "22P" H 13355 7006 31  0000 R CNN
+F 2 "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm" H 13508 6825 50  0001 C CNN
+F 3 "~" H 13470 6975 50  0001 C CNN
+	1    13470 6975
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C5
+U 1 1 5FC9C6C6
+P 13470 7325
+F 0 "C5" H 13355 7294 31  0000 R CNN
+F 1 "22P" H 13355 7356 31  0000 R CNN
+F 2 "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm" H 13508 7175 50  0001 C CNN
+F 3 "~" H 13470 7325 50  0001 C CNN
+	1    13470 7325
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13790 6995 13620 6995
+Wire Wire Line
+	13620 6995 13620 6975
+Connection ~ 13790 6995
+Wire Wire Line
+	13790 7295 13620 7295
+Wire Wire Line
+	13620 7295 13620 7325
+Connection ~ 13790 7295
+Wire Wire Line
+	13320 7325 13170 7325
+Wire Wire Line
+	13320 6975 13170 6975
+Wire Notes Line
+	19655 3980 19655 2690
+NoConn ~ 14020 7430
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5FB3BE22
+P 13345 6305
+F 0 "SW1" V 13314 6453 31  0000 L CNN
+F 1 "SW_Push" V 13376 6453 31  0000 L CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H7.3mm" H 13345 6505 50  0001 C CNN
+F 3 "~" H 13345 6505 50  0001 C CNN
+	1    13345 6305
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5F0302FA
+P 13450 5875
+F 0 "R4" V 13287 5875 31  0000 C CNN
+F 1 "10K" V 13349 5875 31  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 13380 5875 50  0001 C CNN
+F 3 "~" H 13450 5875 50  0001 C CNN
+	1    13450 5875
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:C C7
+U 1 1 5FC9C6C8
+P 13585 6290
+F 0 "C7" H 13470 6259 31  0000 R CNN
+F 1 "104" H 13470 6321 31  0000 R CNN
+F 2 "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm" H 13623 6140 50  0001 C CNN
+F 3 "~" H 13585 6290 50  0001 C CNN
+	1    13585 6290
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	13585 6440 13585 6505
+Wire Wire Line
+	13345 6505 13465 6505
+Wire Wire Line
+	13465 6540 13465 6505
+Connection ~ 13465 6505
+Wire Wire Line
+	13465 6505 13585 6505
+Wire Wire Line
+	13345 6040 13345 6105
+Wire Wire Line
+	13345 6040 13450 6040
+Wire Wire Line
+	13450 6025 13450 6040
+Connection ~ 13450 6040
+Wire Wire Line
+	13450 6040 13585 6040
+Wire Wire Line
+	13585 6040 13585 6140
+Connection ~ 13585 6040
+Wire Wire Line
+	14020 6830 14020 6040
+Wire Wire Line
+	13585 6040 14020 6040
+$Comp
+L Timer_RTC:DS1307+ U25
+U 1 1 5FBAF0A7
+P 20815 10745
+F 0 "U25" H 21359 10791 50  0000 L CNN
+F 1 "DS1307+" H 21359 10700 50  0000 L CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_Socket_LongPads" H 20815 10245 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/DS1307.pdf" H 20815 10545 50  0001 C CNN
+	1    20815 10745
+	1    0    0    -1  
+$EndComp
+NoConn ~ 21315 10745
+$Comp
+L Device:Crystal Y2
+U 1 1 5FBB2313
+P 19945 10900
+F 0 "Y2" V 19991 10769 50  0000 R CNN
+F 1 "Crystal" V 19745 11035 50  0000 R CNN
+F 2 "Crystal:Resonator-2Pin_W10.0mm_H5.0mm" H 19945 10900 50  0001 C CNN
+F 3 "~" H 19945 10900 50  0001 C CNN
+	1    19945 10900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	20315 10845 20215 10845
+Wire Wire Line
+	20215 10845 20215 10750
+Wire Wire Line
+	20215 10750 19945 10750
+Wire Wire Line
+	20315 10945 20225 10945
+Wire Wire Line
+	20225 10945 20225 11050
+Wire Wire Line
+	20225 11050 19945 11050
+Text Label 20315 10545 2    39   ~ 0
+RTC_SCL
+Text Label 20315 10645 2    39   ~ 0
+RTC_SDA
+$Comp
+L Device:Battery_Cell BT1
+U 1 1 5FBB7C72
+P 21415 11205
+F 0 "BT1" V 21160 11255 50  0000 C CNN
+F 1 "Battery_Cell" V 21251 11255 50  0000 C CNN
+F 2 "Battery:BatteryHolder_Keystone_103_1x20mm" V 21415 11265 50  0001 C CNN
+F 3 "~" V 21415 11265 50  0001 C CNN
+	1    21415 11205
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	20815 10345 20815 10255
+Wire Wire Line
+	20815 10255 21750 10255
+$Comp
+L Device:R R57
+U 1 1 5FBC03CF
+P 19890 10545
+F 0 "R57" V 19815 10470 50  0000 L CNN
+F 1 "10K" V 19890 10480 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 19820 10545 50  0001 C CNN
+F 3 "~" H 19890 10545 50  0001 C CNN
+	1    19890 10545
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	20315 10545 20040 10545
+Wire Wire Line
+	20315 10645 20040 10645
+$Comp
+L Device:R R58
+U 1 1 5FBC5DF4
+P 19890 10645
+F 0 "R58" V 19965 10575 50  0000 L CNN
+F 1 "10K" V 19890 10580 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 19820 10645 50  0001 C CNN
+F 3 "~" H 19890 10645 50  0001 C CNN
+	1    19890 10645
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	19740 10645 19740 10545
+Wire Notes Line
+	21820 11495 21820 10125
+Wire Notes Line
+	21820 10125 19660 10125
+Wire Notes Line
+	19660 10125 19660 11495
+Wire Notes Line
+	19660 11495 21820 11495
+Text Notes 20620 10090 0    59   ~ 0
+RTC\n
+Text Label 15220 8630 0    39   ~ 0
+RTC_SCL
+Text Label 15220 8730 0    39   ~ 0
+RTC_SDA
+$Comp
+L Connector_Generic:Conn_01x16 J3
+U 1 1 5FFDF6AF
+P 20645 9520
+F 0 "J3" V 20840 9470 39  0000 L CNN
+F 1 "LCD (20*4)" V 20750 9290 39  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical" H 20645 9520 50  0001 C CNN
+F 3 "~" H 20645 9520 50  0001 C CNN
+	1    20645 9520
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_POT RV1
+U 1 1 5F36A80E
+P 21770 9515
+F 0 "RV1" V 21563 9515 50  0000 C CNN
+F 1 "R_POT" V 21654 9515 50  0000 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical" H 21770 9515 50  0001 C CNN
+F 3 "~" H 21770 9515 50  0001 C CNN
+	1    21770 9515
+	0    1    1    0   
+$EndComp
+Text Label 21245 9320 0    31   ~ 0
+5V
+Text Label 21345 9320 0    31   ~ 0
+GND
+Text Label 21770 9665 3    39   ~ 0
+VO
+Text Label 21145 9320 0    31   ~ 0
+VO
+Text Label 21920 9515 0    39   ~ 0
+5V
+Text Label 21620 9515 2    39   ~ 0
+GND
+Text Label 21045 9320 0    31   ~ 0
+RS
+Text Label 20845 9320 0    31   ~ 0
+E
+Text Label 20945 9320 0    31   ~ 0
+GND
+NoConn ~ 20745 9320
+NoConn ~ 20645 9320
+NoConn ~ 20545 9320
+NoConn ~ 20445 9320
+Text Label 20345 9320 0    31   ~ 0
+DB4
+Text Label 20245 9320 0    31   ~ 0
+DB5
+Text Label 20145 9320 0    31   ~ 0
+DB6
+Text Label 20045 9320 0    31   ~ 0
+DB7
+Text Label 19845 9320 2    31   ~ 0
+GND
+Wire Notes Line
+	19595 9770 19595 9190
+Wire Notes Line
+	19595 9190 22055 9190
+Wire Notes Line
+	22055 9190 22055 9770
+Wire Notes Line
+	19595 9770 22055 9770
+Text Notes 20710 9165 0    39   ~ 0
+LCD (20*4)
+Text Label 13450 5725 0    31   ~ 0
+5V
+Text Label 13465 6540 3    31   ~ 0
+GND
+Text Label 14825 6470 2    31   ~ 0
+GND
+Wire Wire Line
+	14720 6530 14945 6530
+Wire Wire Line
+	14945 6530 14945 6170
+Text Label 14785 6170 2    31   ~ 0
+5V
+Text Label 14620 6470 2    31   ~ 0
+5V
+Wire Wire Line
+	13170 6975 13170 7120
+Text Label 13235 7165 0    31   ~ 0
+GND
+Wire Wire Line
+	13170 7120 13235 7120
+Wire Wire Line
+	13235 7120 13235 7165
+Connection ~ 13170 7120
+Wire Wire Line
+	13170 7120 13170 7325
+Text Label 14620 10530 0    31   ~ 0
+GND
+Wire Wire Line
+	21750 10255 21750 11205
+Wire Wire Line
+	21750 11205 21615 11205
+Text Label 20985 11295 0    31   ~ 0
+GND
+Wire Wire Line
+	20815 11205 20815 11145
+Wire Wire Line
+	20815 11205 20985 11205
+Wire Wire Line
+	20985 11295 20985 11205
+Connection ~ 20985 11205
+Wire Wire Line
+	20985 11205 21315 11205
+Text Label 20715 10345 0    31   ~ 0
+5V
+$Comp
+L 74xx:74AHCT595 U24
+U 1 1 5FD201D2
+P 13385 12845
+F 0 "U24" H 13385 13626 50  0000 C CNN
+F 1 "74AHCT595" H 13385 13535 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_Socket_LongPads" H 13385 12845 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT595.pdf" H 13385 12845 50  0001 C CNN
+	1    13385 12845
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74AHCT595 U23
+U 1 1 5FD28EC1
+P 13370 14595
+F 0 "U23" H 13370 15376 50  0000 C CNN
+F 1 "74AHCT595" H 13370 15285 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_Socket_LongPads" H 13370 14595 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT595.pdf" H 13370 14595 50  0001 C CNN
+	1    13370 14595
+	1    0    0    -1  
+$EndComp
+Text Label 13385 12245 2    31   ~ 0
+5V
+Text Label 13370 13995 2    31   ~ 0
+5V
+Text Label 12985 12445 2    39   ~ 0
+SER
+Text Label 15220 9030 0    39   ~ 0
+SER
+Text Label 12985 12645 2    39   ~ 0
+SRCLK
+Text Label 12985 12945 2    39   ~ 0
+RCLK
+Text Label 15220 8830 0    39   ~ 0
+RCLK
+Text Label 13785 12445 0    31   ~ 0
+RS
+Text Label 13785 12545 0    31   ~ 0
+E
+Text Label 13785 12645 0    31   ~ 0
+DB4
+Text Label 13785 12745 0    31   ~ 0
+DB5
+Text Label 13785 12845 0    31   ~ 0
+DB6
+Text Label 13785 12945 0    31   ~ 0
+DB7
+Wire Notes Line
+	18630 2305 18630 935 
+Wire Notes Line
+	18630 935  22115 935 
+Wire Notes Line
+	22115 935  22115 2305
+Wire Notes Line
+	18630 2305 22115 2305
+Text Label 21775 2030 0    31   ~ 0
+GND
+Text Label 21420 1745 0    31   ~ 0
+GND
+Text Label 21035 1675 0    31   ~ 0
+GND
+Text Label 20660 1765 0    31   ~ 0
+GND
+Text Label 18935 1765 2    31   ~ 0
+GND
+Text Label 20215 1240 2    39   ~ 0
+12V
+Wire Wire Line
+	21975 1320 21975 1270
+Text Label 21975 1270 0    31   ~ 0
+5V
+Text Label 19415 1515 0    31   ~ 0
+GND
+Wire Wire Line
+	19760 3015 19760 2980
+Text Label 19760 2980 0    39   ~ 0
+12V
+Wire Wire Line
+	21110 3015 21110 2980
+Connection ~ 21110 3015
+Text Label 21110 2980 0    39   ~ 0
+3.3V
+Text Label 20265 3750 0    31   ~ 0
+GND
+Text Label 20685 3375 0    31   ~ 0
+GND
+Text Label 21110 3745 0    31   ~ 0
+GND
+Text Notes 20195 990  0    59   ~ 0
+12-5V P.S\n 
+Text Notes 20395 2750 0    59   ~ 0
+12-3.3V P.S\n 
+Text Label 13385 13545 0    31   ~ 0
+GND
+Text Label 12985 12745 2    31   ~ 0
+5V
+Wire Wire Line
+	13785 13345 13885 13345
+Wire Wire Line
+	13885 13345 13885 13725
+Wire Wire Line
+	13885 13725 12865 13725
+Wire Wire Line
+	12865 13725 12865 14195
+Wire Wire Line
+	12865 14195 12970 14195
+NoConn ~ 13785 13045
+$Comp
+L Transistor_Array:ULN2803A U22
+U 1 1 5FBB5CA2
+P 8785 1900
+F 0 "U22" H 8785 2467 50  0000 C CNN
+F 1 "ULN2803A" H 8785 2376 50  0000 C CNN
+F 2 "Package_DIP:DIP-18_W7.62mm_Socket_LongPads" H 8835 1250 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H 8885 1700 50  0001 C CNN
+	1    8785 1900
+	1    0    0    -1  
+$EndComp
+Text Label 1745 2920 0    31   ~ 0
+GND
+$Comp
+L Transistor_BJT:2N2219 Q1
+U 1 1 5FBD73F1
+P 1645 2720
+F 0 "Q1" H 1835 2766 50  0000 L CNN
+F 1 "2N2219" H 1835 2675 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92L_Wide" H 1845 2645 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF" H 1645 2720 50  0001 L CNN
+	1    1645 2720
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5FBD621B
+P 1295 2720
+F 0 "R5" V 1370 2670 50  0000 L CNN
+F 1 "1K" V 1290 2670 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1225 2720 50  0001 C CNN
+F 3 "~" H 1295 2720 50  0001 C CNN
+	1    1295 2720
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Transistor_Array:ULN2803A U21
+U 1 1 5FBC436C
+P 8750 3420
+F 0 "U21" H 8750 3987 50  0000 C CNN
+F 1 "ULN2803A" H 8750 3896 50  0000 C CNN
+F 2 "Package_DIP:DIP-18_W7.62mm_Socket_LongPads" H 8800 2770 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H 8850 3220 50  0001 C CNN
+	1    8750 3420
+	1    0    0    -1  
+$EndComp
+Text Label 8785 2600 0    31   ~ 0
+GND
+Text Label 8750 4120 0    31   ~ 0
+GND
+Text Label 8350 3920 2    39   ~ 0
+REL_9
+Text Label 8350 3820 2    39   ~ 0
+REL_10
+Text Label 8350 3720 2    39   ~ 0
+REL_11
+Text Label 8350 3620 2    39   ~ 0
+REL_12
+Text Label 8350 3520 2    39   ~ 0
+REL_13
+Text Label 8350 3420 2    39   ~ 0
+REL_14
+Text Label 8350 3320 2    39   ~ 0
+REL_15
+Text Label 8350 3220 2    39   ~ 0
+REL_16
+Text Label 1145 2720 2    39   ~ 0
+REL_0
+$Comp
+L Isolator:EL817 U8
+U 1 1 5FC2E5E3
+P 2045 2420
+F 0 "U8" H 2045 2745 50  0000 C CNN
+F 1 "EL817" H 2045 2654 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 1845 2220 50  0001 L CIN
+F 3 "http://www.everlight.com/file/ProductFile/EL817.pdf" H 2045 2420 50  0001 L CNN
+	1    2045 2420
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1745 2320 1610 2320
+$Comp
+L Device:R R10
+U 1 1 5FC2E5EA
+P 1610 2170
+F 0 "R10" V 1685 2120 50  0000 L CNN
+F 1 "150" V 1605 2100 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1540 2170 50  0001 C CNN
+F 3 "~" H 1610 2170 50  0001 C CNN
+	1    1610 2170
+	1    0    0    -1  
+$EndComp
+Text Label 1610 2020 0    31   ~ 0
+5V
+Text Label 2345 2820 0    31   ~ 0
+GND
+$Comp
+L Relay:G5LE-1 K5
+U 1 1 5FC2E5F2
+P 3130 1935
+F 0 "K5" H 3730 1990 50  0000 L CNN
+F 1 "G5LE-1" H 3600 2070 50  0000 L CNN
+F 2 "Relay_THT:Relay_SPDT_Omron-G5LE-1" H 3580 1885 50  0001 L CNN
+F 3 "http://www.omron.com/ecb/products/pdf/en-g5le.pdf" H 3130 1935 50  0001 C CNN
+	1    3130 1935
+	1    0    0    -1  
+$EndComp
+Text Label 3330 2235 2    39   ~ 0
+COM0
+Text Label 3230 1635 2    39   ~ 0
+NC0
+Text Label 3430 1635 2    39   ~ 0
+NO0
+$Comp
+L Device:R R23
+U 1 1 5FC2E609
+P 2345 2100
+F 0 "R23" V 2420 2050 50  0000 L CNN
+F 1 "1900" V 2350 2030 39  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2275 2100 50  0001 C CNN
+F 3 "~" H 2345 2100 50  0001 C CNN
+	1    2345 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:2N2219 Q6
+U 1 1 5FC2E60F
+P 2555 2520
+F 0 "Q6" H 2745 2566 50  0000 L CNN
+F 1 "2N2219" H 2745 2475 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92L_Wide" H 2755 2445 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF" H 2555 2520 50  0001 L CNN
+	1    2555 2520
+	1    0    0    -1  
+$EndComp
+Text Label 2655 2720 0    31   ~ 0
+GND
+$Comp
+L Device:R R24
+U 1 1 5FC2E617
+P 2345 2670
+F 0 "R24" V 2420 2620 50  0000 L CNN
+F 1 "1K" V 2340 2620 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2275 2670 50  0001 C CNN
+F 3 "~" H 2345 2670 50  0001 C CNN
+	1    2345 2670
+	1    0    0    -1  
+$EndComp
+Text Label 2345 1350 0    39   ~ 0
+12V
+Wire Wire Line
+	2345 2250 2345 2320
+Wire Wire Line
+	2345 2520 2355 2520
+Connection ~ 2345 2520
+Wire Wire Line
+	2655 2320 2655 2235
+Wire Wire Line
+	2655 2235 2930 2235
+Wire Wire Line
+	2590 1735 2590 1635
+Wire Wire Line
+	2590 1635 2930 1635
+Wire Wire Line
+	2590 2235 2655 2235
+Connection ~ 2655 2235
+$Comp
+L Isolator:EL817 U4
+U 1 1 5FC5BFB1
+P 1610 3985
+F 0 "U4" H 1610 4310 50  0000 C CNN
+F 1 "EL817" H 1610 4219 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 1410 3785 50  0001 L CIN
+F 3 "http://www.everlight.com/file/ProductFile/EL817.pdf" H 1610 3985 50  0001 L CNN
+	1    1610 3985
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1310 3885 1175 3885
+$Comp
+L Device:R R6
+U 1 1 5FC5BFB8
+P 1175 3735
+F 0 "R6" V 1250 3685 50  0000 L CNN
+F 1 "150" V 1170 3665 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1105 3735 50  0001 C CNN
+F 3 "~" H 1175 3735 50  0001 C CNN
+	1    1175 3735
+	1    0    0    -1  
+$EndComp
+Text Label 1175 3585 0    31   ~ 0
+5V
+Text Label 1910 4385 0    31   ~ 0
+GND
+$Comp
+L Relay:G5LE-1 K1
+U 1 1 5FC5BFC0
+P 2695 3500
+F 0 "K1" H 3295 3555 50  0000 L CNN
+F 1 "G5LE-1" H 3165 3635 50  0000 L CNN
+F 2 "Relay_THT:Relay_SPDT_Omron-G5LE-1" H 3145 3450 50  0001 L CNN
+F 3 "http://www.omron.com/ecb/products/pdf/en-g5le.pdf" H 2695 3500 50  0001 C CNN
+	1    2695 3500
+	1    0    0    -1  
+$EndComp
+Text Label 1910 3515 2    39   ~ 0
+12V
+Text Label 2895 3800 2    39   ~ 0
+COM1
+Text Label 2995 3200 2    39   ~ 0
+NO1
+$Comp
+L Device:R R15
+U 1 1 5FC5BFCA
+P 1910 3665
+F 0 "R15" V 1985 3615 50  0000 L CNN
+F 1 "1900" V 1915 3595 39  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1840 3665 50  0001 C CNN
+F 3 "~" H 1910 3665 50  0001 C CNN
+	1    1910 3665
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:2N2219 Q2
+U 1 1 5FC5BFD0
+P 2120 4085
+F 0 "Q2" H 2310 4131 50  0000 L CNN
+F 1 "2N2219" H 2310 4040 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92L_Wide" H 2320 4010 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF" H 2120 4085 50  0001 L CNN
+	1    2120 4085
+	1    0    0    -1  
+$EndComp
+Text Label 2220 4285 0    31   ~ 0
+GND
+$Comp
+L Device:R R16
+U 1 1 5FC5BFD7
+P 1910 4235
+F 0 "R16" V 1985 4185 50  0000 L CNN
+F 1 "1K" V 1905 4185 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1840 4235 50  0001 C CNN
+F 3 "~" H 1910 4235 50  0001 C CNN
+	1    1910 4235
+	1    0    0    -1  
+$EndComp
+Text Label 2495 3200 2    39   ~ 0
+12V
+Wire Wire Line
+	1910 3815 1910 3885
+Wire Wire Line
+	1910 4085 1920 4085
+Connection ~ 1910 4085
+Wire Wire Line
+	2220 3885 2220 3800
+Wire Wire Line
+	2220 3800 2495 3800
+Wire Wire Line
+	2155 3300 2155 3200
+Wire Wire Line
+	2155 3200 2495 3200
+Wire Wire Line
+	2155 3800 2220 3800
+Connection ~ 2220 3800
+$Comp
+L Diode:1N5407 D3
+U 1 1 5FC62C3A
+P 2155 3450
+F 0 "D3" H 2155 3305 50  0000 C CNN
+F 1 "1N5407" H 2155 3375 50  0000 C CNN
+F 2 "Diode_THT:D_DO-15_P12.70mm_Horizontal" H 2155 3275 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88516/1n5400.pdf" H 2155 3450 50  0001 C CNN
+	1    2155 3450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2155 3600 2155 3800
+$Comp
+L Diode:1N5407 D7
+U 1 1 5FC6D3D5
+P 2590 1885
+F 0 "D7" H 2590 1740 50  0000 C CNN
+F 1 "1N5407" H 2590 1810 50  0000 C CNN
+F 2 "Diode_THT:D_DO-15_P12.70mm_Horizontal" H 2590 1710 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88516/1n5400.pdf" H 2590 1885 50  0001 C CNN
+	1    2590 1885
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2590 2035 2590 2235
+Text Label 9185 2400 0    39   ~ 0
+REL_UL_1
+Text Label 9185 2300 0    39   ~ 0
+REL_UL_2
+Text Label 9185 2200 0    39   ~ 0
+REL_UL_3
+Text Label 9185 2100 0    39   ~ 0
+REL_UL_4
+Text Label 9185 2000 0    39   ~ 0
+REL_UL_5
+Text Label 9185 1900 0    39   ~ 0
+REL_UL_6
+Text Label 9185 1800 0    39   ~ 0
+REL_UL_7
+Text Label 9185 1700 0    39   ~ 0
+REL_UL_8
+Text Label 9150 3920 0    39   ~ 0
+REL_UL_9
+Text Label 9150 3820 0    39   ~ 0
+REL_UL_10
+Text Label 9150 3720 0    39   ~ 0
+REL_UL_11
+Text Label 9150 3620 0    39   ~ 0
+REL_UL_12
+Text Label 9150 3520 0    39   ~ 0
+REL_UL_13
+Text Label 9150 3420 0    39   ~ 0
+REL_UL_14
+Text Label 9150 3320 0    39   ~ 0
+REL_UL_15
+Text Label 9150 3220 0    39   ~ 0
+REL_UL_16
+Text Label 1310 4085 2    39   ~ 0
+REL_UL_1
+$Comp
+L Isolator:EL817 U5
+U 1 1 5FC8553D
+P 1740 5645
+F 0 "U5" H 1740 5970 50  0000 C CNN
+F 1 "EL817" H 1740 5879 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 1540 5445 50  0001 L CIN
+F 3 "http://www.everlight.com/file/ProductFile/EL817.pdf" H 1740 5645 50  0001 L CNN
+	1    1740 5645
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1440 5545 1305 5545
+$Comp
+L Device:R R7
+U 1 1 5FC85544
+P 1305 5395
+F 0 "R7" V 1380 5345 50  0000 L CNN
+F 1 "150" V 1300 5325 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1235 5395 50  0001 C CNN
+F 3 "~" H 1305 5395 50  0001 C CNN
+	1    1305 5395
+	1    0    0    -1  
+$EndComp
+Text Label 1305 5245 0    31   ~ 0
+5V
+Text Label 2040 6045 0    31   ~ 0
+GND
+$Comp
+L Relay:G5LE-1 K2
+U 1 1 5FC8554C
+P 2825 5160
+F 0 "K2" H 3425 5215 50  0000 L CNN
+F 1 "G5LE-1" H 3295 5295 50  0000 L CNN
+F 2 "Relay_THT:Relay_SPDT_Omron-G5LE-1" H 3275 5110 50  0001 L CNN
+F 3 "http://www.omron.com/ecb/products/pdf/en-g5le.pdf" H 2825 5160 50  0001 C CNN
+	1    2825 5160
+	1    0    0    -1  
+$EndComp
+Text Label 2040 5175 2    39   ~ 0
+12V
+Text Label 3025 5460 2    39   ~ 0
+COM2
+Text Label 2925 4860 2    39   ~ 0
+NC2
+Text Label 3125 4860 2    39   ~ 0
+NO2
+$Comp
+L Device:R R17
+U 1 1 5FC85556
+P 2040 5325
+F 0 "R17" V 2115 5275 50  0000 L CNN
+F 1 "1900" V 2045 5255 39  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1970 5325 50  0001 C CNN
+F 3 "~" H 2040 5325 50  0001 C CNN
+	1    2040 5325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:2N2219 Q3
+U 1 1 5FC8555C
+P 2250 5745
+F 0 "Q3" H 2440 5791 50  0000 L CNN
+F 1 "2N2219" H 2440 5700 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92L_Wide" H 2450 5670 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF" H 2250 5745 50  0001 L CNN
+	1    2250 5745
+	1    0    0    -1  
+$EndComp
+Text Label 2350 5945 0    31   ~ 0
+GND
+$Comp
+L Device:R R18
+U 1 1 5FC85563
+P 2040 5895
+F 0 "R18" V 2115 5845 50  0000 L CNN
+F 1 "1K" V 2035 5845 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1970 5895 50  0001 C CNN
+F 3 "~" H 2040 5895 50  0001 C CNN
+	1    2040 5895
+	1    0    0    -1  
+$EndComp
+Text Label 2625 4860 2    39   ~ 0
+12V
+Wire Wire Line
+	2040 5475 2040 5545
+Wire Wire Line
+	2040 5745 2050 5745
+Connection ~ 2040 5745
+Wire Wire Line
+	2350 5545 2350 5460
+Wire Wire Line
+	2350 5460 2625 5460
+Wire Wire Line
+	2285 4960 2285 4860
+Wire Wire Line
+	2285 4860 2625 4860
+Wire Wire Line
+	2285 5460 2350 5460
+Connection ~ 2350 5460
+$Comp
+L Diode:1N5407 D4
+U 1 1 5FC85573
+P 2285 5110
+F 0 "D4" H 2285 4965 50  0000 C CNN
+F 1 "1N5407" H 2285 5035 50  0000 C CNN
+F 2 "Diode_THT:D_DO-15_P12.70mm_Horizontal" H 2285 4935 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88516/1n5400.pdf" H 2285 5110 50  0001 C CNN
+	1    2285 5110
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2285 5260 2285 5460
+$Comp
+L Isolator:EL817 U6
+U 1 1 5FC8E00E
+P 1805 7265
+F 0 "U6" H 1805 7590 50  0000 C CNN
+F 1 "EL817" H 1805 7499 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 1605 7065 50  0001 L CIN
+F 3 "http://www.everlight.com/file/ProductFile/EL817.pdf" H 1805 7265 50  0001 L CNN
+	1    1805 7265
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1505 7165 1370 7165
+$Comp
+L Device:R R8
+U 1 1 5FC8E015
+P 1370 7015
+F 0 "R8" V 1445 6965 50  0000 L CNN
+F 1 "150" V 1365 6945 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1300 7015 50  0001 C CNN
+F 3 "~" H 1370 7015 50  0001 C CNN
+	1    1370 7015
+	1    0    0    -1  
+$EndComp
+Text Label 1370 6865 0    31   ~ 0
+5V
+Text Label 2105 7665 0    31   ~ 0
+GND
+$Comp
+L Relay:G5LE-1 K3
+U 1 1 5FC8E01D
+P 2890 6780
+F 0 "K3" H 3490 6835 50  0000 L CNN
+F 1 "G5LE-1" H 3360 6915 50  0000 L CNN
+F 2 "Relay_THT:Relay_SPDT_Omron-G5LE-1" H 3340 6730 50  0001 L CNN
+F 3 "http://www.omron.com/ecb/products/pdf/en-g5le.pdf" H 2890 6780 50  0001 C CNN
+	1    2890 6780
+	1    0    0    -1  
+$EndComp
+Text Label 2105 6795 2    39   ~ 0
+12V
+Text Label 3090 7080 2    39   ~ 0
+COM3
+Text Label 2990 6480 2    39   ~ 0
+NC3
+Text Label 3190 6480 2    39   ~ 0
+NO3
+$Comp
+L Device:R R19
+U 1 1 5FC8E027
+P 2105 6945
+F 0 "R19" V 2180 6895 50  0000 L CNN
+F 1 "1900" V 2110 6875 39  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2035 6945 50  0001 C CNN
+F 3 "~" H 2105 6945 50  0001 C CNN
+	1    2105 6945
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:2N2219 Q4
+U 1 1 5FC8E02D
+P 2315 7365
+F 0 "Q4" H 2505 7411 50  0000 L CNN
+F 1 "2N2219" H 2505 7320 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92L_Wide" H 2515 7290 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF" H 2315 7365 50  0001 L CNN
+	1    2315 7365
+	1    0    0    -1  
+$EndComp
+Text Label 2415 7565 0    31   ~ 0
+GND
+$Comp
+L Device:R R20
+U 1 1 5FC8E034
+P 2105 7515
+F 0 "R20" V 2180 7465 50  0000 L CNN
+F 1 "1K" V 2100 7465 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2035 7515 50  0001 C CNN
+F 3 "~" H 2105 7515 50  0001 C CNN
+	1    2105 7515
+	1    0    0    -1  
+$EndComp
+Text Label 2690 6480 2    39   ~ 0
+12V
+Wire Wire Line
+	2105 7095 2105 7165
+Wire Wire Line
+	2105 7365 2115 7365
+Connection ~ 2105 7365
+Wire Wire Line
+	2415 7165 2415 7080
+Wire Wire Line
+	2415 7080 2690 7080
+Wire Wire Line
+	2350 6580 2350 6480
+Wire Wire Line
+	2350 6480 2690 6480
+Wire Wire Line
+	2350 7080 2415 7080
+Connection ~ 2415 7080
+$Comp
+L Diode:1N5407 D5
+U 1 1 5FC8E044
+P 2350 6730
+F 0 "D5" H 2350 6585 50  0000 C CNN
+F 1 "1N5407" H 2350 6655 50  0000 C CNN
+F 2 "Diode_THT:D_DO-15_P12.70mm_Horizontal" H 2350 6555 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88516/1n5400.pdf" H 2350 6730 50  0001 C CNN
+	1    2350 6730
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2350 6880 2350 7080
+$Comp
+L Isolator:EL817 U9
+U 1 1 5FC8E04B
+P 1935 8925
+F 0 "U9" H 1935 9250 50  0000 C CNN
+F 1 "EL817" H 1935 9159 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 1735 8725 50  0001 L CIN
+F 3 "http://www.everlight.com/file/ProductFile/EL817.pdf" H 1935 8925 50  0001 L CNN
+	1    1935 8925
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1635 8825 1500 8825
+$Comp
+L Device:R R11
+U 1 1 5FC8E052
+P 1500 8675
+F 0 "R11" V 1575 8625 50  0000 L CNN
+F 1 "150" V 1495 8605 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1430 8675 50  0001 C CNN
+F 3 "~" H 1500 8675 50  0001 C CNN
+	1    1500 8675
+	1    0    0    -1  
+$EndComp
+Text Label 1500 8525 0    31   ~ 0
+5V
+Text Label 2235 9325 0    31   ~ 0
+GND
+$Comp
+L Relay:G5LE-1 K6
+U 1 1 5FC8E05A
+P 3020 8440
+F 0 "K6" H 3620 8495 50  0000 L CNN
+F 1 "G5LE-1" H 3490 8575 50  0000 L CNN
+F 2 "Relay_THT:Relay_SPDT_Omron-G5LE-1" H 3470 8390 50  0001 L CNN
+F 3 "http://www.omron.com/ecb/products/pdf/en-g5le.pdf" H 3020 8440 50  0001 C CNN
+	1    3020 8440
+	1    0    0    -1  
+$EndComp
+Text Label 2235 8455 2    39   ~ 0
+12V
+Text Label 3220 8740 2    39   ~ 0
+COM4
+Text Label 3120 8140 2    39   ~ 0
+NC4
+Text Label 3320 8140 2    39   ~ 0
+NO4
+$Comp
+L Device:R R25
+U 1 1 5FC8E064
+P 2235 8605
+F 0 "R25" V 2310 8555 50  0000 L CNN
+F 1 "1900" V 2240 8535 39  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2165 8605 50  0001 C CNN
+F 3 "~" H 2235 8605 50  0001 C CNN
+	1    2235 8605
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:2N2219 Q7
+U 1 1 5FC8E06A
+P 2445 9025
+F 0 "Q7" H 2635 9071 50  0000 L CNN
+F 1 "2N2219" H 2635 8980 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92L_Wide" H 2645 8950 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF" H 2445 9025 50  0001 L CNN
+	1    2445 9025
+	1    0    0    -1  
+$EndComp
+Text Label 2545 9225 0    31   ~ 0
+GND
+$Comp
+L Device:R R26
+U 1 1 5FC8E071
+P 2235 9175
+F 0 "R26" V 2310 9125 50  0000 L CNN
+F 1 "1K" V 2230 9125 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2165 9175 50  0001 C CNN
+F 3 "~" H 2235 9175 50  0001 C CNN
+	1    2235 9175
+	1    0    0    -1  
+$EndComp
+Text Label 2820 8140 2    39   ~ 0
+12V
+Wire Wire Line
+	2235 8755 2235 8825
+Wire Wire Line
+	2235 9025 2245 9025
+Connection ~ 2235 9025
+Wire Wire Line
+	2545 8825 2545 8740
+Wire Wire Line
+	2545 8740 2820 8740
+Wire Wire Line
+	2480 8240 2480 8140
+Wire Wire Line
+	2480 8140 2820 8140
+Wire Wire Line
+	2480 8740 2545 8740
+Connection ~ 2545 8740
+$Comp
+L Diode:1N5407 D8
+U 1 1 5FC8E081
+P 2480 8390
+F 0 "D8" H 2480 8245 50  0000 C CNN
+F 1 "1N5407" H 2480 8315 50  0000 C CNN
+F 2 "Diode_THT:D_DO-15_P12.70mm_Horizontal" H 2480 8215 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88516/1n5400.pdf" H 2480 8390 50  0001 C CNN
+	1    2480 8390
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2480 8540 2480 8740
+$Comp
+L Isolator:EL817 U7
+U 1 1 5FCA06BA
+P 1840 10480
+F 0 "U7" H 1840 10805 50  0000 C CNN
+F 1 "EL817" H 1840 10714 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 1640 10280 50  0001 L CIN
+F 3 "http://www.everlight.com/file/ProductFile/EL817.pdf" H 1840 10480 50  0001 L CNN
+	1    1840 10480
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1540 10380 1405 10380
+$Comp
+L Device:R R9
+U 1 1 5FCA06C1
+P 1405 10230
+F 0 "R9" V 1480 10180 50  0000 L CNN
+F 1 "150" V 1400 10160 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1335 10230 50  0001 C CNN
+F 3 "~" H 1405 10230 50  0001 C CNN
+	1    1405 10230
+	1    0    0    -1  
+$EndComp
+Text Label 1405 10080 0    31   ~ 0
+5V
+Text Label 2140 10880 0    31   ~ 0
+GND
+$Comp
+L Relay:G5LE-1 K4
+U 1 1 5FCA06C9
+P 2925 9995
+F 0 "K4" H 3525 10050 50  0000 L CNN
+F 1 "G5LE-1" H 3395 10130 50  0000 L CNN
+F 2 "Relay_THT:Relay_SPDT_Omron-G5LE-1" H 3375 9945 50  0001 L CNN
+F 3 "http://www.omron.com/ecb/products/pdf/en-g5le.pdf" H 2925 9995 50  0001 C CNN
+	1    2925 9995
+	1    0    0    -1  
+$EndComp
+Text Label 2140 10010 2    39   ~ 0
+12V
+Text Label 3125 10295 2    39   ~ 0
+COM5
+Text Label 3025 9695 2    39   ~ 0
+NC5
+Text Label 3225 9695 2    39   ~ 0
+NO5
+$Comp
+L Device:R R21
+U 1 1 5FCA06D3
+P 2140 10160
+F 0 "R21" V 2215 10110 50  0000 L CNN
+F 1 "1900" V 2145 10090 39  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2070 10160 50  0001 C CNN
+F 3 "~" H 2140 10160 50  0001 C CNN
+	1    2140 10160
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:2N2219 Q5
+U 1 1 5FCA06D9
+P 2350 10580
+F 0 "Q5" H 2540 10626 50  0000 L CNN
+F 1 "2N2219" H 2540 10535 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92L_Wide" H 2550 10505 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF" H 2350 10580 50  0001 L CNN
+	1    2350 10580
+	1    0    0    -1  
+$EndComp
+Text Label 2450 10780 0    31   ~ 0
+GND
+$Comp
+L Device:R R22
+U 1 1 5FCA06E0
+P 2140 10730
+F 0 "R22" V 2215 10680 50  0000 L CNN
+F 1 "1K" V 2135 10680 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2070 10730 50  0001 C CNN
+F 3 "~" H 2140 10730 50  0001 C CNN
+	1    2140 10730
+	1    0    0    -1  
+$EndComp
+Text Label 2725 9695 2    39   ~ 0
+12V
+Wire Wire Line
+	2140 10310 2140 10380
+Wire Wire Line
+	2140 10580 2150 10580
+Connection ~ 2140 10580
+Wire Wire Line
+	2450 10380 2450 10295
+Wire Wire Line
+	2450 10295 2725 10295
+Wire Wire Line
+	2385 9795 2385 9695
+Wire Wire Line
+	2385 9695 2725 9695
+Wire Wire Line
+	2385 10295 2450 10295
+Connection ~ 2450 10295
+$Comp
+L Diode:1N5407 D6
+U 1 1 5FCA06F0
+P 2385 9945
+F 0 "D6" H 2385 9800 50  0000 C CNN
+F 1 "1N5407" H 2385 9870 50  0000 C CNN
+F 2 "Diode_THT:D_DO-15_P12.70mm_Horizontal" H 2385 9770 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88516/1n5400.pdf" H 2385 9945 50  0001 C CNN
+	1    2385 9945
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2385 10095 2385 10295
+$Comp
+L Isolator:EL817 U10
+U 1 1 5FCA06F7
+P 1970 12140
+F 0 "U10" H 1970 12465 50  0000 C CNN
+F 1 "EL817" H 1970 12374 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 1770 11940 50  0001 L CIN
+F 3 "http://www.everlight.com/file/ProductFile/EL817.pdf" H 1970 12140 50  0001 L CNN
+	1    1970 12140
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1670 12040 1535 12040
+$Comp
+L Device:R R12
+U 1 1 5FCA06FE
+P 1535 11890
+F 0 "R12" V 1610 11840 50  0000 L CNN
+F 1 "150" V 1530 11820 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1465 11890 50  0001 C CNN
+F 3 "~" H 1535 11890 50  0001 C CNN
+	1    1535 11890
+	1    0    0    -1  
+$EndComp
+Text Label 1535 11740 0    31   ~ 0
+5V
+Text Label 2270 12540 0    31   ~ 0
+GND
+$Comp
+L Relay:G5LE-1 K7
+U 1 1 5FCA0706
+P 3055 11655
+F 0 "K7" H 3655 11710 50  0000 L CNN
+F 1 "G5LE-1" H 3525 11790 50  0000 L CNN
+F 2 "Relay_THT:Relay_SPDT_Omron-G5LE-1" H 3505 11605 50  0001 L CNN
+F 3 "http://www.omron.com/ecb/products/pdf/en-g5le.pdf" H 3055 11655 50  0001 C CNN
+	1    3055 11655
+	1    0    0    -1  
+$EndComp
+Text Label 2270 11670 2    39   ~ 0
+12V
+Text Label 3255 11955 2    39   ~ 0
+COM6
+Text Label 3155 11355 2    39   ~ 0
+NC6
+Text Label 3355 11355 2    39   ~ 0
+NO6
+$Comp
+L Device:R R27
+U 1 1 5FCA0710
+P 2270 11820
+F 0 "R27" V 2345 11770 50  0000 L CNN
+F 1 "1900" V 2275 11750 39  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2200 11820 50  0001 C CNN
+F 3 "~" H 2270 11820 50  0001 C CNN
+	1    2270 11820
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:2N2219 Q8
+U 1 1 5FCA0716
+P 2480 12240
+F 0 "Q8" H 2670 12286 50  0000 L CNN
+F 1 "2N2219" H 2670 12195 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92L_Wide" H 2680 12165 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF" H 2480 12240 50  0001 L CNN
+	1    2480 12240
+	1    0    0    -1  
+$EndComp
+Text Label 2580 12440 0    31   ~ 0
+GND
+$Comp
+L Device:R R28
+U 1 1 5FCA071D
+P 2270 12390
+F 0 "R28" V 2345 12340 50  0000 L CNN
+F 1 "1K" V 2265 12340 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2200 12390 50  0001 C CNN
+F 3 "~" H 2270 12390 50  0001 C CNN
+	1    2270 12390
+	1    0    0    -1  
+$EndComp
+Text Label 2855 11355 2    39   ~ 0
+12V
+Wire Wire Line
+	2270 11970 2270 12040
+Wire Wire Line
+	2270 12240 2280 12240
+Connection ~ 2270 12240
+Wire Wire Line
+	2580 12040 2580 11955
+Wire Wire Line
+	2580 11955 2855 11955
+Wire Wire Line
+	2515 11455 2515 11355
+Wire Wire Line
+	2515 11355 2855 11355
+Wire Wire Line
+	2515 11955 2580 11955
+Connection ~ 2580 11955
+$Comp
+L Diode:1N5407 D9
+U 1 1 5FCA072D
+P 2515 11605
+F 0 "D9" H 2515 11460 50  0000 C CNN
+F 1 "1N5407" H 2515 11530 50  0000 C CNN
+F 2 "Diode_THT:D_DO-15_P12.70mm_Horizontal" H 2515 11430 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88516/1n5400.pdf" H 2515 11605 50  0001 C CNN
+	1    2515 11605
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2515 11755 2515 11955
+$Comp
+L Isolator:EL817 U11
+U 1 1 5FCA0734
+P 2035 13760
+F 0 "U11" H 2035 14085 50  0000 C CNN
+F 1 "EL817" H 2035 13994 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 1835 13560 50  0001 L CIN
+F 3 "http://www.everlight.com/file/ProductFile/EL817.pdf" H 2035 13760 50  0001 L CNN
+	1    2035 13760
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1735 13660 1600 13660
+$Comp
+L Device:R R13
+U 1 1 5FCA073B
+P 1600 13510
+F 0 "R13" V 1675 13460 50  0000 L CNN
+F 1 "150" V 1595 13440 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1530 13510 50  0001 C CNN
+F 3 "~" H 1600 13510 50  0001 C CNN
+	1    1600 13510
+	1    0    0    -1  
+$EndComp
+Text Label 1600 13360 0    31   ~ 0
+5V
+Text Label 2335 14160 0    31   ~ 0
+GND
+$Comp
+L Relay:G5LE-1 K8
+U 1 1 5FCA0743
+P 3120 13275
+F 0 "K8" H 3720 13330 50  0000 L CNN
+F 1 "G5LE-1" H 3590 13410 50  0000 L CNN
+F 2 "Relay_THT:Relay_SPDT_Omron-G5LE-1" H 3570 13225 50  0001 L CNN
+F 3 "http://www.omron.com/ecb/products/pdf/en-g5le.pdf" H 3120 13275 50  0001 C CNN
+	1    3120 13275
+	1    0    0    -1  
+$EndComp
+Text Label 2335 13290 2    39   ~ 0
+12V
+Text Label 3320 13575 2    39   ~ 0
+COM7
+Text Label 3220 12975 2    39   ~ 0
+NC7
+Text Label 3420 12975 2    39   ~ 0
+NO7
+$Comp
+L Device:R R29
+U 1 1 5FCA074D
+P 2335 13440
+F 0 "R29" V 2410 13390 50  0000 L CNN
+F 1 "1900" V 2340 13370 39  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2265 13440 50  0001 C CNN
+F 3 "~" H 2335 13440 50  0001 C CNN
+	1    2335 13440
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:2N2219 Q9
+U 1 1 5FCA0753
+P 2545 13860
+F 0 "Q9" H 2735 13906 50  0000 L CNN
+F 1 "2N2219" H 2735 13815 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92L_Wide" H 2745 13785 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF" H 2545 13860 50  0001 L CNN
+	1    2545 13860
+	1    0    0    -1  
+$EndComp
+Text Label 2645 14060 0    31   ~ 0
+GND
+$Comp
+L Device:R R30
+U 1 1 5FCA075A
+P 2335 14010
+F 0 "R30" V 2410 13960 50  0000 L CNN
+F 1 "1K" V 2330 13960 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2265 14010 50  0001 C CNN
+F 3 "~" H 2335 14010 50  0001 C CNN
+	1    2335 14010
+	1    0    0    -1  
+$EndComp
+Text Label 2920 12975 2    39   ~ 0
+12V
+Wire Wire Line
+	2335 13590 2335 13660
+Wire Wire Line
+	2335 13860 2345 13860
+Connection ~ 2335 13860
+Wire Wire Line
+	2645 13660 2645 13575
+Wire Wire Line
+	2645 13575 2920 13575
+Wire Wire Line
+	2580 13075 2580 12975
+Wire Wire Line
+	2580 12975 2920 12975
+Wire Wire Line
+	2580 13575 2645 13575
+Connection ~ 2645 13575
+$Comp
+L Diode:1N5407 D10
+U 1 1 5FCA076A
+P 2580 13225
+F 0 "D10" H 2580 13080 50  0000 C CNN
+F 1 "1N5407" H 2580 13150 50  0000 C CNN
+F 2 "Diode_THT:D_DO-15_P12.70mm_Horizontal" H 2580 13050 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88516/1n5400.pdf" H 2580 13225 50  0001 C CNN
+	1    2580 13225
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2580 13375 2580 13575
+$Comp
+L Isolator:EL817 U12
+U 1 1 5FCA0771
+P 2165 15420
+F 0 "U12" H 2165 15745 50  0000 C CNN
+F 1 "EL817" H 2165 15654 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 1965 15220 50  0001 L CIN
+F 3 "http://www.everlight.com/file/ProductFile/EL817.pdf" H 2165 15420 50  0001 L CNN
+	1    2165 15420
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1865 15320 1730 15320
+$Comp
+L Device:R R14
+U 1 1 5FCA0778
+P 1730 15170
+F 0 "R14" V 1805 15120 50  0000 L CNN
+F 1 "150" V 1725 15100 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1660 15170 50  0001 C CNN
+F 3 "~" H 1730 15170 50  0001 C CNN
+	1    1730 15170
+	1    0    0    -1  
+$EndComp
+Text Label 1730 15020 0    31   ~ 0
+5V
+Text Label 2465 15820 0    31   ~ 0
+GND
+$Comp
+L Relay:G5LE-1 K9
+U 1 1 5FCA0780
+P 3250 14935
+F 0 "K9" H 3850 14990 50  0000 L CNN
+F 1 "G5LE-1" H 3720 15070 50  0000 L CNN
+F 2 "Relay_THT:Relay_SPDT_Omron-G5LE-1" H 3700 14885 50  0001 L CNN
+F 3 "http://www.omron.com/ecb/products/pdf/en-g5le.pdf" H 3250 14935 50  0001 C CNN
+	1    3250 14935
+	1    0    0    -1  
+$EndComp
+Text Label 2465 14950 2    39   ~ 0
+12V
+Text Label 3450 15235 2    39   ~ 0
+COM8
+Text Label 3350 14635 2    39   ~ 0
+NC8
+Text Label 3550 14635 2    39   ~ 0
+NO8
+$Comp
+L Device:R R31
+U 1 1 5FCA078A
+P 2465 15100
+F 0 "R31" V 2540 15050 50  0000 L CNN
+F 1 "1900" V 2470 15030 39  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2395 15100 50  0001 C CNN
+F 3 "~" H 2465 15100 50  0001 C CNN
+	1    2465 15100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:2N2219 Q10
+U 1 1 5FCA0790
+P 2675 15520
+F 0 "Q10" H 2865 15566 50  0000 L CNN
+F 1 "2N2219" H 2865 15475 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92L_Wide" H 2875 15445 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF" H 2675 15520 50  0001 L CNN
+	1    2675 15520
+	1    0    0    -1  
+$EndComp
+Text Label 2775 15720 0    31   ~ 0
+GND
+$Comp
+L Device:R R32
+U 1 1 5FCA0797
+P 2465 15670
+F 0 "R32" V 2540 15620 50  0000 L CNN
+F 1 "1K" V 2460 15620 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2395 15670 50  0001 C CNN
+F 3 "~" H 2465 15670 50  0001 C CNN
+	1    2465 15670
+	1    0    0    -1  
+$EndComp
+Text Label 3050 14635 2    39   ~ 0
+12V
+Wire Wire Line
+	2465 15250 2465 15320
+Wire Wire Line
+	2465 15520 2475 15520
+Connection ~ 2465 15520
+Wire Wire Line
+	2775 15320 2775 15235
+Wire Wire Line
+	2775 15235 3050 15235
+Wire Wire Line
+	2710 14735 2710 14635
+Wire Wire Line
+	2710 14635 3050 14635
+Wire Wire Line
+	2710 15235 2775 15235
+Connection ~ 2775 15235
+$Comp
+L Diode:1N5407 D11
+U 1 1 5FCA07A7
+P 2710 14885
+F 0 "D11" H 2710 14740 50  0000 C CNN
+F 1 "1N5407" H 2710 14810 50  0000 C CNN
+F 2 "Diode_THT:D_DO-15_P12.70mm_Horizontal" H 2710 14710 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88516/1n5400.pdf" H 2710 14885 50  0001 C CNN
+	1    2710 14885
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2710 15035 2710 15235
+$Comp
+L Isolator:EL817 U14
+U 1 1 5FCFE4BE
+P 5180 5560
+F 0 "U14" H 5180 5885 50  0000 C CNN
+F 1 "EL817" H 5180 5794 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 4980 5360 50  0001 L CIN
+F 3 "http://www.everlight.com/file/ProductFile/EL817.pdf" H 5180 5560 50  0001 L CNN
+	1    5180 5560
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4880 5460 4745 5460
+$Comp
+L Device:R R34
+U 1 1 5FCFE4C5
+P 4745 5310
+F 0 "R34" V 4820 5260 50  0000 L CNN
+F 1 "150" V 4740 5240 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4675 5310 50  0001 C CNN
+F 3 "~" H 4745 5310 50  0001 C CNN
+	1    4745 5310
+	1    0    0    -1  
+$EndComp
+Text Label 4745 5160 0    31   ~ 0
+5V
+Text Label 5480 5960 0    31   ~ 0
+GND
+$Comp
+L Relay:G5LE-1 K11
+U 1 1 5FCFE4CD
+P 6265 5075
+F 0 "K11" H 6865 5130 50  0000 L CNN
+F 1 "G5LE-1" H 6735 5210 50  0000 L CNN
+F 2 "Relay_THT:Relay_SPDT_Omron-G5LE-1" H 6715 5025 50  0001 L CNN
+F 3 "http://www.omron.com/ecb/products/pdf/en-g5le.pdf" H 6265 5075 50  0001 C CNN
+	1    6265 5075
+	1    0    0    -1  
+$EndComp
+Text Label 5480 5090 2    39   ~ 0
+12V
+Text Label 6465 5375 2    39   ~ 0
+COM15
+Text Label 6365 4775 2    39   ~ 0
+NC15
+Text Label 6565 4775 2    39   ~ 0
+NO15
+$Comp
+L Device:R R43
+U 1 1 5FCFE4D7
+P 5480 5240
+F 0 "R43" V 5555 5190 50  0000 L CNN
+F 1 "1900" V 5485 5170 39  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5410 5240 50  0001 C CNN
+F 3 "~" H 5480 5240 50  0001 C CNN
+	1    5480 5240
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:2N2219 Q12
+U 1 1 5FCFE4DD
+P 5690 5660
+F 0 "Q12" H 5880 5706 50  0000 L CNN
+F 1 "2N2219" H 5880 5615 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92L_Wide" H 5890 5585 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF" H 5690 5660 50  0001 L CNN
+	1    5690 5660
+	1    0    0    -1  
+$EndComp
+Text Label 5790 5860 0    31   ~ 0
+GND
+$Comp
+L Device:R R44
+U 1 1 5FCFE4E4
+P 5480 5810
+F 0 "R44" V 5555 5760 50  0000 L CNN
+F 1 "1K" V 5475 5760 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5410 5810 50  0001 C CNN
+F 3 "~" H 5480 5810 50  0001 C CNN
+	1    5480 5810
+	1    0    0    -1  
+$EndComp
+Text Label 6065 4775 2    39   ~ 0
+12V
+Wire Wire Line
+	5480 5390 5480 5460
+Wire Wire Line
+	5480 5660 5490 5660
+Connection ~ 5480 5660
+Wire Wire Line
+	5790 5460 5790 5375
+Wire Wire Line
+	5790 5375 6065 5375
+Wire Wire Line
+	5725 4875 5725 4775
+Wire Wire Line
+	5725 4775 6065 4775
+Wire Wire Line
+	5725 5375 5790 5375
+Connection ~ 5790 5375
+$Comp
+L Diode:1N5407 D13
+U 1 1 5FCFE4F4
+P 5725 5025
+F 0 "D13" H 5725 4880 50  0000 C CNN
+F 1 "1N5407" H 5725 4950 50  0000 C CNN
+F 2 "Diode_THT:D_DO-15_P12.70mm_Horizontal" H 5725 4850 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88516/1n5400.pdf" H 5725 5025 50  0001 C CNN
+	1    5725 5025
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5725 5175 5725 5375
+$Comp
+L Isolator:EL817 U15
+U 1 1 5FCFE4FB
+P 5245 7180
+F 0 "U15" H 5245 7505 50  0000 C CNN
+F 1 "EL817" H 5245 7414 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 5045 6980 50  0001 L CIN
+F 3 "http://www.everlight.com/file/ProductFile/EL817.pdf" H 5245 7180 50  0001 L CNN
+	1    5245 7180
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4945 7080 4810 7080
+$Comp
+L Device:R R35
+U 1 1 5FCFE502
+P 4810 6930
+F 0 "R35" V 4885 6880 50  0000 L CNN
+F 1 "150" V 4805 6860 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4740 6930 50  0001 C CNN
+F 3 "~" H 4810 6930 50  0001 C CNN
+	1    4810 6930
+	1    0    0    -1  
+$EndComp
+Text Label 4810 6780 0    31   ~ 0
+5V
+Text Label 5545 7580 0    31   ~ 0
+GND
+$Comp
+L Relay:G5LE-1 K12
+U 1 1 5FCFE50A
+P 6330 6695
+F 0 "K12" H 6930 6750 50  0000 L CNN
+F 1 "G5LE-1" H 6800 6830 50  0000 L CNN
+F 2 "Relay_THT:Relay_SPDT_Omron-G5LE-1" H 6780 6645 50  0001 L CNN
+F 3 "http://www.omron.com/ecb/products/pdf/en-g5le.pdf" H 6330 6695 50  0001 C CNN
+	1    6330 6695
+	1    0    0    -1  
+$EndComp
+Text Label 5545 6710 2    39   ~ 0
+12V
+Text Label 6530 6995 2    39   ~ 0
+COM14
+Text Label 6430 6395 2    39   ~ 0
+NC14
+Text Label 6630 6395 2    39   ~ 0
+NO14
+$Comp
+L Device:R R45
+U 1 1 5FCFE514
+P 5545 6860
+F 0 "R45" V 5620 6810 50  0000 L CNN
+F 1 "1900" V 5550 6790 39  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5475 6860 50  0001 C CNN
+F 3 "~" H 5545 6860 50  0001 C CNN
+	1    5545 6860
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:2N2219 Q13
+U 1 1 5FCFE51A
+P 5755 7280
+F 0 "Q13" H 5945 7326 50  0000 L CNN
+F 1 "2N2219" H 5945 7235 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92L_Wide" H 5955 7205 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF" H 5755 7280 50  0001 L CNN
+	1    5755 7280
+	1    0    0    -1  
+$EndComp
+Text Label 5855 7480 0    31   ~ 0
+GND
+$Comp
+L Device:R R46
+U 1 1 5FCFE521
+P 5545 7430
+F 0 "R46" V 5620 7380 50  0000 L CNN
+F 1 "1K" V 5540 7380 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5475 7430 50  0001 C CNN
+F 3 "~" H 5545 7430 50  0001 C CNN
+	1    5545 7430
+	1    0    0    -1  
+$EndComp
+Text Label 6130 6395 2    39   ~ 0
+12V
+Wire Wire Line
+	5545 7010 5545 7080
+Wire Wire Line
+	5545 7280 5555 7280
+Connection ~ 5545 7280
+Wire Wire Line
+	5855 7080 5855 6995
+Wire Wire Line
+	5855 6995 6130 6995
+Wire Wire Line
+	5790 6495 5790 6395
+Wire Wire Line
+	5790 6395 6130 6395
+Wire Wire Line
+	5790 6995 5855 6995
+Connection ~ 5855 6995
+$Comp
+L Diode:1N5407 D14
+U 1 1 5FCFE531
+P 5790 6645
+F 0 "D14" H 5790 6500 50  0000 C CNN
+F 1 "1N5407" H 5790 6570 50  0000 C CNN
+F 2 "Diode_THT:D_DO-15_P12.70mm_Horizontal" H 5790 6470 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88516/1n5400.pdf" H 5790 6645 50  0001 C CNN
+	1    5790 6645
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5790 6795 5790 6995
+$Comp
+L Isolator:EL817 U17
+U 1 1 5FCFE538
+P 5375 8840
+F 0 "U17" H 5375 9165 50  0000 C CNN
+F 1 "EL817" H 5375 9074 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 5175 8640 50  0001 L CIN
+F 3 "http://www.everlight.com/file/ProductFile/EL817.pdf" H 5375 8840 50  0001 L CNN
+	1    5375 8840
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5075 8740 4940 8740
+$Comp
+L Device:R R37
+U 1 1 5FCFE53F
+P 4940 8590
+F 0 "R37" V 5015 8540 50  0000 L CNN
+F 1 "150" V 4935 8520 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4870 8590 50  0001 C CNN
+F 3 "~" H 4940 8590 50  0001 C CNN
+	1    4940 8590
+	1    0    0    -1  
+$EndComp
+Text Label 4940 8440 0    31   ~ 0
+5V
+Text Label 5675 9240 0    31   ~ 0
+GND
+$Comp
+L Relay:G5LE-1 K14
+U 1 1 5FCFE547
+P 6460 8355
+F 0 "K14" H 7060 8410 50  0000 L CNN
+F 1 "G5LE-1" H 6930 8490 50  0000 L CNN
+F 2 "Relay_THT:Relay_SPDT_Omron-G5LE-1" H 6910 8305 50  0001 L CNN
+F 3 "http://www.omron.com/ecb/products/pdf/en-g5le.pdf" H 6460 8355 50  0001 C CNN
+	1    6460 8355
+	1    0    0    -1  
+$EndComp
+Text Label 5675 8370 2    39   ~ 0
+12V
+Text Label 6660 8655 2    39   ~ 0
+COM13
+Text Label 6560 8055 2    39   ~ 0
+NC13
+Text Label 6760 8055 2    39   ~ 0
+NO13
+$Comp
+L Device:R R49
+U 1 1 5FCFE551
+P 5675 8520
+F 0 "R49" V 5750 8470 50  0000 L CNN
+F 1 "1900" V 5680 8450 39  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5605 8520 50  0001 C CNN
+F 3 "~" H 5675 8520 50  0001 C CNN
+	1    5675 8520
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:2N2219 Q15
+U 1 1 5FCFE557
+P 5885 8940
+F 0 "Q15" H 6075 8986 50  0000 L CNN
+F 1 "2N2219" H 6075 8895 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92L_Wide" H 6085 8865 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF" H 5885 8940 50  0001 L CNN
+	1    5885 8940
+	1    0    0    -1  
+$EndComp
+Text Label 5985 9140 0    31   ~ 0
+GND
+$Comp
+L Device:R R50
+U 1 1 5FCFE55E
+P 5675 9090
+F 0 "R50" V 5750 9040 50  0000 L CNN
+F 1 "1K" V 5670 9040 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5605 9090 50  0001 C CNN
+F 3 "~" H 5675 9090 50  0001 C CNN
+	1    5675 9090
+	1    0    0    -1  
+$EndComp
+Text Label 6260 8055 2    39   ~ 0
+12V
+Wire Wire Line
+	5675 8670 5675 8740
+Wire Wire Line
+	5675 8940 5685 8940
+Connection ~ 5675 8940
+Wire Wire Line
+	5985 8740 5985 8655
+Wire Wire Line
+	5985 8655 6260 8655
+Wire Wire Line
+	5920 8155 5920 8055
+Wire Wire Line
+	5920 8055 6260 8055
+Wire Wire Line
+	5920 8655 5985 8655
+Connection ~ 5985 8655
+$Comp
+L Diode:1N5407 D16
+U 1 1 5FCFE56E
+P 5920 8305
+F 0 "D16" H 5920 8160 50  0000 C CNN
+F 1 "1N5407" H 5920 8230 50  0000 C CNN
+F 2 "Diode_THT:D_DO-15_P12.70mm_Horizontal" H 5920 8130 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88516/1n5400.pdf" H 5920 8305 50  0001 C CNN
+	1    5920 8305
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5920 8455 5920 8655
+$Comp
+L Isolator:EL817 U16
+U 1 1 5FCFE575
+P 5280 10395
+F 0 "U16" H 5280 10720 50  0000 C CNN
+F 1 "EL817" H 5280 10629 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 5080 10195 50  0001 L CIN
+F 3 "http://www.everlight.com/file/ProductFile/EL817.pdf" H 5280 10395 50  0001 L CNN
+	1    5280 10395
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4980 10295 4845 10295
+$Comp
+L Device:R R36
+U 1 1 5FCFE57C
+P 4845 10145
+F 0 "R36" V 4920 10095 50  0000 L CNN
+F 1 "150" V 4840 10075 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4775 10145 50  0001 C CNN
+F 3 "~" H 4845 10145 50  0001 C CNN
+	1    4845 10145
+	1    0    0    -1  
+$EndComp
+Text Label 4845 9995 0    31   ~ 0
+5V
+Text Label 5580 10795 0    31   ~ 0
+GND
+$Comp
+L Relay:G5LE-1 K13
+U 1 1 5FCFE584
+P 6365 9910
+F 0 "K13" H 6965 9965 50  0000 L CNN
+F 1 "G5LE-1" H 6835 10045 50  0000 L CNN
+F 2 "Relay_THT:Relay_SPDT_Omron-G5LE-1" H 6815 9860 50  0001 L CNN
+F 3 "http://www.omron.com/ecb/products/pdf/en-g5le.pdf" H 6365 9910 50  0001 C CNN
+	1    6365 9910
+	1    0    0    -1  
+$EndComp
+Text Label 5580 9925 2    39   ~ 0
+12V
+Text Label 6565 10210 2    39   ~ 0
+COM12
+Text Label 6465 9610 2    39   ~ 0
+NC12
+Text Label 6665 9610 2    39   ~ 0
+NO12
+$Comp
+L Device:R R47
+U 1 1 5FCFE58E
+P 5580 10075
+F 0 "R47" V 5655 10025 50  0000 L CNN
+F 1 "1900" V 5585 10005 39  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5510 10075 50  0001 C CNN
+F 3 "~" H 5580 10075 50  0001 C CNN
+	1    5580 10075
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:2N2219 Q14
+U 1 1 5FCFE594
+P 5790 10495
+F 0 "Q14" H 5980 10541 50  0000 L CNN
+F 1 "2N2219" H 5980 10450 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92L_Wide" H 5990 10420 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF" H 5790 10495 50  0001 L CNN
+	1    5790 10495
+	1    0    0    -1  
+$EndComp
+Text Label 5890 10695 0    31   ~ 0
+GND
+$Comp
+L Device:R R48
+U 1 1 5FCFE59B
+P 5580 10645
+F 0 "R48" V 5655 10595 50  0000 L CNN
+F 1 "1K" V 5575 10595 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5510 10645 50  0001 C CNN
+F 3 "~" H 5580 10645 50  0001 C CNN
+	1    5580 10645
+	1    0    0    -1  
+$EndComp
+Text Label 6165 9610 2    39   ~ 0
+12V
+Wire Wire Line
+	5580 10225 5580 10295
+Wire Wire Line
+	5580 10495 5590 10495
+Connection ~ 5580 10495
+Wire Wire Line
+	5890 10295 5890 10210
+Wire Wire Line
+	5890 10210 6165 10210
+Wire Wire Line
+	5825 9710 5825 9610
+Wire Wire Line
+	5825 9610 6165 9610
+Wire Wire Line
+	5825 10210 5890 10210
+Connection ~ 5890 10210
+$Comp
+L Diode:1N5407 D15
+U 1 1 5FCFE5AB
+P 5825 9860
+F 0 "D15" H 5825 9715 50  0000 C CNN
+F 1 "1N5407" H 5825 9785 50  0000 C CNN
+F 2 "Diode_THT:D_DO-15_P12.70mm_Horizontal" H 5825 9685 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88516/1n5400.pdf" H 5825 9860 50  0001 C CNN
+	1    5825 9860
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5825 10010 5825 10210
+$Comp
+L Isolator:EL817 U18
+U 1 1 5FCFE5B2
+P 5410 12055
+F 0 "U18" H 5410 12380 50  0000 C CNN
+F 1 "EL817" H 5410 12289 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 5210 11855 50  0001 L CIN
+F 3 "http://www.everlight.com/file/ProductFile/EL817.pdf" H 5410 12055 50  0001 L CNN
+	1    5410 12055
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5110 11955 4975 11955
+$Comp
+L Device:R R38
+U 1 1 5FCFE5B9
+P 4975 11805
+F 0 "R38" V 5050 11755 50  0000 L CNN
+F 1 "150" V 4970 11735 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4905 11805 50  0001 C CNN
+F 3 "~" H 4975 11805 50  0001 C CNN
+	1    4975 11805
+	1    0    0    -1  
+$EndComp
+Text Label 4975 11655 0    31   ~ 0
+5V
+Text Label 5710 12455 0    31   ~ 0
+GND
+$Comp
+L Relay:G5LE-1 K15
+U 1 1 5FCFE5C1
+P 6495 11570
+F 0 "K15" H 7095 11625 50  0000 L CNN
+F 1 "G5LE-1" H 6965 11705 50  0000 L CNN
+F 2 "Relay_THT:Relay_SPDT_Omron-G5LE-1" H 6945 11520 50  0001 L CNN
+F 3 "http://www.omron.com/ecb/products/pdf/en-g5le.pdf" H 6495 11570 50  0001 C CNN
+	1    6495 11570
+	1    0    0    -1  
+$EndComp
+Text Label 5710 11585 2    39   ~ 0
+12V
+Text Label 6695 11870 2    39   ~ 0
+COM11
+Text Label 6595 11270 2    39   ~ 0
+NC11
+Text Label 6795 11270 2    39   ~ 0
+NO11
+$Comp
+L Device:R R51
+U 1 1 5FCFE5CB
+P 5710 11735
+F 0 "R51" V 5785 11685 50  0000 L CNN
+F 1 "1900" V 5715 11665 39  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5640 11735 50  0001 C CNN
+F 3 "~" H 5710 11735 50  0001 C CNN
+	1    5710 11735
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:2N2219 Q16
+U 1 1 5FCFE5D1
+P 5920 12155
+F 0 "Q16" H 6110 12201 50  0000 L CNN
+F 1 "2N2219" H 6110 12110 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92L_Wide" H 6120 12080 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF" H 5920 12155 50  0001 L CNN
+	1    5920 12155
+	1    0    0    -1  
+$EndComp
+Text Label 6020 12355 0    31   ~ 0
+GND
+$Comp
+L Device:R R52
+U 1 1 5FCFE5D8
+P 5710 12305
+F 0 "R52" V 5785 12255 50  0000 L CNN
+F 1 "1K" V 5705 12255 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5640 12305 50  0001 C CNN
+F 3 "~" H 5710 12305 50  0001 C CNN
+	1    5710 12305
+	1    0    0    -1  
+$EndComp
+Text Label 6295 11270 2    39   ~ 0
+12V
+Wire Wire Line
+	5710 11885 5710 11955
+Wire Wire Line
+	5710 12155 5720 12155
+Connection ~ 5710 12155
+Wire Wire Line
+	6020 11955 6020 11870
+Wire Wire Line
+	6020 11870 6295 11870
+Wire Wire Line
+	5955 11370 5955 11270
+Wire Wire Line
+	5955 11270 6295 11270
+Wire Wire Line
+	5955 11870 6020 11870
+Connection ~ 6020 11870
+$Comp
+L Diode:1N5407 D17
+U 1 1 5FCFE5E8
+P 5955 11520
+F 0 "D17" H 5955 11375 50  0000 C CNN
+F 1 "1N5407" H 5955 11445 50  0000 C CNN
+F 2 "Diode_THT:D_DO-15_P12.70mm_Horizontal" H 5955 11345 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88516/1n5400.pdf" H 5955 11520 50  0001 C CNN
+	1    5955 11520
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5955 11670 5955 11870
+$Comp
+L Isolator:EL817 U19
+U 1 1 5FCFE5EF
+P 5475 13675
+F 0 "U19" H 5475 14000 50  0000 C CNN
+F 1 "EL817" H 5475 13909 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 5275 13475 50  0001 L CIN
+F 3 "http://www.everlight.com/file/ProductFile/EL817.pdf" H 5475 13675 50  0001 L CNN
+	1    5475 13675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5175 13575 5040 13575
+$Comp
+L Device:R R39
+U 1 1 5FCFE5F6
+P 5040 13425
+F 0 "R39" V 5115 13375 50  0000 L CNN
+F 1 "150" V 5035 13355 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4970 13425 50  0001 C CNN
+F 3 "~" H 5040 13425 50  0001 C CNN
+	1    5040 13425
+	1    0    0    -1  
+$EndComp
+Text Label 5040 13275 0    31   ~ 0
+5V
+Text Label 5775 14075 0    31   ~ 0
+GND
+$Comp
+L Relay:G5LE-1 K16
+U 1 1 5FCFE5FE
+P 6560 13190
+F 0 "K16" H 7160 13245 50  0000 L CNN
+F 1 "G5LE-1" H 7030 13325 50  0000 L CNN
+F 2 "Relay_THT:Relay_SPDT_Omron-G5LE-1" H 7010 13140 50  0001 L CNN
+F 3 "http://www.omron.com/ecb/products/pdf/en-g5le.pdf" H 6560 13190 50  0001 C CNN
+	1    6560 13190
+	1    0    0    -1  
+$EndComp
+Text Label 5775 13205 2    39   ~ 0
+12V
+Text Label 6760 13490 2    39   ~ 0
+COM10
+Text Label 6660 12890 2    39   ~ 0
+NC10
+Text Label 6860 12890 2    39   ~ 0
+NO10
+$Comp
+L Device:R R53
+U 1 1 5FCFE608
+P 5775 13355
+F 0 "R53" V 5850 13305 50  0000 L CNN
+F 1 "1900" V 5780 13285 39  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5705 13355 50  0001 C CNN
+F 3 "~" H 5775 13355 50  0001 C CNN
+	1    5775 13355
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:2N2219 Q17
+U 1 1 5FCFE60E
+P 5985 13775
+F 0 "Q17" H 6175 13821 50  0000 L CNN
+F 1 "2N2219" H 6175 13730 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92L_Wide" H 6185 13700 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF" H 5985 13775 50  0001 L CNN
+	1    5985 13775
+	1    0    0    -1  
+$EndComp
+Text Label 6085 13975 0    31   ~ 0
+GND
+$Comp
+L Device:R R54
+U 1 1 5FCFE615
+P 5775 13925
+F 0 "R54" V 5850 13875 50  0000 L CNN
+F 1 "1K" V 5770 13875 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5705 13925 50  0001 C CNN
+F 3 "~" H 5775 13925 50  0001 C CNN
+	1    5775 13925
+	1    0    0    -1  
+$EndComp
+Text Label 6360 12890 2    39   ~ 0
+12V
+Wire Wire Line
+	5775 13505 5775 13575
+Wire Wire Line
+	5775 13775 5785 13775
+Connection ~ 5775 13775
+Wire Wire Line
+	6085 13575 6085 13490
+Wire Wire Line
+	6085 13490 6360 13490
+Wire Wire Line
+	6020 12990 6020 12890
+Wire Wire Line
+	6020 12890 6360 12890
+Wire Wire Line
+	6020 13490 6085 13490
+Connection ~ 6085 13490
+$Comp
+L Diode:1N5407 D18
+U 1 1 5FCFE625
+P 6020 13140
+F 0 "D18" H 6020 12995 50  0000 C CNN
+F 1 "1N5407" H 6020 13065 50  0000 C CNN
+F 2 "Diode_THT:D_DO-15_P12.70mm_Horizontal" H 6020 12965 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88516/1n5400.pdf" H 6020 13140 50  0001 C CNN
+	1    6020 13140
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6020 13290 6020 13490
+$Comp
+L Isolator:EL817 U20
+U 1 1 5FCFE62C
+P 5605 15335
+F 0 "U20" H 5605 15660 50  0000 C CNN
+F 1 "EL817" H 5605 15569 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 5405 15135 50  0001 L CIN
+F 3 "http://www.everlight.com/file/ProductFile/EL817.pdf" H 5605 15335 50  0001 L CNN
+	1    5605 15335
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5305 15235 5170 15235
+$Comp
+L Device:R R40
+U 1 1 5FCFE633
+P 5170 15085
+F 0 "R40" V 5245 15035 50  0000 L CNN
+F 1 "150" V 5165 15015 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5100 15085 50  0001 C CNN
+F 3 "~" H 5170 15085 50  0001 C CNN
+	1    5170 15085
+	1    0    0    -1  
+$EndComp
+Text Label 5170 14935 0    31   ~ 0
+5V
+Text Label 5905 15735 0    31   ~ 0
+GND
+$Comp
+L Relay:G5LE-1 K17
+U 1 1 5FCFE63B
+P 6690 14850
+F 0 "K17" H 7290 14905 50  0000 L CNN
+F 1 "G5LE-1" H 7160 14985 50  0000 L CNN
+F 2 "Relay_THT:Relay_SPDT_Omron-G5LE-1" H 7140 14800 50  0001 L CNN
+F 3 "http://www.omron.com/ecb/products/pdf/en-g5le.pdf" H 6690 14850 50  0001 C CNN
+	1    6690 14850
+	1    0    0    -1  
+$EndComp
+Text Label 5905 14865 2    39   ~ 0
+12V
+Text Label 6890 15150 2    39   ~ 0
+COM9
+Text Label 6790 14550 2    39   ~ 0
+NC9
+Text Label 6990 14550 2    39   ~ 0
+NO9
+$Comp
+L Device:R R55
+U 1 1 5FCFE645
+P 5905 15015
+F 0 "R55" V 5980 14965 50  0000 L CNN
+F 1 "1900" V 5910 14945 39  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5835 15015 50  0001 C CNN
+F 3 "~" H 5905 15015 50  0001 C CNN
+	1    5905 15015
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:2N2219 Q18
+U 1 1 5FCFE64B
+P 6115 15435
+F 0 "Q18" H 6305 15481 50  0000 L CNN
+F 1 "2N2219" H 6305 15390 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92L_Wide" H 6315 15360 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF" H 6115 15435 50  0001 L CNN
+	1    6115 15435
+	1    0    0    -1  
+$EndComp
+Text Label 6215 15635 0    31   ~ 0
+GND
+$Comp
+L Device:R R56
+U 1 1 5FCFE652
+P 5905 15585
+F 0 "R56" V 5980 15535 50  0000 L CNN
+F 1 "1K" V 5900 15535 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5835 15585 50  0001 C CNN
+F 3 "~" H 5905 15585 50  0001 C CNN
+	1    5905 15585
+	1    0    0    -1  
+$EndComp
+Text Label 6490 14550 2    39   ~ 0
+12V
+Wire Wire Line
+	5905 15165 5905 15235
+Wire Wire Line
+	5905 15435 5915 15435
+Connection ~ 5905 15435
+Wire Wire Line
+	6215 15235 6215 15150
+Wire Wire Line
+	6215 15150 6490 15150
+Wire Wire Line
+	6150 14650 6150 14550
+Wire Wire Line
+	6150 14550 6490 14550
+Wire Wire Line
+	6150 15150 6215 15150
+Connection ~ 6215 15150
+$Comp
+L Diode:1N5407 D19
+U 1 1 5FCFE662
+P 6150 14800
+F 0 "D19" H 6150 14655 50  0000 C CNN
+F 1 "1N5407" H 6150 14725 50  0000 C CNN
+F 2 "Diode_THT:D_DO-15_P12.70mm_Horizontal" H 6150 14625 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88516/1n5400.pdf" H 6150 14800 50  0001 C CNN
+	1    6150 14800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6150 14950 6150 15150
+Text Label 1440 5745 2    39   ~ 0
+REL_UL_2
+Text Label 1505 7365 2    39   ~ 0
+REL_UL_3
+Text Label 1635 9025 2    39   ~ 0
+REL_UL_4
+Text Label 1540 10580 2    39   ~ 0
+REL_UL_5
+Text Label 1735 13860 2    39   ~ 0
+REL_UL_7
+Text Label 1865 15520 2    39   ~ 0
+REL_UL_8
+Text Label 5305 15435 2    39   ~ 0
+REL_UL_9
+Text Label 5175 13775 2    39   ~ 0
+REL_UL_10
+Text Label 5110 12155 2    39   ~ 0
+REL_UL_11
+Text Label 4980 10495 2    39   ~ 0
+REL_UL_12
+Text Label 5075 8940 2    39   ~ 0
+REL_UL_13
+Text Label 4945 7280 2    39   ~ 0
+REL_UL_14
+Text Label 4880 5660 2    39   ~ 0
+REL_UL_15
+Text Label 13785 13145 0    39   ~ 0
+REL_17
+Text Label 13770 14195 0    39   ~ 0
+REL_18
+Text Label 13770 14295 0    39   ~ 0
+REL_19
+Text Label 13770 14395 0    39   ~ 0
+REL_20
+Text Label 13770 14495 0    39   ~ 0
+REL_21
+Text Label 13770 14595 0    39   ~ 0
+REL_22
+Text Label 13770 14695 0    39   ~ 0
+REL_23
+Text Label 13770 14795 0    39   ~ 0
+REL_24
+Text Label 13770 14895 0    39   ~ 0
+REL_25
+Text Label 13370 15295 0    31   ~ 0
+GND
+Text Label 12970 14495 2    31   ~ 0
+5V
+Text Label 12970 14695 2    39   ~ 0
+RCLK
+Wire Notes Line
+	7635 16010 7635 1180
+Wire Notes Line
+	620  1180 620  16010
+Wire Notes Line
+	620  16010 7635 16010
+Text Notes 4050 1105 0    118  ~ 0
+Relays
+$Comp
+L Connector:Screw_Terminal_01x03 J5
+U 1 1 5FC69FCD
+P 8830 7710
+F 0 "J5" V 8995 7670 50  0000 L CNN
+F 1 "1" V 8920 7685 50  0000 L CNN
+F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_3-G-5,08_1x03_P5.08mm_Horizontal" H 8830 7710 50  0001 C CNN
+F 3 "~" H 8830 7710 50  0001 C CNN
+	1    8830 7710
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x03 J6
+U 1 1 5FC6D08D
+P 8835 8080
+F 0 "J6" V 9000 8040 50  0000 L CNN
+F 1 "2" V 8925 8055 50  0000 L CNN
+F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_3-G-5,08_1x03_P5.08mm_Horizontal" H 8835 8080 50  0001 C CNN
+F 3 "~" H 8835 8080 50  0001 C CNN
+	1    8835 8080
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x03 J7
+U 1 1 5FC6D784
+P 8835 8445
+F 0 "J7" V 9000 8405 50  0000 L CNN
+F 1 "3" V 8925 8420 50  0000 L CNN
+F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_3-G-5,08_1x03_P5.08mm_Horizontal" H 8835 8445 50  0001 C CNN
+F 3 "~" H 8835 8445 50  0001 C CNN
+	1    8835 8445
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x03 J8
+U 1 1 5FC6E005
+P 8835 8810
+F 0 "J8" V 9000 8770 50  0000 L CNN
+F 1 "4" V 8925 8785 50  0000 L CNN
+F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_3-G-5,08_1x03_P5.08mm_Horizontal" H 8835 8810 50  0001 C CNN
+F 3 "~" H 8835 8810 50  0001 C CNN
+	1    8835 8810
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x03 J9
+U 1 1 5FC6E56D
+P 8835 9170
+F 0 "J9" V 9000 9130 50  0000 L CNN
+F 1 "5" V 8925 9145 50  0000 L CNN
+F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_3-G-5,08_1x03_P5.08mm_Horizontal" H 8835 9170 50  0001 C CNN
+F 3 "~" H 8835 9170 50  0001 C CNN
+	1    8835 9170
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x03 J10
+U 1 1 5FC6EDBF
+P 8835 9545
+F 0 "J10" V 9000 9505 50  0000 L CNN
+F 1 "6" V 8925 9520 50  0000 L CNN
+F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_3-G-5,08_1x03_P5.08mm_Horizontal" H 8835 9545 50  0001 C CNN
+F 3 "~" H 8835 9545 50  0001 C CNN
+	1    8835 9545
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x03 J11
+U 1 1 5FC6F82B
+P 8835 9915
+F 0 "J11" V 9000 9875 50  0000 L CNN
+F 1 "7" V 8925 9890 50  0000 L CNN
+F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_3-G-5,08_1x03_P5.08mm_Horizontal" H 8835 9915 50  0001 C CNN
+F 3 "~" H 8835 9915 50  0001 C CNN
+	1    8835 9915
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x03 J12
+U 1 1 5FC70219
+P 9430 7280
+F 0 "J12" V 9595 7240 50  0000 L CNN
+F 1 "8" V 9520 7255 50  0000 L CNN
+F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_3-G-5,08_1x03_P5.08mm_Horizontal" H 9430 7280 50  0001 C CNN
+F 3 "~" H 9430 7280 50  0001 C CNN
+	1    9430 7280
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x03 J13
+U 1 1 5FC7684C
+P 9430 7670
+F 0 "J13" V 9595 7630 50  0000 L CNN
+F 1 "9" V 9520 7645 50  0000 L CNN
+F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_3-G-5,08_1x03_P5.08mm_Horizontal" H 9430 7670 50  0001 C CNN
+F 3 "~" H 9430 7670 50  0001 C CNN
+	1    9430 7670
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x03 J14
+U 1 1 5FC76852
+P 9430 8040
+F 0 "J14" V 9595 8000 50  0000 L CNN
+F 1 "10" V 9520 8015 50  0000 L CNN
+F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_3-G-5,08_1x03_P5.08mm_Horizontal" H 9430 8040 50  0001 C CNN
+F 3 "~" H 9430 8040 50  0001 C CNN
+	1    9430 8040
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x03 J15
+U 1 1 5FC76858
+P 9430 8405
+F 0 "J15" V 9595 8365 50  0000 L CNN
+F 1 "11" V 9520 8380 50  0000 L CNN
+F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_3-G-5,08_1x03_P5.08mm_Horizontal" H 9430 8405 50  0001 C CNN
+F 3 "~" H 9430 8405 50  0001 C CNN
+	1    9430 8405
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x03 J16
+U 1 1 5FC7685E
+P 9430 8770
+F 0 "J16" V 9595 8730 50  0000 L CNN
+F 1 "12" V 9520 8745 50  0000 L CNN
+F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_3-G-5,08_1x03_P5.08mm_Horizontal" H 9430 8770 50  0001 C CNN
+F 3 "~" H 9430 8770 50  0001 C CNN
+	1    9430 8770
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x03 J17
+U 1 1 5FC76864
+P 9430 9130
+F 0 "J17" V 9595 9090 50  0000 L CNN
+F 1 "13" V 9520 9105 50  0000 L CNN
+F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_3-G-5,08_1x03_P5.08mm_Horizontal" H 9430 9130 50  0001 C CNN
+F 3 "~" H 9430 9130 50  0001 C CNN
+	1    9430 9130
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x03 J18
+U 1 1 5FC7686A
+P 9430 9505
+F 0 "J18" V 9595 9465 50  0000 L CNN
+F 1 "14" V 9520 9480 50  0000 L CNN
+F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_3-G-5,08_1x03_P5.08mm_Horizontal" H 9430 9505 50  0001 C CNN
+F 3 "~" H 9430 9505 50  0001 C CNN
+	1    9430 9505
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x03 J19
+U 1 1 5FC76870
+P 9430 9875
+F 0 "J19" V 9595 9835 50  0000 L CNN
+F 1 "15" V 9520 9850 50  0000 L CNN
+F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_3-G-5,08_1x03_P5.08mm_Horizontal" H 9430 9875 50  0001 C CNN
+F 3 "~" H 9430 9875 50  0001 C CNN
+	1    9430 9875
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x03 J22
+U 1 1 5FC76876
+P 10130 8520
+F 0 "J22" V 10295 8480 50  0000 L CNN
+F 1 "16" V 10220 8495 50  0000 L CNN
+F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_3-G-5,08_1x03_P5.08mm_Horizontal" H 10130 8520 50  0001 C CNN
+F 3 "~" H 10130 8520 50  0001 C CNN
+	1    10130 8520
+	-1   0    0    1   
+$EndComp
+Text Label 9030 7610 0    39   ~ 0
+NC1
+Text Label 9030 7710 0    39   ~ 0
+COM1
+Text Label 9030 7810 0    39   ~ 0
+NO1
+Text Label 9035 8180 0    39   ~ 0
+NO2
+Text Label 9035 7980 0    39   ~ 0
+NC2
+Text Label 9035 8080 0    39   ~ 0
+COM2
+Text Label 9035 8545 0    39   ~ 0
+NO3
+Text Label 9035 8345 0    39   ~ 0
+NC3
+Text Label 9035 8445 0    39   ~ 0
+COM3
+Text Label 9035 8710 0    39   ~ 0
+NC4
+Text Label 9035 8810 0    39   ~ 0
+COM4
+Text Label 9035 8910 0    39   ~ 0
+NO4
+Text Label 9035 9070 0    39   ~ 0
+NC5
+Text Label 9035 9170 0    39   ~ 0
+COM5
+Text Label 9035 9270 0    39   ~ 0
+NO5
+Text Label 9035 9445 0    39   ~ 0
+NC6
+Text Label 9035 9645 0    39   ~ 0
+NO6
+Text Label 9035 9545 0    39   ~ 0
+COM6
+Text Label 9035 9815 0    39   ~ 0
+NC7
+Text Label 9035 9915 0    39   ~ 0
+COM7
+Text Label 9035 10015 0    39   ~ 0
+NO7
+Text Label 9630 7180 0    39   ~ 0
+NC8
+Text Label 9630 7280 0    39   ~ 0
+COM8
+Text Label 9630 7380 0    39   ~ 0
+NO8
+Text Label 9630 7570 0    39   ~ 0
+NC9
+Text Label 9630 7770 0    39   ~ 0
+NO9
+Text Label 9630 7670 0    39   ~ 0
+COM9
+Text Label 9630 7940 0    39   ~ 0
+NC10
+Text Label 9630 8040 0    39   ~ 0
+COM10
+Text Label 9630 8140 0    39   ~ 0
+NO10
+Text Label 9630 8305 0    39   ~ 0
+NC11
+Text Label 9630 8405 0    39   ~ 0
+COM11
+Text Label 9630 8505 0    39   ~ 0
+NO11
+Text Label 9630 8670 0    39   ~ 0
+NC12
+Text Label 9630 8870 0    39   ~ 0
+NO12
+Text Label 9630 8770 0    39   ~ 0
+COM12
+Text Label 9630 9030 0    39   ~ 0
+NC13
+Text Label 9630 9230 0    39   ~ 0
+NO13
+Text Label 9630 9130 0    39   ~ 0
+COM13
+Text Label 9630 9405 0    39   ~ 0
+NC14
+Text Label 9630 9605 0    39   ~ 0
+NO14
+Text Label 9630 9505 0    39   ~ 0
+COM14
+Text Label 9630 9775 0    39   ~ 0
+NC15
+Text Label 9630 9975 0    39   ~ 0
+NO15
+Text Label 9630 9875 0    39   ~ 0
+COM15
+Text Label 10330 8420 0    39   ~ 0
+NC16
+Text Label 10330 8520 0    39   ~ 0
+COM16
+Text Label 10330 8620 0    39   ~ 0
+NO16
+Text Label 9020 7230 0    39   ~ 0
+NC0
+Text Label 9020 7430 0    39   ~ 0
+NO0
+Text Label 9020 7330 0    39   ~ 0
+COM0
+$Comp
+L Connector:Screw_Terminal_01x03 J4
+U 1 1 5FC87E2B
+P 8820 7330
+F 0 "J4" V 8985 7290 50  0000 L CNN
+F 1 "0" V 8910 7305 50  0000 L CNN
+F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_3-G-5,08_1x03_P5.08mm_Horizontal" H 8820 7330 50  0001 C CNN
+F 3 "~" H 8820 7330 50  0001 C CNN
+	1    8820 7330
+	-1   0    0    1   
+$EndComp
+Wire Notes Line
+	10590 10210 10590 6950
+Wire Notes Line
+	10590 6950 8595 6950
+Wire Notes Line
+	8595 6950 8595 10210
+Wire Notes Line
+	8595 10210 10590 10210
+Text Notes 9375 6885 0    59   ~ 0
+INTERFACE
+NoConn ~ 13770 15095
+$Comp
+L Connector:Screw_Terminal_01x12 J21
+U 1 1 5FDE5A40
+P 9535 11115
+F 0 "J21" V 9660 11061 50  0000 C CNN
+F 1 "INTERFACE for PCB4" V 9751 11061 50  0000 C CNN
+F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_12-G-5,08_1x12_P5.08mm_Horizontal" H 9535 11115 50  0001 C CNN
+F 3 "~" H 9535 11115 50  0001 C CNN
+	1    9535 11115
+	0    1    1    0   
+$EndComp
+Text Label 10035 10915 1    39   ~ 0
+REL_17
+Text Label 9935 10915 1    39   ~ 0
+REL_18
+Text Label 9835 10915 1    39   ~ 0
+REL_19
+Text Label 9735 10915 1    39   ~ 0
+REL_20
+Text Label 9635 10915 1    39   ~ 0
+REL_21
+Text Label 9535 10915 1    39   ~ 0
+REL_22
+Text Label 9435 10915 1    39   ~ 0
+REL_23
+Text Label 9335 10915 1    39   ~ 0
+REL_24
+Text Label 9235 10915 1    39   ~ 0
+REL_25
+NoConn ~ 9135 10915
+Text Label 9035 10915 1    39   ~ 0
+12V
+Text Label 8935 10915 1    31   ~ 0
+GND
+Wire Notes Line
+	14100 15395 14100 11955
+Wire Notes Line
+	14100 11955 12725 11955
+Wire Notes Line
+	12725 11955 12725 15395
+Wire Notes Line
+	12725 15395 14100 15395
+Wire Notes Line
+	10215 11425 10215 10665
+Wire Notes Line
+	10215 10665 8800 10665
+Wire Notes Line
+	8800 10665 8800 11425
+Wire Notes Line
+	8800 11425 10215 11425
+Text Notes 9050 10615 0    59   ~ 0
+INTERFACE for PCB4\n
+Text Label 2795 3200 2    39   ~ 0
+NC1
+Text Label 1670 12240 2    39   ~ 0
+REL_UL_6
+$Comp
+L Isolator:EL817 U13
+U 1 1 5FEBE716
+P 5070 4000
+F 0 "U13" H 5070 4325 50  0000 C CNN
+F 1 "EL817" H 5070 4234 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 4870 3800 50  0001 L CIN
+F 3 "http://www.everlight.com/file/ProductFile/EL817.pdf" H 5070 4000 50  0001 L CNN
+	1    5070 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4770 3900 4635 3900
+$Comp
+L Device:R R33
+U 1 1 5FEBE71D
+P 4635 3750
+F 0 "R33" V 4710 3700 50  0000 L CNN
+F 1 "150" V 4630 3680 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4565 3750 50  0001 C CNN
+F 3 "~" H 4635 3750 50  0001 C CNN
+	1    4635 3750
+	1    0    0    -1  
+$EndComp
+Text Label 4635 3600 0    31   ~ 0
+5V
+Text Label 5370 4400 0    31   ~ 0
+GND
+$Comp
+L Relay:G5LE-1 K10
+U 1 1 5FEBE725
+P 6155 3515
+F 0 "K10" H 6755 3570 50  0000 L CNN
+F 1 "G5LE-1" H 6625 3650 50  0000 L CNN
+F 2 "Relay_THT:Relay_SPDT_Omron-G5LE-1" H 6605 3465 50  0001 L CNN
+F 3 "http://www.omron.com/ecb/products/pdf/en-g5le.pdf" H 6155 3515 50  0001 C CNN
+	1    6155 3515
+	1    0    0    -1  
+$EndComp
+Text Label 5370 3530 2    39   ~ 0
+12V
+Text Label 6355 3815 2    39   ~ 0
+COM16
+Text Label 6255 3215 2    39   ~ 0
+NC16
+Text Label 6455 3215 2    39   ~ 0
+NO16
+$Comp
+L Device:R R41
+U 1 1 5FEBE72F
+P 5370 3680
+F 0 "R41" V 5445 3630 50  0000 L CNN
+F 1 "1900" V 5375 3610 39  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5300 3680 50  0001 C CNN
+F 3 "~" H 5370 3680 50  0001 C CNN
+	1    5370 3680
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:2N2219 Q11
+U 1 1 5FEBE735
+P 5580 4100
+F 0 "Q11" H 5770 4146 50  0000 L CNN
+F 1 "2N2219" H 5770 4055 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92L_Wide" H 5780 4025 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF" H 5580 4100 50  0001 L CNN
+	1    5580 4100
+	1    0    0    -1  
+$EndComp
+Text Label 5680 4300 0    31   ~ 0
+GND
+$Comp
+L Device:R R42
+U 1 1 5FEBE73C
+P 5370 4250
+F 0 "R42" V 5445 4200 50  0000 L CNN
+F 1 "1K" V 5365 4200 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5300 4250 50  0001 C CNN
+F 3 "~" H 5370 4250 50  0001 C CNN
+	1    5370 4250
+	1    0    0    -1  
+$EndComp
+Text Label 5955 3215 2    39   ~ 0
+12V
+Wire Wire Line
+	5370 3830 5370 3900
+Wire Wire Line
+	5370 4100 5380 4100
+Connection ~ 5370 4100
+Wire Wire Line
+	5680 3900 5680 3815
+Wire Wire Line
+	5680 3815 5955 3815
+Wire Wire Line
+	5615 3315 5615 3215
+Wire Wire Line
+	5615 3215 5955 3215
+Wire Wire Line
+	5615 3815 5680 3815
+Connection ~ 5680 3815
+$Comp
+L Diode:1N5407 D12
+U 1 1 5FEBE74C
+P 5615 3465
+F 0 "D12" H 5615 3320 50  0000 C CNN
+F 1 "1N5407" H 5615 3390 50  0000 C CNN
+F 2 "Diode_THT:D_DO-15_P12.70mm_Horizontal" H 5615 3290 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88516/1n5400.pdf" H 5615 3465 50  0001 C CNN
+	1    5615 3465
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5615 3615 5615 3815
+Text Label 4770 4100 2    39   ~ 0
+REL_UL_16
+Wire Notes Line
+	7955 4290 7955 1185
+Wire Notes Line
+	7955 1185 9730 1185
+Wire Notes Line
+	9730 1185 9730 4290
+Wire Notes Line
+	7955 4290 9730 4290
+Text Notes 8535 1135 0    59   ~ 0
+RELAY_DRIVER
+Text Label 15700 13130 0    39   ~ 0
+REL_0
+Text Label 15700 12830 0    39   ~ 0
+REL_6
+Text Label 15700 12930 0    39   ~ 0
+REL_7
+Text Label 15685 14180 0    39   ~ 0
+REL_9
+Text Label 15685 14280 0    39   ~ 0
+REL_11
+Text Label 15685 14380 0    39   ~ 0
+REL_12
+Text Label 15685 14480 0    39   ~ 0
+REL_13
+Text Label 15220 10230 0    39   ~ 0
+REL_15
+Text Label 15685 14780 0    39   ~ 0
+REL_16
+Wire Notes Line
+	12905 5590 12905 10625
+Text Notes 13980 5535 0    118  ~ 0
+MCU
+$Comp
+L Connector:Screw_Terminal_01x03 J20
+U 1 1 5FC6160C
+P 9510 11890
+F 0 "J20" V 9675 11850 50  0000 L CNN
+F 1 "MIFI_PW" V 9605 11745 50  0000 L CNN
+F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_3-G-5,08_1x03_P5.08mm_Horizontal" H 9510 11890 50  0001 C CNN
+F 3 "~" H 9510 11890 50  0001 C CNN
+	1    9510 11890
+	0    1    1    0   
+$EndComp
+Text Label 9410 11690 2    31   ~ 0
+5V
+Text Label 9610 11690 0    31   ~ 0
+GND
+NoConn ~ 9510 11690
+Wire Notes Line
+	9705 12090 9705 11615
+Wire Notes Line
+	9705 11615 9285 11615
+Wire Notes Line
+	9285 11615 9285 12090
+Wire Notes Line
+	9285 12090 9705 12090
+Text Notes 9315 11595 0    59   ~ 0
+MIFI_PW
+$Comp
+L ESP32_module:ESP32_module U26
+U 1 1 5FCCBCA6
+P 22085 8660
+F 0 "U26" H 20860 11928 118 0000 C CNN
+F 1 "ESP32_module" H 20860 11735 118 0000 C CNN
+F 2 "ESP_32module:ESP32_module" H 22085 8660 118 0001 C CNN
+F 3 "" H 22085 8660 118 0001 C CNN
+	1    22085 8660
+	1    0    0    -1  
+$EndComp
+Text Label 20385 5960 2    31   ~ 0
+GND
+Text Label 21335 5960 0    31   ~ 0
+GND
+NoConn ~ 21335 6060
+NoConn ~ 21335 6160
+NoConn ~ 21335 6260
+NoConn ~ 21335 6360
+NoConn ~ 21335 6460
+NoConn ~ 21335 6560
+NoConn ~ 21335 6660
+NoConn ~ 21335 6760
+NoConn ~ 21335 6860
+NoConn ~ 21335 6960
+NoConn ~ 21335 7060
+NoConn ~ 21335 7160
+NoConn ~ 20385 7160
+NoConn ~ 20385 7260
+Text Label 20385 6460 2    39   ~ 0
+TX_ESP_2
+Text Label 20385 6360 2    39   ~ 0
+RX_ESP_2
+NoConn ~ 20385 6060
+NoConn ~ 20385 6260
+NoConn ~ 20385 6560
+NoConn ~ 20385 6660
+NoConn ~ 20385 6760
+NoConn ~ 20385 6860
+Wire Notes Line
+	20035 5245 20035 7475
+Text Notes 20200 5195 0    118  ~ 0
+ESP32_module
+Text Label 15220 10130 0    39   ~ 0
+EN_ESP32
+Text Label 21335 7260 0    39   ~ 0
+EN_ESP32
+Wire Notes Line
+	21680 7475 21680 5245
+Wire Notes Line
+	20035 5245 21680 5245
+Wire Notes Line
+	20035 7475 21680 7475
+$Comp
+L Connector:Screw_Terminal_01x03 J25
+U 1 1 5FEE41CF
+P 17770 1305
+F 0 "J25" V 17935 1265 50  0000 L CNN
+F 1 "5V_PW" V 17865 1185 50  0000 L CNN
+F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_3-G-5,08_1x03_P5.08mm_Horizontal" H 17770 1305 50  0001 C CNN
+F 3 "~" H 17770 1305 50  0001 C CNN
+	1    17770 1305
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x03 J23
+U 1 1 5FEE49DD
+P 17380 1310
+F 0 "J23" V 17545 1270 50  0000 L CNN
+F 1 "12V_PW" V 17475 1165 50  0000 L CNN
+F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_3-G-5,08_1x03_P5.08mm_Horizontal" H 17380 1310 50  0001 C CNN
+F 3 "~" H 17380 1310 50  0001 C CNN
+	1    17380 1310
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x03 J27
+U 1 1 5FF58EBF
+P 18170 1300
+F 0 "J27" V 18335 1260 50  0000 L CNN
+F 1 "3.3V_PW" V 18265 1155 50  0000 L CNN
+F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_3-G-5,08_1x03_P5.08mm_Horizontal" H 18170 1300 50  0001 C CNN
+F 3 "~" H 18170 1300 50  0001 C CNN
+	1    18170 1300
+	0    1    1    0   
+$EndComp
+Text Label 17280 1110 1    39   ~ 0
+12V
+Text Label 17480 1110 1    31   ~ 0
+GND
+Text Label 17870 1105 1    31   ~ 0
+GND
+Text Label 18270 1100 1    31   ~ 0
+GND
+Text Label 18070 1100 1    39   ~ 0
+3.3V
+Text Label 17670 1105 1    31   ~ 0
+5V
+NoConn ~ 17770 1105
+NoConn ~ 17380 1110
+NoConn ~ 18170 1100
+Wire Notes Line
+	18385 1520 18385 960 
+Wire Notes Line
+	17150 960  17150 1520
+Wire Notes Line
+	17150 1520 18385 1520
+Wire Notes Line
+	17150 960  18385 960 
+Text Notes 17435 940  0    59   ~ 0
+PW_INTERFACE
+Text Label 15220 9530 0    28   ~ 0
+RX-MCU
+Text Label 15220 9630 0    28   ~ 0
+TX_MCU
+$Comp
+L Connector:Screw_Terminal_01x03 J24
+U 1 1 60031CD9
+P 17745 2640
+F 0 "J24" V 17910 2600 50  0000 L CNN
+F 1 "Datalog_pcb" V 17835 2480 39  0000 L CNN
+F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_3-G-5,08_1x03_P5.08mm_Horizontal" H 17745 2640 50  0001 C CNN
+F 3 "~" H 17745 2640 50  0001 C CNN
+	1    17745 2640
+	0    1    1    0   
+$EndComp
+NoConn ~ 17745 2440
+Text Label 15220 8230 0    39   ~ 0
+MOSI
+Text Label 15220 8330 0    39   ~ 0
+MISO
+Text Label 15220 8430 0    39   ~ 0
+SCK
+Text Label 18005 2495 1    39   ~ 0
+MOSI
+Text Label 18105 2495 1    39   ~ 0
+MISO
+Text Label 18205 2495 1    39   ~ 0
+SCK
+Text Notes 17345 1670 0    59   ~ 0
+COMU_INTERFACE
+Wire Wire Line
+	19740 10545 19740 10500
+Connection ~ 19740 10545
+Text Label 19740 10500 0    31   ~ 0
+5V
+Text Label 9185 1600 0    39   ~ 0
+12V
+Text Label 9150 3120 0    39   ~ 0
+12V
+$Comp
+L Device:CP1 C4
+U 1 1 5FC0024C
+P 20265 3540
+F 0 "C4" H 20380 3586 50  0000 L CNN
+F 1 "10UF" H 20380 3495 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 20265 3540 50  0001 C CNN
+F 3 "~" H 20265 3540 50  0001 C CNN
+	1    20265 3540
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C9
+U 1 1 5FC00ED3
+P 21110 3535
+F 0 "C9" H 21225 3581 50  0000 L CNN
+F 1 "100UF" H 21225 3490 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 21110 3535 50  0001 C CNN
+F 3 "~" H 21110 3535 50  0001 C CNN
+	1    21110 3535
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	21935 3980 21935 2690
+Wire Notes Line
+	19655 3980 21935 3980
+Wire Notes Line
+	19655 2690 21935 2690
+$Comp
+L Device:C C3
+U 1 1 5FC2B8F6
+P 19850 3550
+F 0 "C3" H 19965 3596 50  0000 L CNN
+F 1 "334" H 19965 3505 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm" H 19888 3400 50  0001 C CNN
+F 3 "~" H 19850 3550 50  0001 C CNN
+	1    19850 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	20265 3270 19850 3270
+Wire Wire Line
+	19850 3270 19850 3400
+Connection ~ 20265 3270
+Wire Wire Line
+	20265 3270 20265 3390
+$Comp
+L Device:C C10
+U 1 1 5FC41EB6
+P 21635 3520
+F 0 "C10" H 21750 3566 50  0000 L CNN
+F 1 "104" H 21750 3475 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm" H 21673 3370 50  0001 C CNN
+F 3 "~" H 21635 3520 50  0001 C CNN
+	1    21635 3520
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	21110 3285 21635 3285
+Wire Wire Line
+	21635 3285 21635 3370
+Connection ~ 21110 3285
+Wire Wire Line
+	21110 3285 21110 3385
+Text Label 21635 3670 0    31   ~ 0
+GND
+Text Label 19850 3700 0    31   ~ 0
+GND
+NoConn ~ 20385 5860
+Text Label 21335 5860 0    31   ~ 0
+5V
+Text Label 15220 10030 0    39   ~ 0
+BOOT
+$Comp
+L Connector_Generic:Conn_01x02 J28
+U 1 1 5FC53AB5
+P 2885 1530
+F 0 "J28" V 2757 1610 50  0000 L CNN
+F 1 "Jumper(V.S)" V 2848 1610 35  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2885 1530 50  0001 C CNN
+F 3 "~" H 2885 1530 50  0001 C CNN
+	1    2885 1530
+	0    1    1    0   
+$EndComp
+Text Label 2930 1635 0    39   ~ 0
+JUM
+Text Label 2885 1330 0    39   ~ 0
+JUM
+Wire Wire Line
+	2785 1330 2885 1330
+$Comp
+L Connector_Generic:Conn_01x02 J26
+U 1 1 5FD17B61
+P 2345 1550
+F 0 "J26" V 2515 1435 50  0000 L CNN
+F 1 "Jumper(V.S)" V 2445 1335 35  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2345 1550 50  0001 C CNN
+F 3 "~" H 2345 1550 50  0001 C CNN
+	1    2345 1550
+	0    1    1    0   
+$EndComp
+Text Label 2245 1350 2    31   ~ 0
+5V
+Wire Notes Line
+	7635 1180 620  1180
+Text Notes 12755 11925 0    59   ~ 0
+Shift_Register(LCD&Sprinkles)
+$Comp
+L 74xx:74AHCT595 U28
+U 1 1 5FD77ECA
+P 15300 12830
+F 0 "U28" H 15300 13611 50  0000 C CNN
+F 1 "74AHCT595" H 15300 13520 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_Socket_LongPads" H 15300 12830 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT595.pdf" H 15300 12830 50  0001 C CNN
+	1    15300 12830
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74AHCT595 U27
+U 1 1 5FD77ED0
+P 15285 14580
+F 0 "U27" H 15285 15361 50  0000 C CNN
+F 1 "74AHCT595" H 15285 15270 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_Socket_LongPads" H 15285 14580 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT595.pdf" H 15285 14580 50  0001 C CNN
+	1    15285 14580
+	1    0    0    -1  
+$EndComp
+Text Label 15300 12230 2    31   ~ 0
+5V
+Text Label 15285 13980 2    31   ~ 0
+5V
+Text Label 14900 12430 2    39   ~ 0
+SER_RELAYS
+Text Label 14900 12630 2    39   ~ 0
+SCK_RELAYS
+Text Label 14900 12930 2    39   ~ 0
+RCLK_RELAYS
+Text Label 15300 13530 0    31   ~ 0
+GND
+Text Label 14900 13030 2    31   ~ 0
+EN_SR
+Text Label 14900 12730 2    31   ~ 0
+5V
+Wire Wire Line
+	15700 13330 15800 13330
+Wire Wire Line
+	15800 13330 15800 13710
+Wire Wire Line
+	15800 13710 14780 13710
+Wire Wire Line
+	14780 13710 14780 14180
+Wire Wire Line
+	14780 14180 14885 14180
+Text Label 15285 15280 0    31   ~ 0
+GND
+Text Label 14885 14480 2    31   ~ 0
+5V
+Wire Notes Line
+	16015 15380 16015 11940
+Text Notes 14810 11910 0    59   ~ 0
+Shift_Register(RELAYS)
+NoConn ~ 15685 15080
+Text Label 14885 14380 2    39   ~ 0
+SCK_RELAYS
+Text Label 14885 14680 2    39   ~ 0
+RCLK_RELAYS
+Wire Notes Line
+	14395 15380 14395 11940
+Wire Notes Line
+	14395 11940 16015 11940
+Wire Notes Line
+	14395 15380 16015 15380
+Text Label 14885 14780 2    31   ~ 0
+EN_SR
+Text Label 12970 14795 2    31   ~ 0
+EN_SR
+Text Label 12985 13045 2    31   ~ 0
+EN_SR
+$Comp
+L Device:R R62
+U 1 1 5FE5A75D
+P 19310 3420
+F 0 "R62" V 19385 3370 50  0000 L CNN
+F 1 "10K" V 19315 3350 39  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 19240 3420 50  0001 C CNN
+F 3 "~" H 19310 3420 50  0001 C CNN
+	1    19310 3420
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R63
+U 1 1 5FE5B31D
+P 19310 3795
+F 0 "R63" V 19385 3745 50  0000 L CNN
+F 1 "5K" V 19315 3725 39  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 19240 3795 50  0001 C CNN
+F 3 "~" H 19310 3795 50  0001 C CNN
+	1    19310 3795
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19310 3645 19310 3610
+Wire Wire Line
+	19310 3610 19255 3610
+Connection ~ 19310 3610
+Wire Wire Line
+	19310 3610 19310 3570
+Text Label 19310 3270 0    39   ~ 0
+12V
+Text Label 19310 3945 0    31   ~ 0
+GND
+Text Label 19255 3610 2    39   ~ 0
+Generator_Indicator
+Wire Notes Line
+	19485 3960 19485 3185
+Wire Notes Line
+	19485 3185 18670 3185
+Wire Notes Line
+	18670 3185 18670 3960
+Wire Notes Line
+	18670 3960 19485 3960
+Text Notes 18780 3165 0    39   ~ 0
+Generator_Indication
+Text Label 15220 7730 0    39   ~ 0
+SER_RELAYS
+Text Label 15220 8030 0    39   ~ 0
+SCK_RELAYS
+Text Label 15220 7930 0    39   ~ 0
+RCLK_RELAYS
+Text Label 15220 8130 0    39   ~ 0
+Generator_Indicator
+Text Label 15220 7830 0    31   ~ 0
+EN_SR
+$Comp
+L Connector_Generic:Conn_01x08 J41
+U 1 1 5F364284
+P 20835 8535
+F 0 "J41" V 20990 8500 39  0000 L CNN
+F 1 "Keypad" V 20925 8430 39  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 20835 8535 50  0001 C CNN
+F 3 "~" H 20835 8535 50  0001 C CNN
+	1    20835 8535
+	0    1    1    0   
+$EndComp
+Text Label 21135 8335 1    39   ~ 0
+ROW1
+Text Label 21035 8335 1    39   ~ 0
+ROW2
+Text Label 20935 8335 1    39   ~ 0
+ROW3
+Text Label 20835 8335 1    39   ~ 0
+ROW4
+Text Label 20735 8335 1    39   ~ 0
+COL1
+Text Label 20635 8335 1    39   ~ 0
+COL2
+Text Label 20535 8335 1    39   ~ 0
+COL3
+Text Label 20435 8335 1    39   ~ 0
+COL4
+Wire Notes Line
+	20305 8730 20305 8140
+Wire Notes Line
+	20305 8140 21255 8140
+Wire Notes Line
+	21255 8140 21255 8730
+Wire Notes Line
+	20305 8730 21255 8730
+Text Notes 20630 8120 0    39   ~ 0
+Keypad
+Text Label 15220 7530 0    39   ~ 0
+ROW1
+Text Label 15220 7430 0    39   ~ 0
+ROW2
+Text Label 15220 7330 0    39   ~ 0
+ROW3
+Text Label 15220 7230 0    39   ~ 0
+ROW4
+Text Label 15220 7130 0    39   ~ 0
+COL1
+Text Label 15220 7030 0    39   ~ 0
+COL2
+Text Label 15220 6930 0    39   ~ 0
+COL3
+Text Label 15220 6830 0    39   ~ 0
+COL4
+$Comp
+L Transistor_BJT:2N3906 Q19
+U 1 1 601C25C8
+P 18980 9530
+F 0 "Q19" H 19170 9576 50  0000 L CNN
+F 1 "2N3906" H 19170 9485 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92L_Wide" H 19180 9455 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf" H 18980 9530 50  0001 L CNN
+	1    18980 9530
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R R61
+U 1 1 601C5770
+P 18630 9530
+F 0 "R61" V 18705 9480 50  0000 L CNN
+F 1 "5K" V 18625 9480 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 18560 9530 50  0001 C CNN
+F 3 "~" H 18630 9530 50  0001 C CNN
+	1    18630 9530
+	0    -1   -1   0   
+$EndComp
+Wire Notes Line
+	15950 5590 15950 10625
+Wire Notes Line
+	12905 10625 15950 10625
+Wire Notes Line
+	12905 5590 15950 5590
+Text Label 19945 9320 1    20   ~ 0
+LCD_BKL
+Text Label 19080 9730 0    20   ~ 0
+LCD_BKL
+Text Label 19080 9330 0    31   ~ 0
+5V
+Text Label 18480 9530 2    39   ~ 0
+EN_BKL
+Text Label 15220 9230 0    39   ~ 0
+EN_BKL
+Wire Notes Line
+	19505 9755 19505 9260
+Wire Notes Line
+	19505 9260 18225 9260
+Wire Notes Line
+	18225 9260 18225 9755
+Wire Notes Line
+	18225 9755 19505 9755
+Text Notes 18755 9245 0    39   ~ 0
+LCD_BKL
+$Comp
+L Connector:Screw_Terminal_01x03 J36
+U 1 1 6025BFF3
+P 17380 2635
+F 0 "J36" V 17545 2595 50  0000 L CNN
+F 1 "Spare" V 17470 2560 39  0000 L CNN
+F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_3-G-5,08_1x03_P5.08mm_Horizontal" H 17380 2635 50  0001 C CNN
+F 3 "~" H 17380 2635 50  0001 C CNN
+	1    17380 2635
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x03 J35
+U 1 1 60272813
+P 17005 2635
+F 0 "J35" V 17170 2595 50  0000 L CNN
+F 1 "Giro" V 17095 2545 39  0000 L CNN
+F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_3-G-5,08_1x03_P5.08mm_Horizontal" H 17005 2635 50  0001 C CNN
+F 3 "~" H 17005 2635 50  0001 C CNN
+	1    17005 2635
+	0    1    1    0   
+$EndComp
+NoConn ~ 17005 2435
+$Comp
+L Connector:Screw_Terminal_01x05 J39
+U 1 1 602EC877
+P 18230 2065
+F 0 "J39" V 18405 2020 50  0000 L CNN
+F 1 "SPI(Water_Flow)" V 18320 1845 39  0000 L CNN
+F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_5-G-5,08_1x05_P5.08mm_Horizontal" H 18230 2065 50  0001 C CNN
+F 3 "~" H 18230 2065 50  0001 C CNN
+	1    18230 2065
+	0    1    1    0   
+$EndComp
+Text Label 17280 2435 1    39   ~ 0
+12V
+Text Label 18505 2495 1    31   ~ 0
+GND
+$Comp
+L Connector_Generic:Conn_01x02 J38
+U 1 1 6031B152
+P 17870 2060
+F 0 "J38" V 18050 1970 50  0000 L CNN
+F 1 "Jumper(V.S)" V 17965 1860 28  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 17870 2060 50  0001 C CNN
+F 3 "~" H 17870 2060 50  0001 C CNN
+	1    17870 2060
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J37
+U 1 1 60333268
+P 17570 2055
+F 0 "J37" V 17750 1965 50  0000 L CNN
+F 1 "Jumper(V.S)" V 17665 1875 28  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 17570 2055 50  0001 C CNN
+F 3 "~" H 17570 2055 50  0001 C CNN
+	1    17570 2055
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	17870 1860 17770 1860
+Text Label 18405 2495 1    31   ~ 0
+5V
+Text Label 17870 1860 1    39   ~ 0
+jum
+Wire Notes Line
+	18540 2880 16780 2880
+Wire Notes Line
+	16780 2880 16780 1720
+Wire Notes Line
+	16780 1720 18540 1720
+Wire Notes Line
+	18540 1720 18540 2880
+Text Label 17380 2435 1    31   ~ 0
+5V
+Text Label 18030 1865 1    39   ~ 0
+MOSI
+Text Label 18130 1865 1    39   ~ 0
+MISO
+Text Label 18230 1865 1    39   ~ 0
+SCK
+Text Label 18430 1865 1    31   ~ 0
+GND
+Text Label 18330 1865 1    39   ~ 0
+jum
+$Comp
+L Relay:G5LE-1 K18
+U 1 1 60454F36
+P 16690 3810
+F 0 "K18" H 16640 3485 50  0000 L CNN
+F 1 "G5LE-1" H 16525 3555 50  0000 L CNN
+F 2 "Relay_THT:Relay_SPDT_Omron-G5LE-1" H 17140 3760 50  0001 L CNN
+F 3 "http://www.omron.com/ecb/products/pdf/en-g5le.pdf" H 16690 3810 50  0001 C CNN
+	1    16690 3810
+	1    0    0    -1  
+$EndComp
+Text Label 16490 3510 2    39   ~ 0
+110V
+NoConn ~ 16790 3510
+Text Label 16890 4110 3    39   ~ 0
+12V
+$Comp
+L Isolator:EL817 U29
+U 1 1 60475078
+P 17525 3610
+F 0 "U29" H 17525 3935 50  0000 C CNN
+F 1 "EL817" H 17525 3844 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 17325 3410 50  0001 L CIN
+F 3 "http://www.everlight.com/file/ProductFile/EL817.pdf" H 17525 3610 50  0001 L CNN
+	1    17525 3610
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17225 3510 16990 3510
+$Comp
+L Device:R R59
+U 1 1 604932DF
+P 17225 3860
+F 0 "R59" V 17300 3810 50  0000 L CNN
+F 1 "500" V 17230 3790 39  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 17155 3860 50  0001 C CNN
+F 3 "~" H 17225 3860 50  0001 C CNN
+	1    17225 3860
+	1    0    0    -1  
+$EndComp
+Text Label 17225 4010 2    31   ~ 0
+GND
+Text Label 17825 3710 0    31   ~ 0
+GND
+Text Label 17825 3150 0    31   ~ 0
+5V
+Wire Wire Line
+	17825 3510 17825 3480
+Wire Wire Line
+	17825 3480 17890 3480
+Connection ~ 17825 3480
+Wire Wire Line
+	17825 3480 17825 3450
+Text Label 17890 3480 0    39   ~ 0
+Manual_Indicator
+Wire Notes Line
+	18400 4260 16235 4260
+Wire Notes Line
+	16235 4260 16235 3055
+Wire Notes Line
+	16235 3055 18400 3055
+Wire Notes Line
+	18400 3055 18400 4260
+Text Notes 17120 3020 0    39   ~ 0
+Manual_Indication
+Text Label 15220 9930 0    39   ~ 0
+Manual_Indicator
+$Comp
+L Connector_Generic:Conn_01x08 J29
+U 1 1 60567AD3
+P 11745 1565
+F 0 "J29" V 11935 1525 50  0000 L CNN
+F 1 "RELAYS_OUT" V 11865 1335 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 11745 1565 50  0001 C CNN
+F 3 "~" H 11745 1565 50  0001 C CNN
+	1    11745 1565
+	0    1    1    0   
+$EndComp
+Text Label 11345 1365 1    39   ~ 0
+REL_1
+Text Label 11445 1365 1    39   ~ 0
+REL_2
+Text Label 11545 1365 1    39   ~ 0
+REL_3
+Text Label 11645 1365 1    39   ~ 0
+REL_4
+Text Label 11745 1365 1    39   ~ 0
+REL_5
+Text Label 11845 1365 1    39   ~ 0
+REL_6
+Text Label 11945 1365 1    39   ~ 0
+REL_7
+Text Label 12045 1365 1    39   ~ 0
+REL_8
+$Comp
+L Connector_Generic:Conn_01x08 J30
+U 1 1 60598389
+P 11755 2230
+F 0 "J30" V 11945 2190 50  0000 L CNN
+F 1 "RELAYS_OUT" V 11875 2000 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 11755 2230 50  0001 C CNN
+F 3 "~" H 11755 2230 50  0001 C CNN
+	1    11755 2230
+	0    1    1    0   
+$EndComp
+Text Label 11355 2030 1    39   ~ 0
+REL_9
+Text Label 11455 2030 1    39   ~ 0
+REL_10
+Text Label 11555 2030 1    39   ~ 0
+REL_11
+Text Label 11655 2030 1    39   ~ 0
+REL_12
+Text Label 11755 2030 1    39   ~ 0
+REL_13
+Text Label 11855 2030 1    39   ~ 0
+REL_14
+Text Label 11955 2030 1    39   ~ 0
+REL_15
+Text Label 12055 2030 1    39   ~ 0
+REL_16
+Text Label 12275 1355 1    39   ~ 0
+REL_0
+$Comp
+L Connector_Generic:Conn_01x01 J31
+U 1 1 605E048D
+P 12275 1555
+F 0 "J31" V 12460 1515 50  0000 L CNN
+F 1 "RELAYS_OUT" V 12390 1430 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 12275 1555 50  0001 C CNN
+F 3 "~" H 12275 1555 50  0001 C CNN
+	1    12275 1555
+	0    1    1    0   
+$EndComp
+Wire Notes Line
+	12645 2470 11210 2470
+Wire Notes Line
+	11210 2470 11210 1160
+Wire Notes Line
+	11210 1160 12645 1160
+Wire Notes Line
+	12645 1160 12645 2470
+Text Label 13770 1990 1    39   ~ 0
+Generator_Indicator
+Text Label 12925 2315 1    39   ~ 0
+RTC_SCL
+Text Label 13025 2315 1    39   ~ 0
+RTC_SDA
+Text Label 12855 1465 1    39   ~ 0
+EN_ESP32
+Text Label 13870 1990 1    39   ~ 0
+Manual_Indicator
+Text Label 12955 1465 1    39   ~ 0
+BOOT
+$Comp
+L Connector_Generic:Conn_01x04 J33
+U 1 1 6065EBE3
+P 13055 1665
+F 0 "J33" V 13260 1600 50  0000 L CNN
+F 1 "ESP32" V 13160 1505 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 13055 1665 50  0001 C CNN
+F 3 "~" H 13055 1665 50  0001 C CNN
+	1    13055 1665
+	0    1    1    0   
+$EndComp
+Wire Notes Line
+	13245 1910 13245 1150
+Wire Notes Line
+	13245 1150 12760 1150
+Wire Notes Line
+	12760 1150 12760 1910
+Wire Notes Line
+	12760 1910 13245 1910
+Text Notes 12745 1130 0    39   ~ 0
+ESP32_PinHeaders
+$Comp
+L Connector_Generic:Conn_01x02 J32
+U 1 1 606ACC84
+P 13025 2515
+F 0 "J32" V 13230 2440 50  0000 L CNN
+F 1 "RTC_PinHeaders" V 13130 2210 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 13025 2515 50  0001 C CNN
+F 3 "~" H 13025 2515 50  0001 C CNN
+	1    13025 2515
+	0    1    1    0   
+$EndComp
+Wire Notes Line
+	12995 2755 13335 2755
+Wire Notes Line
+	13335 2755 13335 2040
+Wire Notes Line
+	13335 2040 12710 2040
+Wire Notes Line
+	12710 2040 12710 2755
+Wire Notes Line
+	12710 2755 12990 2755
+Text Notes 12790 2010 0    39   ~ 0
+RTC_PinHeaders
+Text Notes 11625 1130 0    39   ~ 0
+RELAYS_PinHeaders
+$Comp
+L Connector_Generic:Conn_01x02 J34
+U 1 1 606E56B9
+P 13870 2190
+F 0 "J34" V 14075 2115 50  0000 L CNN
+F 1 "Indicators_PinHeaders" V 13970 1765 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 13870 2190 50  0001 C CNN
+F 3 "~" H 13870 2190 50  0001 C CNN
+	1    13870 2190
+	0    1    1    0   
+$EndComp
+Wire Notes Line
+	14285 1390 13445 1390
+Wire Notes Line
+	13445 1390 13445 2445
+Wire Notes Line
+	13445 2445 14285 2445
+Wire Notes Line
+	14285 1390 14285 2445
+Text Notes 13585 1340 0    39   ~ 0
+Indicators_PinHeaders
+Text Label 2345 1950 2    39   ~ 0
+JUM
+$Comp
+L Connector:Screw_Terminal_01x02 J42
+U 1 1 5FE0C024
+P 16955 1385
+F 0 "J42" V 17090 1375 50  0000 R CNN
+F 1 "110V_Input" V 17035 1420 20  0000 R CNN
+F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal" H 16955 1385 50  0001 C CNN
+F 3 "~" H 16955 1385 50  0001 C CNN
+	1    16955 1385
+	0    1    1    0   
+$EndComp
+Text Label 16955 1185 1    39   ~ 0
+110V
+Wire Notes Line
+	17070 1575 16735 1575
+Wire Notes Line
+	16735 1575 16735 940 
+Wire Notes Line
+	16735 940  17070 940 
+Wire Notes Line
+	17070 940  17070 1575
+Text Notes 16635 915  0    59   ~ 0
+110V_Input
+$Comp
+L MCU_Microchip_ATmega:ATmega32-16PU U3
+U 1 1 5F030420
+P 14620 8530
+F 0 "U3" H 14675 8610 50  0000 R CNN
+F 1 "ATmega32-16PU" H 14820 8545 31  0000 R CNN
+F 2 "Package_DIP:DIP-40_W15.24mm_Socket_LongPads" H 14620 8530 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/doc2503.pdf" H 14620 8530 50  0001 C CNN
+	1    14620 8530
+	1    0    0    -1  
+$EndComp
+Text Label 20385 7060 2    28   ~ 0
+RX-MCU
+Text Label 20385 6960 2    28   ~ 0
+TX_MCU
+Text Label 13155 1465 1    28   ~ 0
+RX-MCU
+Text Label 13055 1465 1    28   ~ 0
+TX_MCU
+Text Label 12970 14395 2    39   ~ 0
+SRCLK
+Text Label 15220 8930 0    39   ~ 0
+SRCLK
+Text Label 16490 4110 3    39   ~ 0
+N
+Text Label 16855 1185 2    39   ~ 0
+N
+$Comp
+L Connector:Screw_Terminal_01x01 J43
+U 1 1 5FED9F81
+P 22245 3205
+F 0 "J43" V 22410 3165 50  0000 L CNN
+F 1 "1" V 22335 3180 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Plated_Hole_D5.0mm" H 22245 3205 50  0001 C CNN
+F 3 "~" H 22245 3205 50  0001 C CNN
+	1    22245 3205
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x01 J45
+U 1 1 5FEDABA8
+P 22360 3205
+F 0 "J45" V 22525 3165 50  0000 L CNN
+F 1 "2" V 22455 3180 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Plated_Hole_D5.0mm" H 22360 3205 50  0001 C CNN
+F 3 "~" H 22360 3205 50  0001 C CNN
+	1    22360 3205
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x01 J47
+U 1 1 5FEDC37A
+P 22475 3205
+F 0 "J47" V 22640 3165 50  0000 L CNN
+F 1 "3" V 22565 3175 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Plated_Hole_D5.0mm" H 22475 3205 50  0001 C CNN
+F 3 "~" H 22475 3205 50  0001 C CNN
+	1    22475 3205
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x01 J44
+U 1 1 5FEDC380
+P 22250 3635
+F 0 "J44" V 22415 3600 50  0000 L CNN
+F 1 "4" V 22345 3610 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Plated_Hole_D5.0mm" H 22250 3635 50  0001 C CNN
+F 3 "~" H 22250 3635 50  0001 C CNN
+	1    22250 3635
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x01 J46
+U 1 1 5FEF542E
+P 22370 3635
+F 0 "J46" V 22535 3600 50  0000 L CNN
+F 1 "5" V 22460 3610 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Plated_Hole_D5.0mm" H 22370 3635 50  0001 C CNN
+F 3 "~" H 22370 3635 50  0001 C CNN
+	1    22370 3635
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x01 J48
+U 1 1 5FEF5434
+P 22490 3635
+F 0 "J48" V 22655 3600 50  0000 L CNN
+F 1 "6" V 22580 3610 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Plated_Hole_D5.0mm" H 22490 3635 50  0001 C CNN
+F 3 "~" H 22490 3635 50  0001 C CNN
+	1    22490 3635
+	0    1    1    0   
+$EndComp
+NoConn ~ 22490 3435
+NoConn ~ 22370 3435
+NoConn ~ 22250 3435
+NoConn ~ 22245 3005
+NoConn ~ 22360 3005
+NoConn ~ 22475 3005
+Wire Notes Line
+	22585 3880 22145 3880
+Wire Notes Line
+	22145 3880 22145 2945
+Wire Notes Line
+	22145 2945 22585 2945
+Wire Notes Line
+	22585 2945 22585 3880
+Text Notes 22190 2900 0    59   ~ 0
+Spacers\n
+Text Label 15220 9130 0    39   ~ 0
+TX_logger
+Text Label 15220 9330 0    39   ~ 0
+RX_logger
+Text Label 15220 9730 0    39   ~ 0
+TX_Giro
+Text Label 15220 9830 0    39   ~ 0
+RX_Giro
+Text Label 16905 2435 1    20   ~ 0
+TX_Giro
+Text Label 17105 2435 1    20   ~ 0
+RX_Giro
+Text Label 17845 2440 1    20   ~ 0
+TX_logger
+Text Label 17645 2440 1    20   ~ 0
+RX_logger
+$Comp
+L Device:R R60
+U 1 1 60495B06
+P 17825 3300
+F 0 "R60" V 17900 3250 50  0000 L CNN
+F 1 "10K" V 17820 3275 39  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 17755 3300 50  0001 C CNN
+F 3 "~" H 17825 3300 50  0001 C CNN
+	1    17825 3300
+	1    0    0    -1  
+$EndComp
+NoConn ~ 20385 6160
+Text Label 17480 2435 1    31   ~ 0
+GND
+Text Label 17570 1855 1    39   ~ 0
+12V
+Text Label 17470 1855 1    31   ~ 0
+5V
+Text Label 8385 1800 2    39   ~ 0
+REL_7
+Text Label 8385 1900 2    39   ~ 0
+REL_6
+Text Label 8385 2000 2    39   ~ 0
+REL_5
+Text Label 15700 12730 0    39   ~ 0
+REL_5
+Text Label 15700 12630 0    39   ~ 0
+REL_4
+Text Label 8385 2100 2    39   ~ 0
+REL_4
+Text Label 15700 12530 0    39   ~ 0
+REL_3
+Text Label 8385 2200 2    39   ~ 0
+REL_3
+Text Label 15700 12430 0    39   ~ 0
+REL_2
+Text Label 8385 2300 2    39   ~ 0
+REL_2
+Text Label 15685 14880 0    39   ~ 0
+REL_1
+Text Label 15700 13030 0    39   ~ 0
+REL_8
+Text Label 8385 1700 2    39   ~ 0
+REL_8
+Text Label 8385 2400 2    39   ~ 0
+REL_1
+Text Label 15685 14580 0    39   ~ 0
+REL_14
+Text Label 15685 14680 0    39   ~ 0
+REL_10
+$Comp
+L Connector:Conn_01x06_Male J40
+U 1 1 5FD27B1E
+P 18205 2695
+F 0 "J40" V 18065 2695 50  0000 R CNN
+F 1 "SPI(ISP)" V 18140 2760 35  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 18205 2695 50  0001 C CNN
+F 3 "~" H 18205 2695 50  0001 C CNN
+	1    18205 2695
+	0    -1   -1   0   
+$EndComp
+Text Label 14020 6830 2    39   ~ 0
+RST
+Text Label 18305 2495 1    39   ~ 0
+RST
+Text Label 21535 6300 2    39   ~ 0
+BOOT
+$Comp
+L Connector:Conn_01x01_Male J49
+U 1 1 5FDBAA59
+P 21535 6500
+F 0 "J49" V 21415 6545 50  0000 R CNN
+F 1 "BOOT_Pad" V 21485 6635 35  0000 R CNN
+F 2 "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded" H 21535 6500 50  0001 C CNN
+F 3 "~" H 21535 6500 50  0001 C CNN
+	1    21535 6500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	19415 1470 19415 1515
+$EndSCHEMATC

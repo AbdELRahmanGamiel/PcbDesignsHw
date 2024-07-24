@@ -1,0 +1,150 @@
+Cmp-Mod V01 Genere par PcbNew le 4/11/2012 1:55:08 PM
+
+BeginCmp
+TimeStamp = /4F841E0E;
+Reference = P1;
+ValeurCmp = CONN_9;
+IdModule  = r_pack8;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F841DB0;
+Reference = SW1;
+ValeurCmp = SW_PUSH;
+IdModule  = SW_PUSH_SMALL;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F841DC5;
+Reference = SW2;
+ValeurCmp = SW_PUSH;
+IdModule  = SW1_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F841DD1;
+Reference = SW3;
+ValeurCmp = SW_PUSH;
+IdModule  = SW1_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F841DD5;
+Reference = SW4;
+ValeurCmp = SW_PUSH;
+IdModule  = SW1_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F841DDC;
+Reference = SW5;
+ValeurCmp = SW_PUSH;
+IdModule  = SW1_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F841DA3;
+Reference = SW6;
+ValeurCmp = SW_PUSH;
+IdModule  = SW1_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F841DC4;
+Reference = SW7;
+ValeurCmp = SW_PUSH;
+IdModule  = SW1_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F841DD0;
+Reference = SW8;
+ValeurCmp = SW_PUSH;
+IdModule  = SW1_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F841DD4;
+Reference = SW9;
+ValeurCmp = SW_PUSH;
+IdModule  = SW1_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F841DDB;
+Reference = SW10;
+ValeurCmp = SW_PUSH;
+IdModule  = SW1_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F841D90;
+Reference = SW11;
+ValeurCmp = SW_PUSH;
+IdModule  = SW1_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F841DC3;
+Reference = SW12;
+ValeurCmp = SW_PUSH;
+IdModule  = SW1_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F841DCF;
+Reference = SW13;
+ValeurCmp = SW_PUSH;
+IdModule  = SW1_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F841DD3;
+Reference = SW14;
+ValeurCmp = SW_PUSH;
+IdModule  = SW1_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F841DDA;
+Reference = SW15;
+ValeurCmp = SW_PUSH;
+IdModule  = SW1_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F841D87;
+Reference = SW16;
+ValeurCmp = SW_PUSH;
+IdModule  = SW1_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F841DC2;
+Reference = SW17;
+ValeurCmp = SW_PUSH;
+IdModule  = SW1_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F841DCE;
+Reference = SW18;
+ValeurCmp = SW_PUSH;
+IdModule  = SW1_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F841DD2;
+Reference = SW19;
+ValeurCmp = SW_PUSH;
+IdModule  = SW1_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F841DD9;
+Reference = SW20;
+ValeurCmp = SW_PUSH;
+IdModule  = SW1_1;
+EndCmp
+
+EndListe

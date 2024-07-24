@@ -1,0 +1,690 @@
+# EESchema Netlist Version 1.1 created  5/25/2015 2:48:18 PM
+(
+ ( /555311F5 $noname  U10 LCD_2*20 {Lib=LCD_2*20}
+  (    1 GND )
+  (    2 VCC )
+  (    3 N-000065 )
+  (    4 /B7 )
+  (    5 GND )
+  (    6 /B6 )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 /B5 )
+  (   12 /B4 )
+  (   13 /B3 )
+  (   14 /B2 )
+  (   15 VCC )
+  (   16 GND )
+ )
+ ( /555310C2 $noname  P12 E/D_Ultrasonic {Lib=CONN_4}
+  (    1 /LINE )
+  (    2 /LINE )
+  (    3 /ultra )
+  (    4 /ultra )
+ )
+ ( /55530FE7 $noname  U11 MOC-3063 {Lib=OPTOISOLATORS_TRIAC}
+  (    1 N-000074 )
+  (    2 GND )
+  (    3 ? )
+  (    4 N-000078 )
+  (    5 ? )
+  (    6 N-000073 )
+ )
+ ( /55530FE6 $noname  U12 TRIAC {Lib=TRIAC}
+  (    1 /ultra )
+  (    2 /LINE )
+  (    3 N-000078 )
+ )
+ ( /55530FE5 $noname  R19 360R {Lib=R}
+  (    1 /LINE )
+  (    2 N-000073 )
+ )
+ ( /55530FE4 $noname  R20 1k {Lib=R}
+  (    1 N-000074 )
+  (    2 /RA2 )
+ )
+ ( /55530FE2 $noname  R21 360R {Lib=R}
+  (    1 /ultra )
+  (    2 N-000078 )
+ )
+ ( /5550F84C $noname  P1 AV_in {Lib=CONN_4}
+  (    1 /LINE )
+  (    2 /LINE )
+  (    3 /NEUTRRAL )
+  (    4 /NEUTRRAL )
+ )
+ ( /5550F7EA $noname  P2 H1 {Lib=CONN_4}
+  (    1 /NEUTRRAL )
+  (    2 /NEUTRRAL )
+  (    3 /HEATER1 )
+  (    4 /HEATER1 )
+ )
+ ( /5550F7E5 $noname  P3 H2 {Lib=CONN_4}
+  (    1 /NEUTRRAL )
+  (    2 /NEUTRRAL )
+  (    3 /HEATER2 )
+  (    4 /HEATER2 )
+ )
+ ( /5550F7DF $noname  P4 H3 {Lib=CONN_4}
+  (    1 /NEUTRRAL )
+  (    2 /NEUTRRAL )
+  (    3 /HEATER3 )
+  (    4 /HEATER3 )
+ )
+ ( /5550F7BB $noname  P5 H4 {Lib=CONN_4}
+  (    1 /NEUTRRAL )
+  (    2 /NEUTRRAL )
+  (    3 /HEATER4 )
+  (    4 /HEATER4 )
+ )
+ ( /5550AA96 $noname  P11 CONN_1 {Lib=CONN_1}
+  (    1 ? )
+ )
+ ( /5550AA91 $noname  P10 CONN_1 {Lib=CONN_1}
+  (    1 ? )
+ )
+ ( /5550AA8E $noname  P9 CONN_1 {Lib=CONN_1}
+  (    1 ? )
+ )
+ ( /5550AA87 $noname  P8 CONN_1 {Lib=CONN_1}
+  (    1 ? )
+ )
+ ( /5550A4B2 $noname  R18 5k {Lib=R}
+  (    1 /RA0 )
+  (    2 GND )
+ )
+ ( /5550A486 $noname  P7 thermistor {Lib=CONN_2}
+  (    1 VCC )
+  (    2 /RA0 )
+ )
+ ( /5550A3A4 $noname  R5 10k {Lib=R}
+  (    1 N-000070 )
+  (    2 VCC )
+ )
+ ( /5550A3A2 $noname  R4 10k {Lib=R}
+  (    1 N-000028 )
+  (    2 VCC )
+ )
+ ( /5550A39E $noname  R3 10k {Lib=R}
+  (    1 N-000071 )
+  (    2 VCC )
+ )
+ ( /5550A392 $noname  R2 10k {Lib=R}
+  (    1 N-000022 )
+  (    2 VCC )
+ )
+ ( /55477109 $noname  U7 MOC-3063 {Lib=OPTOISOLATORS_TRIAC}
+  (    1 N-000025 )
+  (    2 GND )
+  (    3 ? )
+  (    4 N-000006 )
+  (    5 ? )
+  (    6 N-000024 )
+ )
+ ( /55477108 $noname  U9 TRIAC {Lib=TRIAC}
+  (    1 /HEATER4 )
+  (    2 /LINE )
+  (    3 N-000006 )
+ )
+ ( /55477107 $noname  R14 360R {Lib=R}
+  (    1 /LINE )
+  (    2 N-000024 )
+ )
+ ( /55477106 $noname  R15 1k {Lib=R}
+  (    1 N-000025 )
+  (    2 /RC2 )
+ )
+ ( /55477104 $noname  R17 360R {Lib=R}
+  (    1 /HEATER4 )
+  (    2 N-000006 )
+ )
+ ( /55477103 $noname  R11 360R {Lib=R}
+  (    1 /HEATER3 )
+  (    2 N-000072 )
+ )
+ ( /55477101 $noname  R9 1k {Lib=R}
+  (    1 N-000008 )
+  (    2 /RC2 )
+ )
+ ( /55477100 $noname  R8 360R {Lib=R}
+  (    1 /LINE )
+  (    2 N-000003 )
+ )
+ ( /554770FF $noname  U5 TRIAC {Lib=TRIAC}
+  (    1 /HEATER3 )
+  (    2 /LINE )
+  (    3 N-000072 )
+ )
+ ( /554770FE $noname  U3 MOC-3063 {Lib=OPTOISOLATORS_TRIAC}
+  (    1 N-000008 )
+  (    2 GND )
+  (    3 ? )
+  (    4 N-000072 )
+  (    5 ? )
+  (    6 N-000003 )
+ )
+ ( /55476648 $noname  J1 Key_pad {Lib=SIL8}
+  (    1 N-000044 )
+  (    2 N-000036 )
+  (    3 N-000038 )
+  (    4 N-000048 )
+  (    5 N-000022 )
+  (    6 N-000071 )
+  (    7 N-000028 )
+  (    8 N-000070 )
+ )
+ ( /5547624E $noname  C1 103P {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /55475DB7 $noname  P6 5V_in {Lib=CONN_2}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /55475D75 $noname  U1 MOC-3063 {Lib=OPTOISOLATORS_TRIAC}
+  (    1 N-000060 )
+  (    2 GND )
+  (    3 ? )
+  (    4 N-000061 )
+  (    5 ? )
+  (    6 N-000012 )
+ )
+ ( /55475D74 $noname  U4 TRIAC {Lib=TRIAC}
+  (    1 /HEATER1 )
+  (    2 /LINE )
+  (    3 N-000061 )
+ )
+ ( /55475D73 $noname  R6 360R {Lib=R}
+  (    1 /LINE )
+  (    2 N-000012 )
+ )
+ ( /55475D72 $noname  R7 1k {Lib=R}
+  (    1 N-000060 )
+  (    2 /RC2 )
+ )
+ ( /55475D70 $noname  R10 360R {Lib=R}
+  (    1 /HEATER1 )
+  (    2 N-000061 )
+ )
+ ( /554758FC $noname  R16 360R {Lib=R}
+  (    1 /HEATER2 )
+  (    2 N-000068 )
+ )
+ ( /55475846 $noname  R13 1k {Lib=R}
+  (    1 N-000066 )
+  (    2 /RC2 )
+ )
+ ( /554754EE $noname  RV1 10k {Lib=POT}
+  (    1 VCC )
+  (    2 N-000065 )
+  (    3 GND )
+ )
+ ( /55474F4A $noname  R12 360R {Lib=R}
+  (    1 /LINE )
+  (    2 N-000041 )
+ )
+ ( /55474E82 $noname  U8 TRIAC {Lib=TRIAC}
+  (    1 /HEATER2 )
+  (    2 /LINE )
+  (    3 N-000068 )
+ )
+ ( /55474E0A $noname  U6 MOC-3063 {Lib=OPTOISOLATORS_TRIAC}
+  (    1 N-000066 )
+  (    2 GND )
+  (    3 ? )
+  (    4 N-000068 )
+  (    5 ? )
+  (    6 N-000041 )
+ )
+ ( /4F8EABD6 $noname  U2 PIC16F877A {Lib=PIC16F877A}
+  (    1 N-000069 )
+  (    2 /RA0 )
+  (    3 ? )
+  (    4 /RA2 )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 VCC )
+  (   12 GND )
+  (   13 N-000047 )
+  (   14 N-000046 )
+  (   15 ? )
+  (   16 ? )
+  (   17 /RC2 )
+  (   18 ? )
+  (   19 N-000044 )
+  (   20 N-000036 )
+  (   21 N-000038 )
+  (   22 N-000048 )
+  (   23 ? )
+  (   24 ? )
+  (   25 ? )
+  (   26 ? )
+  (   27 N-000022 )
+  (   28 N-000071 )
+  (   29 N-000028 )
+  (   30 N-000070 )
+  (   31 GND )
+  (   32 VCC )
+  (   33 ? )
+  (   34 ? )
+  (   35 /B2 )
+  (   36 /B3 )
+  (   37 /B4 )
+  (   38 /B5 )
+  (   39 /B6 )
+  (   40 /B7 )
+ )
+ ( /4F8EACC5 $noname  C2 .1uF {Lib=C}
+  (    1 N-000069 )
+  (    2 GND )
+ )
+ ( /4F8EACA3 $noname  SW2 SW_PUSH {Lib=SW_PUSH}
+  (    1 N-000069 )
+  (    2 GND )
+ )
+ ( /4F8EAC82 $noname  R1 10K {Lib=R}
+  (    1 VCC )
+  (    2 N-000069 )
+ )
+ ( /4F8EAC1A $noname  C4 22pF {Lib=C}
+  (    1 N-000046 )
+  (    2 GND )
+ )
+ ( /4F8EAC13 $noname  C3 22pF {Lib=C}
+  (    1 N-000047 )
+  (    2 GND )
+ )
+ ( /4F8EABE4 $noname  X1 4MHz {Lib=CRYSTAL}
+  (    1 N-000046 )
+  (    2 N-000047 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R19
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R20
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R21
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R18
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R14
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R15
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R17
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R16
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R13
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R12
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 3 "" ""
+ U3 6
+ R8 2
+Net 6 "" ""
+ R17 2
+ U7 4
+ U9 3
+Net 7 "GND" "GND"
+ SW2 2
+ U10 1
+ C2 2
+ U10 5
+ C4 2
+ C3 2
+ R18 2
+ U11 2
+ U10 16
+ U2 31
+ U6 2
+ U3 2
+ RV1 3
+ U2 12
+ P6 2
+ U1 2
+ C1 2
+ U7 2
+Net 8 "" ""
+ R9 1
+ U3 1
+Net 9 "VCC" "VCC"
+ C1 1
+ R2 2
+ U10 2
+ R1 1
+ RV1 1
+ U2 32
+ P6 1
+ P7 1
+ R5 2
+ R3 2
+ R4 2
+ U10 15
+ U2 11
+Net 12 "" ""
+ R6 2
+ U1 6
+Net 13 "/NEUTRRAL" "NEUTRRAL"
+ P5 1
+ P4 2
+ P4 1
+ P2 1
+ P2 2
+ P3 1
+ P1 4
+ P1 3
+ P3 2
+ P5 2
+Net 14 "/HEATER3" "HEATER3"
+ P4 3
+ P4 4
+ R11 1
+ U5 1
+Net 15 "/HEATER4" "HEATER4"
+ U9 1
+ P5 3
+ P5 4
+ R17 1
+Net 20 "/HEATER1" "HEATER1"
+ U4 1
+ P2 4
+ R10 1
+ P2 3
+Net 21 "/HEATER2" "HEATER2"
+ P3 3
+ U8 1
+ P3 4
+ R16 1
+Net 22 "" ""
+ R2 1
+ J1 5
+ U2 27
+Net 23 "/LINE" "LINE"
+ U12 2
+ R19 1
+ P1 1
+ P12 1
+ P12 2
+ P1 2
+ R6 1
+ U4 2
+ U9 2
+ R12 1
+ U8 2
+ R14 1
+ U5 2
+ R8 1
+Net 24 "" ""
+ U7 6
+ R14 2
+Net 25 "" ""
+ U7 1
+ R15 1
+Net 26 "/RC2" "RC2"
+ R13 2
+ R15 2
+ U2 17
+ R9 2
+ R7 2
+Net 27 "/RA0" "RA0"
+ R18 1
+ P7 2
+ U2 2
+Net 28 "" ""
+ U2 29
+ R4 1
+ J1 7
+Net 36 "" ""
+ U2 20
+ J1 2
+Net 37 "/B7" "B7"
+ U2 40
+ U10 4
+Net 38 "" ""
+ J1 3
+ U2 21
+Net 41 "" ""
+ U6 6
+ R12 2
+Net 43 "/B5" "B5"
+ U2 38
+ U10 11
+Net 44 "" ""
+ J1 1
+ U2 19
+Net 45 "/B6" "B6"
+ U10 6
+ U2 39
+Net 46 "" ""
+ U2 14
+ C4 1
+ X1 1
+Net 47 "" ""
+ C3 1
+ U2 13
+ X1 2
+Net 48 "" ""
+ J1 4
+ U2 22
+Net 55 "/B2" "B2"
+ U2 35
+ U10 14
+Net 58 "/B3" "B3"
+ U10 13
+ U2 36
+Net 59 "/B4" "B4"
+ U10 12
+ U2 37
+Net 60 "" ""
+ R7 1
+ U1 1
+Net 61 "" ""
+ U4 3
+ U1 4
+ R10 2
+Net 65 "" ""
+ U10 3
+ RV1 2
+Net 66 "" ""
+ U6 1
+ R13 1
+Net 68 "" ""
+ U6 4
+ U8 3
+ R16 2
+Net 69 "" ""
+ SW2 1
+ C2 1
+ U2 1
+ R1 2
+Net 70 "" ""
+ J1 8
+ R5 1
+ U2 30
+Net 71 "" ""
+ U2 28
+ J1 6
+ R3 1
+Net 72 "" ""
+ U3 4
+ U5 3
+ R11 2
+Net 73 "" ""
+ U11 6
+ R19 2
+Net 74 "" ""
+ R20 1
+ U11 1
+Net 77 "/RA2" "RA2"
+ R20 2
+ U2 4
+Net 78 "" ""
+ U11 4
+ R21 2
+ U12 3
+Net 79 "/ultra" "ultra"
+ P12 3
+ P12 4
+ R21 1
+ U12 1
+}
+#End

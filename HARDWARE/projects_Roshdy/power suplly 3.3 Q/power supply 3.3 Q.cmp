@@ -1,0 +1,157 @@
+Cmp-Mod V01 Created by CvPCB (2011-04-29 BZR 2986)-stable date = 10/11/2016 1:26:15 PM
+
+BeginCmp
+TimeStamp = /57EA4118;
+Reference = C1;
+ValeurCmp = 100UF;
+IdModule  = C1V5;
+EndCmp
+
+BeginCmp
+TimeStamp = /57EA4128;
+Reference = C2;
+ValeurCmp = 100UF;
+IdModule  = C1V5;
+EndCmp
+
+BeginCmp
+TimeStamp = /57FA514A;
+Reference = C3;
+ValeurCmp = CP1;
+IdModule  = cap_1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /57EA423E;
+Reference = P1;
+ValeurCmp = IN_12;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /57EA52E0;
+Reference = P2;
+ValeurCmp = TX;
+IdModule  = SIL-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /57EA52FB;
+Reference = P4;
+ValeurCmp = RX;
+IdModule  = SIL-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /57EA424D;
+Reference = P5;
+ValeurCmp = OUT3.3;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /57EA954A;
+Reference = P6;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /57EA954C;
+Reference = P7;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /57EBB26C;
+Reference = P8;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /57ED2B3A;
+Reference = P9;
+ValeurCmp = CONN_1;
+IdModule  = SIL-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /57F0F89D;
+Reference = P10;
+ValeurCmp = CONN_1;
+IdModule  = SIL-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /57EA9445;
+Reference = R1;
+ValeurCmp = 10K;
+IdModule  = R_0.25WATT_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /57EA944B;
+Reference = R2;
+ValeurCmp = 10K;
+IdModule  = R_0.25WATT_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /57FCC731;
+Reference = R3;
+ValeurCmp = 12R;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /57FCC736;
+Reference = R4;
+ValeurCmp = 12R;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /57FCC740;
+Reference = R5;
+ValeurCmp = 12R;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /57FCC744;
+Reference = R6;
+ValeurCmp = 12R;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /57FCC749;
+Reference = R7;
+ValeurCmp = 12R;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /57FA3216;
+Reference = U1;
+ValeurCmp = ESP12;
+IdModule  = ESP12;
+EndCmp
+
+BeginCmp
+TimeStamp = /57EA4C0C;
+Reference = U2;
+ValeurCmp = 3.3V_LLLD/SMD;
+IdModule  = SOT223;
+EndCmp
+
+BeginCmp
+TimeStamp = /57EA4146;
+Reference = U3;
+ValeurCmp = 3.3V_LLLD/SMD;
+IdModule  = SOT223;
+EndCmp
+
+EndListe

@@ -1,0 +1,163 @@
+# EESchema Netlist Version 1.1 created  2013-07-23 10:44:30 PM
+(
+ ( /51EE9FA4 C1V8 C1 10nf
+  ( 1 N-000021 )
+  ( 2 N-000013 )
+ )
+ ( /51EEA398 C1V8 C2 100nf
+  ( 1 N-000019 )
+  ( 2 GND )
+ )
+ ( /51EEA3A4 C1V8 C3 100nf
+  ( 1 N-000016 )
+  ( 2 GND )
+ )
+ ( /51EEA130 ZENER_SMALL_ETC D1 DIAC
+  ( 1 N-000012 )
+  ( 2 N-000018 )
+ )
+ ( /51EEA133 ZENER_SMALL_ETC D2 DIAC
+  ( 1 N-000018 )
+  ( 2 N-000017 )
+ )
+ ( /51EE9F76 ROZT_2_PIN_ETC P1 CONN_2
+  ( 1 N-000021 )
+  ( 2 N-000020 )
+ )
+ ( /51EEA840 DIP-14__300_ELL P2 IC_14_PIN
+  ( 1 N-000019 )
+  ( 2 N-000009 )
+  ( 3 N-000016 )
+  ( 4 N-000008 )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 GND )
+  ( 8 ? )
+  ( 9 ? )
+  ( 10 ? )
+  ( 11 ? )
+  ( 12 ? )
+  ( 13 ? )
+  ( 14 VCC )
+ )
+ ( /51EEDB93 ROZT_2_PIN_ETC P3 CONN_2
+  ( 1 N-000008 )
+  ( 2 N-000009 )
+ )
+ ( /51EE9F83 R_0.25WATT_ETC R1 68K
+  ( 1 N-000020 )
+  ( 2 N-000021 )
+ )
+ ( /51EE9F89 R_0.25WATT_ETC R2 68K
+  ( 1 N-000014 )
+  ( 2 N-000020 )
+ )
+ ( /51EE9F92 R_0.25WATT_ETC R3 68K
+  ( 1 N-000013 )
+  ( 2 N-000014 )
+ )
+ ( /51EE9F9D R_0.25WATT_ETC R4 68K
+  ( 1 N-000012 )
+  ( 2 N-000013 )
+ )
+ ( /51EE9F97 R_0.25WATT_ETC R5 68K
+  ( 1 N-000021 )
+  ( 2 N-000013 )
+ )
+ ( /51EEA291 R_0.25WATT_ETC R6 24k
+  ( 1 VCC )
+  ( 2 N-000019 )
+ )
+ ( /51EEA351 R_0.25WATT_ETC R7 24k
+  ( 1 VCC )
+  ( 2 N-000016 )
+ )
+ ( /51EEA1AD EL817-POTO-CUPLER U1 PHOTOCOUPLER
+  ( 1 N-000021 )
+  ( 2 N-000017 )
+  ( 3 GND )
+  ( 4 N-000019 )
+ )
+ ( /51EEA1B2 EL817-POTO-CUPLER U2 PHOTOCOUPLER
+  ( 1 N-000017 )
+  ( 2 N-000021 )
+  ( 3 GND )
+  ( 4 N-000016 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ CP*
+ SM*
+$endlist
+$component C3
+ CP*
+ SM*
+$endlist
+$component D1
+ D?
+ SO*
+ SM*
+$endlist
+$component D2
+ D?
+ SO*
+ SM*
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}

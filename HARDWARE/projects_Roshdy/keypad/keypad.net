@@ -1,0 +1,129 @@
+# EESchema Netlist Version 1.1 created  4/14/2013 4:43:10 PM
+(
+ ( /516AA2C7 $noname  P1 CONN_8 {Lib=CONN_8}
+  (    1 N-000001 )
+  (    2 N-000002 )
+  (    3 N-000004 )
+  (    4 N-000006 )
+  (    5 N-000005 )
+  (    6 N-000007 )
+  (    7 N-000003 )
+  (    8 N-000008 )
+ )
+ ( /516A9CE7 $noname  SW5 SW_PUSH {Lib=SW_PUSH}
+  (    1 N-000003 )
+  (    4 N-000006 )
+ )
+ ( /516A9CE6 $noname  SW1 SW_PUSH {Lib=SW_PUSH}
+  (    1 N-000008 )
+  (    4 N-000006 )
+ )
+ ( /516A9CE5 $noname  SW9 SW_PUSH {Lib=SW_PUSH}
+  (    1 N-000007 )
+  (    4 N-000006 )
+ )
+ ( /516A9CE4 $noname  SW13 SW_PUSH {Lib=SW_PUSH}
+  (    1 N-000005 )
+  (    4 N-000006 )
+ )
+ ( /516A9CDF $noname  SW14 SW_PUSH {Lib=SW_PUSH}
+  (    1 N-000005 )
+  (    4 N-000004 )
+ )
+ ( /516A9CDE $noname  SW10 SW_PUSH {Lib=SW_PUSH}
+  (    1 N-000007 )
+  (    4 N-000004 )
+ )
+ ( /516A9CDD $noname  SW2 SW_PUSH {Lib=SW_PUSH}
+  (    1 N-000008 )
+  (    4 N-000004 )
+ )
+ ( /516A9CDC $noname  SW6 SW_PUSH {Lib=SW_PUSH}
+  (    1 N-000003 )
+  (    4 N-000004 )
+ )
+ ( /516A9CD9 $noname  SW7 SW_PUSH {Lib=SW_PUSH}
+  (    1 N-000003 )
+  (    4 N-000002 )
+ )
+ ( /516A9CD8 $noname  SW3 SW_PUSH {Lib=SW_PUSH}
+  (    1 N-000008 )
+  (    4 N-000002 )
+ )
+ ( /516A9CD7 $noname  SW11 SW_PUSH {Lib=SW_PUSH}
+  (    1 N-000007 )
+  (    4 N-000002 )
+ )
+ ( /516A9CD6 $noname  SW15 SW_PUSH {Lib=SW_PUSH}
+  (    1 N-000005 )
+  (    4 N-000002 )
+ )
+ ( /516A9CD1 $noname  SW16 SW_PUSH {Lib=SW_PUSH}
+  (    1 N-000005 )
+  (    4 N-000001 )
+ )
+ ( /516A9CD0 $noname  SW12 SW_PUSH {Lib=SW_PUSH}
+  (    1 N-000007 )
+  (    4 N-000001 )
+ )
+ ( /516A9CCA $noname  SW4 SW_PUSH {Lib=SW_PUSH}
+  (    1 N-000008 )
+  (    4 N-000001 )
+ )
+ ( /516A9CB4 $noname  SW8 SW_PUSH {Lib=SW_PUSH}
+  (    1 N-000003 )
+  (    4 N-000001 )
+ )
+)
+*
+{ Pin List by Nets
+Net 1 "" ""
+ SW12 4
+ SW16 4
+ SW4 4
+ SW8 4
+ P1 1
+Net 2 "" ""
+ SW15 4
+ SW11 4
+ SW3 4
+ SW7 4
+ P1 2
+Net 3 "" ""
+ SW6 1
+ SW7 1
+ SW8 1
+ P1 7
+ SW5 1
+Net 4 "" ""
+ P1 3
+ SW6 4
+ SW2 4
+ SW10 4
+ SW14 4
+Net 5 "" ""
+ P1 5
+ SW16 1
+ SW15 1
+ SW13 1
+ SW14 1
+Net 6 "" ""
+ SW13 4
+ SW9 4
+ SW1 4
+ SW5 4
+ P1 4
+Net 7 "" ""
+ SW10 1
+ SW11 1
+ P1 6
+ SW12 1
+ SW9 1
+Net 8 "" ""
+ SW1 1
+ SW2 1
+ SW3 1
+ SW4 1
+ P1 8
+}
+#End

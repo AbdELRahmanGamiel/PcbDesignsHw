@@ -1,0 +1,569 @@
+EESchema Schematic File Version 2  date 2015/09/04 5:32:34 PM
+LIBS:etc
+LIBS:mostafa
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:samsung charger-cache
+EELAYER 25  0
+EELAYER END
+$Descr A2 23400 16535
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "4 sep 2015"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Bus Line
+	12550 3900 11950 3900
+Wire Bus Line
+	12550 3900 12550 4300
+Wire Bus Line
+	12550 4300 11950 4300
+Wire Bus Line
+	11950 4300 11950 3900
+Connection ~ 10150 4500
+Wire Wire Line
+	10150 4500 10500 4500
+Wire Wire Line
+	10500 4500 10500 4700
+Wire Wire Line
+	10150 5100 10150 5250
+Wire Wire Line
+	9800 3150 9800 3300
+Wire Wire Line
+	9800 4500 9800 4600
+Wire Wire Line
+	9800 3900 9850 3900
+Wire Wire Line
+	8150 3600 8150 4450
+Wire Wire Line
+	7750 4950 7750 5100
+Connection ~ 7750 4350
+Wire Wire Line
+	7750 4450 7750 4300
+Connection ~ 7300 4350
+Wire Wire Line
+	7300 4350 7300 3650
+Wire Wire Line
+	6500 3650 6500 4350
+Wire Wire Line
+	6500 4350 7750 4350
+Wire Wire Line
+	7750 3200 7750 3100
+Connection ~ 7300 3100
+Wire Wire Line
+	7750 3100 5800 3100
+Connection ~ 6900 3100
+Wire Wire Line
+	6900 3250 6900 3100
+Wire Wire Line
+	5800 2700 5800 3250
+Wire Wire Line
+	5800 3650 5800 3800
+Wire Wire Line
+	4100 5800 3750 5800
+Wire Wire Line
+	4100 5800 4100 5700
+Wire Wire Line
+	3750 5100 3400 5100
+Wire Wire Line
+	3750 5100 3750 5250
+Wire Wire Line
+	3400 5100 3400 5250
+Wire Wire Line
+	3800 3550 3800 3750
+Connection ~ 4400 3500
+Wire Wire Line
+	4400 3500 4400 3600
+Connection ~ 4300 2900
+Wire Wire Line
+	4300 3000 4300 2900
+Connection ~ 3350 2900
+Wire Wire Line
+	3800 2900 3800 3050
+Wire Wire Line
+	12400 4200 12250 4200
+Wire Bus Line
+	13850 6000 13850 5150
+Wire Bus Line
+	13850 6000 11700 6000
+Wire Bus Line
+	11700 6000 11700 5150
+Wire Bus Line
+	11700 5150 13850 5150
+Wire Wire Line
+	13400 5400 13550 5400
+Wire Wire Line
+	12200 5800 12050 5800
+Wire Bus Line
+	14000 1300 11700 1300
+Wire Bus Line
+	14000 1300 14000 2600
+Wire Bus Line
+	14000 2600 11700 2600
+Wire Bus Line
+	11700 2600 11700 1300
+Wire Wire Line
+	12900 2200 13050 2200
+Wire Wire Line
+	12100 2400 11850 2400
+Wire Wire Line
+	12100 1600 11850 1600
+Wire Wire Line
+	1550 2850 1550 2750
+Wire Wire Line
+	1550 5400 1550 5800
+Wire Wire Line
+	2400 4550 2750 4550
+Wire Wire Line
+	1550 3700 1550 3350
+Wire Wire Line
+	700  4550 500  4550
+Wire Wire Line
+	12100 1900 11850 1900
+Wire Wire Line
+	12100 2100 11850 2100
+Wire Wire Line
+	12900 1800 13050 1800
+Wire Bus Line
+	13950 1350 11750 1350
+Wire Bus Line
+	13950 1350 13950 2550
+Wire Bus Line
+	13950 2550 11750 2550
+Wire Bus Line
+	11750 2550 11750 1350
+Wire Wire Line
+	12200 5400 12050 5400
+Wire Wire Line
+	13400 5800 13550 5800
+Wire Bus Line
+	11650 5100 13900 5100
+Wire Bus Line
+	11650 5100 11650 6050
+Wire Bus Line
+	11650 6050 13900 6050
+Wire Bus Line
+	13900 6050 13900 5100
+Wire Wire Line
+	12400 4050 12250 4050
+Wire Wire Line
+	10150 3700 10150 3650
+Wire Wire Line
+	3350 3500 3350 3750
+Wire Wire Line
+	4500 2950 4500 2900
+Wire Wire Line
+	4500 2900 3350 2900
+Connection ~ 3800 2900
+Wire Wire Line
+	4300 3400 4300 3500
+Wire Wire Line
+	4300 3500 4500 3500
+Wire Wire Line
+	4500 3500 4500 3450
+Wire Wire Line
+	3350 2450 3350 3100
+Wire Wire Line
+	4400 4200 4400 4000
+Wire Wire Line
+	3400 5650 3400 5800
+Wire Wire Line
+	3750 5800 3750 5650
+Wire Wire Line
+	4100 5100 4100 5200
+Connection ~ 5800 3100
+Wire Wire Line
+	7300 3100 7300 3250
+Wire Wire Line
+	6500 3250 6500 3100
+Connection ~ 6500 3100
+Wire Wire Line
+	6900 4800 6900 4900
+Wire Wire Line
+	7750 3800 7750 3700
+Connection ~ 6900 4350
+Wire Wire Line
+	6900 4400 6900 3650
+Wire Wire Line
+	7750 5100 8150 5100
+Wire Wire Line
+	8150 5100 8150 4950
+Wire Wire Line
+	8150 3200 8150 3100
+Wire Wire Line
+	9800 4000 9800 3800
+Connection ~ 9800 3900
+Wire Wire Line
+	9850 4900 9550 4900
+Wire Wire Line
+	10150 4700 10150 4100
+Wire Wire Line
+	10500 5100 10500 5250
+Text Label 10150 5250 0    60   ~ 0
+-B
+Text Label 9800 4600 0    60   ~ 0
+-B
+$Comp
+L CP1 C6
+U 1 1 55E89B6C
+P 6900 3450
+F 0 "C6" H 6950 3550 50  0000 L CNN
+F 1 "CP1" H 6950 3350 50  0000 L CNN
+	1    6900 3450
+	-1   0    0    1   
+$EndComp
+Text Label 5800 3800 0    60   ~ 0
+-B
+Text Label 3400 5800 0    60   ~ 0
+-B
+Text Label 3350 3750 0    60   ~ 0
+-B
+Text Label 3350 2700 0    60   ~ 0
++B
+Text Label 2750 4550 0    60   ~ 0
+-B
+Text Label 6900 4900 3    30   ~ 0
+2 OUTTRANSFORM
+Text Label 8150 3100 0    30   ~ 0
+GND
+$Comp
+L DIODE D3
+U 1 1 55E8AD7B
+P 8150 3400
+F 0 "D3" H 8150 3500 40  0000 C CNN
+F 1 "DIODE" H 8150 3300 40  0000 C CNN
+	1    8150 3400
+	0    1    1    0   
+$EndComp
+Text Label 8150 4000 0    30   ~ 0
+U1-2
+Text Label 7950 5100 2    30   ~ 0
+U1-1
+$Comp
+L R R8
+U 1 1 55E8AC6C
+P 8150 4700
+F 0 "R8" V 8230 4700 50  0000 C CNN
+F 1 "R" V 8150 4700 50  0000 C CNN
+	1    8150 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R6
+U 1 1 55E8ABC9
+P 7750 4700
+F 0 "R6" V 7830 4700 50  0000 C CNN
+F 1 "R" V 7750 4700 50  0000 C CNN
+	1    7750 4700
+	-1   0    0    1   
+$EndComp
+Text Label 7750 4400 0    30   ~ 0
+VBUS
+Text Label 10500 4500 0    30   ~ 0
+4TRANS
+Text Label 9800 3150 0    30   ~ 0
+BQ2
+Text Label 9550 4900 0    30   ~ 0
+BQ2
+Text Label 9800 3250 2    30   ~ 0
+U1-3
+$Comp
+L DIODE D1
+U 1 1 55E8A8D7
+P 6900 4600
+F 0 "D1" H 6900 4700 40  0000 C CNN
+F 1 "DIODE" H 6900 4500 40  0000 C CNN
+	1    6900 4600
+	0    -1   -1   0   
+$EndComp
+Text Label 7750 3750 2    30   ~ 0
+D-
+Text Label 7750 3750 0    30   ~ 0
+D+
+$Comp
+L R R7
+U 1 1 55E8A84D
+P 7750 4050
+F 0 "R7" V 7830 4050 50  0000 C CNN
+F 1 "R" V 7750 4050 50  0000 C CNN
+	1    7750 4050
+	-1   0    0    1   
+$EndComp
+Text Label 4100 5100 0    30   ~ 0
+C1
+Text Label 10500 5250 0    30   ~ 0
+C1
+$Comp
+L R R5
+U 1 1 55E8A734
+P 4100 5450
+F 0 "R5" V 4180 5450 50  0000 C CNN
+F 1 "R" V 4100 5450 50  0000 C CNN
+	1    4100 5450
+	-1   0    0    1   
+$EndComp
+Text Label 3900 5800 3    30   ~ 0
+3TRANS
+Text Label 4400 4200 0    30   ~ 0
+CQ1
+Text Label 10150 3650 0    30   ~ 0
+CQ1
+Text Label 4400 4100 0    30   ~ 0
+2TRANS
+$Comp
+L DIODE D4
+U 1 1 55E8A59F
+P 4400 3800
+F 0 "D4" H 4400 3900 40  0000 C CNN
+F 1 "DIODE" H 4400 3700 40  0000 C CNN
+	1    4400 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C1
+U 1 1 55E8A43C
+P 10500 4900
+F 0 "C1" H 10550 5000 50  0000 L CNN
+F 1 "C" H 10550 4800 50  0000 L CNN
+	1    10500 4900
+	1    0    0    -1  
+$EndComp
+Text Label 10150 4200 0    30   ~ 0
+EQ1
+Text Label 3800 3750 0    30   ~ 0
+EQ1
+$Comp
+L NPN Q1
+U 1 1 55E89FD6
+P 10050 3900
+F 0 "Q1" H 10050 3750 50  0000 R CNN
+F 1 "NPN" H 10050 4050 50  0000 R CNN
+	1    10050 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 55E89EDE
+P 9800 3550
+F 0 "R3" V 9880 3550 50  0000 C CNN
+F 1 "R" V 9800 3550 50  0000 C CNN
+	1    9800 3550
+	-1   0    0    1   
+$EndComp
+Text Label 5800 2700 0    30   ~ 0
+1 OUTTRANSFORM
+$Comp
+L CP1 C7
+U 1 1 55E89B70
+P 7300 3450
+F 0 "C7" H 7350 3550 50  0000 L CNN
+F 1 "CP1" H 7350 3350 50  0000 L CNN
+	1    7300 3450
+	-1   0    0    1   
+$EndComp
+$Comp
+L CP1 C5
+U 1 1 55E89B61
+P 6500 3450
+F 0 "C5" H 6550 3550 50  0000 L CNN
+F 1 "CP1" H 6550 3350 50  0000 L CNN
+	1    6500 3450
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R9
+U 1 1 55E89ADD
+P 7750 3450
+F 0 "R9" V 7830 3450 50  0000 C CNN
+F 1 "R" V 7750 3450 50  0000 C CNN
+	1    7750 3450
+	-1   0    0    1   
+$EndComp
+Text Label 5800 2900 0    30   ~ 0
+GND
+Text Label 12250 4200 2    60   ~ 0
+GND
+Text Label 12250 4050 2    60   ~ 0
+VBUS
+$Comp
+L NPN Q2
+U 1 1 55E89802
+P 10050 4900
+F 0 "Q2" H 10050 4750 50  0000 R CNN
+F 1 "NPN" H 10050 5050 50  0000 R CNN
+	1    10050 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R4
+U 1 1 55E8968E
+P 9800 4250
+F 0 "R4" V 9880 4250 50  0000 C CNN
+F 1 "R" V 9800 4250 50  0000 C CNN
+	1    9800 4250
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C4
+U 1 1 55E89675
+P 5800 3450
+F 0 "C4" H 5850 3550 50  0000 L CNN
+F 1 "C" H 5850 3350 50  0000 L CNN
+	1    5800 3450
+	-1   0    0    1   
+$EndComp
+Text Label 13550 5400 0    60   ~ 0
+U1-4
+Text Label 13550 5800 0    60   ~ 0
+U1-3
+Text Label 12050 5800 2    60   ~ 0
+U1-2
+Text Label 12050 5400 2    60   ~ 0
+U1-1
+$Comp
+L PHOTOCOUPLER U1
+U 1 1 55E894DB
+P 12800 5600
+F 0 "U1" H 12810 5920 70  0000 C CNN
+F 1 "PHOTOCOUPLER" H 12810 5280 70  0000 C CNN
+	1    12800 5600
+	1    0    0    -1  
+$EndComp
+Text Label 3400 5100 0    60   ~ 0
+U1-4
+$Comp
+L DIODE D2
+U 1 1 55E894B8
+P 3750 5450
+F 0 "D2" H 3750 5550 40  0000 C CNN
+F 1 "DIODE" H 3750 5350 40  0000 C CNN
+	1    3750 5450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CP1 C3
+U 1 1 55E89482
+P 3400 5450
+F 0 "C3" H 3450 5550 50  0000 L CNN
+F 1 "CP1" H 3450 5350 50  0000 L CNN
+	1    3400 5450
+	1    0    0    -1  
+$EndComp
+Text Label 13050 1800 0    60   ~ 0
+2 OUTTRANSFORM
+Text Label 13050 2200 0    60   ~ 0
+1 OUTTRANSFORM
+Text Label 11850 1600 0    60   ~ 0
+4TRANS
+Text Label 11850 1900 0    60   ~ 0
+3TRANS
+Text Label 11850 2100 0    60   ~ 0
+2TRANS
+Text Label 11850 2400 0    60   ~ 0
+1TRANS
+$Comp
+L TRANSFO2 T1
+U 1 1 55E8904B
+P 12500 2000
+F 0 "T1" H 12500 2500 70  0000 C CNN
+F 1 "TRANSFO2" H 12500 1500 70  0000 C CNN
+	1    12500 2000
+	-1   0    0    1   
+$EndComp
+Text Label 3350 2450 0    60   ~ 0
+1TRANS
+$Comp
+L R R2-1
+U 1 1 55E88FD5
+P 4500 3200
+F 0 "R2-1" V 4400 3200 50  0000 C CNN
+F 1 "R" V 4500 3200 50  0000 C CNN
+	1    4500 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C2-1
+U 1 1 55E88FB1
+P 4300 3200
+F 0 "C2-1" H 4200 3300 50  0000 L CNN
+F 1 "C" H 4350 3100 50  0000 L CNN
+	1    4300 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R2
+U 1 1 55E88F68
+P 3800 3300
+F 0 "R2" V 3880 3300 50  0000 C CNN
+F 1 "R" V 3800 3300 50  0000 C CNN
+	1    3800 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1 C2
+U 1 1 55E88F3C
+P 3350 3300
+F 0 "C2" H 3400 3400 50  0000 L CNN
+F 1 "CP1" H 3400 3200 50  0000 L CNN
+	1    3350 3300
+	1    0    0    -1  
+$EndComp
+Text Label 1550 5800 3    60   ~ 0
+NUTRAL
+Text Label 1550 2750 0    60   ~ 0
+LINE
+$Comp
+L R R1
+U 1 1 55E88EE0
+P 1550 3100
+F 0 "R1" V 1630 3100 50  0000 C CNN
+F 1 "R" V 1550 3100 50  0000 C CNN
+	1    1550 3100
+	1    0    0    -1  
+$EndComp
+Text Label 500  4550 0    60   ~ 0
++B
+$Comp
+L BRIDGE B1
+U 1 1 55E88E9E
+P 1550 4550
+F 0 "B1" H 1550 4600 70  0000 C CNN
+F 1 "BRIDGE" H 1550 4500 70  0000 C CNN
+	1    1550 4550
+	-1   0    0    1   
+$EndComp
+$EndSCHEMATC

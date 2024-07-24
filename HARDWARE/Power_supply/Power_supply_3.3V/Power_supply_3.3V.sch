@@ -1,0 +1,204 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Regulator_Linear:AMS1117-3.3 U?
+U 1 1 5E6F8199
+P 5850 3450
+F 0 "U?" H 5850 3692 50  0000 C CNN
+F 1 "AMS1117-3.3" H 5850 3601 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 5850 3650 50  0001 C CNN
+F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 5950 3200 50  0001 C CNN
+	1    5850 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:AMS1117-3.3 U?
+U 1 1 5E6F9721
+P 5845 4305
+F 0 "U?" H 5845 4547 50  0000 C CNN
+F 1 "AMS1117-3.3" H 5845 4456 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 5845 4505 50  0001 C CNN
+F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 5945 4055 50  0001 C CNN
+	1    5845 4305
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E6FA243
+P 5850 3815
+F 0 "#PWR?" H 5850 3565 50  0001 C CNN
+F 1 "GND" H 5855 3642 50  0000 C CNN
+F 2 "" H 5850 3815 50  0001 C CNN
+F 3 "" H 5850 3815 50  0001 C CNN
+	1    5850 3815
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E6FB35F
+P 5845 4665
+F 0 "#PWR?" H 5845 4415 50  0001 C CNN
+F 1 "GND" H 5850 4492 50  0000 C CNN
+F 2 "" H 5845 4665 50  0001 C CNN
+F 3 "" H 5845 4665 50  0001 C CNN
+	1    5845 4665
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 5E6FBB52
+P 6270 4825
+F 0 "C?" H 6385 4871 50  0000 L CNN
+F 1 "CP1" H 6385 4780 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D7.5mm_P2.50mm" H 6270 4825 50  0001 C CNN
+F 3 "~" H 6270 4825 50  0001 C CNN
+	1    6270 4825
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 5E6FCCFB
+P 5425 4830
+F 0 "C?" H 5540 4876 50  0000 L CNN
+F 1 "CP1" H 5540 4785 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D7.5mm_P2.50mm" H 5425 4830 50  0001 C CNN
+F 3 "~" H 5425 4830 50  0001 C CNN
+	1    5425 4830
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 5E6FE188
+P 6620 4825
+F 0 "C?" H 6735 4871 50  0000 L CNN
+F 1 "CP1" H 6735 4780 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D7.5mm_P2.50mm" H 6620 4825 50  0001 C CNN
+F 3 "~" H 6620 4825 50  0001 C CNN
+	1    6620 4825
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E6FED28
+P 5180 4305
+F 0 "R?" V 4973 4305 50  0000 C CNN
+F 1 "10/3W" V 5064 4305 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_Power_L20.0mm_W6.4mm_P25.40mm" V 5110 4305 50  0001 C CNN
+F 3 "~" H 5180 4305 50  0001 C CNN
+	1    5180 4305
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5E700012
+P 4920 4305
+F 0 "#PWR?" H 4920 4155 50  0001 C CNN
+F 1 "+12V" H 4935 4478 50  0000 C CNN
+F 2 "" H 4920 4305 50  0001 C CNN
+F 3 "" H 4920 4305 50  0001 C CNN
+	1    4920 4305
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5E7025F2
+P 6620 4305
+F 0 "#PWR?" H 6620 4155 50  0001 C CNN
+F 1 "+3.3V" H 6635 4478 50  0000 C CNN
+F 2 "" H 6620 4305 50  0001 C CNN
+F 3 "" H 6620 4305 50  0001 C CNN
+	1    6620 4305
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 3450 5425 3450
+Wire Wire Line
+	5425 3450 5425 4305
+Wire Wire Line
+	6150 3450 6270 3450
+Wire Wire Line
+	6270 3450 6270 4305
+Wire Wire Line
+	5850 3815 5850 3750
+Wire Wire Line
+	5845 4665 5845 4605
+Wire Wire Line
+	5545 4305 5425 4305
+Connection ~ 5425 4305
+Wire Wire Line
+	5425 4305 5425 4680
+Wire Wire Line
+	6145 4305 6270 4305
+Connection ~ 6270 4305
+Wire Wire Line
+	6270 4305 6270 4675
+Wire Wire Line
+	5330 4305 5425 4305
+Wire Wire Line
+	4920 4305 5030 4305
+Wire Wire Line
+	6620 4675 6620 4305
+Wire Wire Line
+	6270 4305 6620 4305
+$Comp
+L power:GND #PWR?
+U 1 1 5E70C125
+P 5425 5040
+F 0 "#PWR?" H 5425 4790 50  0001 C CNN
+F 1 "GND" H 5430 4867 50  0000 C CNN
+F 2 "" H 5425 5040 50  0001 C CNN
+F 3 "" H 5425 5040 50  0001 C CNN
+	1    5425 5040
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E70C715
+P 6270 5035
+F 0 "#PWR?" H 6270 4785 50  0001 C CNN
+F 1 "GND" H 6275 4862 50  0000 C CNN
+F 2 "" H 6270 5035 50  0001 C CNN
+F 3 "" H 6270 5035 50  0001 C CNN
+	1    6270 5035
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E70CCF7
+P 6620 5040
+F 0 "#PWR?" H 6620 4790 50  0001 C CNN
+F 1 "GND" H 6625 4867 50  0000 C CNN
+F 2 "" H 6620 5040 50  0001 C CNN
+F 3 "" H 6620 5040 50  0001 C CNN
+	1    6620 5040
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6620 5040 6620 4975
+Wire Wire Line
+	6270 5035 6270 4975
+Wire Wire Line
+	5425 5040 5425 4980
+Wire Bus Line
+	4835 3120 6955 3120
+Wire Bus Line
+	6955 3120 6955 5370
+Wire Bus Line
+	6955 5370 4835 5370
+Wire Bus Line
+	4835 3120 4835 5370
+Connection ~ 6620 4305
+$EndSCHEMATC

@@ -1,0 +1,88 @@
+eeschema (2011-04-29 BZR 2986)-stable  >> Creation date: 11/2/2013 3:49:32 PM
+
+#Cmp ( order = Reference )
+| AFF1       7SEG-40101BH
+| AFF2       7SEG-40101BH
+| AFF3       7SEG-40101BH
+| C1         0.1UF       
+| C2         22P         
+| C3         104         
+| C4         22P         
+| C5         10uf/25v    
+| C6         10uf/25v    
+| C7         334         
+| C8         104         
+| C9         10uf/25v    
+| C10        10uf/25v    
+| C11        0.1UF       
+| C12        22P         
+| C13        10uf/25v    
+| C14        22P         
+| C15        10uf/25v    
+| C16        334         
+| C17        104         
+| C18        10uf/25v    
+| C19        10uf/25v    
+| D1         DIODE 3A    
+| D2         LED         
+| D3         DIODE 3A    
+| D4         DIODE 3A    
+| D5         LED         
+| D6         DIODE 3A    
+| F1         FUSE        
+| F2         FUSE        
+| GS1        jumper      
+| GS2        jumper      
+| GS3        jumper      
+| IC1        ATMEGA32-P  
+| IC2        ATMEGA32-P  
+| P1         V/D         
+| P2         CONN_8      
+| P4         Roseta 2 pin
+| P5         CONN_4      
+| P6         CONN_4      
+| Q1         PNP         
+| R1         10k         
+| R2         R 2W        
+| R3         R           
+| R4         470         
+| R5         10k         
+| R6         240         
+| R7         240         
+| R8         240         
+| R9         240         
+| R10        240         
+| R11        240         
+| R12        240         
+| R13        240         
+| R14        240         
+| R15        240         
+| R16        R 2W        
+| R17        240         
+| R18        240         
+| R19        240         
+| R20        240         
+| R21        240         
+| R22        240         
+| R23        240         
+| R24        240         
+| R25        240         
+| R26        240         
+| R27        R           
+| R28        240         
+| RV1        POT         
+| SW1        SW_PUSH     
+| SW2        SW_PUSH     
+| U1         LCD_2*20    
+| U2         7805        
+| U3         MAX232      
+| U4         74LS47      
+| U5         74LS47      
+| U6         MAX232      
+| U7         7805        
+| U8         74LS47      
+| X1         XTAL        
+| X2         XTAL        
+#End Cmp
+
+#End List

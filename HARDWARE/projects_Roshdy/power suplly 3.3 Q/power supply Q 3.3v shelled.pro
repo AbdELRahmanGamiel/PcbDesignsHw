@@ -1,0 +1,35 @@
+update=10/11/2016 1:26:51 PM
+last_client=pcbnew
+[pcbnew]
+version=1
+PadDrlX=320
+PadDimH=600
+PadDimV=600
+BoardThickness=630
+TxtPcbV=800
+TxtPcbH=600
+TxtModV=600
+TxtModH=600
+TxtModW=120
+VEgarde=100
+DrawLar=150
+EdgeLar=150
+TxtLar=120
+MSegLar=150
+LastNetListRead=power supply 3.3 Q.net
+[pcbnew/libraries]
+LibDir=
+LibName1=D:/etc/kikad/library/ETC
+LibName2=D:/etc/kikad/library/Mostafa
+LibName3=D:/etc/kikad/library/stander etc
+LibName4=D:/etc/kikad/library/emad_etc
+LibName5=sockets
+LibName6=connect
+LibName7=discret
+LibName8=pin_array
+LibName9=divers
+LibName10=libcms
+LibName11=display
+LibName12=valves
+LibName13=led
+LibName14=dip_sockets

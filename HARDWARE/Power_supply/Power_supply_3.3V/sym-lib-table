@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "Power_supply_3.3V-rescue")(type "Legacy")(uri "${KIPRJMOD}/Power_supply_3.3V-rescue.lib")(options "")(descr ""))
+)

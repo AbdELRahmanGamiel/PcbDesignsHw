@@ -1,0 +1,150 @@
+Cmp-Mod V01 Genere par PcbNew le 6/18/2012 1:09:30 PM
+
+BeginCmp
+TimeStamp = /4FDECD71;
+Reference = C1;
+ValeurCmp = 22uF-50v;
+IdModule  = C1V5;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FDED1F7;
+Reference = C2;
+ValeurCmp = 0.47UF-400V;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FDECD1F;
+Reference = C3;
+ValeurCmp = 4.7uF-50v;
+IdModule  = C1V5;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FDED497;
+Reference = C4;
+ValeurCmp = 0.1UF-250V;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FDECD5C;
+Reference = D1;
+ValeurCmp = 1N4007;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FDECE64;
+Reference = D2;
+ValeurCmp = 1N4007;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FDED30D;
+Reference = D3;
+ValeurCmp = 1N4007;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FDED03E;
+Reference = D4;
+ValeurCmp = 1N4007;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FDECB39;
+Reference = D5;
+ValeurCmp = 16V-1.3W;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FDED34F;
+Reference = D6;
+ValeurCmp = 1N4007;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FDEC850;
+Reference = K1;
+ValeurCmp = 24V-16A-Rectangle;
+IdModule  = Relay8pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FDEC7E6;
+Reference = P1;
+ValeurCmp = CONN_4;
+IdModule  = PIN_ARRAY_4x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FDED287;
+Reference = P2;
+ValeurCmp = CONN_4;
+IdModule  = bornier4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FDECAB7;
+Reference = Q1;
+ValeurCmp = C1815;
+IdModule  = NPN;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FDECB4D;
+Reference = Q2;
+ValeurCmp = C1815;
+IdModule  = NPN;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FDED2B4;
+Reference = R1;
+ValeurCmp = 2.2M-0.25W;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FDECC07;
+Reference = R2;
+ValeurCmp = 100K-0.25W;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FDECB79;
+Reference = R3;
+ValeurCmp = 1K-0.25W;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FDECB1B;
+Reference = R4;
+ValeurCmp = 5K-0.25W;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FDED4BF;
+Reference = R5;
+ValeurCmp = 1K-0.25W;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FDED46F;
+Reference = VR1;
+ValeurCmp = ZINBAMIC_10N_391K;
+IdModule  = C-P_ETC;
+EndCmp
+
+EndListe

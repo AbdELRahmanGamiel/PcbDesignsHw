@@ -1,0 +1,36 @@
+update=10/27/2013 6:37:18 PM
+last_client=pcbnew
+[pcbnew]
+version=1
+PadDrlX=394
+PadDimH=1181
+PadDimV=1181
+BoardThickness=630
+TxtPcbV=800
+TxtPcbH=600
+TxtModV=600
+TxtModH=600
+TxtModW=120
+VEgarde=100
+DrawLar=150
+EdgeLar=150
+TxtLar=120
+MSegLar=150
+LastNetListRead=Q.net
+[pcbnew/libraries]
+LibDir=
+LibName1=F:/etc/projects/Hardware/Jeep/hardware design/test
+LibName2=F:/etc/projects/Hardware/library/ETC
+LibName3=F:/etc/projects/Hardware/library/etc_roshdy1
+LibName4=F:/etc/projects/Hardware/library/etc_roshdy
+LibName5=F:/etc/projects/Hardware/library/Mostafa
+LibName6=dip_sockets
+LibName7=sockets
+LibName8=connect
+LibName9=discret
+LibName10=pin_array
+LibName11=divers
+LibName12=libcms
+LibName13=display
+LibName14=valves
+LibName15=led

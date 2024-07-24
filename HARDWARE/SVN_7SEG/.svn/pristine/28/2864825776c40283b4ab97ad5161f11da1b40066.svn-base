@@ -1,0 +1,251 @@
+%!PS-Adobe-3.0
+%%Creator: PCBNEW
+%%CreationDate: Mon Apr 12 17:18:38 2021
+%%Title: G:\Projects\kikad\_7SEG\_7SEG_CONTROL\DisplayBoard\DisplayBoard_Gerber\_7SEG_Display_Board-NPTH-drl_map.ps
+%%Pages: 1
+%%PageOrder: Ascend
+%%BoundingBox: 0 0 596 842
+%%DocumentMedia: A4 595 842 0 () ()
+%%Orientation: Landscape
+%%EndComments
+%%BeginProlog
+/line { newpath moveto lineto stroke } bind def
+/cir0 { newpath 0 360 arc stroke } bind def
+/cir1 { newpath 0 360 arc gsave fill grestore stroke } bind def
+/cir2 { newpath 0 360 arc gsave fill grestore stroke } bind def
+/arc0 { newpath arc stroke } bind def
+/arc1 { newpath 4 index 4 index moveto arc closepath gsave fill
+    grestore stroke } bind def
+/arc2 { newpath 4 index 4 index moveto arc closepath gsave fill
+    grestore stroke } bind def
+/poly0 { stroke } bind def
+/poly1 { closepath gsave fill grestore stroke } bind def
+/poly2 { closepath gsave fill grestore stroke } bind def
+/rect0 { rectstroke } bind def
+/rect1 { rectfill } bind def
+/rect2 { rectfill } bind def
+/linemode0 { 0 setlinecap 0 setlinejoin 0 setlinewidth } bind def
+/linemode1 { 1 setlinecap 1 setlinejoin } bind def
+/dashedline { [200] 100 setdash } bind def
+/solidline { [] 0 setdash } bind def
+/phantomshow { moveto
+    /KicadFont findfont 0.000001 scalefont setfont
+    show } bind def
+/textshow { gsave
+    findfont exch scalefont setfont concat 1 scale 0 0 moveto show
+    } bind def
+/reencodefont {
+  findfont dup length dict begin
+  { 1 index /FID ne
+    { def }
+    { pop pop } ifelse
+  } forall
+  /Encoding ISOLatin1Encoding def
+  currentdict
+  end } bind def
+/KicadFont /Helvetica reencodefont definefont pop
+/KicadFont-Bold /Helvetica-Bold reencodefont definefont pop
+/KicadFont-Oblique /Helvetica-Oblique reencodefont definefont pop
+/KicadFont-BoldOblique /Helvetica-BoldOblique reencodefont definefont pop
+%%EndProlog
+%%Page: 1 1
+%%BeginPageSetup
+gsave
+0.0072 0.0072 scale
+linemode1
+82680 0 translate 90 rotate
+45.8433 setlinewidth
+%%EndPageSetup
+0 0 0 setrgbcolor
+108.291 setlinewidth
+38294 57784.3 631.699 cir0
+0 0 0 setrgbcolor
+46810.7 51916.4 631.699 cir0
+0 0 0 setrgbcolor
+80286.4 38520 631.699 cir0
+0 0 0 setrgbcolor
+37560.5 38520 631.699 cir0
+0 0 0 setrgbcolor
+29135.4 74563 631.699 cir0
+0 0 0 setrgbcolor
+57731.5 67869.8 631.699 cir0
+0 0 0 setrgbcolor
+88079.8 74573.1 631.699 cir0
+0 0 0 setrgbcolor
+newpath
+80928.2 37063.2 moveto
+89088.3 45223.3 lineto
+stroke
+0 0 0 setrgbcolor
+newpath
+36735.3 37063.2 moveto
+80928.2 37063.2 lineto
+stroke
+0 0 0 setrgbcolor
+newpath
+27841.7 45956.7 moveto
+36735.3 37063.2 lineto
+stroke
+0 0 0 setrgbcolor
+newpath
+27841.7 75113.1 moveto
+27841.7 45956.7 lineto
+stroke
+0 0 0 setrgbcolor
+newpath
+31417.5 78688.8 moveto
+27841.7 75113.1 lineto
+stroke
+0 0 0 setrgbcolor
+newpath
+86246 78688.8 moveto
+31417.5 78688.8 lineto
+stroke
+0 0 0 setrgbcolor
+newpath
+89088.3 75846.6 moveto
+86246 78688.8 lineto
+stroke
+0 0 0 setrgbcolor
+newpath
+89088.3 45223.3 moveto
+89088.3 75846.6 lineto
+stroke
+0 0 0 setrgbcolor
+newpath
+62224.1 56592.4 moveto
+62224.1 62552 lineto
+stroke
+0 0 0 setrgbcolor
+newpath
+59565.2 56592.4 moveto
+62224.1 56592.4 lineto
+stroke
+0 0 0 setrgbcolor
+newpath
+59565.2 62552 moveto
+59565.2 56592.4 lineto
+stroke
+0 0 0 setrgbcolor
+newpath
+62224.1 62552 moveto
+59565.2 62552 lineto
+stroke
+78.74 setlinewidth
+118.11 setlinewidth
+0 0 0 setrgbcolor
+0 0 0 setrgbcolor
+newpath
+28915.2 35175.5 moveto
+28915.2 36356.6 lineto
+29196.4 36356.6 lineto
+29365.2 36300.3 lineto
+29477.6 36187.9 lineto
+29533.9 36075.4 lineto
+29590.1 35850.4 lineto
+29590.1 35681.7 lineto
+29533.9 35456.7 lineto
+29477.6 35344.2 lineto
+29365.2 35231.7 lineto
+29196.4 35175.5 lineto
+28915.2 35175.5 lineto
+stroke
+newpath
+30096.3 35175.5 moveto
+30096.3 35962.9 lineto
+stroke
+newpath
+30096.3 35737.9 moveto
+30152.6 35850.4 lineto
+30208.8 35906.6 lineto
+30321.3 35962.9 lineto
+30433.8 35962.9 lineto
+stroke
+newpath
+30827.5 35175.5 moveto
+30827.5 35962.9 lineto
+stroke
+newpath
+30827.5 36356.6 moveto
+30771.2 36300.3 lineto
+30827.5 36244.1 lineto
+30883.7 36300.3 lineto
+30827.5 36356.6 lineto
+30827.5 36244.1 lineto
+stroke
+newpath
+31558.6 35175.5 moveto
+31446.2 35231.7 lineto
+31389.9 35344.2 lineto
+31389.9 36356.6 lineto
+stroke
+newpath
+32177.3 35175.5 moveto
+32064.8 35231.7 lineto
+32008.6 35344.2 lineto
+32008.6 36356.6 lineto
+stroke
+newpath
+33527.1 35175.5 moveto
+33527.1 36356.6 lineto
+33920.8 35512.9 lineto
+34314.5 36356.6 lineto
+34314.5 35175.5 lineto
+stroke
+newpath
+35383.2 35175.5 moveto
+35383.2 35794.2 lineto
+35326.9 35906.6 lineto
+35214.4 35962.9 lineto
+34989.5 35962.9 lineto
+34877 35906.6 lineto
+stroke
+newpath
+35383.2 35231.7 moveto
+35270.7 35175.5 lineto
+34989.5 35175.5 lineto
+34877 35231.7 lineto
+34820.7 35344.2 lineto
+34820.7 35456.7 lineto
+34877 35569.2 lineto
+34989.5 35625.4 lineto
+35270.7 35625.4 lineto
+35383.2 35681.7 lineto
+stroke
+newpath
+35945.6 35962.9 moveto
+35945.6 34781.8 lineto
+stroke
+newpath
+35945.6 35906.6 moveto
+36058.1 35962.9 lineto
+36283 35962.9 lineto
+36395.5 35906.6 lineto
+36451.8 35850.4 lineto
+36508 35737.9 lineto
+36508 35400.5 lineto
+36451.8 35288 lineto
+36395.5 35231.7 lineto
+36283 35175.5 lineto
+36058.1 35175.5 lineto
+35945.6 35231.7 lineto
+stroke
+newpath
+37014.2 35288 moveto
+37070.5 35231.7 lineto
+37014.2 35175.5 lineto
+36958 35231.7 lineto
+37014.2 35288 lineto
+37014.2 35175.5 lineto
+stroke
+newpath
+37014.2 35906.6 moveto
+37070.5 35850.4 lineto
+37014.2 35794.2 lineto
+36958 35850.4 lineto
+37014.2 35906.6 lineto
+37014.2 35794.2 lineto
+stroke
+showpage
+grestore
+%%EOF

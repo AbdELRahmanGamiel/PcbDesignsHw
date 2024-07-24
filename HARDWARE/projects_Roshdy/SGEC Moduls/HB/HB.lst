@@ -1,0 +1,36 @@
+eeschema (2011-04-29 BZR 2986)-stable  >> Creation date: 11/20/2013 11:53:13 AM
+
+#Cmp ( order = Reference )
+| C1         0.1UF       
+| C2         100UF       
+| D1         LED         
+| D2         LED         
+| D3         DIODE       
+| D4         DIODE       
+| D5         DIODE       
+| D6         DIODE       
+| D7         LED         
+| D8         DIODE       
+| D9         DIODE       
+| D10        DIODE       
+| D11        DIODE       
+| D12        LED         
+| GS2        GS2         
+| GS3        GS2         
+| GS4        GS2         
+| GS?        GS2         
+| K1         power input 
+| P1         DIP         
+| P2         outputA     
+| P3         Enaple      
+| P4         INPUT A     
+| P5         INPUT B     
+| P6         outputB     
+| R1         R           
+| R2         R           
+| U1         L298KV      
+| U2         PH          
+| U3         PH          
+#End Cmp
+
+#End List

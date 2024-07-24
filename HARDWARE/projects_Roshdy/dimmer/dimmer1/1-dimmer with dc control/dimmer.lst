@@ -1,0 +1,85 @@
+eeschema (2011-04-29 BZR 2986)-stable  >> Creation date: 11/30/2012 2:17:32 AM
+
+#Cmp ( order = Reference )
+| C1         0.01UF/400V 
+| C2         0.47uf 400v AC
+| C3         CP1 47uf 25V
+| C4         CP1 0.01uf 25V
+| C5         CP1 0.01uf 25V
+| C6         22pf        
+| C7         22pf        
+| C8         .01uf       
+| D1         BRIDGE 1A   
+| D2         ZENER 16v   
+| D3         ZENER 16v   
+| D4         BRIDGE 1A   
+| F1         FUSE        
+| FB1        LAMP        
+| P1         CONN_2      
+| P2         CONN_2      
+| P3         CONN_2      
+| P4         CONN_2      
+| Q1         2N2222      
+| R1         470K/0.25W  
+| R2         15K/0.25W   
+| R3         100R/0.25W  
+| R4         10k         
+| R5         10K/0.25W   
+| R6         360R/0.5W   
+| R7         330R/0.25W  
+| R8         47R/0.25W   
+| R9         100 omh 1watt
+| R10        1k ohm 2watt
+| R11        R           
+| SW1        SPST        
+| SW2        SW_PUSH     
+| U1         PIC16F877A  
+| U2         EL817       
+| U3         MOC3020     
+| U4         BTA24       
+| U5         7805        
+| X1         CRYSTAL     
+#End Cmp
+
+#Cmp ( order = Value )
+| .01uf        C8        
+| 0.01UF/400V  C1        
+| 0.47uf 400v AC C2        
+| 100 omh 1watt R9        
+| 100R/0.25W   R3        
+| 10k          R4        
+| 10K/0.25W    R5        
+| 15K/0.25W    R2        
+| 1k ohm 2watt R10       
+| 22pf         C6        
+| 22pf         C7        
+| 2N2222       Q1        
+| 330R/0.25W   R7        
+| 360R/0.5W    R6        
+| 470K/0.25W   R1        
+| 47R/0.25W    R8        
+| 7805         U5        
+| BRIDGE 1A    D1        
+| BRIDGE 1A    D4        
+| BTA24        U4        
+| CONN_2       P1        
+| CONN_2       P2        
+| CONN_2       P3        
+| CONN_2       P4        
+| CP1 0.01uf 25V C4        
+| CP1 0.01uf 25V C5        
+| CP1 47uf 25V C3        
+| CRYSTAL      X1        
+| EL817        U2        
+| FUSE         F1        
+| LAMP         FB1       
+| MOC3020      U3        
+| PIC16F877A   U1        
+| R            R11       
+| SPST         SW1       
+| SW_PUSH      SW2       
+| ZENER 16v    D2        
+| ZENER 16v    D3        
+#End Cmp
+
+#End List

@@ -1,0 +1,48 @@
+eeschema (2011-04-29 BZR 2986)-stable  >> Creation date: 2013/1/28 10:38:36 PM
+
+#Cmp ( order = Reference )
+| C1         0.47uf 400v AC
+| C2          47uf 25V   
+| C3         1500uf      
+| C4          0.01uf 25V 
+| C5          0.01uf 25V 
+| C6         103         
+| C7         104(0.1UF)  
+| CONN1      220V        
+| CONN2      SWITCH      
+| CONN_21    LAMP        
+| D1         BRIDGE      
+| D2         ZENER       
+| D3         ZENER 16V   
+| D4         ZENER 16V   
+| D5         BRIDGE      
+| F1         fuse 1 A    
+| P1         CONN_2      
+| P4         CONN_2      
+| Q1         NPN         
+| Q2         NPN         
+| R1         100 omh 1watt
+| R2         1k ohm 2watt
+| R3         11k/4.5w1   
+| R4         R           
+| R5         800/0.25w1  
+| R6         1k1         
+| R7         100         
+| R8         4.7k1       
+| R9         10k1        
+| R10        355/0.25W1  
+| R11        355/0.25W1  
+| R12        1k          
+| R13        1M          
+| R14        1k          
+| R15        47/0.25     
+| R16        104K/630V1  
+| SW1        SW_PUSH     
+| U1         PC817       
+| U2         7805        
+| U3         BT16        
+| U4         MOC3020     
+| U5         LM555N      
+#End Cmp
+
+#End List

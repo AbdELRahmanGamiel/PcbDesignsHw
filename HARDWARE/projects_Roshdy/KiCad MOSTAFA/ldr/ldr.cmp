@@ -1,0 +1,59 @@
+Cmp-Mod V01 Created by CvPCB (2011-04-29 BZR 2986)-stable date = 5/8/2012 5:57:02 PM
+
+BeginCmp
+TimeStamp = /4FA92C57;
+Reference = D1;
+ValeurCmp = 1N4148;
+IdModule  = D4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FA92C95;
+Reference = K1;
+ValeurCmp = RELAY_5PIN;
+IdModule  = RELAY_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FA92ED0;
+Reference = K2;
+ValeurCmp = CONN_3;
+IdModule  = ROZT_3_PIN_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FA92E8B;
+Reference = P1;
+ValeurCmp = CONN_2;
+IdModule  = ROZT_2_PIN_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FA92BD3;
+Reference = Q1;
+ValeurCmp = 2N2222;
+IdModule  = TO92;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FA92C02;
+Reference = R1;
+ValeurCmp = LDR;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FA92C38;
+Reference = R2;
+ValeurCmp = 1K-0.25W;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FA92C0C;
+Reference = RV1;
+ValeurCmp = 50K-POT;
+IdModule  = VAR-ETC;
+EndCmp
+
+EndListe

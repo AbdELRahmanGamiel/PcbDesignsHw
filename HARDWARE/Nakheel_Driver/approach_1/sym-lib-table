@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name DC_converter)(type Legacy)(uri C:/Users/Gamiel/Desktop/Nakheel_Driver/DC_converter.lib)(options "")(descr ""))
+  (lib (name approach_1-rescue)(type Legacy)(uri ${KIPRJMOD}/approach_1-rescue.lib)(options "")(descr ""))
+)

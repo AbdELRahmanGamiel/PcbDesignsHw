@@ -1,0 +1,80 @@
+Cmp-Mod V01 Created by CvPCB (2011-04-29 BZR 2986)-stable date = 6/6/2013 8:31:41 AM
+
+BeginCmp
+TimeStamp = /51B01A7B;
+Reference = P1;
+ValeurCmp = CONN_4;
+IdModule  = ROZT_4_PIN_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /51B01A82;
+Reference = P2;
+ValeurCmp = CONN_4;
+IdModule  = ROZT_4_PIN_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /51B01A93;
+Reference = P3;
+ValeurCmp = CONN_8;
+IdModule  = ROZT_8_PIN_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /51B01B50;
+Reference = P4;
+ValeurCmp = CONN_4;
+IdModule  = ROZT_4_PIN_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /51B01B4F;
+Reference = P5;
+ValeurCmp = CONN_4;
+IdModule  = ROZT_4_PIN_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /51B01B4E;
+Reference = P6;
+ValeurCmp = CONN_8;
+IdModule  = ROZT_8_PIN_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /51B01BEB;
+Reference = P7;
+ValeurCmp = CONN_8;
+IdModule  = ROZT_8_PIN_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /51B01BB5;
+Reference = P8;
+ValeurCmp = CONN_4;
+IdModule  = ROZT_4_PIN_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /51B01BBB;
+Reference = P9;
+ValeurCmp = CONN_4;
+IdModule  = ROZT_4_PIN_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /51B01BBF;
+Reference = P10;
+ValeurCmp = CONN_4;
+IdModule  = ROZT_4_PIN_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /51B01BF0;
+Reference = P11;
+ValeurCmp = CONN_8;
+IdModule  = ROZT_8_PIN_ETC;
+EndCmp
+
+EndListe

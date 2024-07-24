@@ -1,0 +1,26 @@
+update=4/10/2012 2:20:10 PM
+last_client=cvpcb
+[general]
+version=1
+RootSch=keypad5x4.sch
+BoardNm=keypad5x4.brd
+[cvpcb]
+version=1
+NetIExt=.net
+[cvpcb/libraries]
+EquName1=devcms
+[common]
+NetDir=
+[pcbnew]
+[pcbnew/libraries]
+LibDir=
+LibName1=sockets
+LibName2=connect
+LibName3=discret
+LibName4=pin_array
+LibName5=divers
+LibName6=libcms
+LibName7=display
+LibName8=valves
+LibName9=led
+LibName10=dip_sockets

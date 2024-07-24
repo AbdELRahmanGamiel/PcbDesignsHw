@@ -1,0 +1,157 @@
+Cmp-Mod V01 Created by CvPCB (2011-04-29 BZR 2986)-stable date = 2013/2/28 7:03:40 PM
+
+BeginCmp
+TimeStamp = /510676D6;
+Reference = C1;
+ValeurCmp = 564J/400V;
+IdModule  = C_0.01UF_400V_AC;
+EndCmp
+
+BeginCmp
+TimeStamp = /5106773D;
+Reference = C2;
+ValeurCmp = 220uf/25v;
+IdModule  = cp1_220uf_25v_etc;
+EndCmp
+
+BeginCmp
+TimeStamp = /510672F8;
+Reference = C3;
+ValeurCmp = 104j;
+IdModule  = c_104j_s_etc;
+EndCmp
+
+BeginCmp
+TimeStamp = /510674A7;
+Reference = C4;
+ValeurCmp = j63/650RN;
+IdModule  = c_63j_s_etc;
+EndCmp
+
+BeginCmp
+TimeStamp = /510673D9;
+Reference = C5;
+ValeurCmp = 220uf/25v;
+IdModule  = cp1_220uf_25v_etc;
+EndCmp
+
+BeginCmp
+TimeStamp = /51067535;
+Reference = D1;
+ValeurCmp = 1N4007;
+IdModule  = DIOD_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /51067AB8;
+Reference = D2;
+ValeurCmp = BRIDGE;
+IdModule  = Bridge_1A_O_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /510674E0;
+Reference = D3;
+ValeurCmp = 1N4007;
+IdModule  = DIOD_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /5106747D;
+Reference = D4;
+ValeurCmp = ZENER;
+IdModule  = Zener_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /51067561;
+Reference = F1;
+ValeurCmp = FUSE;
+IdModule  = FUSE_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /510672D4;
+Reference = P1;
+ValeurCmp = LAMP;
+IdModule  = ROZT_2PIN_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /51067675;
+Reference = P2;
+ValeurCmp = NUTRAL;
+IdModule  = TESTPOINT_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /51067663;
+Reference = P3;
+ValeurCmp = LINE;
+IdModule  = TESTPOINT_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /5106766D;
+Reference = P4;
+ValeurCmp = LMP;
+IdModule  = TESTPOINT_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /510676C6;
+Reference = R1;
+ValeurCmp = R;
+IdModule  = R_2.5WATT_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /51067428;
+Reference = R2;
+ValeurCmp = R;
+IdModule  = R_0.25WATT_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /51067405;
+Reference = R3;
+ValeurCmp = Rout;
+IdModule  = R_0.25WATT_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /51067447;
+Reference = R4;
+ValeurCmp = R;
+IdModule  = R_0.5WATT_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /51067507;
+Reference = relay1;
+ValeurCmp = RELAY;
+IdModule  = RELAY_12V_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /51067373;
+Reference = RV1;
+ValeurCmp = Rvar;
+IdModule  = VAR_3PIN_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /510675B5;
+Reference = SW1;
+ValeurCmp = SWITCH;
+IdModule  = ROZT_2PIN_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /51067384;
+Reference = u1;
+ValeurCmp = LM555N;
+IdModule  = DIP_8_ETC;
+EndCmp
+
+EndListe

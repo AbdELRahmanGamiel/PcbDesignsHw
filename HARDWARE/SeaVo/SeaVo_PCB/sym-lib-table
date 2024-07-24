@@ -1,0 +1,8 @@
+(sym_lib_table
+  (lib (name "ESP32_module")(type "Legacy")(uri "G:/Projects/kikad/ThePlatform_MothedahFarm/ESP32_module.lib")(options "")(descr ""))
+  (lib (name "SeaVo_PCB-rescue")(type "Legacy")(uri "${KIPRJMOD}/SeaVo_PCB-rescue.lib")(options "")(descr ""))
+  (lib (name "ADC_MCP3461R")(type "Legacy")(uri "${KIPRJMOD}/ADC_MCP3461R.lib")(options "")(descr ""))
+  (lib (name "PS_12VDC")(type "Legacy")(uri "G:/Projects/_7SEG/_7SEG_CONTROL/PS_12VDC.lib")(options "")(descr ""))
+  (lib (name "AC_Socket")(type "Legacy")(uri "G:/Projects/_7SEG/_7SEG_CONTROL/AC_Socket.lib")(options "")(descr ""))
+  (lib (name "SeaVo_PCB_V0-rescue")(type "Legacy")(uri "${KIPRJMOD}/SeaVo_PCB_V0-rescue.lib")(options "")(descr ""))
+)

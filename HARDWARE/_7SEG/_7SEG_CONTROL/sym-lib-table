@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name "ESP32_module")(type "Legacy")(uri "G:/Projects/kikad/ThePlatform_MothedahFarm/ESP32_module.lib")(options "")(descr ""))
+  (lib (name "AC_Socket")(type "Legacy")(uri "${KIPRJMOD}/AC_Socket.lib")(options "")(descr ""))
+  (lib (name "PS_12VDC")(type "Legacy")(uri "${KIPRJMOD}/PS_12VDC.lib")(options "")(descr ""))
+  (lib (name "_7SEG_CONTROL-rescue")(type "Legacy")(uri "${KIPRJMOD}/_7SEG_CONTROL-rescue.lib")(options "")(descr ""))
+)

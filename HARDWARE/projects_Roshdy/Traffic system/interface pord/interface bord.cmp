@@ -1,0 +1,38 @@
+Cmp-Mod V01 Genere par PcbNew le 6/10/2013 6:36:43 AM
+
+BeginCmp
+TimeStamp = /518FEF16;
+Reference = LCD1;
+ValeurCmp = LCD_4X16_ETC;
+IdModule  = LCD-16*4_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /518FDEB3;
+Reference = P1;
+ValeurCmp = KEYPAD;
+IdModule  = SIL-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /518FDEBC;
+Reference = P3;
+ValeurCmp = CONN_10;
+IdModule  = base_flatecaple_sp_right-angle_10*2_etc;
+EndCmp
+
+BeginCmp
+TimeStamp = /518FDEC4;
+Reference = P4;
+ValeurCmp = CONN_10;
+IdModule  = base_flatecaple_sp_right-angle_10*2_etc;
+EndCmp
+
+BeginCmp
+TimeStamp = /518FDEC7;
+Reference = P5;
+ValeurCmp = CONN_10;
+IdModule  = base_flatecaple_sp_right-angle_10*2_etc;
+EndCmp
+
+EndListe

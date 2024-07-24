@@ -1,0 +1,213 @@
+Cmp-Mod V01 Created by CvPCB (2011-04-29 BZR 2986)-stable date = 9/30/2013 2:16:00 PM
+
+BeginCmp
+TimeStamp = /524894D3;
+Reference = C1;
+ValeurCmp = 0.1UF;
+IdModule  = C1V5;
+EndCmp
+
+BeginCmp
+TimeStamp = /524894CF;
+Reference = C2;
+ValeurCmp = 100UF;
+IdModule  = C1V5;
+EndCmp
+
+BeginCmp
+TimeStamp = /52488A78;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /52488A82;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /52488D7A;
+Reference = D3;
+ValeurCmp = DIODE;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /52488D83;
+Reference = D4;
+ValeurCmp = DIODE;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /52488D87;
+Reference = D5;
+ValeurCmp = DIODE;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /52488D93;
+Reference = D6;
+ValeurCmp = DIODE;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /52488B3B;
+Reference = D7;
+ValeurCmp = LED;
+IdModule  = LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /52488D2B;
+Reference = D8;
+ValeurCmp = DIODE;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /52488D5E;
+Reference = D9;
+ValeurCmp = DIODE;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /52488D66;
+Reference = D10;
+ValeurCmp = DIODE;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /52488D72;
+Reference = D11;
+ValeurCmp = DIODE;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /52488B3A;
+Reference = D12;
+ValeurCmp = LED;
+IdModule  = LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /52488748;
+Reference = GS1;
+ValeurCmp = GS2;
+IdModule  = SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5248871D;
+Reference = GS2;
+ValeurCmp = GS2;
+IdModule  = SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /52486E3F;
+Reference = GS3;
+ValeurCmp = GS2;
+IdModule  = SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /52486E37;
+Reference = GS4;
+ValeurCmp = GS2;
+IdModule  = SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5248A79D;
+Reference = K1;
+ValeurCmp = CONN_3;
+IdModule  = ROZT_3_PIN_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /524896B1;
+Reference = P1;
+ValeurCmp = DIP;
+IdModule  = swdip1;
+EndCmp
+
+BeginCmp
+TimeStamp = /52488ADE;
+Reference = P2;
+ValeurCmp = CONN_2;
+IdModule  = ROS_2PIN_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /524886E2;
+Reference = P3;
+ValeurCmp = CONN_2;
+IdModule  = ROS_2PIN_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /52489FDD;
+Reference = P4;
+ValeurCmp = INPUT_A;
+IdModule  = ROS_2PIN_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /52489FE4;
+Reference = P5;
+ValeurCmp = INPUT_B;
+IdModule  = ROS_2PIN_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /52488B39;
+Reference = P6;
+ValeurCmp = CONN_2;
+IdModule  = ROS_2PIN_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /52488C16;
+Reference = R1;
+ValeurCmp = R;
+IdModule  = R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /52488C1B;
+Reference = R2;
+ValeurCmp = R;
+IdModule  = R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /52485664;
+Reference = U1;
+ValeurCmp = L298KV;
+IdModule  = L298;
+EndCmp
+
+BeginCmp
+TimeStamp = /52486ED7;
+Reference = U2;
+ValeurCmp = PH;
+IdModule  = SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /52486ED1;
+Reference = U3;
+ValeurCmp = PH;
+IdModule  = SIL-3;
+EndCmp
+
+EndListe

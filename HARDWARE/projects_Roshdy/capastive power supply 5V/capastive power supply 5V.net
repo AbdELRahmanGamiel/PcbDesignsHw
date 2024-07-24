@@ -1,0 +1,145 @@
+# EESchema Netlist Version 1.1 created  11/17/2012 10:06:14 AM
+(
+ ( /50A7CEE7 $noname  P2 CONN_2 {Lib=CONN_2}
+  (    1 N-000003 )
+  (    2 N-000002 )
+ )
+ ( /50A7CEC4 $noname  C4 CP1 {Lib=CP1}
+  (    1 N-000003 )
+  (    2 N-000002 )
+ )
+ ( /50A7CE87 $noname  C3 CP1 {Lib=CP1}
+  (    1 N-000001 )
+  (    2 N-000002 )
+ )
+ ( /50A7CE4D $noname  C2 CP1 {Lib=CP1}
+  (    1 N-000001 )
+  (    2 N-000002 )
+ )
+ ( /50A7CCC1 $noname  D1 ZENER {Lib=ZENER}
+  (    1 N-000010 )
+  (    2 N-000008 )
+ )
+ ( /50A7CC45 $noname  C1 C {Lib=C}
+  (    1 N-000007 )
+  (    2 N-000010 )
+ )
+ ( /50A7CB1E $noname  D2 ZENER {Lib=ZENER}
+  (    1 GND )
+  (    2 N-000008 )
+ )
+ ( /50A7CAEE $noname  R2 R {Lib=R}
+  (    1 N-000005 )
+  (    2 N-000007 )
+ )
+ ( /50A7CAC7 $noname  P1 CONN_2 {Lib=CONN_2}
+  (    1 GND )
+  (    2 N-000006 )
+ )
+ ( /50A7C9FA $noname  U1 7805 {Lib=7805}
+  (  GND N-000002 )
+  (   VI N-000001 )
+  (   VO N-000003 )
+ )
+ ( /50A7C96C $noname  D3 BRIDGE {Lib=BRIDGE}
+  (    1 N-000002 )
+  (    2 GND )
+  (    3 N-000001 )
+  (    4 N-000010 )
+ )
+ ( /50A7C8C4 $noname  R1 R {Lib=R}
+  (    1 N-000005 )
+  (    2 N-000004 )
+ )
+ ( /50A7C8B4 $noname  F1 FUSE {Lib=FUSE}
+  (    1 N-000006 )
+  (    2 N-000004 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C4
+ CP*
+ SM*
+$endlist
+$component C3
+ CP*
+ SM*
+$endlist
+$component C2
+ CP*
+ SM*
+$endlist
+$component D1
+ D?
+ SO*
+ SM*
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component D2
+ D?
+ SO*
+ SM*
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "" ""
+ U1 VI
+ D3 3
+ C2 1
+ C3 1
+Net 2 "" ""
+ C3 2
+ U1 GND
+ D3 1
+ C2 2
+ P2 2
+ C4 2
+Net 3 "" ""
+ U1 VO
+ C4 1
+ P2 1
+Net 4 "" ""
+ F1 2
+ R1 2
+Net 5 "" ""
+ R1 1
+ R2 1
+Net 6 "" ""
+ F1 1
+ P1 2
+Net 7 "" ""
+ C1 1
+ R2 2
+Net 8 "" ""
+ D1 2
+ D2 2
+Net 9 "GND" "GND"
+ D3 2
+ P1 1
+ D2 1
+Net 10 "" ""
+ C1 2
+ D1 1
+ D3 4
+}
+#End

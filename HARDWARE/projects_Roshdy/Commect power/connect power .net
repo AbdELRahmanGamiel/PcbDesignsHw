@@ -1,0 +1,123 @@
+# EESchema Netlist Version 1.1 created  2/6/2015 11:00:58 AM
+(
+ ( /50EABE7D CAP-25V C5 f/25V
+  ( 1 /signal )
+  ( 2 GND )
+ )
+ ( /54D4658C LED-5MM D1 LED
+  ( 1 N-000001 )
+  ( 2 GND )
+ )
+ ( /50EABE83 Bridge_1A_O_ETC D3 BRIDGE_1A
+  ( 1 GND )
+  ( 2 N-000014 )
+  ( 3 N-000007 )
+  ( 4 N-000004 )
+ )
+ ( /50EABEE8 ZENER_SMALL_ETC D4 5.1v
+  ( 1 GND )
+  ( 2 /signal )
+ )
+ ( /4FA66585 ROZT_2PIN_ETC P1 HOT_LINE
+  ( 1 N-000004 )
+  ( 2 N-000014 )
+ )
+ ( /54D466FB ROZT_2PIN_ETC P2 CONN_2
+  ( 1 /signal )
+  ( 2 GND )
+ )
+ ( /54D46C2B 1pin P3 CONN_1
+  ( 1 ? )
+ )
+ ( /54D46C29 1pin P4 CONN_1
+  ( 1 ? )
+ )
+ ( /54D46C27 1pin P5 CONN_1
+  ( 1 ? )
+ )
+ ( /54D46C23 1pin P6 CONN_1
+  ( 1 ? )
+ )
+ ( /54D463D7 R_0.25WATT_ETC R1 220k
+  ( 1 N-000007 )
+  ( 2 N-000006 )
+ )
+ ( /54D463DF R_0.25WATT_ETC R2 220k
+  ( 1 N-000006 )
+  ( 2 N-000008 )
+ )
+ ( /54D463E1 R_0.25WATT_ETC R3 220k
+  ( 1 N-000003 )
+  ( 2 N-000008 )
+ )
+ ( /54D463E3 R_0.25WATT_ETC R4 220k
+  ( 1 N-000009 )
+  ( 2 N-000003 )
+ )
+ ( /54D4656F R_0.25WATT_ETC R5 330R
+  ( 1 N-000001 )
+  ( 2 /signal )
+ )
+ ( /54D464CB VAR RV1 POT
+  ( 1 N-000009 )
+  ( 2 /signal )
+  ( 3 GND )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C5
+ CP*
+ SM*
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D4
+ D?
+ SO*
+ SM*
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}

@@ -1,0 +1,162 @@
+eeschema (2011-04-29 BZR 2986)-stable  >> Creation date: 2013/3/11 12:52:28 PM
+
+#Cmp ( order = Reference )
+| C1         0.47uf 400v AC
+| C2         22pf        
+| C3         22pf        
+| C4         .01uf       
+| C5         47uf/25V    
+| C6         1UF/300V    
+| C7         10000UF     
+| C8         0.01uf 25V  
+| C9         C           
+| C10        0.01uf 25V  
+| C12        0.47uf 400v AC
+| C13        0.47uf 400v AC
+| C14        47uf/25V    
+| C16        47uf/25V    
+| C17        104         
+| C18        104         
+| C19        22pf        
+| C20        22pf        
+| C21        22pf        
+| C22        22pf        
+| C23        0.47uf 400v AC
+| C24        0.47uf 400v AC
+| C25        0.47uf 400v AC
+| C26        47uf/25V    
+| C27        47uf/25V    
+| C28        47uf/25V    
+| C29        1UF/300V    
+| C30        C           
+| D1         ZENER 16v   
+| D2         ZENER 16v   
+| D3         BRIDGE 1A   
+| D4         ZENER 12v_1w
+| D5         BRIDGE 1A   
+| D6         BRIDGE 1A   
+| D7         LED         
+| D8         ZENER 16v   
+| D10        ZENER 16v   
+| D12        ZENER 16v   
+| D13        ZENER 16v   
+| D14        BRIDGE 1A   
+| D16        BRIDGE 1A   
+| D18        ZENER 12v_1w
+| D19        ZENER 12v_1w
+| D20        ZENER 16v   
+| D21        ZENER 16v   
+| D22        ZENER 16v   
+| D23        ZENER 16v   
+| D24        ZENER 16v   
+| D25        ZENER 16v   
+| D26        BRIDGE 1A   
+| D27        BRIDGE 1A   
+| D28        BRIDGE 1A   
+| D29        ZENER 12v_1w
+| D30        ZENER 12v_1w
+| D31        ZENER 12v_1w
+| F1         FUSE        
+| F2         FUSE        
+| F3         FUSE        
+| F4         FUSE        
+| F6         FUSE        
+| F7         FUSE        
+| F8         FUSE        
+| F9         FUSE        
+| heat_think1 HEAT_THINK  
+| heat_think2 HEAT_THINK  
+| L1         INDUCTOR    
+| L2         INDUCTOR    
+| P1         HOT LINE    
+| P2         SWITCH      
+| P3         HOT LINE    
+| P5         HOT LINE    
+| P6         TST         
+| P7         TST         
+| P8         LAMP        
+| P9         SWITCH      
+| P11        SWITCH      
+| P12        HOT LINE    
+| P13        HOT LINE    
+| P14        HOT LINE    
+| P15        SWITCH      
+| P16        SWITCH      
+| P17        SWITCH      
+| P18        TST         
+| P19        TST         
+| P20        CONN_2      
+| P21        CONN_2      
+| P22        LAMP        
+| Q1         2N2222      
+| Q2         2N2222      
+| R1         100R/1W     
+| R2         1k/2W       
+| R3         10K/0.25W   
+| R4         500R/0.25W  
+| R5         15K/0.25W   
+| R6         10K/0.25W   
+| R7         RVAR        
+| R8         100R/0.25W  
+| R9         360R/0.5W   
+| R10        330R/0.25W  
+| R11        47R/0.25W   
+| R12        500R/0.25W  
+| R13        10K/0.25W   
+| R14        330R-0.25w  
+| R16        100R/1W     
+| R17        100R/1W     
+| R19        1k/2W       
+| R20        1k/2W       
+| R21        RVAR        
+| R23        500R/0.25W  
+| R24        500R/0.25W  
+| R25        10K/0.25W   
+| R26        10K/0.25W   
+| R27        10K/0.25W   
+| R29        10K/0.25W   
+| R30        100R/1W     
+| R31        100R/1W     
+| R32        100R/1W     
+| R33        1k/2W       
+| R34        1k/2W       
+| R35        1k/2W       
+| R36        500R/0.25W  
+| R37        500R/0.25W  
+| R38        500R/0.25W  
+| R39        10K/0.25W   
+| R40        10K/0.25W   
+| R41        10K/0.25W   
+| R42        15K/0.25W   
+| R43        100R/0.25W  
+| R44        360R/0.5W   
+| R45        330R/0.25W  
+| R46        47R/0.25W   
+| SW1        SW_PUSH     
+| SW2        SWITCH_6PIN 
+| SW3        SW_PUSH     
+| SW4        SW_PUSH     
+| T1         TRANSFO2    
+| U1         PIC16F877A  
+| U2         EL817       
+| U3         MOC3020     
+| U4         BTA24       
+| U5         triac_25A   
+| U6         7805        
+| U7         EL817       
+| U8         EL817       
+| U10        EL817       
+| U11        PIC16F628A  
+| U12        PIC16F628A  
+| U13        EL817       
+| U14        EL817       
+| U15        EL817       
+| U16        MOC3020     
+| U17        BTA24       
+| U18        triac_25A   
+| X1         20MHz       
+| X2         20MHz       
+| X3         20MHz       
+#End Cmp
+
+#End List

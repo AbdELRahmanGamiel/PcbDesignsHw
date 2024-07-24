@@ -1,0 +1,33 @@
+Drill report for G:\kikad\ThePlatform_MothedahFarm\ThePlatform_MothedahFarm.kicad_pcb
+Created on 12/15/2020 8:55:32 PM
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'ThePlatform_MothedahFarm-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.70mm  0.028"  (1 hole)
+    T2  0.80mm  0.031"  (566 holes)
+    T3  0.90mm  0.035"  (2 holes)
+    T4  1.00mm  0.039"  (96 holes)  (with 83 slots)
+    T5  1.10mm  0.043"  (7 holes)
+    T6  1.20mm  0.047"  (38 holes)
+    T7  1.30mm  0.051"  (92 holes)
+    T8  1.40mm  0.055"  (93 holes)
+    T9  1.50mm  0.059"  (2 holes)
+    T10  1.60mm  0.063"  (2 holes)
+    T11  3.30mm  0.130"  (6 holes)
+
+    Total plated holes count 905
+
+
+Drill file 'ThePlatform_MothedahFarm-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  2.70mm  0.106"  (1 hole)
+
+    Total unplated holes count 1

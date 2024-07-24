@@ -1,0 +1,108 @@
+Cmp-Mod V01 Genere par PcbNew le 4/17/2012 5:05:41 PM
+
+BeginCmp
+TimeStamp = /4F8D4812;
+Reference = C1;
+ValeurCmp = 27;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F8D483F;
+Reference = C2;
+ValeurCmp = 27;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F8D4BA9;
+Reference = C3;
+ValeurCmp = 104;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F8D490B;
+Reference = C4;
+ValeurCmp = 100N;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F8D7904;
+Reference = C5;
+ValeurCmp = 100uF,10V;
+IdModule  = C1V5;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F8D791D;
+Reference = C6;
+ValeurCmp = 10uF,25v;
+IdModule  = C1V5;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F8D7957;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F8D4CA7;
+Reference = P1;
+ValeurCmp = CONN_4;
+IdModule  = bornier4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F8D4903;
+Reference = P2;
+ValeurCmp = CONN_4;
+IdModule  = USB_B;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F8D4B50;
+Reference = R1;
+ValeurCmp = 10K;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F8D7996;
+Reference = R2;
+ValeurCmp = 70R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F8D4BD7;
+Reference = SW1;
+ValeurCmp = SW_PUSH;
+IdModule  = SW_PUSH_SMALL_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F8D47EA;
+Reference = U1;
+ValeurCmp = PIC16F877A;
+IdModule  = DIP-40__600_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F8D78A0;
+Reference = U2;
+ValeurCmp = OM0;
+IdModule  = DIP-12;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F8D480B;
+Reference = X1;
+ValeurCmp = CRYSTAL;
+IdModule  = HC-49V;
+EndCmp
+
+EndListe

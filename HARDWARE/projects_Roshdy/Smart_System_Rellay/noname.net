@@ -1,0 +1,879 @@
+# EESchema Netlist Version 1.1 created  5/11/2013 5:17:50 PM
+(
+ ( /50C7D75C C-P_ETC C1 22pf
+  ( 1 N-000055 )
+  ( 2 GND )
+ )
+ ( /50C7D762 C-P_ETC C2 22pf
+  ( 1 GND )
+  ( 2 N-000050 )
+ )
+ ( /51336FA7 C_47uf-25v C3 47uf_25v
+  ( 1 N-000092 )
+  ( 2 GNDA )
+ )
+ ( /50C80508 CAP_2200_25V C4 2200UF_25v
+  ( 1 /+12 )
+  ( 2 GND )
+ )
+ ( /51337EA6 CAP_2200_25V C5 2200UF
+  ( 1 N-000013 )
+  ( 2 GNDA )
+ )
+ ( /51336D65 C-P_ETC C6 103
+  ( 1 /+12 )
+  ( 2 GND )
+ )
+ ( /50C90587 C-P_ETC C7 104
+  ( 1 N-000051 )
+  ( 2 GND )
+ )
+ ( /51332EFA C-P_ETC C8 104
+  ( 1 N-000091 )
+  ( 2 GNDA )
+ )
+ ( /51332EFE C-P_ETC C9 22pf
+  ( 1 N-000003 )
+  ( 2 GNDA )
+ )
+ ( /51332EFD C-P_ETC C10 22pf
+  ( 1 GNDA )
+  ( 2 N-000025 )
+ )
+ ( /51337E64 C-P_ETC C11 103
+  ( 1 N-000013 )
+  ( 2 GNDA )
+ )
+ ( /51336D68 C-P_ETC C12 103
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /51337EB0 C-P_ETC C13 103
+  ( 1 +5V )
+  ( 2 GNDA )
+ )
+ ( /50C906C1 LED-5MM_ETC D1 LED
+  ( 1 N-000076 )
+  ( 2 N-000045 )
+ )
+ ( /50C9051D LED-5MM_ETC D2 LED
+  ( 1 N-000074 )
+  ( 2 N-000046 )
+ )
+ ( /50C906C7 LED-5MM_ETC D3 LED
+  ( 1 N-000071 )
+  ( 2 N-000048 )
+ )
+ ( /50C906CF LED-5MM_ETC D4 LED
+  ( 1 N-000069 )
+  ( 2 N-000049 )
+ )
+ ( /51336EFA Bridge_1A_O_ETC D5 BRIDGE
+  ( 1 GNDA )
+  ( 2 /6 )
+  ( 3 N-000092 )
+  ( 4 /5 )
+ )
+ ( /51338292 Zener_ETC D6 ZENER_5.1v
+  ( 1 GND )
+  ( 2 /RX* )
+ )
+ ( /50C804F5 Bridge_1A_O_ETC D7 BRIDGE
+  ( 1 GND )
+  ( 2 /4 )
+  ( 3 /+12 )
+  ( 4 /3 )
+ )
+ ( /513321B0 LED-5MM_ETC D8 LED
+  ( 1 N-000089 )
+  ( 2 N-000090 )
+ )
+ ( /513321BE LED-5MM_ETC D9 LED
+  ( 1 N-000081 )
+  ( 2 N-000085 )
+ )
+ ( /51331E81 DIOD_ETC D10 1N004
+  ( 1 N-000047 )
+  ( 2 +12V )
+ )
+ ( /51331E9B DIOD_ETC D11 1N004
+  ( 1 N-000033 )
+  ( 2 +12V )
+ )
+ ( /51331EAD DIOD_ETC D12 1N004
+  ( 1 N-000035 )
+  ( 2 +12V )
+ )
+ ( /51331EB9 DIOD_ETC D13 1N004
+  ( 1 N-000034 )
+  ( 2 +12V )
+ )
+ ( /513321AE DIOD_ETC D14 1N004
+  ( 1 N-000066 )
+  ( 2 +12V )
+ )
+ ( /513321C0 DIOD_ETC D15 1N004
+  ( 1 N-000080 )
+  ( 2 +12V )
+ )
+ ( /51338213 Zener_ETC D16 ZENER_5.1v
+  ( 1 GND )
+  ( 2 /RX )
+ )
+ ( /51338296 Zener_ETC D17 ZENER_5.1v
+  ( 1 GND )
+  ( 2 /TX* )
+ )
+ ( /5133820C Zener_ETC D18 ZENER_5.1v
+  ( 1 GND )
+  ( 2 /TX )
+ )
+ ( /518E5193 DIOD_ETC D19 1N004
+  ( 1 N-000095 )
+  ( 2 +12V )
+ )
+ ( /518E5195 LED-5MM_ETC D20 LED
+  ( 1 N-000101 )
+  ( 2 N-000096 )
+ )
+ ( /50C8043B FUSE_ETC F1 FUSE
+  ( 1 N-000031 )
+  ( 2 N-000032 )
+ )
+ ( /5131F3C8 RELAY_ETC K1 RELAY_5PIN_12V
+  ( 1 +12V )
+  ( 2 N-000033 )
+  ( 3 N-000042 )
+  ( 4 N-000044 )
+  ( 5 N-000043 )
+ )
+ ( /50C7EC01 ROZT_3_PIN_ETC K2 CONN_3
+  ( 1 N-000042 )
+  ( 2 N-000043 )
+  ( 3 N-000044 )
+ )
+ ( /50C7EC0D ROZT_3_PIN_ETC K3 CONN_3
+  ( 1 N-000039 )
+  ( 2 N-000040 )
+  ( 3 N-000041 )
+ )
+ ( /50C7EC1D ROZT_3_PIN_ETC K4 CONN_3
+  ( 1 N-000036 )
+  ( 2 N-000037 )
+  ( 3 N-000038 )
+ )
+ ( /50C7EC28 ROZT_3_PIN_ETC K5 CONN_3
+  ( 1 N-000060 )
+  ( 2 N-000061 )
+  ( 3 N-000062 )
+ )
+ ( /5131F29F RELAY_ETC K6 RELAY_5PIN_12V
+  ( 1 +12V )
+  ( 2 N-000047 )
+  ( 3 N-000039 )
+  ( 4 N-000041 )
+  ( 5 N-000040 )
+ )
+ ( /5131F46B RELAY_ETC K7 RELAY_5PIN_12V
+  ( 1 +12V )
+  ( 2 N-000035 )
+  ( 3 N-000036 )
+  ( 4 N-000038 )
+  ( 5 N-000037 )
+ )
+ ( /5131F4AC RELAY_ETC K8 RELAY_5PIN_12V
+  ( 1 +12V )
+  ( 2 N-000034 )
+  ( 3 N-000060 )
+  ( 4 N-000062 )
+  ( 5 N-000061 )
+ )
+ ( /513321AF RELAY_ETC K9 RELAY_5PIN_12V
+  ( 1 +12V )
+  ( 2 N-000066 )
+  ( 3 N-000086 )
+  ( 4 N-000088 )
+  ( 5 N-000087 )
+ )
+ ( /513321BF RELAY_ETC K10 RELAY_5PIN_12V
+  ( 1 +12V )
+  ( 2 N-000080 )
+  ( 3 N-000082 )
+  ( 4 N-000084 )
+  ( 5 N-000083 )
+ )
+ ( /513321B1 ROZT_3_PIN_ETC K11 CONN_3
+  ( 1 N-000086 )
+  ( 2 N-000087 )
+  ( 3 N-000088 )
+ )
+ ( /513321BD ROZT_3_PIN_ETC K12 CONN_3
+  ( 1 N-000082 )
+  ( 2 N-000083 )
+  ( 3 N-000084 )
+ )
+ ( /518E5194 RELAY_ETC K13 RELAY_5PIN_12V
+  ( 1 +12V )
+  ( 2 N-000095 )
+  ( 3 N-000097 )
+  ( 4 N-000098 )
+  ( 5 N-000099 )
+ )
+ ( /518E5196 ROZT_3_PIN_ETC K14 CONN_3
+  ( 1 N-000097 )
+  ( 2 N-000099 )
+  ( 3 N-000098 )
+ )
+ ( /50C7EE58 ROZT_2PIN_ETC P1 CONN_2
+  ( 1 /RX )
+  ( 2 /TX )
+ )
+ ( /50C80425 ROZT_2PIN_ETC P2 CONN_2
+  ( 1 N-000004 )
+  ( 2 N-000031 )
+ )
+ ( /50C80672 ROZT_2PIN_ETC P3 CONN_2
+  ( 1 GNDA )
+  ( 2 +12V )
+ )
+ ( /51333486 ROZT_2PIN_ETC P4 CONN_2
+  ( 1 /RX* )
+  ( 2 /TX* )
+ )
+ ( /51332FD8 SIL-8 P5 CONN_8
+  ( 1 /1 )
+  ( 2 /2 )
+  ( 3 /3 )
+  ( 4 /4 )
+  ( 5 /5 )
+  ( 6 /6 )
+  ( 7 /7 )
+  ( 8 /8 )
+ )
+ ( /51337E1A ROZT_2PIN_ETC P6 CONN_2
+  ( 1 GNDA )
+  ( 2 N-000013 )
+ )
+ ( /513371C6 ROZT_2PIN_ETC P7 CONN_2
+  ( 1 GND )
+  ( 2 /+12 )
+ )
+ ( /50C7E54C 2NXXX Q1 2N2222
+  ( B N-000045 )
+  ( C N-000033 )
+  ( E GNDA )
+ )
+ ( /50C7E541 2NXXX Q2 2N2222
+  ( B N-000046 )
+  ( C N-000047 )
+  ( E GNDA )
+ )
+ ( /50C7E539 2NXXX Q3 2N2222
+  ( B N-000048 )
+  ( C N-000035 )
+  ( E GNDA )
+ )
+ ( /50C7D80A 2NXXX Q4 2N2222
+  ( B N-000049 )
+  ( C N-000034 )
+  ( E GNDA )
+ )
+ ( /513321B2 2NXXX Q5 2N2222
+  ( B N-000090 )
+  ( C N-000066 )
+  ( E GNDA )
+ )
+ ( /513321BC 2NXXX Q6 2N2222
+  ( B N-000085 )
+  ( C N-000080 )
+  ( E GNDA )
+ )
+ ( /518E5197 TO92-EBC Q7 2N2222
+  ( B N-000096 )
+  ( C N-000095 )
+  ( E GNDA )
+ )
+ ( /51332EF9 R_0.25WATT_ETC R1 10k
+  ( 1 +5V )
+  ( 2 N-000091 )
+ )
+ ( /51333033 R_0.25WATT_ETC R2 10k
+  ( 1 /8 )
+  ( 2 +5V )
+ )
+ ( /5133302E R_0.25WATT_ETC R3 10k
+  ( 1 /7 )
+  ( 2 +5V )
+ )
+ ( /5133302D R_0.25WATT_ETC R4 10k
+  ( 1 /6 )
+  ( 2 +5V )
+ )
+ ( /518E5191 R_0.25WATT_ETC R5 R
+  ( 1 +12V )
+  ( 2 N-000102 )
+ )
+ ( /518E518A R_0.25WATT_ETC R6 R
+  ( 1 N-000100 )
+  ( 2 /pin13 )
+ )
+ ( /50C9058B R_0.25WATT_ETC R7 10k
+  ( 1 VCC )
+  ( 2 N-000051 )
+ )
+ ( /5133302A R_0.25WATT_ETC R8 10k
+  ( 1 /5 )
+  ( 2 +5V )
+ )
+ ( /51333028 R_0.25WATT_ETC R9 10k
+  ( 1 /4 )
+  ( 2 +5V )
+ )
+ ( /51333026 R_0.25WATT_ETC R10 10k
+  ( 1 /3 )
+  ( 2 +5V )
+ )
+ ( /51333025 R_0.25WATT_ETC R11 10k
+  ( 1 /2 )
+  ( 2 +5V )
+ )
+ ( /51333021 R_0.25WATT_ETC R12 10k
+  ( 1 /1 )
+  ( 2 +5V )
+ )
+ ( /51332B0B R_0.25WATT_ETC R13 R
+  ( 1 /pin1 )
+  ( 2 N-000075 )
+ )
+ ( /51332B11 R_0.25WATT_ETC R14 R
+  ( 1 N-000073 )
+  ( 2 /pin2 )
+ )
+ ( /51332B18 R_0.25WATT_ETC R15 180_R
+  ( 1 N-000070 )
+  ( 2 /pin3 )
+ )
+ ( /51332B1F R_0.25WATT_ETC R16 R
+  ( 1 N-000068 )
+  ( 2 /pin6 )
+ )
+ ( /51332B22 R_0.25WATT_ETC R17 R
+  ( 1 N-000067 )
+  ( 2 /pin17 )
+ )
+ ( /51332B27 R_0.25WATT_ETC R18 R
+  ( 1 N-000078 )
+  ( 2 /pin18 )
+ )
+ ( /513321E2 R_0.25WATT_ETC R19 2k
+  ( 1 +12V )
+  ( 2 N-000077 )
+ )
+ ( /513321E7 R_0.25WATT_ETC R20 R
+  ( 1 +12V )
+  ( 2 N-000065 )
+ )
+ ( /513321EA R_0.25WATT_ETC R21 R
+  ( 1 +12V )
+  ( 2 N-000072 )
+ )
+ ( /513321ED R_0.25WATT_ETC R22 R
+  ( 1 +12V )
+  ( 2 N-000064 )
+ )
+ ( /513321F1 R_0.25WATT_ETC R23 R
+  ( 1 +12V )
+  ( 2 N-000063 )
+ )
+ ( /513321F5 R_0.25WATT_ETC R24 R
+  ( 1 +12V )
+  ( 2 N-000079 )
+ )
+ ( /50C90570 PRESS_PUSH SW1 SW_PUSH
+  ( 1 N-000051 )
+  ( 2 GND )
+ )
+ ( /51332EFB PRESS_PUSH SW2 SW_PUSH
+  ( 1 N-000091 )
+  ( 2 GNDA )
+ )
+ ( /513368AD transformer T1 TRANSFO2
+  ( 1 N-000032 )
+  ( 2 N-000004 )
+  ( 3 /3 )
+  ( 4 /4 )
+  ( 5 /5 )
+  ( 6 /6 )
+ )
+ ( /50C7D71F DIP-18__300_ELL U1 PIC16F628A
+  ( 1 /pin1 )
+  ( 2 /pin2 )
+  ( 3 ? )
+  ( 4 N-000051 )
+  ( 5 GND )
+  ( 6 /pin6 )
+  ( 7 /RX )
+  ( 8 /TX )
+  ( 9 /pin3 )
+  ( 10 ? )
+  ( 11 ? )
+  ( 12 ? )
+  ( 13 /pin13 )
+  ( 14 VCC )
+  ( 15 N-000050 )
+  ( 16 N-000055 )
+  ( 17 /pin17 )
+  ( 18 /pin18 )
+ )
+ ( /50C8053B LM78XX U2 7805
+  ( GND GND )
+  ( VI /+12 )
+  ( VO VCC )
+ )
+ ( /51332EFC DIP-18__300_ELL U3 PIC16F628A
+  ( 1 /3 )
+  ( 2 /4 )
+  ( 3 ? )
+  ( 4 N-000091 )
+  ( 5 GNDA )
+  ( 6 ? )
+  ( 7 /RX* )
+  ( 8 /TX* )
+  ( 9 ? )
+  ( 10 /5 )
+  ( 11 /6 )
+  ( 12 /7 )
+  ( 13 /8 )
+  ( 14 +5V )
+  ( 15 N-000025 )
+  ( 16 N-000003 )
+  ( 17 /1 )
+  ( 18 /2 )
+ )
+ ( /51332136 EL817-POTO-CUPLER U4 PC_817
+  ( 1 N-000075 )
+  ( 2 GND )
+  ( 3 N-000076 )
+  ( 4 N-000077 )
+ )
+ ( /5133214B EL817-POTO-CUPLER U5 PC_817
+  ( 1 N-000073 )
+  ( 2 GND )
+  ( 3 N-000074 )
+  ( 4 N-000065 )
+ )
+ ( /51332153 EL817-POTO-CUPLER U6 PC_817
+  ( 1 N-000070 )
+  ( 2 GND )
+  ( 3 N-000071 )
+  ( 4 N-000072 )
+ )
+ ( /51332157 EL817-POTO-CUPLER U7 PC_817
+  ( 1 N-000068 )
+  ( 2 GND )
+  ( 3 N-000069 )
+  ( 4 N-000064 )
+ )
+ ( /513321AC EL817-POTO-CUPLER U8 PC_817
+  ( 1 N-000067 )
+  ( 2 GND )
+  ( 3 N-000089 )
+  ( 4 N-000063 )
+ )
+ ( /513321C2 EL817-POTO-CUPLER U9 PC_817
+  ( 1 N-000078 )
+  ( 2 GND )
+  ( 3 N-000081 )
+  ( 4 N-000079 )
+ )
+ ( /51336FC3 LM78XX U10 7812
+  ( GND GNDA )
+  ( VI N-000092 )
+  ( VO +12V )
+ )
+ ( /51337E28 LM78XX U11 7805
+  ( GND GNDA )
+  ( VI N-000013 )
+  ( VO +5V )
+ )
+ ( /518E5192 EL817-POTO-CUPLER U12 PC_817
+  ( 1 N-000100 )
+  ( 2 GND )
+  ( 3 N-000101 )
+  ( 4 N-000102 )
+ )
+ ( /50C7D74F CRYSTAL_ETC X1 20_MHZ
+  ( 1 N-000055 )
+  ( 2 N-000050 )
+ )
+ ( /51332EFF CRYSTAL_ETC X2 20_MHZ
+  ( 1 N-000003 )
+  ( 2 N-000025 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ CP*
+ SM*
+$endlist
+$component C4
+ CP*
+ SM*
+$endlist
+$component C5
+ CP*
+ SM*
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component C10
+ SM*
+ C?
+ C1-1
+$endlist
+$component C11
+ SM*
+ C?
+ C1-1
+$endlist
+$component C12
+ SM*
+ C?
+ C1-1
+$endlist
+$component C13
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D3
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D4
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D6
+ D?
+ SO*
+ SM*
+$endlist
+$component D8
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D9
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D10
+ D?
+ S*
+$endlist
+$component D11
+ D?
+ S*
+$endlist
+$component D12
+ D?
+ S*
+$endlist
+$component D13
+ D?
+ S*
+$endlist
+$component D14
+ D?
+ S*
+$endlist
+$component D15
+ D?
+ S*
+$endlist
+$component D16
+ D?
+ SO*
+ SM*
+$endlist
+$component D17
+ D?
+ SO*
+ SM*
+$endlist
+$component D18
+ D?
+ SO*
+ SM*
+$endlist
+$component D19
+ D?
+ S*
+$endlist
+$component D20
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component Q1
+ TO92-EBC
+$endlist
+$component Q2
+ TO92-EBC
+$endlist
+$component Q3
+ TO92-EBC
+$endlist
+$component Q4
+ TO92-EBC
+$endlist
+$component Q5
+ TO92-EBC
+$endlist
+$component Q6
+ TO92-EBC
+$endlist
+$component Q7
+ TO92-EBC
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R12
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R13
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R14
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R15
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R16
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R17
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R18
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R19
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R20
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R21
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R22
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R23
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R24
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}

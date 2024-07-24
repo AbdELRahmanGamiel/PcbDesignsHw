@@ -1,0 +1,402 @@
+EESchema Schematic File Version 2  date 1/23/2015 4:42:25 AM
+LIBS:mostafa
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:mother pord  modefied -cache
+EELAYER 25  0
+EELAYER END
+$Descr A2 23400 16535
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "23 jan 2015"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+NoConn ~ 9700 4800
+NoConn ~ 9450 4800
+NoConn ~ 9250 4800
+NoConn ~ 9550 5250
+$Comp
+L CONN_1 P6
+U 1 1 54C1A5F7
+P 9700 4650
+F 0 "P6" H 9780 4650 40  0000 L CNN
+F 1 "Spacer" H 9700 4705 30  0001 C CNN
+	1    9700 4650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_1 P5
+U 1 1 54C1A5F2
+P 9450 4650
+F 0 "P5" H 9530 4650 40  0000 L CNN
+F 1 "Spacer" H 9450 4705 30  0001 C CNN
+	1    9450 4650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_1 P4
+U 1 1 54C1A5D8
+P 9250 4650
+F 0 "P4" H 9330 4650 40  0000 L CNN
+F 1 "Spacer" H 9250 4705 30  0001 C CNN
+	1    9250 4650
+	0    -1   -1   0   
+$EndComp
+Text Label 9650 5050 0    60   ~ 0
+TO max
+Wire Wire Line
+	9525 6850 9625 6850
+Wire Wire Line
+	9525 6400 9625 6400
+Wire Wire Line
+	9625 5925 9625 5875
+Wire Wire Line
+	9525 5675 9625 5675
+Wire Wire Line
+	12425 6275 12475 6275
+Wire Wire Line
+	10825 6275 10775 6275
+Wire Wire Line
+	13025 5625 13025 5575
+Wire Wire Line
+	13025 5575 12425 5575
+Wire Wire Line
+	13025 5925 13025 5875
+Wire Wire Line
+	13025 5875 12925 5875
+Wire Wire Line
+	10825 5875 10275 5875
+Wire Wire Line
+	10275 5875 10275 5475
+Wire Wire Line
+	10275 5475 10325 5475
+Wire Wire Line
+	10825 5375 10275 5375
+Wire Wire Line
+	10275 5375 10275 4975
+Wire Wire Line
+	10275 4975 10325 4975
+Wire Wire Line
+	12425 4975 12550 4975
+Wire Wire Line
+	12375 8050 12375 8150
+Connection ~ 12375 7500
+Wire Wire Line
+	12425 7500 12325 7500
+Wire Wire Line
+	10525 7050 10525 7100
+Wire Wire Line
+	10525 7100 10575 7100
+Wire Wire Line
+	12375 7500 12375 7550
+Wire Wire Line
+	10775 7750 10725 7750
+Wire Wire Line
+	11075 7550 11075 7500
+Wire Wire Line
+	11075 7500 11125 7500
+Wire Wire Line
+	11075 7100 11125 7100
+Wire Wire Line
+	11075 7950 11075 8000
+Wire Wire Line
+	12325 7100 12375 7100
+Wire Wire Line
+	12375 7100 12375 7050
+Wire Wire Line
+	10225 7750 10150 7750
+Wire Wire Line
+	10725 4975 10825 4975
+Wire Wire Line
+	10825 5475 10725 5475
+Wire Wire Line
+	12950 4975 13025 4975
+Wire Wire Line
+	13025 4975 13025 5375
+Wire Wire Line
+	13025 5375 12425 5375
+Wire Wire Line
+	12525 5875 12425 5875
+Wire Wire Line
+	10825 6075 10775 6075
+Wire Wire Line
+	12425 6075 12475 6075
+Wire Wire Line
+	12475 4975 12475 4900
+Connection ~ 12475 4975
+Wire Wire Line
+	9625 5875 9525 5875
+Wire Wire Line
+	9525 6200 9625 6200
+Wire Wire Line
+	9525 6650 9625 6650
+Wire Wire Line
+	9550 5050 9650 5050
+$Comp
+L CONN_2 P7
+U 1 1 54C1A384
+P 9200 5150
+F 0 "P7" V 9150 5150 40  0000 C CNN
+F 1 "Pin H" V 9250 5150 40  0000 C CNN
+	1    9200 5150
+	-1   0    0    1   
+$EndComp
+Text Notes 10175 6075 0    60   ~ 0
+m tx
+Text Label 10775 6075 2    60   ~ 0
+TO max
+Text Label 10150 7750 2    60   ~ 0
+m tx
+Text Label 9625 6850 0    60   ~ 0
+rx
+Text Label 9625 6650 0    60   ~ 0
+tx
+Text Label 9625 6400 0    60   ~ 0
+m rx
+Text Label 9625 6200 0    60   ~ 0
+m tx
+Text Label 10775 6275 2    60   ~ 0
+m rx
+Text Label 12475 6275 0    60   ~ 0
+rx
+Text Label 12475 6075 0    60   ~ 0
+tx
+$Comp
+L CONN_2 P3
+U 1 1 54C0FD25
+P 9175 6750
+F 0 "P3" V 9125 6750 40  0000 C CNN
+F 1 "Pin H" V 9225 6750 40  0000 C CNN
+	1    9175 6750
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_2 P2
+U 1 1 54C0FD20
+P 9175 6300
+F 0 "P2" V 9125 6300 40  0000 C CNN
+F 1 "Pin H" V 9225 6300 40  0000 C CNN
+	1    9175 6300
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 54C0FCC1
+P 9625 5925
+F 0 "#PWR01" H 9625 5925 30  0001 C CNN
+F 1 "GND" H 9625 5855 30  0001 C CNN
+	1    9625 5925
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR02
+U 1 1 54C0FCBC
+P 9625 5675
+F 0 "#PWR02" H 9625 5775 30  0001 C CNN
+F 1 "VCC" H 9625 5775 30  0000 C CNN
+	1    9625 5675
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_2 P1
+U 1 1 54C0FCA7
+P 9175 5775
+F 0 "P1" V 9125 5775 40  0000 C CNN
+F 1 "Pin H" V 9225 5775 40  0000 C CNN
+	1    9175 5775
+	-1   0    0    1   
+$EndComp
+$Comp
+L VCC #PWR03
+U 1 1 54C0FC77
+P 12475 4900
+F 0 "#PWR03" H 12475 5000 30  0001 C CNN
+F 1 "VCC" H 12475 5000 30  0000 C CNN
+	1    12475 4900
+	1    0    0    -1  
+$EndComp
+NoConn ~ 12425 6375
+NoConn ~ 12425 6175
+NoConn ~ 10825 6375
+NoConn ~ 10825 6175
+$Comp
+L GND #PWR04
+U 1 1 54C0FC2D
+P 13025 5925
+F 0 "#PWR04" H 13025 5925 30  0001 C CNN
+F 1 "GND" H 13025 5855 30  0001 C CNN
+	1    13025 5925
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR05
+U 1 1 54C0FC29
+P 13025 5625
+F 0 "#PWR05" H 13025 5625 30  0001 C CNN
+F 1 "GND" H 13025 5555 30  0001 C CNN
+	1    13025 5625
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1 C1
+U 1 1 54C0FBCF
+P 10525 4975
+F 0 "C1" H 10575 5075 50  0000 L CNN
+F 1 "10u/25v" H 10375 4875 50  0000 L CNN
+	1    10525 4975
+	0    1    1    0   
+$EndComp
+$Comp
+L CP1 C3
+U 1 1 54C0FBCA
+P 10525 5475
+F 0 "C3" H 10575 5575 50  0000 L CNN
+F 1 "10u/25v" H 10375 5375 50  0000 L CNN
+	1    10525 5475
+	0    1    1    0   
+$EndComp
+$Comp
+L CP1 C4
+U 1 1 54C0FBC1
+P 12725 5875
+F 0 "C4" H 12775 5975 50  0000 L CNN
+F 1 "10u/25v" H 12550 5800 50  0000 L CNN
+	1    12725 5875
+	0    1    1    0   
+$EndComp
+$Comp
+L CP1 C2
+U 1 1 54C0FBB8
+P 12750 4975
+F 0 "C2" H 12800 5075 50  0000 L CNN
+F 1 "10u/ 25v" H 12575 4875 50  0000 L CNN
+	1    12750 4975
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MAX232 U1
+U 1 1 54C0FA28
+P 11625 5675
+F 0 "U1" H 11625 6525 70  0000 C CNN
+F 1 "MAX232" H 11625 4825 70  0000 C CNN
+	1    11625 5675
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R20
+U 1 1 51917FC9
+P 10475 7750
+F 0 "R20" V 10555 7750 50  0000 C CNN
+F 1 "1K" V 10475 7750 50  0000 C CNN
+	1    10475 7750
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR06
+U 1 1 5191949E
+P 12375 8150
+F 0 "#PWR06" H 12375 8150 30  0001 C CNN
+F 1 "GND" H 12375 8080 30  0001 C CNN
+	1    12375 8150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R21
+U 1 1 51919443
+P 12375 7800
+F 0 "R21" V 12455 7800 50  0000 C CNN
+F 1 "180R" V 12375 7800 50  0000 C CNN
+	1    12375 7800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR07
+U 1 1 51917FCA
+P 11075 8000
+F 0 "#PWR07" H 11075 8000 30  0001 C CNN
+F 1 "GND" H 11075 7930 30  0001 C CNN
+	1    11075 8000
+	1    0    0    -1  
+$EndComp
+Text Label 12425 7500 0    50   ~ 0
+TO max
+$Comp
+L VCC #PWR08
+U 1 1 51917FCD
+P 10525 7050
+F 0 "#PWR08" H 10525 7150 30  0001 C CNN
+F 1 "VCC" H 10525 7150 30  0000 C CNN
+	1    10525 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR09
+U 1 1 51917FCB
+P 12375 7050
+F 0 "#PWR09" H 12375 7150 30  0001 C CNN
+F 1 "VCC" H 12375 7150 30  0000 C CNN
+	1    12375 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L NPN Q4
+U 1 1 51917FC8
+P 10975 7750
+F 0 "Q4" H 10975 7600 50  0000 R CNN
+F 1 "2N2222" H 10975 7900 50  0000 R CNN
+	1    10975 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L PHOTOCOUPLER U6
+U 1 1 51917FC7
+P 11725 7300
+F 0 "U6" H 11735 7620 70  0000 C CNN
+F 1 "EL817" H 11735 6980 70  0000 C CNN
+	1    11725 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R19
+U 1 1 51917FC6
+P 10825 7100
+F 0 "R19" V 10905 7100 50  0000 C CNN
+F 1 "180R" V 10825 7100 50  0000 C CNN
+	1    10825 7100
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC

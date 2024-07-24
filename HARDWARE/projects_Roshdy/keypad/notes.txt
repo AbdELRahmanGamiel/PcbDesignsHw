@@ -1,0 +1,8 @@
+1.cap pico lay out 
+2.zener layout(pic)
+3.take 12v to keypad from 5v suppply
+4.grounded zener 
+5.relay layout 
+6.delet 4R porta in keypad
+7.rearrang output & input rozeta  
+  

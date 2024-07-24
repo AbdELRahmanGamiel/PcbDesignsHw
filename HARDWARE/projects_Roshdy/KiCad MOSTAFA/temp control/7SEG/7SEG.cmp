@@ -1,0 +1,129 @@
+Cmp-Mod V01 Genere par PcbNew le 4/19/2012 2:28:26 PM
+
+BeginCmp
+TimeStamp = /4F8FF759;
+Reference = AFF1;
+ValeurCmp = 7SEGMENTS;
+IdModule  = 7SEG-ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F8FF766;
+Reference = AFF2;
+ValeurCmp = 7SEGMENTS;
+IdModule  = SIL-10;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F8FF742;
+Reference = P1;
+ValeurCmp = CONN_8;
+IdModule  = SIL-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F8FF747;
+Reference = P2;
+ValeurCmp = CONN_8;
+IdModule  = SIL-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F8FF74C;
+Reference = R1;
+ValeurCmp = 220R;
+IdModule  = R_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F8FF8EF;
+Reference = R2;
+ValeurCmp = 220R;
+IdModule  = R_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F8FF8F2;
+Reference = R3;
+ValeurCmp = 220R;
+IdModule  = R_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F8FF8F5;
+Reference = R4;
+ValeurCmp = 220R;
+IdModule  = R_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F8FF8FA;
+Reference = R5;
+ValeurCmp = 220R;
+IdModule  = R_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F8FF8FD;
+Reference = R6;
+ValeurCmp = 220R;
+IdModule  = R_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F8FF8FF;
+Reference = R7;
+ValeurCmp = 220R;
+IdModule  = R_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F8FF90E;
+Reference = R8;
+ValeurCmp = 220R;
+IdModule  = R_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F8FF914;
+Reference = R9;
+ValeurCmp = 220R;
+IdModule  = R_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F8FF917;
+Reference = R10;
+ValeurCmp = 220R;
+IdModule  = R_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F8FF91A;
+Reference = R11;
+ValeurCmp = 220R;
+IdModule  = R_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F8FF91C;
+Reference = R12;
+ValeurCmp = 220R;
+IdModule  = R_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F8FF925;
+Reference = R13;
+ValeurCmp = 220R;
+IdModule  = R_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F8FF928;
+Reference = R14;
+ValeurCmp = 220R;
+IdModule  = R_ETC;
+EndCmp
+
+EndListe

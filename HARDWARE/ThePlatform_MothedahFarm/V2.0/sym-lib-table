@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name ThePlatform_MothedahFarm_V2.0-rescue)(type Legacy)(uri ${KIPRJMOD}/ThePlatform_MothedahFarm_V2.0-rescue.lib)(options "")(descr ""))
+  (lib (name ESP32_module)(type Legacy)(uri ${KIPRJMOD}/ESP32_module.lib)(options "")(descr ""))
+)

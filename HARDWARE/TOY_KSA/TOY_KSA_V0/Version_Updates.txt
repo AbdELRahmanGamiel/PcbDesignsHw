@@ -1,0 +1,3 @@
+-Adding footprints for schematic
+-Adding led moduls for schematic
+-Adding initial design for layout

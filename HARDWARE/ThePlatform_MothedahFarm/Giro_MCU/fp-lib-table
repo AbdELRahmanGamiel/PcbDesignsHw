@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name Giro_ESP_Platform)(type KiCad)(uri G:/kikad/ThePlatform_MothedahFarm/Giro_ESP_Platform/Giro_ESP_Platform.pretty)(options "")(descr ""))
+  (lib (name ESP_32module)(type KiCad)(uri G:/kikad/ThePlatform_MothedahFarm/ESP_32module.pretty)(options "")(descr ""))
+)

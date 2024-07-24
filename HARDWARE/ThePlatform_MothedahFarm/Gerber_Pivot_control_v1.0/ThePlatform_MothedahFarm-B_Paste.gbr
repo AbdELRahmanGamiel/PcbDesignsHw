@@ -1,0 +1,25 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,(5.1.6)-1*%
+%TF.CreationDate,2020-12-15T19:54:30+02:00*%
+%TF.ProjectId,ThePlatform_MothedahFarm,54686550-6c61-4746-966f-726d5f4d6f74,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Paste,Bot*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (5.1.6)-1) date 2020-12-15 19:54:30*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10R,3.800000X2.000000*%
+%ADD11R,1.500000X2.000000*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,U2*%
+X134790000Y-198890000D03*
+D11*
+X134790000Y-205190000D03*
+X132490000Y-205190000D03*
+X137090000Y-205190000D03*
+%TD*%
+M02*

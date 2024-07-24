@@ -1,0 +1,155 @@
+# EESchema Netlist Version 1.1 created  2/3/2015 12:14:01 PM
+(
+ ( /54D0838C C-P_ETC C1 334
+  ( 1 N-000005 )
+  ( 2 GND )
+ )
+ ( /54D08394 C-P_ETC C2 104
+  ( 1 N-000021 )
+  ( 2 GND )
+ )
+ ( /4FA679D4 C_1UF_300V_AC_ETC C6 1UF/300V
+  ( 1 N-000016 )
+  ( 2 N-000009 )
+ )
+ ( /54D077F4 SIL-3 K1 wHITE_CAP;E
+  ( 1 GND )
+  ( 2 /signal_m2t )
+  ( 3 VCC )
+ )
+ ( /54D078A9 ROZT_2_PIN_ETC P1 220V
+  ( 1 /NUTRAL )
+  ( 2 /HOT )
+ )
+ ( /54D08B07 1pin P2 CONN_1
+  ( 1 ? )
+ )
+ ( /54D08B04 1pin P3 CONN_1
+  ( 1 ? )
+ )
+ ( /54D08B02 1pin P4 CONN_1
+  ( 1 ? )
+ )
+ ( /54D08AFE 1pin P5 CONN_1
+  ( 1 ? )
+ )
+ ( /50DB3A11 ROZT_2PIN_ETC P8 LAMP
+  ( 1 N-000016 )
+  ( 2 /NUTRAL )
+ )
+ ( /4FA66BFC 2n2222_narow_etc Q1 2N2222
+  ( B N-000007 )
+  ( C N-000008 )
+  ( E GND )
+ )
+ ( /54D08377 R3-LARGE_PADS R1 CAL
+  ( 1 VCC )
+  ( 2 N-000005 )
+ )
+ ( /4FA66C0A R3-LARGE_PADS R5 15K/0.25W
+  ( 1 N-000007 )
+  ( 2 /signal_m2t )
+ )
+ ( /4FA66C20 R3-LARGE_PADS R8 370/355/0.25W
+  ( 1 N-000008 )
+  ( 2 N-000013 )
+ )
+ ( /4FA67856 R3-LARGE_PADS R9 360R/0.5W
+  ( 1 N-000009 )
+  ( 2 N-000015 )
+ )
+ ( /4FA67844 R3-LARGE_PADS R10 330R/0.25W
+  ( 1 N-000010 )
+  ( 2 N-000014 )
+ )
+ ( /4FA679CC R3-LARGE_PADS R11 47R/0.25W
+  ( 1 /HOT )
+  ( 2 N-000009 )
+ )
+ ( /54D08311 LD11173V3 U1 3.3V
+  ( GND GND )
+  ( OUT N-000021 )
+  ( VI N-000005 )
+ )
+ ( /54D084DF SIL-2 U2 3.3V
+  ( 1 GND )
+  ( 2 N-000021 )
+ )
+ ( /4FA67B6F DIP-6__300_ELL U3 MOC3020
+  ( 1 VCC )
+  ( 2 N-000013 )
+  ( 3 ? )
+  ( 4 N-000014 )
+  ( 5 ? )
+  ( 6 N-000015 )
+ )
+ ( /4FA67888 TIP_142 U4 BTA24
+  ( 1 N-000016 )
+  ( 2 /HOT )
+  ( 3 N-000010 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component Q1
+ TO92-EBC
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}

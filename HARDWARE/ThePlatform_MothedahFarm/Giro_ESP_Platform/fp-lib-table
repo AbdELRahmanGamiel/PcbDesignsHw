@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name ESP_32module)(type KiCad)(uri ${KIPRJMOD}/ESP_32module.pretty)(options "")(descr ""))
+  (lib (name Giro_ESP_Platform)(type KiCad)(uri ${KIPRJMOD}/Giro_ESP_Platform.pretty)(options "")(descr ""))
+)

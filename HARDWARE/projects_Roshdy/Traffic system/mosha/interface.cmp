@@ -1,0 +1,31 @@
+Cmp-Mod V01 Created by CvPCB (2011-04-29 BZR 2986)-stable date = 6/10/2013 5:48:09 AM
+
+BeginCmp
+TimeStamp = /51B53DC7;
+Reference = P1;
+ValeurCmp = CONN_8;
+IdModule  = ROZT_8_PIN_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /51B53DCF;
+Reference = P2;
+ValeurCmp = CONN_8;
+IdModule  = ROZT_8_PIN_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /51B53DD5;
+Reference = P3;
+ValeurCmp = CONN_8;
+IdModule  = ROZT_8_PIN_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /51B53DD9;
+Reference = P4;
+ValeurCmp = CONN_8;
+IdModule  = ROZT_8_PIN_ETC;
+EndCmp
+
+EndListe

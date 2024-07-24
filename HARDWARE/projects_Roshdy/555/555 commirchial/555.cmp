@@ -1,0 +1,318 @@
+Cmp-Mod V01 Genere par PcbNew le 2013/2/2 4:00:00 PM
+
+BeginCmp
+TimeStamp = /510419D2;
+Reference = C1;
+ValeurCmp = 0.47uf_400v_AC;
+IdModule  = C1_.47uf_ac;
+EndCmp
+
+BeginCmp
+TimeStamp = /51041A1C;
+Reference = C2;
+ValeurCmp = 220uf_25V;
+IdModule  = CAP-25V;
+EndCmp
+
+BeginCmp
+TimeStamp = /5103C170;
+Reference = C3;
+ValeurCmp = 1500uf;
+IdModule  = CAP_2200_25V;
+EndCmp
+
+BeginCmp
+TimeStamp = /51041A27;
+Reference = C4;
+ValeurCmp = _0.01uf_25V;
+IdModule  = CAP-PICO;
+EndCmp
+
+BeginCmp
+TimeStamp = /51041A59;
+Reference = C5;
+ValeurCmp = _0.01uf_25V;
+IdModule  = CAP-PICO;
+EndCmp
+
+BeginCmp
+TimeStamp = /5103CB6C;
+Reference = C6;
+ValeurCmp = 103;
+IdModule  = CAP-PICO;
+EndCmp
+
+BeginCmp
+TimeStamp = /51041D5E;
+Reference = C7;
+ValeurCmp = 104(0.1UF);
+IdModule  = CAP-PICO;
+EndCmp
+
+BeginCmp
+TimeStamp = /5103C897;
+Reference = CONN1;
+ValeurCmp = 220V;
+IdModule  = ROS_25A_2PIN?;
+EndCmp
+
+BeginCmp
+TimeStamp = /51042652;
+Reference = CONN2;
+ValeurCmp = SWITCH;
+IdModule  = ROS_25A_2PIN?;
+EndCmp
+
+BeginCmp
+TimeStamp = /510CF122;
+Reference = CONN3;
+ValeurCmp = SWITCH;
+IdModule  = DIP_SWITCH;
+EndCmp
+
+BeginCmp
+TimeStamp = /5103D0EC;
+Reference = CONN_21;
+ValeurCmp = LAMP;
+IdModule  = ROS_25A_2PIN?;
+EndCmp
+
+BeginCmp
+TimeStamp = /5103C4B6;
+Reference = D1;
+ValeurCmp = BRIDGE;
+IdModule  = Bridge-w04M-1A;
+EndCmp
+
+BeginCmp
+TimeStamp = /5103CADD;
+Reference = D2;
+ValeurCmp = ZENER;
+IdModule  = Zener16v;
+EndCmp
+
+BeginCmp
+TimeStamp = /510419E9;
+Reference = D3;
+ValeurCmp = ZENER_16V;
+IdModule  = Zener16v;
+EndCmp
+
+BeginCmp
+TimeStamp = /510419F0;
+Reference = D4;
+ValeurCmp = ZENER_16V;
+IdModule  = Zener16v;
+EndCmp
+
+BeginCmp
+TimeStamp = /51041A0D;
+Reference = D5;
+ValeurCmp = BRIDGE;
+IdModule  = Bridge-w04M-1A;
+EndCmp
+
+BeginCmp
+TimeStamp = /51041951;
+Reference = F1;
+ValeurCmp = fuse_1_A;
+IdModule  = FUSE;
+EndCmp
+
+BeginCmp
+TimeStamp = /510CE5EE;
+Reference = F2;
+ValeurCmp = FUSE;
+IdModule  = FUSE;
+EndCmp
+
+BeginCmp
+TimeStamp = /510CE05C;
+Reference = K1;
+ValeurCmp = CONN_3;
+IdModule  = ROS_25A_3PIN?;
+EndCmp
+
+BeginCmp
+TimeStamp = /51041941;
+Reference = P1;
+ValeurCmp = CONN_2;
+IdModule  = ROS_25A_2PIN?;
+EndCmp
+
+BeginCmp
+TimeStamp = /5103D154;
+Reference = P4;
+ValeurCmp = CONN_2;
+IdModule  = ROS_25A_2PIN?;
+EndCmp
+
+BeginCmp
+TimeStamp = /5103C12F;
+Reference = Q1;
+ValeurCmp = NPN;
+IdModule  = TO92;
+EndCmp
+
+BeginCmp
+TimeStamp = /5103C0CD;
+Reference = Q2;
+ValeurCmp = NPN;
+IdModule  = TO92;
+EndCmp
+
+BeginCmp
+TimeStamp = /5104198E;
+Reference = R1;
+ValeurCmp = 100_omh_1watt;
+IdModule  = R_2WATT;
+EndCmp
+
+BeginCmp
+TimeStamp = /51041997;
+Reference = R2;
+ValeurCmp = 1k_ohm_2watt;
+IdModule  = R_2WATT;
+EndCmp
+
+BeginCmp
+TimeStamp = /5103C8A6;
+Reference = R3;
+ValeurCmp = 11k/4.5w1;
+IdModule  = R_3WATT;
+EndCmp
+
+BeginCmp
+TimeStamp = /5104249B;
+Reference = R4;
+ValeurCmp = R;
+IdModule  = R_3WATT;
+EndCmp
+
+BeginCmp
+TimeStamp = /5103C8BD;
+Reference = R5;
+ValeurCmp = 800/0.25w1;
+IdModule  = RES-1/4watt;
+EndCmp
+
+BeginCmp
+TimeStamp = /5103C97F;
+Reference = R6;
+ValeurCmp = 1k1;
+IdModule  = RES-1/4watt;
+EndCmp
+
+BeginCmp
+TimeStamp = /5103CCAA;
+Reference = R7;
+ValeurCmp = 100;
+IdModule  = RES-1/4watt;
+EndCmp
+
+BeginCmp
+TimeStamp = /5103CB44;
+Reference = R8;
+ValeurCmp = 4.7k1;
+IdModule  = RES-1/4watt;
+EndCmp
+
+BeginCmp
+TimeStamp = /5103C10C;
+Reference = R9;
+ValeurCmp = 10k1;
+IdModule  = RES-1/4watt;
+EndCmp
+
+BeginCmp
+TimeStamp = /5103CCE1;
+Reference = R10;
+ValeurCmp = 355/0.25W1;
+IdModule  = RES-1/4watt;
+EndCmp
+
+BeginCmp
+TimeStamp = /5103CCEB;
+Reference = R11;
+ValeurCmp = 355/0.25W1;
+IdModule  = RES-1/4watt;
+EndCmp
+
+BeginCmp
+TimeStamp = /510400DB;
+Reference = R12;
+ValeurCmp = 1k;
+IdModule  = RES-1/4watt;
+EndCmp
+
+BeginCmp
+TimeStamp = /5104095C;
+Reference = R13;
+ValeurCmp = 1M;
+IdModule  = VAR-3PIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /5103C21C;
+Reference = R14;
+ValeurCmp = 1k;
+IdModule  = RES-1/4watt;
+EndCmp
+
+BeginCmp
+TimeStamp = /5103D0DD;
+Reference = R15;
+ValeurCmp = 47/0.25;
+IdModule  = RES-1/4watt;
+EndCmp
+
+BeginCmp
+TimeStamp = /5103D0C5;
+Reference = R16;
+ValeurCmp = 104K/630V1;
+IdModule  = C1_.01uf_ac;
+EndCmp
+
+BeginCmp
+TimeStamp = /5103C926;
+Reference = SW1;
+ValeurCmp = SW_PUSH;
+IdModule  = PRESS_PUSH;
+EndCmp
+
+BeginCmp
+TimeStamp = /5103D031;
+Reference = U1;
+ValeurCmp = PC817;
+IdModule  = EL817-POTO-CUPLER;
+EndCmp
+
+BeginCmp
+TimeStamp = /51041A34;
+Reference = U2;
+ValeurCmp = 7805;
+IdModule  = LM78XXV;
+EndCmp
+
+BeginCmp
+TimeStamp = /5103D095;
+Reference = U3;
+ValeurCmp = BT16;
+IdModule  = TRIAC_25A;
+EndCmp
+
+BeginCmp
+TimeStamp = /5107F296;
+Reference = U4;
+ValeurCmp = OPTO-TRIAC;
+IdModule  = DIP-6__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /5103C044;
+Reference = U5;
+ValeurCmp = LM555N;
+IdModule  = DIP-8__300_ELL;
+EndCmp
+
+EndListe

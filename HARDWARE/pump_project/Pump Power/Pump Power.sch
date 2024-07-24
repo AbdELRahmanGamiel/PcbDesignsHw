@@ -1,0 +1,982 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x08 J1
+U 1 1 5F304997
+P 2465 4160
+F 0 "J1" H 2383 4677 50  0000 C CNN
+F 1 "InPut-L&N" H 2383 4586 50  0000 C CNN
+F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_8-G-5,08_1x08_P5.08mm_Horizontal" H 2465 4160 50  0001 C CNN
+F 3 "~" H 2465 4160 50  0001 C CNN
+	1    2465 4160
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J2
+U 1 1 5F3055C7
+P 7500 4230
+F 0 "J2" H 7460 4755 50  0000 L CNN
+F 1 "OutPut-DC" H 7290 4670 50  0000 L CNN
+F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_8-G-5,08_1x08_P5.08mm_Horizontal" H 7500 4230 50  0001 C CNN
+F 3 "~" H 7500 4230 50  0001 C CNN
+	1    7500 4230
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Fuse F1
+U 1 1 5F30838F
+P 2640 5085
+F 0 "F1" V 2443 5085 50  0000 C CNN
+F 1 "Fuse" V 2534 5085 50  0000 C CNN
+F 2 "Fuse:Fuseholder_Cylinder-6.3x32mm_Schurter_0031-8002_Horizontal_Open" V 2570 5085 50  0001 C CNN
+F 3 "~" H 2640 5085 50  0001 C CNN
+	1    2640 5085
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 5F309571
+P 3920 1270
+F 0 "R7" V 3770 1270 50  0000 C CNN
+F 1 "100Ohm/3Watt" V 3820 1270 20  0000 C CNN
+F 2 "Resistor_THT:R_Axial_Power_L25.0mm_W9.0mm_P27.94mm" V 3850 1270 50  0001 C CNN
+F 3 "~" H 3920 1270 50  0001 C CNN
+	1    3920 1270
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5F309CA5
+P 4220 1270
+F 0 "C1" V 4020 1270 50  0000 C CNN
+F 1 "0.47MF/400VAC" V 4070 1270 20  0000 C CNN
+F 2 "Capacitor_THT:C_Rect_L11.5mm_W5.6mm_P10.00mm_MKT" H 4258 1120 50  0001 C CNN
+F 3 "~" H 4220 1270 50  0001 C CNN
+	1    4220 1270
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Bridge_+-AA D1
+U 1 1 5F30A30C
+P 4370 1570
+F 0 "D1" H 4320 1670 50  0000 L CNN
+F 1 "Bridge/1A" H 4220 1570 39  0000 L CNN
+F 2 "Diode_THT:Diode_Bridge_Round_D9.8mm" H 4370 1570 50  0001 C CNN
+F 3 "~" H 4370 1570 50  0001 C CNN
+	1    4370 1570
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R19
+U 1 1 5F30AAF0
+P 5120 1570
+F 0 "R19" V 5270 1570 50  0000 C CNN
+F 1 "0.8 KR" V 5220 1570 20  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5050 1570 50  0001 C CNN
+F 3 "~" H 5120 1570 50  0001 C CNB
+	1    5120 1570
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R13
+U 1 1 5F30AF77
+P 4820 1570
+F 0 "R13" V 4661 1570 50  0000 C CNN
+F 1 "1 KR" V 4728 1570 20  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4750 1570 50  0001 C CNN
+F 3 "~" H 4820 1570 50  0001 C CNN
+	1    4820 1570
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Zener D7
+U 1 1 5F30B6FA
+P 4970 1720
+F 0 "D7" V 4970 1570 50  0000 L CNN
+F 1 "Zener/16V" V 5070 1520 50  0000 L CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 4970 1720 50  0001 C CNN
+F 3 "~" H 4970 1720 50  0001 C CNN
+	1    4970 1720
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4070 1570 3970 1570
+$Comp
+L Device:LED D13
+U 1 1 5F3220B2
+P 5420 1570
+F 0 "D13" H 5413 1315 50  0000 C CNN
+F 1 "LED" H 5413 1406 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 5420 1570 50  0001 C CNN
+F 3 "~" H 5420 1570 50  0001 C CNN
+	1    5420 1570
+	-1   0    0    1   
+$EndComp
+Text Label 2665 4560 0    50   ~ 0
+L1
+Text Label 3770 1270 2    50   ~ 0
+L1
+Wire Wire Line
+	6170 1570 6175 1570
+Text Label 6270 1570 0    50   ~ 0
+L1-OP
+Text Label 7300 3930 2    50   ~ 0
+L1-OP
+Wire Wire Line
+	4370 1870 3870 1870
+Wire Wire Line
+	4970 1920 4970 1870
+Wire Wire Line
+	3970 1570 3970 1920
+Connection ~ 4970 1570
+Wire Wire Line
+	5570 1920 4970 1920
+Wire Wire Line
+	5570 1770 5570 1920
+Text Label 2665 4460 0    50   ~ 0
+L2
+Text Label 2665 4360 0    50   ~ 0
+L3
+Text Label 2665 4260 0    50   ~ 0
+L4
+Text Label 2665 4160 0    50   ~ 0
+L5
+Text Label 2665 4060 0    50   ~ 0
+L6
+Text Label 6310 2630 0    50   ~ 0
+L2-OP
+Text Label 7300 4130 2    50   ~ 0
+L3-OP
+Text Label 7300 4230 2    50   ~ 0
+L4-OP
+Text Label 7300 4330 2    50   ~ 0
+L5-OP
+Text Label 7300 4430 2    50   ~ 0
+L6-OP
+Wire Wire Line
+	3970 1920 4970 1920
+Connection ~ 4970 1920
+$Comp
+L Device:R R1
+U 1 1 5F308D56
+P 3720 1870
+F 0 "R1" V 3570 1870 50  0000 C CNN
+F 1 "100Ohm/1Watt" V 3620 1870 20  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal" V 3650 1870 50  0001 C CNN
+F 3 "~" H 3720 1870 50  0001 C CNN
+	1    3720 1870
+	0    1    1    0   
+$EndComp
+NoConn ~ 2665 3960
+Text Label 7300 4530 2    50   ~ 0
+12V
+Text Label 7300 4630 2    50   ~ 0
+GND
+Wire Wire Line
+	6175 1510 6175 1570
+Connection ~ 6175 1570
+Wire Wire Line
+	6175 1570 6270 1570
+Text Label 6170 1770 0    50   ~ 0
+GND
+Text Label 2665 3860 0    50   ~ 0
+NEUT_s
+Text Label 3570 1870 2    50   ~ 0
+NEUT
+$Comp
+L Device:R R8
+U 1 1 5F3D5279
+P 3960 2330
+F 0 "R8" V 3810 2330 50  0000 C CNN
+F 1 "100Ohm/3Watt" V 3860 2330 20  0000 C CNN
+F 2 "Resistor_THT:R_Axial_Power_L25.0mm_W9.0mm_P27.94mm" V 3890 2330 50  0001 C CNN
+F 3 "~" H 3960 2330 50  0001 C CNN
+	1    3960 2330
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5F3D527F
+P 4260 2330
+F 0 "C2" V 4060 2330 50  0000 C CNN
+F 1 "0.47MF/400VAC" V 4110 2330 20  0000 C CNN
+F 2 "Capacitor_THT:C_Rect_L11.5mm_W5.6mm_P10.00mm_MKT" H 4298 2180 50  0001 C CNN
+F 3 "~" H 4260 2330 50  0001 C CNN
+	1    4260 2330
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Bridge_+-AA D2
+U 1 1 5F3D5285
+P 4410 2630
+F 0 "D2" H 4360 2730 50  0000 L CNN
+F 1 "Bridge/1A" H 4260 2630 39  0000 L CNN
+F 2 "Diode_THT:Diode_Bridge_Round_D9.8mm" H 4410 2630 50  0001 C CNN
+F 3 "~" H 4410 2630 50  0001 C CNN
+	1    4410 2630
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R20
+U 1 1 5F3D528B
+P 5160 2630
+F 0 "R20" V 5310 2630 50  0000 C CNN
+F 1 "0.8 KR" V 5260 2630 20  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5090 2630 50  0001 C CNN
+F 3 "~" H 5160 2630 50  0001 C CNB
+	1    5160 2630
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R14
+U 1 1 5F3D5291
+P 4860 2630
+F 0 "R14" V 4701 2630 50  0000 C CNN
+F 1 "1 KR" V 4768 2630 20  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4790 2630 50  0001 C CNN
+F 3 "~" H 4860 2630 50  0001 C CNN
+	1    4860 2630
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Zener D8
+U 1 1 5F3D5297
+P 5010 2780
+F 0 "D8" V 5010 2630 50  0000 L CNN
+F 1 "Zener/16V" V 5110 2580 50  0000 L CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 5010 2780 50  0001 C CNN
+F 3 "~" H 5010 2780 50  0001 C CNN
+	1    5010 2780
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4110 2630 4010 2630
+$Comp
+L Device:LED D14
+U 1 1 5F3D52A4
+P 5460 2630
+F 0 "D14" H 5453 2375 50  0000 C CNN
+F 1 "LED" H 5453 2466 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 5460 2630 50  0001 C CNN
+F 3 "~" H 5460 2630 50  0001 C CNN
+	1    5460 2630
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4410 2930 3910 2930
+Wire Wire Line
+	5010 2980 5010 2930
+Wire Wire Line
+	4010 2630 4010 2980
+Connection ~ 5010 2630
+Wire Wire Line
+	5610 2980 5010 2980
+Wire Wire Line
+	5610 2830 5610 2980
+Wire Wire Line
+	4010 2980 5010 2980
+Connection ~ 5010 2980
+$Comp
+L Device:R R2
+U 1 1 5F3D52B6
+P 3760 2930
+F 0 "R2" V 3610 2930 50  0000 C CNN
+F 1 "100Ohm/1Watt" V 3660 2930 20  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal" V 3690 2930 50  0001 C CNN
+F 3 "~" H 3760 2930 50  0001 C CNN
+	1    3760 2930
+	0    1    1    0   
+$EndComp
+Text Label 6215 2270 1    50   ~ 0
+12V
+Text Label 6210 2830 0    50   ~ 0
+GND
+Text Label 3610 2930 2    50   ~ 0
+NEUT
+$Comp
+L Device:R R10
+U 1 1 5F3D6F12
+P 3990 3400
+F 0 "R10" V 3840 3400 50  0000 C CNN
+F 1 "100Ohm/3Watt" V 3890 3400 20  0000 C CNN
+F 2 "Resistor_THT:R_Axial_Power_L25.0mm_W9.0mm_P27.94mm" V 3920 3400 50  0001 C CNN
+F 3 "~" H 3990 3400 50  0001 C CNN
+	1    3990 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 5F3D6F18
+P 4290 3400
+F 0 "C4" V 4090 3400 50  0000 C CNN
+F 1 "0.47MF/400VAC" V 4140 3400 20  0000 C CNN
+F 2 "Capacitor_THT:C_Rect_L11.5mm_W5.6mm_P10.00mm_MKT" H 4328 3250 50  0001 C CNN
+F 3 "~" H 4290 3400 50  0001 C CNN
+	1    4290 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Bridge_+-AA D4
+U 1 1 5F3D6F1E
+P 4440 3700
+F 0 "D4" H 4390 3800 50  0000 L CNN
+F 1 "Bridge/1A" H 4290 3700 39  0000 L CNN
+F 2 "Diode_THT:Diode_Bridge_Round_D9.8mm" H 4440 3700 50  0001 C CNN
+F 3 "~" H 4440 3700 50  0001 C CNN
+	1    4440 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R22
+U 1 1 5F3D6F24
+P 5190 3700
+F 0 "R22" V 5340 3700 50  0000 C CNN
+F 1 "0.8 KR" V 5290 3700 20  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5120 3700 50  0001 C CNN
+F 3 "~" H 5190 3700 50  0001 C CNB
+	1    5190 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R16
+U 1 1 5F3D6F2A
+P 4890 3700
+F 0 "R16" V 4731 3700 50  0000 C CNN
+F 1 "1 KR" V 4798 3700 20  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4820 3700 50  0001 C CNN
+F 3 "~" H 4890 3700 50  0001 C CNN
+	1    4890 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Zener D10
+U 1 1 5F3D6F30
+P 5040 3850
+F 0 "D10" V 5040 3700 50  0000 L CNN
+F 1 "Zener/16V" V 5140 3650 50  0000 L CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 5040 3850 50  0001 C CNN
+F 3 "~" H 5040 3850 50  0001 C CNN
+	1    5040 3850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4140 3700 4040 3700
+$Comp
+L Device:LED D16
+U 1 1 5F3D6F3D
+P 5490 3700
+F 0 "D16" H 5483 3445 50  0000 C CNN
+F 1 "LED" H 5483 3536 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 5490 3700 50  0001 C CNN
+F 3 "~" H 5490 3700 50  0001 C CNN
+	1    5490 3700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4440 4000 3940 4000
+Wire Wire Line
+	5040 4050 5040 4000
+Wire Wire Line
+	4040 3700 4040 4050
+Connection ~ 5040 3700
+Wire Wire Line
+	5640 4050 5040 4050
+Wire Wire Line
+	5640 3900 5640 4050
+Wire Wire Line
+	4040 4050 5040 4050
+Connection ~ 5040 4050
+$Comp
+L Device:R R4
+U 1 1 5F3D6F4F
+P 3790 4000
+F 0 "R4" V 3640 4000 50  0000 C CNN
+F 1 "100Ohm/1Watt" V 3690 4000 20  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal" V 3720 4000 50  0001 C CNN
+F 3 "~" H 3790 4000 50  0001 C CNN
+	1    3790 4000
+	0    1    1    0   
+$EndComp
+Text Label 6245 3340 1    50   ~ 0
+12V
+Text Label 6240 3900 0    50   ~ 0
+GND
+Text Label 3640 4000 2    50   ~ 0
+NEUT
+$Comp
+L Device:R R9
+U 1 1 5F3D97ED
+P 3980 4545
+F 0 "R9" V 3830 4545 50  0000 C CNN
+F 1 "100Ohm/3Watt" V 3880 4545 20  0000 C CNN
+F 2 "Resistor_THT:R_Axial_Power_L25.0mm_W9.0mm_P27.94mm" V 3910 4545 50  0001 C CNN
+F 3 "~" H 3980 4545 50  0001 C CNN
+	1    3980 4545
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 5F3D97F3
+P 4280 4545
+F 0 "C3" V 4080 4545 50  0000 C CNN
+F 1 "0.47MF/400VAC" V 4130 4545 20  0000 C CNN
+F 2 "Capacitor_THT:C_Rect_L11.5mm_W5.6mm_P10.00mm_MKT" H 4318 4395 50  0001 C CNN
+F 3 "~" H 4280 4545 50  0001 C CNN
+	1    4280 4545
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Bridge_+-AA D3
+U 1 1 5F3D97F9
+P 4430 4845
+F 0 "D3" H 4380 4945 50  0000 L CNN
+F 1 "Bridge/1A" H 4280 4845 39  0000 L CNN
+F 2 "Diode_THT:Diode_Bridge_Round_D9.8mm" H 4430 4845 50  0001 C CNN
+F 3 "~" H 4430 4845 50  0001 C CNN
+	1    4430 4845
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R21
+U 1 1 5F3D97FF
+P 5180 4845
+F 0 "R21" V 5330 4845 50  0000 C CNN
+F 1 "0.8 KR" V 5280 4845 20  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5110 4845 50  0001 C CNN
+F 3 "~" H 5180 4845 50  0001 C CNB
+	1    5180 4845
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R15
+U 1 1 5F3D9805
+P 4880 4845
+F 0 "R15" V 4721 4845 50  0000 C CNN
+F 1 "1 KR" V 4788 4845 20  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4810 4845 50  0001 C CNN
+F 3 "~" H 4880 4845 50  0001 C CNN
+	1    4880 4845
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Zener D9
+U 1 1 5F3D980B
+P 5030 4995
+F 0 "D9" V 5030 4845 50  0000 L CNN
+F 1 "Zener/16V" V 5130 4795 50  0000 L CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 5030 4995 50  0001 C CNN
+F 3 "~" H 5030 4995 50  0001 C CNN
+	1    5030 4995
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4130 4845 4030 4845
+$Comp
+L Device:LED D15
+U 1 1 5F3D9818
+P 5480 4845
+F 0 "D15" H 5473 4590 50  0000 C CNN
+F 1 "LED" H 5473 4681 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 5480 4845 50  0001 C CNN
+F 3 "~" H 5480 4845 50  0001 C CNN
+	1    5480 4845
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4430 5145 3930 5145
+Wire Wire Line
+	5030 5195 5030 5145
+Wire Wire Line
+	4030 4845 4030 5195
+Connection ~ 5030 4845
+Wire Wire Line
+	5630 5195 5030 5195
+Wire Wire Line
+	5630 5045 5630 5195
+Wire Wire Line
+	4030 5195 5030 5195
+Connection ~ 5030 5195
+$Comp
+L Device:R R3
+U 1 1 5F3D982A
+P 3780 5145
+F 0 "R3" V 3630 5145 50  0000 C CNN
+F 1 "100Ohm/1Watt" V 3680 5145 20  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal" V 3710 5145 50  0001 C CNN
+F 3 "~" H 3780 5145 50  0001 C CNN
+	1    3780 5145
+	0    1    1    0   
+$EndComp
+Text Label 6235 4485 1    50   ~ 0
+12V
+Text Label 6230 5045 0    50   ~ 0
+GND
+Text Label 3630 5145 2    50   ~ 0
+NEUT
+$Comp
+L Device:R R11
+U 1 1 5F3DC3B6
+P 4010 5615
+F 0 "R11" V 3860 5615 50  0000 C CNN
+F 1 "100Ohm/3Watt" V 3910 5615 20  0000 C CNN
+F 2 "Resistor_THT:R_Axial_Power_L25.0mm_W9.0mm_P27.94mm" V 3940 5615 50  0001 C CNN
+F 3 "~" H 4010 5615 50  0001 C CNN
+	1    4010 5615
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C5
+U 1 1 5F3DC3BC
+P 4310 5615
+F 0 "C5" V 4110 5615 50  0000 C CNN
+F 1 "0.47MF/400VAC" V 4160 5615 20  0000 C CNN
+F 2 "Capacitor_THT:C_Rect_L11.5mm_W5.6mm_P10.00mm_MKT" H 4348 5465 50  0001 C CNN
+F 3 "~" H 4310 5615 50  0001 C CNN
+	1    4310 5615
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Bridge_+-AA D5
+U 1 1 5F3DC3C2
+P 4460 5915
+F 0 "D5" H 4410 6015 50  0000 L CNN
+F 1 "Bridge/1A" H 4310 5915 39  0000 L CNN
+F 2 "Diode_THT:Diode_Bridge_Round_D9.8mm" H 4460 5915 50  0001 C CNN
+F 3 "~" H 4460 5915 50  0001 C CNN
+	1    4460 5915
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R23
+U 1 1 5F3DC3C8
+P 5210 5915
+F 0 "R23" V 5360 5915 50  0000 C CNN
+F 1 "0.8 KR" V 5310 5915 20  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5140 5915 50  0001 C CNN
+F 3 "~" H 5210 5915 50  0001 C CNB
+	1    5210 5915
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R17
+U 1 1 5F3DC3CE
+P 4910 5915
+F 0 "R17" V 4751 5915 50  0000 C CNN
+F 1 "1 KR" V 4818 5915 20  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4840 5915 50  0001 C CNN
+F 3 "~" H 4910 5915 50  0001 C CNN
+	1    4910 5915
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Zener D11
+U 1 1 5F3DC3D4
+P 5060 6065
+F 0 "D11" V 5060 5915 50  0000 L CNN
+F 1 "Zener/16V" V 5160 5865 50  0000 L CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 5060 6065 50  0001 C CNN
+F 3 "~" H 5060 6065 50  0001 C CNN
+	1    5060 6065
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4160 5915 4060 5915
+$Comp
+L Device:LED D17
+U 1 1 5F3DC3E1
+P 5510 5915
+F 0 "D17" H 5503 5660 50  0000 C CNN
+F 1 "LED" H 5503 5751 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 5510 5915 50  0001 C CNN
+F 3 "~" H 5510 5915 50  0001 C CNN
+	1    5510 5915
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4460 6215 3960 6215
+Wire Wire Line
+	5060 6265 5060 6215
+Wire Wire Line
+	4060 5915 4060 6265
+Connection ~ 5060 5915
+Wire Wire Line
+	5660 6265 5060 6265
+Wire Wire Line
+	5660 6115 5660 6265
+Wire Wire Line
+	4060 6265 5060 6265
+Connection ~ 5060 6265
+$Comp
+L Device:R R5
+U 1 1 5F3DC3F3
+P 3810 6215
+F 0 "R5" V 3660 6215 50  0000 C CNN
+F 1 "100Ohm/1Watt" V 3710 6215 20  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal" V 3740 6215 50  0001 C CNN
+F 3 "~" H 3810 6215 50  0001 C CNN
+	1    3810 6215
+	0    1    1    0   
+$EndComp
+Text Label 6265 5555 1    50   ~ 0
+12V
+Text Label 6260 6115 0    50   ~ 0
+GND
+Text Label 3660 6215 2    50   ~ 0
+NEUT
+$Comp
+L Device:R R12
+U 1 1 5F3ECF0A
+P 4030 6670
+F 0 "R12" V 3880 6670 50  0000 C CNN
+F 1 "100Ohm/3Watt" V 3930 6670 20  0000 C CNN
+F 2 "Resistor_THT:R_Axial_Power_L25.0mm_W9.0mm_P27.94mm" V 3960 6670 50  0001 C CNN
+F 3 "~" H 4030 6670 50  0001 C CNN
+	1    4030 6670
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C6
+U 1 1 5F3ECF10
+P 4330 6670
+F 0 "C6" V 4130 6670 50  0000 C CNN
+F 1 "0.47MF/400VAC" V 4180 6670 20  0000 C CNN
+F 2 "Capacitor_THT:C_Rect_L11.5mm_W5.6mm_P10.00mm_MKT" H 4368 6520 50  0001 C CNN
+F 3 "~" H 4330 6670 50  0001 C CNN
+	1    4330 6670
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Bridge_+-AA D6
+U 1 1 5F3ECF16
+P 4480 6970
+F 0 "D6" H 4430 7070 50  0000 L CNN
+F 1 "Bridge/1A" H 4330 6970 39  0000 L CNN
+F 2 "Diode_THT:Diode_Bridge_Round_D9.8mm" H 4480 6970 50  0001 C CNN
+F 3 "~" H 4480 6970 50  0001 C CNN
+	1    4480 6970
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R24
+U 1 1 5F3ECF1C
+P 5230 6970
+F 0 "R24" V 5380 6970 50  0000 C CNN
+F 1 "0.8 KR" V 5330 6970 20  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5160 6970 50  0001 C CNN
+F 3 "~" H 5230 6970 50  0001 C CNB
+	1    5230 6970
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R18
+U 1 1 5F3ECF22
+P 4930 6970
+F 0 "R18" V 4771 6970 50  0000 C CNN
+F 1 "1 KR" V 4838 6970 20  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4860 6970 50  0001 C CNN
+F 3 "~" H 4930 6970 50  0001 C CNN
+	1    4930 6970
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Zener D12
+U 1 1 5F3ECF28
+P 5080 7120
+F 0 "D12" V 5080 6970 50  0000 L CNN
+F 1 "Zener/16V" V 5180 6920 50  0000 L CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 5080 7120 50  0001 C CNN
+F 3 "~" H 5080 7120 50  0001 C CNN
+	1    5080 7120
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4180 6970 4080 6970
+$Comp
+L Device:LED D18
+U 1 1 5F3ECF35
+P 5530 6970
+F 0 "D18" H 5523 6715 50  0000 C CNN
+F 1 "LED" H 5523 6806 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 5530 6970 50  0001 C CNN
+F 3 "~" H 5530 6970 50  0001 C CNN
+	1    5530 6970
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4480 7270 3980 7270
+Wire Wire Line
+	5080 7320 5080 7270
+Wire Wire Line
+	4080 6970 4080 7320
+Connection ~ 5080 6970
+Wire Wire Line
+	5680 7320 5080 7320
+Wire Wire Line
+	5680 7170 5680 7320
+Wire Wire Line
+	4080 7320 5080 7320
+Connection ~ 5080 7320
+$Comp
+L Device:R R6
+U 1 1 5F3ECF47
+P 3830 7270
+F 0 "R6" V 3680 7270 50  0000 C CNN
+F 1 "100Ohm/1Watt" V 3730 7270 20  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal" V 3760 7270 50  0001 C CNN
+F 3 "~" H 3830 7270 50  0001 C CNN
+	1    3830 7270
+	0    1    1    0   
+$EndComp
+Text Label 6285 6610 1    50   ~ 0
+12V
+Text Label 6280 7170 0    50   ~ 0
+GND
+Text Label 3680 7270 2    50   ~ 0
+NEUT
+Wire Notes Line
+	6740 7425 3175 7425
+Wire Notes Line
+	3175 7425 3175 975 
+Wire Notes Line
+	3175 975  6740 975 
+Wire Notes Line
+	6740 975  6740 7425
+Text Notes 4820 935  0    50   ~ 0
+ISOLATOR
+Wire Notes Line
+	2300 4640 2300 3585
+Text Notes 2420 3565 0    50   ~ 0
+INPUT_ISO\n
+Wire Notes Line
+	7725 3655 7725 4730
+Wire Notes Line
+	7725 4730 7005 4730
+Wire Notes Line
+	7005 4730 7005 3655
+Wire Notes Line
+	7005 3655 7725 3655
+Text Notes 7175 3615 0    50   ~ 0
+OUTPUT_ISO\n
+Text Label 3810 2330 2    50   ~ 0
+L2
+Text Label 3840 3400 2    50   ~ 0
+L3
+Text Label 3830 4545 2    50   ~ 0
+L4
+Text Label 3860 5615 2    50   ~ 0
+L5
+Text Label 3880 6670 2    50   ~ 0
+L6
+Text Label 7300 4030 2    50   ~ 0
+L2-OP
+Text Label 6340 3700 0    50   ~ 0
+L3-OP
+Text Label 6330 4845 0    50   ~ 0
+L4-OP
+Text Label 6360 5915 0    50   ~ 0
+L5-OP
+Text Label 6380 6970 0    50   ~ 0
+L6-OP
+$Comp
+L Isolator:EL817 U1
+U 1 1 5F3C4C23
+P 5870 1670
+F 0 "U1" H 5870 1995 50  0000 C CNN
+F 1 "EL817" H 5870 1904 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 5670 1470 50  0001 L CIN
+F 3 "http://www.everlight.com/file/ProductFile/EL817.pdf" H 5870 1670 50  0001 L CNN
+	1    5870 1670
+	1    0    0    -1  
+$EndComp
+$Comp
+L Isolator:EL817 U4
+U 1 1 5F3C96DD
+P 5940 3800
+F 0 "U4" H 5940 4125 50  0000 C CNN
+F 1 "EL817" H 5940 4034 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 5740 3600 50  0001 L CIN
+F 3 "http://www.everlight.com/file/ProductFile/EL817.pdf" H 5940 3800 50  0001 L CNN
+	1    5940 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Isolator:EL817 U2
+U 1 1 5F3C9D92
+P 5910 2730
+F 0 "U2" H 5910 3055 50  0000 C CNN
+F 1 "EL817" H 5910 2964 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 5710 2530 50  0001 L CIN
+F 3 "http://www.everlight.com/file/ProductFile/EL817.pdf" H 5910 2730 50  0001 L CNN
+	1    5910 2730
+	1    0    0    -1  
+$EndComp
+$Comp
+L Isolator:EL817 U6
+U 1 1 5F3CA2DE
+P 5980 7070
+F 0 "U6" H 5980 7395 50  0000 C CNN
+F 1 "EL817" H 5980 7304 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 5780 6870 50  0001 L CIN
+F 3 "http://www.everlight.com/file/ProductFile/EL817.pdf" H 5980 7070 50  0001 L CNN
+	1    5980 7070
+	1    0    0    -1  
+$EndComp
+$Comp
+L Isolator:EL817 U3
+U 1 1 5F3CA72F
+P 5930 4945
+F 0 "U3" H 5930 5270 50  0000 C CNN
+F 1 "EL817" H 5930 5179 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 5730 4745 50  0001 L CIN
+F 3 "http://www.everlight.com/file/ProductFile/EL817.pdf" H 5930 4945 50  0001 L CNN
+	1    5930 4945
+	1    0    0    -1  
+$EndComp
+$Comp
+L Isolator:EL817 U5
+U 1 1 5F3CAC3E
+P 5960 6015
+F 0 "U5" H 5960 6340 50  0000 C CNN
+F 1 "EL817" H 5960 6249 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 5760 5815 50  0001 L CIN
+F 3 "http://www.everlight.com/file/ProductFile/EL817.pdf" H 5960 6015 50  0001 L CNN
+	1    5960 6015
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6210 2630 6215 2630
+Wire Wire Line
+	6260 5915 6265 5915
+Wire Wire Line
+	6280 6970 6285 6970
+Wire Wire Line
+	6285 6970 6285 6910
+Connection ~ 6285 6970
+Wire Wire Line
+	6285 6970 6380 6970
+Wire Wire Line
+	6265 5915 6265 5855
+Connection ~ 6265 5915
+Wire Wire Line
+	6265 5915 6360 5915
+Wire Wire Line
+	6235 4845 6235 4785
+Wire Wire Line
+	6230 4845 6235 4845
+Connection ~ 6235 4845
+Wire Wire Line
+	6235 4845 6330 4845
+Wire Wire Line
+	6245 3700 6245 3640
+Wire Wire Line
+	6240 3700 6245 3700
+Connection ~ 6245 3700
+Wire Wire Line
+	6245 3700 6340 3700
+Wire Wire Line
+	6215 2630 6215 2570
+Connection ~ 6215 2630
+Wire Wire Line
+	6215 2630 6310 2630
+Text Label 6175 1210 1    50   ~ 0
+12V
+$Comp
+L Device:R R29
+U 1 1 5F3DB6A7
+P 6285 6760
+F 0 "R29" H 6355 6806 50  0000 L CNN
+F 1 "10K" H 6355 6715 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6215 6760 50  0001 C CNN
+F 3 "~" H 6285 6760 50  0001 C CNN
+	1    6285 6760
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R27
+U 1 1 5F3DE550
+P 6235 4635
+F 0 "R27" H 6305 4681 50  0000 L CNN
+F 1 "10K" H 6305 4590 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6165 4635 50  0001 C CNN
+F 3 "~" H 6235 4635 50  0001 C CNN
+	1    6235 4635
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R28
+U 1 1 5F3DF4FF
+P 6245 3490
+F 0 "R28" H 6315 3536 50  0000 L CNN
+F 1 "10K" H 6315 3445 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6175 3490 50  0001 C CNN
+F 3 "~" H 6245 3490 50  0001 C CNN
+	1    6245 3490
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R26
+U 1 1 5F3DFC33
+P 6215 2420
+F 0 "R26" H 6285 2466 50  0000 L CNN
+F 1 "10K" H 6285 2375 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6145 2420 50  0001 C CNN
+F 3 "~" H 6215 2420 50  0001 C CNN
+	1    6215 2420
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R25
+U 1 1 5F3E04C7
+P 6175 1360
+F 0 "R25" H 6245 1406 50  0000 L CNN
+F 1 "10K" H 6245 1315 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6105 1360 50  0001 C CNN
+F 3 "~" H 6175 1360 50  0001 C CNN
+	1    6175 1360
+	1    0    0    -1  
+$EndComp
+Text Label 2790 5085 0    50   ~ 0
+NEUT
+Text Label 2490 5085 2    50   ~ 0
+NEUT_s
+Wire Notes Line
+	2965 4640 2965 3585
+Wire Notes Line
+	2300 4640 2965 4640
+Wire Notes Line
+	2300 3585 2965 3585
+Wire Notes Line
+	3040 5170 3040 4805
+Wire Notes Line
+	3040 4805 2195 4805
+Wire Notes Line
+	2195 4805 2195 5170
+Wire Notes Line
+	2195 5170 3040 5170
+Text Notes 2510 4795 0    50   ~ 0
+FUSE\n
+$Comp
+L Device:R R30
+U 1 1 5F3F84A0
+P 6265 5705
+F 0 "R30" H 6335 5751 50  0000 L CNN
+F 1 "10K" H 6335 5660 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6195 5705 50  0001 C CNN
+F 3 "~" H 6265 5705 50  0001 C CNN
+	1    6265 5705
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

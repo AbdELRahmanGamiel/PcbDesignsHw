@@ -1,0 +1,259 @@
+EESchema Schematic File Version 2  date 11/28/2012 10:12:43 PM
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:capastive power supply 5V-cache
+EELAYER 25  0
+EELAYER END
+$Descr A4 11700 8267
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "29 nov 2012"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L PWR_FLAG #FLG01
+U 1 1 50A7D080
+P 5300 5000
+F 0 "#FLG01" H 5300 5270 30  0001 C CNN
+F 1 "PWR_FLAG" H 5300 5230 30  0000 C CNN
+	1    5300 5000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5300 4900 5300 5000
+Wire Wire Line
+	7900 4900 10500 4900
+Wire Wire Line
+	6850 4900 5000 4900
+Connection ~ 10150 4900
+Wire Wire Line
+	10500 4900 10500 4400
+Connection ~ 9550 4900
+Wire Wire Line
+	10150 4900 10150 4550
+Connection ~ 7900 3850
+Connection ~ 9000 3950
+Wire Wire Line
+	9000 4150 9000 3850
+Wire Wire Line
+	9000 3850 7700 3850
+Connection ~ 7900 4900
+Wire Wire Line
+	9000 4900 9000 4550
+Wire Wire Line
+	7900 3850 7900 4000
+Connection ~ 5300 4900
+Wire Wire Line
+	6850 4900 6850 4700
+Wire Wire Line
+	5300 3900 5300 4000
+Wire Wire Line
+	5300 3500 5300 3400
+Wire Wire Line
+	4550 2900 4300 2900
+Wire Wire Line
+	3450 2900 3800 2900
+Wire Wire Line
+	5300 4400 5300 4500
+Wire Wire Line
+	3450 3100 5000 3100
+Wire Wire Line
+	5000 3100 5000 4900
+Connection ~ 5300 3950
+Wire Wire Line
+	6850 3000 6850 2900
+Wire Wire Line
+	6850 2900 5550 2900
+Wire Wire Line
+	5550 2900 5550 3950
+Wire Wire Line
+	5550 3950 5300 3950
+Wire Wire Line
+	5300 2900 5300 2850
+Wire Wire Line
+	5300 2850 5250 2850
+Wire Wire Line
+	5250 2850 5250 2900
+Wire Wire Line
+	5250 2900 5050 2900
+Connection ~ 6850 4900
+Wire Wire Line
+	9000 3950 9150 3950
+Wire Wire Line
+	9550 4900 9550 4250
+Connection ~ 9000 4900
+Wire Wire Line
+	10150 3950 10150 4150
+Wire Wire Line
+	10500 4200 10500 3950
+Connection ~ 10150 3950
+Wire Wire Line
+	6000 3850 6000 5100
+Wire Wire Line
+	6000 5100 7900 5100
+Wire Wire Line
+	7900 5100 7900 4400
+Wire Wire Line
+	10500 3950 9950 3950
+$Comp
+L CONN_2 P2
+U 1 1 50A7CEE7
+P 10850 4300
+F 0 "P2" V 10800 4300 40  0000 C CNN
+F 1 "pin header 2 pin" V 10900 4300 40  0000 C CNN
+	1    10850 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1 C4
+U 1 1 50A7CEC4
+P 10150 4350
+F 0 "C4" H 10200 4450 50  0000 L CNN
+F 1 " 0.01uf 25V" H 9850 4200 50  0000 L CNN
+	1    10150 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1 C3
+U 1 1 50A7CE87
+P 9000 4350
+F 0 "C3" H 9050 4450 50  0000 L CNN
+F 1 " 0.01uf 25V" H 8700 4200 50  0000 L CNN
+	1    9000 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1 C2
+U 1 1 50A7CE4D
+P 7900 4200
+F 0 "C2" H 7950 4300 50  0000 L CNN
+F 1 " 47uf 25V" H 7700 4050 50  0000 L CNN
+	1    7900 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L ZENER D1
+U 1 1 50A7CCC1
+P 5300 4200
+F 0 "D1" H 5300 4300 50  0000 C CNN
+F 1 "ZENER 16V" H 5300 4100 40  0000 C CNN
+	1    5300 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L C C1
+U 1 1 50A7CC45
+P 5300 3700
+F 0 "C1" H 5350 3800 50  0000 L CNN
+F 1 "0.47uf 400v AC" H 5050 3600 50  0000 L CNN
+	1    5300 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 50A7CBCF
+P 5300 5000
+F 0 "#PWR02" H 5300 5000 30  0001 C CNN
+F 1 "GND" H 5300 4930 30  0001 C CNN
+	1    5300 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L ZENER D2
+U 1 1 50A7CB1E
+P 5300 4700
+F 0 "D2" H 5300 4800 50  0000 C CNN
+F 1 "ZENER 16V" H 5300 4600 40  0000 C CNN
+	1    5300 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R2
+U 1 1 50A7CAEE
+P 5300 3150
+F 0 "R2" V 5380 3150 50  0000 C CNN
+F 1 "1k ohm 2watt" V 5200 3100 50  0000 C CNN
+	1    5300 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_2 P1
+U 1 1 50A7CAC7
+P 3100 3000
+F 0 "P1" V 3050 3000 40  0000 C CNN
+F 1 "pin header 2pin" V 3150 3000 40  0000 C CNN
+	1    3100 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L 7805 U1
+U 1 1 50A7C9FA
+P 9550 4000
+F 0 "U1" H 9700 3804 60  0000 C CNN
+F 1 "7805" H 9550 4200 60  0000 C CNN
+	1    9550 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L BRIDGE D3
+U 1 1 50A7C96C
+P 6850 3850
+F 0 "D3" H 6850 3900 70  0000 C CNN
+F 1 "BRIDGE 1A" H 6850 3800 70  0000 C CNN
+	1    6850 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 50A7C8C4
+P 4800 2900
+F 0 "R1" V 4880 2900 50  0000 C CNN
+F 1 "100 omh 1watt" V 4700 2900 50  0000 C CNN
+	1    4800 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L FUSE F1
+U 1 1 50A7C8B4
+P 4050 2900
+F 0 "F1" H 4150 2950 40  0000 C CNN
+F 1 "fuse 1 A" H 4100 2800 40  0000 C CNN
+F 2 "s" H 4050 2900 60  0001 C CNN
+	1    4050 2900
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

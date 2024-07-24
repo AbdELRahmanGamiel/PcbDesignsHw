@@ -1,0 +1,37 @@
+update=2015/08/22 12:34:14 PM
+last_client=pcbnew
+[pcbnew]
+version=1
+PadDrlX=394
+PadDimH=1181
+PadDimV=1181
+BoardThickness=630
+TxtPcbV=800
+TxtPcbH=600
+TxtModV=600
+TxtModH=600
+TxtModW=120
+VEgarde=100
+DrawLar=150
+EdgeLar=150
+TxtLar=120
+MSegLar=150
+LastNetListRead=../../Qtc-v1/Q-System-controll/Q.net
+[pcbnew/libraries]
+LibDir=
+LibName1=D:/etc/kikad/library/Mostafa
+LibName2=D:/etc/kikad/library/ETC
+LibName3=D:/etc/kikad/library/etc_roshdy
+LibName4=D:/etc/kikad/library/etc_roshdy1
+LibName5=D:/etc/kikad/library/stander etc
+LibName6=D:/etc/kikad/library/emad_etc
+LibName7=dip_sockets
+LibName8=sockets
+LibName9=connect
+LibName10=discret
+LibName11=pin_array
+LibName12=divers
+LibName13=libcms
+LibName14=display
+LibName15=valves
+LibName16=led

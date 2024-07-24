@@ -1,0 +1,43 @@
+EESchema-DOCLIB  Version 2.0  Date: 6/2/2012 2:34:58 PM
+#
+$CMP 78L05
+D Linear Regulator +5V
+K POWER REGUL
+F regulator\lm78lxx.pdf
+$ENDCMP
+#
+$CMP LM35
+D Linear Regulator +5V
+K POWER REGUL
+F regulator\lm78xx.pdf
+$ENDCMP
+#
+$CMP LM7805
+D Linear Regulator +5V
+K POWER REGUL
+F regulator\lm78xx.pdf
+$ENDCMP
+#
+$CMP LM7812
+D Linear Regulator +12V
+K POWER REGUL
+F regulator\lm78xx.pdf
+$ENDCMP
+#
+$CMP OP07
+D ampli Op
+K AmpliOp
+F AmpliOp.sch
+$ENDCMP
+#
+$CMP SWITCH_6PIN
+D Switch inverseur
+K switch
+$ENDCMP
+#
+$CMP SWITCH_6PIN_MIDDEL
+D Switch inverseur
+K switch
+$ENDCMP
+#
+#End Doc Library

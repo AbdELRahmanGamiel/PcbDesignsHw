@@ -1,0 +1,62 @@
+eeschema (2011-04-29 BZR 2986)-stable  >> Creation date: 2013/2/5 4:29:38 PM
+
+#Cmp ( order = Reference )
+| C1         0.47uf 400v AC
+| C2         22pf        
+| C3         22pf        
+| C4         .01uf       
+| C5         47uf/25V    
+| C6         1UF/300V    
+| C7         47uf 25V    
+| C8         0.01uf 25V  
+| C9         C           
+| C10        0.01uf 25V  
+| D1         ZENER 16v   
+| D2         ZENER 16v   
+| D3         BRIDGE 1A   
+| D4         12v_1w      
+| D5         BRIDGE 1A   
+| D6         BRIDGE 1A   
+| D7         LED         
+| F1         FUSE        
+| F2         FUSE        
+| F3         FUSE        
+| heat_think1 HEAT_THINK  
+| L1         INDUCTOR    
+| P1         HOT LINE    
+| P2         SWITCH      
+| P3         TST         
+| P4         TST         
+| P5         TST         
+| P6         TST         
+| P7         TST         
+| P8         LAMP        
+| Q1         2N2222      
+| R1         100R/1W     
+| R2         1k/2W       
+| R3         10K/0.25W   
+| R4         500R/0.25W  
+| R5         15K/0.25W   
+| R6         10K/0.25W   
+| R7         RVAR        
+| R8         100R/0.25W  
+| R9         360R/0.5W   
+| R10        330R/0.25W  
+| R11        47R/0.25W   
+| R12        500R/0.25W  
+| R13        10K/0.25W   
+| R14        330R-0.25w  
+| SW1        SW_PUSH     
+| SW2        SWITCH_6PIN 
+| T1         TRANSFO2    
+| U1         PIC16F877A  
+| U2         EL817       
+| U3         MOC3020     
+| U4         BTA24       
+| U5         triac_25A   
+| U6         7805        
+| U7         EL817       
+| X1         20MHz       
+#End Cmp
+
+#End List

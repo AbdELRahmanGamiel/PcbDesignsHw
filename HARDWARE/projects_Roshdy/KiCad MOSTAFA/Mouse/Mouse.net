@@ -1,0 +1,249 @@
+# EESchema Netlist Version 1.1 created  4/17/2012 5:41:34 PM
+(
+ ( /4F8D7996 $noname  R2 70R {Lib=R}
+  (    1 /VCC )
+  (    2 N-000002 )
+ )
+ ( /4F8D7957 $noname  D1 LED {Lib=LED}
+  (    1 N-000002 )
+  (    2 N-000003 )
+ )
+ ( /4F8D791D $noname  C6 10uF,25v {Lib=CP1}
+  (    1 N-000004 )
+  (    2 /GND )
+ )
+ ( /4F8D7904 $noname  C5 100uF,10V {Lib=CP1}
+  (    1 /VCC )
+  (    2 /GND )
+ )
+ ( /4F8D78A0 $noname  U2 OM0 {Lib=OM0}
+  (    1 /GND )
+  (    2 /D0 )
+  (    3 /D1 )
+  (    4 /D2 )
+  (    5 /D4 )
+  (    6 /D3 )
+  (    7 ? )
+  (    8 N-000003 )
+  (    9 /USBDP )
+  (   10 /USBDM )
+  (   11 N-000004 )
+  (   12 /VCC )
+ )
+ ( /4F8D4CA7 $noname  P1 CONN_4 {Lib=CONN_4}
+  (    1 N-000030 )
+  (    2 N-000031 )
+  (    3 N-000032 )
+  (    4 N-000033 )
+ )
+ ( /4F8D4BD7 $noname  SW1 SW_PUSH {Lib=SW_PUSH}
+  (    1 /GND )
+  (    2 N-000029 )
+ )
+ ( /4F8D4BA9 $noname  C3 104 {Lib=C}
+  (    1 N-000029 )
+  (    2 /GND )
+ )
+ ( /4F8D4B50 $noname  R1 10K {Lib=R}
+  (    1 /VCC )
+  (    2 N-000029 )
+ )
+ ( /4F8D490B $noname  C4 100N {Lib=C}
+  (    1 /VCC )
+  (    2 /GND )
+ )
+ ( /4F8D4903 $noname  P2 CONN_4 {Lib=CONN_4}
+  (    1 /VCC )
+  (    2 /USBDP )
+  (    3 /USBDM )
+  (    4 /GND )
+ )
+ ( /4F8D483F $noname  C2 27 {Lib=C}
+  (    1 N-000041 )
+  (    2 /GND )
+ )
+ ( /4F8D4812 $noname  C1 27 {Lib=C}
+  (    1 N-000028 )
+  (    2 /GND )
+ )
+ ( /4F8D480B $noname  X1 CRYSTAL {Lib=CRYSTAL}
+  (    1 N-000028 )
+  (    2 N-000041 )
+ )
+ ( /4F8D47EA $noname  U1 PIC16F877A {Lib=PIC16F877A}
+  (    1 N-000029 )
+  (    2 N-000030 )
+  (    3 N-000031 )
+  (    4 N-000032 )
+  (    5 N-000033 )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 /VCC )
+  (   12 /GND )
+  (   13 N-000028 )
+  (   14 N-000041 )
+  (   15 ? )
+  (   16 ? )
+  (   17 ? )
+  (   18 ? )
+  (   19 /D0 )
+  (   20 /D1 )
+  (   21 /D2 )
+  (   22 /D3 )
+  (   23 ? )
+  (   24 ? )
+  (   25 ? )
+  (   26 ? )
+  (   27 /D4 )
+  (   28 ? )
+  (   29 ? )
+  (   30 ? )
+  (   31 /GND )
+  (   32 /VCC )
+  (   33 ? )
+  (   34 ? )
+  (   35 ? )
+  (   36 ? )
+  (   37 ? )
+  (   38 ? )
+  (   39 ? )
+  (   40 ? )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component C6
+ CP*
+ SM*
+$endlist
+$component C5
+ CP*
+ SM*
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 2 "" ""
+ R2 2
+ D1 1
+Net 3 "" ""
+ D1 2
+ U2 8
+Net 4 "" ""
+ U2 11
+ C6 1
+Net 5 "/D0" "D0"
+ U1 19
+ U2 2
+Net 6 "/D1" "D1"
+ U2 3
+ U1 20
+Net 7 "/D2" "D2"
+ U2 4
+ U1 21
+Net 8 "/D3" "D3"
+ U1 22
+ U2 6
+Net 26 "/USBDP" "USBDP"
+ U2 9
+ P2 2
+Net 27 "/USBDM" "USBDM"
+ P2 3
+ U2 10
+Net 28 "" ""
+ C1 1
+ X1 1
+ U1 13
+Net 29 "" ""
+ U1 1
+ SW1 2
+ C3 1
+ R1 2
+Net 30 "" ""
+ P1 1
+ U1 2
+Net 31 "" ""
+ P1 2
+ U1 3
+Net 32 "" ""
+ P1 3
+ U1 4
+Net 33 "" ""
+ U1 5
+ P1 4
+Net 41 "" ""
+ U1 14
+ C2 1
+ X1 2
+Net 42 "/GND" "GND"
+ C5 2
+ C6 2
+ U2 1
+ U1 31
+ C3 2
+ SW1 1
+ C1 2
+ C2 2
+ P2 4
+ C4 2
+ U1 12
+Net 43 "/VCC" "VCC"
+ U1 11
+ U2 12
+ U1 32
+ C5 1
+ R2 1
+ R1 1
+ C4 1
+ P2 1
+Net 44 "/D4" "D4"
+ U1 27
+ U2 5
+}
+#End

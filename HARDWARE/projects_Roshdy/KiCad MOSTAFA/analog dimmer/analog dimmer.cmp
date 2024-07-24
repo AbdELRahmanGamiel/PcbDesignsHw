@@ -1,0 +1,45 @@
+Cmp-Mod V01 Created by CvPCB (2011-04-29 BZR 2986)-stable date = 5/27/2012 9:50:05 AM
+
+BeginCmp
+TimeStamp = /4FC0DBD8;
+Reference = C1;
+ValeurCmp = 150nf-250V;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC0DBDF;
+Reference = P1;
+ValeurCmp = POTS;
+IdModule  = ROZT_2_PIN_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC0DBE2;
+Reference = P2;
+ValeurCmp = LOAD;
+IdModule  = ROZT_2_PIN_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC0D5E2;
+Reference = R1;
+ValeurCmp = 300R-0.25W;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC0DBCA;
+Reference = U1;
+ValeurCmp = DB3;
+IdModule  = D4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FC0D5D3;
+Reference = U2;
+ValeurCmp = BT137;
+IdModule  = TRIAC_ETC;
+EndCmp
+
+EndListe

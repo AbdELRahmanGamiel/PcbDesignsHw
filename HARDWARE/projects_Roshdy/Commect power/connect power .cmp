@@ -1,0 +1,115 @@
+Cmp-Mod V01 Genere par PcbNew le 2/6/2015 11:02:27 AM
+
+BeginCmp
+TimeStamp = /50EABE7D;
+Reference = C5;
+ValeurCmp = f/25V;
+IdModule  = CAP-25V;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D4658C;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /50EABE83;
+Reference = D3;
+ValeurCmp = BRIDGE_1A;
+IdModule  = Bridge_1A_O_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /50EABEE8;
+Reference = D4;
+ValeurCmp = 5.1v;
+IdModule  = ZENER_SMALL_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FA66585;
+Reference = P1;
+ValeurCmp = HOT_LINE;
+IdModule  = ROZT_2PIN_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D466FB;
+Reference = P2;
+ValeurCmp = CONN_2;
+IdModule  = ROZT_2PIN_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D46C2B;
+Reference = P3;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D46C29;
+Reference = P4;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D46C27;
+Reference = P5;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D46C23;
+Reference = P6;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D463D7;
+Reference = R1;
+ValeurCmp = 220k;
+IdModule  = R_0.25WATT_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D463DF;
+Reference = R2;
+ValeurCmp = 220k;
+IdModule  = R_0.25WATT_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D463E1;
+Reference = R3;
+ValeurCmp = 220k;
+IdModule  = R_0.25WATT_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D463E3;
+Reference = R4;
+ValeurCmp = 220k;
+IdModule  = R_0.25WATT_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D4656F;
+Reference = R5;
+ValeurCmp = 330R;
+IdModule  = R_0.25WATT_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D464CB;
+Reference = RV1;
+ValeurCmp = POT;
+IdModule  = VAR;
+EndCmp
+
+EndListe

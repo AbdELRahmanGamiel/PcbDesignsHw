@@ -1,0 +1,67 @@
+EESchema-DOCLIB  Version 2.0  Date: 2013/9/18 10:08:26 PM
+#
+$CMP 24C02WP
+D Symbole general de connecteur
+K 24C02WP
+F 24C02WP
+$ENDCMP
+#
+$CMP 74LS46
+D BCD to 7 segments Driver, Open Collect, 15V outputs
+K TTL DECOD DECOD7 OpenCol
+$ENDCMP
+#
+$CMP 74LS47
+D BCD to 7 segments Driver, Open Collect, 30V outputs
+K TTL DECOD DECOD7 OpenCol
+$ENDCMP
+#
+$CMP 7SEG-2*1-SMALL-ETC
+D 2 x 7 Segments common A.
+K 7 SEGMENTS
+F Display/display-DA04-11GWA.pdf
+$ENDCMP
+#
+$CMP 7SEG-2*1_JABAN_SMALL-ETC
+D 2 x 7 Segments common A.
+K 7 SEGMENTS
+F Display/display-DA04-11GWA.pdf
+$ENDCMP
+#
+$CMP DIAC
+D Diode zener
+K DEV DIODE
+$ENDCMP
+#
+$CMP DIP6
+D Symbole general de connecteur
+K DS1305
+F DS1305
+$ENDCMP
+#
+$CMP ETC_LM555
+F ns/lm555.pdf
+$ENDCMP
+#
+$CMP HDSP-7XXX-A
+D Afficheur 7 seg. HDSP-7xxx type A
+K 7 Segments
+F Display/HDSP-7xxx.pdf
+$ENDCMP
+#
+$CMP LCD_4X16_ETC
+D Symbole general de connexion
+K LCD
+$ENDCMP
+#
+$CMP SIL16
+D Symbole general de connexion
+K CONN
+$ENDCMP
+#
+$CMP TIP
+D Symbole general de connecteur
+K CONN
+$ENDCMP
+#
+#End Doc Library

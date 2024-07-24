@@ -1,0 +1,65 @@
+eeschema (2011-04-29 BZR 2986)-stable  >> Creation date: 4/24/2012 1:23:31 PM
+
+#Cmp ( order = Reference )
+| C1         220uF-25v   
+| C2         .1uF        
+| C3         27pF        
+| C4         27pF        
+| D1         1N4001      
+| D2         GREEN LED   
+| D3         1n4148      
+| F1         1A          
+| J1         JACK_2P     
+| K1         RELAY_5PIN  
+| K2         CONN_3      
+| P1         CONN_2      
+| P2         CONN_8      
+| P3         CONN_8      
+| P4         CONN_2      
+| R1         10K         
+| R2         330R        
+| R3         180R        
+| R4         10K         
+| R5         10K         
+| RV1        POT         
+| SW1        SWITCH_6PIN 
+| SW2        SW_PUSH     
+| SW3        SW_PUSH     
+| U1         7805        
+| U2         PIC16F877A  
+| U3         EL817       
+| X1         4MHz        
+#End Cmp
+
+#Cmp ( order = Value )
+| .1uF         C2        
+| 10K          R1        
+| 10K          R4        
+| 10K          R5        
+| 180R         R3        
+| 1A           F1        
+| 1N4001       D1        
+| 1n4148       D3        
+| 220uF-25v    C1        
+| 27pF         C3        
+| 27pF         C4        
+| 330R         R2        
+| 4MHz         X1        
+| 7805         U1        
+| CONN_2       P1        
+| CONN_2       P4        
+| CONN_3       K2        
+| CONN_8       P2        
+| CONN_8       P3        
+| EL817        U3        
+| GREEN LED    D2        
+| JACK_2P      J1        
+| PIC16F877A   U2        
+| POT          RV1       
+| RELAY_5PIN   K1        
+| SW_PUSH      SW2       
+| SW_PUSH      SW3       
+| SWITCH_6PIN  SW1       
+#End Cmp
+
+#End List

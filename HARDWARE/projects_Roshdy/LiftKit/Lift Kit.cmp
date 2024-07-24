@@ -1,0 +1,94 @@
+Cmp-Mod V01 Genere par PcbNew le 12/25/2013 6:31:39 PM
+
+BeginCmp
+TimeStamp = /52BA8ED6;
+Reference = D1;
+ValeurCmp = Ska3/17;
+IdModule  = Diod_3A_etc;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BA8FD0;
+Reference = D2;
+ValeurCmp = 1.5KE440A;
+IdModule  = Diod_3A_etc;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BA8FC9;
+Reference = D3;
+ValeurCmp = Ska3/17;
+IdModule  = Diod_3A_etc;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BA8EEA;
+Reference = D4;
+ValeurCmp = Ska3/17;
+IdModule  = Diod_3A_etc;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BA8EEE;
+Reference = D5;
+ValeurCmp = 1.5KE440A;
+IdModule  = Diod_3A_etc;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BA8EB0;
+Reference = D6;
+ValeurCmp = Ska3/17;
+IdModule  = Diod_3A_etc;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BA8EA6;
+Reference = D7;
+ValeurCmp = Ska3/17;
+IdModule  = Diod_3A_etc;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BA8FFC;
+Reference = D8;
+ValeurCmp = 1.5KE440A;
+IdModule  = Diod_3A_etc;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BA8EF2;
+Reference = D9;
+ValeurCmp = 1.5KE440A;
+IdModule  = Diod_3A_etc;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BA8D1E;
+Reference = K1;
+ValeurCmp = CONN_3;
+IdModule  = ROZT_LIFTKIT_3PIN_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BA8D2F;
+Reference = P1;
+ValeurCmp = CONN_2;
+IdModule  = ROZT_LIFTKIT_2PIN_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BA8D28;
+Reference = P2;
+ValeurCmp = CONN_2;
+IdModule  = ROZT_LIFTKIT_2PIN_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /52BA92CF;
+Reference = VR1;
+ValeurCmp = S_20_K460;
+IdModule  = VARATHTOR;
+EndCmp
+
+EndListe

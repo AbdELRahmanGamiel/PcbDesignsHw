@@ -1,0 +1,299 @@
+# EESchema Netlist Version 1.1 created  4/19/2012 2:51:08 PM
+(
+ ( /4F8FF928 $noname  R14 220R {Lib=R}
+  (    1 N-000001 )
+  (    2 N-000031 )
+ )
+ ( /4F8FF925 $noname  R13 220R {Lib=R}
+  (    1 N-000030 )
+  (    2 N-000017 )
+ )
+ ( /4F8FF91C $noname  R12 220R {Lib=R}
+  (    1 N-000004 )
+  (    2 N-000029 )
+ )
+ ( /4F8FF91A $noname  R11 220R {Lib=R}
+  (    1 N-000028 )
+  (    2 N-000016 )
+ )
+ ( /4F8FF917 $noname  R10 220R {Lib=R}
+  (    1 N-000003 )
+  (    2 N-000027 )
+ )
+ ( /4F8FF914 $noname  R9 220R {Lib=R}
+  (    1 N-000007 )
+  (    2 N-000015 )
+ )
+ ( /4F8FF90E $noname  R8 220R {Lib=R}
+  (    1 N-000006 )
+  (    2 N-000014 )
+ )
+ ( /4F8FF8FF $noname  R7 220R {Lib=R}
+  (    1 N-000019 )
+  (    2 N-000013 )
+ )
+ ( /4F8FF8FD $noname  R6 220R {Lib=R}
+  (    1 N-000020 )
+  (    2 N-000012 )
+ )
+ ( /4F8FF8FA $noname  R5 220R {Lib=R}
+  (    1 N-000005 )
+  (    2 N-000011 )
+ )
+ ( /4F8FF8F5 $noname  R4 220R {Lib=R}
+  (    1 N-000026 )
+  (    2 N-000010 )
+ )
+ ( /4F8FF8F2 $noname  R3 220R {Lib=R}
+  (    1 N-000024 )
+  (    2 N-000009 )
+ )
+ ( /4F8FF8EF $noname  R2 220R {Lib=R}
+  (    1 N-000022 )
+  (    2 N-000008 )
+ )
+ ( /4F8FF766 $noname  AFF2 7SEGMENTS {Lib=7SEGMENTS}
+  (    1 N-000004 )
+  (    2 N-000028 )
+  (    3 N-000003 )
+  (    4 ? )
+  (    5 N-000025 )
+  (    6 N-000007 )
+  (    7 N-000006 )
+  (    8 N-000001 )
+  (    9 N-000030 )
+  (   10 N-000025 )
+ )
+ ( /4F8FF759 $noname  AFF1 7SEGMENTS {Lib=7SEGMENTS}
+  (    1 N-000005 )
+  (    2 N-000026 )
+  (    3 N-000024 )
+  (    4 ? )
+  (    5 N-000025 )
+  (    6 N-000022 )
+  (    7 N-000021 )
+  (    8 N-000019 )
+  (    9 N-000020 )
+  (   10 N-000025 )
+ )
+ ( /4F8FF74C $noname  R1 220R {Lib=R}
+  (    1 N-000021 )
+  (    2 N-000018 )
+ )
+ ( /4F8FF747 $noname  P2 CONN_8 {Lib=CONN_8}
+  (    1 N-000025 )
+  (    2 N-000031 )
+  (    3 N-000017 )
+  (    4 N-000029 )
+  (    5 N-000016 )
+  (    6 N-000027 )
+  (    7 N-000015 )
+  (    8 N-000014 )
+ )
+ ( /4F8FF742 $noname  P1 CONN_8 {Lib=CONN_8}
+  (    1 N-000025 )
+  (    2 N-000013 )
+  (    3 N-000012 )
+  (    4 N-000011 )
+  (    5 N-000010 )
+  (    6 N-000009 )
+  (    7 N-000008 )
+  (    8 N-000018 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R14
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R13
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R12
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "" ""
+ AFF2 8
+ R14 1
+Net 3 "" ""
+ R10 1
+ AFF2 3
+Net 4 "" ""
+ R12 1
+ AFF2 1
+Net 5 "" ""
+ R5 1
+ AFF1 1
+Net 6 "" ""
+ AFF2 7
+ R8 1
+Net 7 "" ""
+ AFF2 6
+ R9 1
+Net 8 "" ""
+ R2 2
+ P1 7
+Net 9 "" ""
+ P1 6
+ R3 2
+Net 10 "" ""
+ R4 2
+ P1 5
+Net 11 "" ""
+ P1 4
+ R5 2
+Net 12 "" ""
+ R6 2
+ P1 3
+Net 13 "" ""
+ P1 2
+ R7 2
+Net 14 "" ""
+ P2 8
+ R8 2
+Net 15 "" ""
+ P2 7
+ R9 2
+Net 16 "" ""
+ R11 2
+ P2 5
+Net 17 "" ""
+ P2 3
+ R13 2
+Net 18 "" ""
+ R1 2
+ P1 8
+Net 19 "" ""
+ AFF1 8
+ R7 1
+Net 20 "" ""
+ AFF1 9
+ R6 1
+Net 21 "" ""
+ R1 1
+ AFF1 7
+Net 22 "" ""
+ R2 1
+ AFF1 6
+Net 24 "" ""
+ AFF1 3
+ R3 1
+Net 25 "" ""
+ P1 1
+ AFF2 5
+ AFF2 10
+ P2 1
+ AFF1 5
+ AFF1 10
+Net 26 "" ""
+ R4 1
+ AFF1 2
+Net 27 "" ""
+ P2 6
+ R10 2
+Net 28 "" ""
+ R11 1
+ AFF2 2
+Net 29 "" ""
+ P2 4
+ R12 2
+Net 30 "" ""
+ AFF2 9
+ R13 1
+Net 31 "" ""
+ R14 2
+ P2 2
+}
+#End

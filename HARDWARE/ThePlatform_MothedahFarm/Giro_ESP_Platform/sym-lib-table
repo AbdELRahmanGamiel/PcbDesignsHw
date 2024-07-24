@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name ESP32_module)(type Legacy)(uri ${KIPRJMOD}/ESP32_module.lib)(options "")(descr ""))
+  (lib (name giro_compass)(type Legacy)(uri ${KIPRJMOD}/giro_compass.lib)(options "")(descr ""))
+)

@@ -1,0 +1,368 @@
+EESchema Schematic File Version 2  date 4/10/2012 3:09:47 PM
+LIBS:power,device,transistors,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,opto,atmel,contrib,valves
+EELAYER 43  0
+EELAYER END
+$Descr A4 11700 8267
+Sheet 1 1
+Title ""
+Date "10 apr 2012"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	6300 1300 6300 1650
+Connection ~ 7650 3600
+Wire Wire Line
+	7300 3200 7700 3200
+Connection ~ 5500 3200
+Wire Wire Line
+	5350 3200 5700 3200
+Wire Wire Line
+	7300 2850 7700 2850
+Connection ~ 5500 2850
+Wire Wire Line
+	5350 2850 5700 2850
+Wire Wire Line
+	5500 2850 5500 3000
+Wire Wire Line
+	5500 3000 7550 3000
+Wire Wire Line
+	7550 3000 7550 1500
+Wire Wire Line
+	7550 1500 6600 1500
+Wire Wire Line
+	6600 1500 6600 1300
+Connection ~ 7500 2500
+Connection ~ 5500 2150
+Wire Wire Line
+	5350 2150 5700 2150
+Connection ~ 7400 2150
+Wire Wire Line
+	7700 2150 7300 2150
+Wire Wire Line
+	7400 2150 7400 2350
+Wire Wire Line
+	6450 2350 6450 1750
+Wire Wire Line
+	6450 1750 6400 1750
+Wire Wire Line
+	6400 1750 6400 1300
+Connection ~ 4600 2500
+Wire Wire Line
+	4750 2500 4600 2500
+Connection ~ 4600 3200
+Wire Wire Line
+	4750 3200 4600 3200
+Connection ~ 6400 2150
+Wire Wire Line
+	6300 2150 6400 2150
+Connection ~ 6400 2850
+Wire Wire Line
+	6300 2850 6400 2850
+Wire Wire Line
+	6300 3600 6400 3600
+Wire Wire Line
+	6400 3600 6400 1950
+Wire Wire Line
+	6400 1950 6100 1950
+Wire Wire Line
+	6100 1950 6100 1300
+Connection ~ 6550 2850
+Wire Wire Line
+	6700 2850 6550 2850
+Wire Wire Line
+	6700 3600 6550 3600
+Wire Wire Line
+	6550 3600 6550 1850
+Wire Wire Line
+	6550 1850 6200 1850
+Wire Wire Line
+	6200 1850 6200 1300
+Connection ~ 8550 2500
+Wire Wire Line
+	8300 2500 8550 2500
+Connection ~ 8550 3200
+Wire Wire Line
+	8300 3200 8550 3200
+Wire Wire Line
+	6300 1650 8550 1650
+Wire Wire Line
+	8550 1650 8550 3600
+Wire Wire Line
+	8550 3600 8300 3600
+Wire Wire Line
+	8300 2850 8550 2850
+Connection ~ 8550 2850
+Wire Wire Line
+	8300 2150 8550 2150
+Connection ~ 8550 2150
+Wire Wire Line
+	6700 3200 6550 3200
+Connection ~ 6550 3200
+Wire Wire Line
+	6700 2500 6550 2500
+Connection ~ 6550 2500
+Wire Wire Line
+	6300 3200 6400 3200
+Connection ~ 6400 3200
+Wire Wire Line
+	6300 2500 6400 2500
+Connection ~ 6400 2500
+Wire Wire Line
+	6000 1300 6000 1550
+Wire Wire Line
+	6000 1550 4600 1550
+Wire Wire Line
+	4600 1550 4600 3600
+Wire Wire Line
+	4600 3600 4750 3600
+Wire Wire Line
+	4750 2850 4600 2850
+Connection ~ 4600 2850
+Wire Wire Line
+	4750 2150 4600 2150
+Connection ~ 4600 2150
+Wire Wire Line
+	6700 2150 6550 2150
+Connection ~ 6550 2150
+Wire Wire Line
+	7400 2350 5500 2350
+Wire Wire Line
+	5500 2350 5500 2150
+Connection ~ 6450 2350
+Wire Wire Line
+	6500 1300 6500 1550
+Wire Wire Line
+	6500 1550 7500 1550
+Wire Wire Line
+	7500 1550 7500 2650
+Wire Wire Line
+	7500 2650 5500 2650
+Wire Wire Line
+	5500 2650 5500 2500
+Wire Wire Line
+	5350 2500 5700 2500
+Connection ~ 5500 2500
+Wire Wire Line
+	7700 2500 7300 2500
+Connection ~ 7550 2850
+Wire Wire Line
+	6700 1300 6700 1450
+Wire Wire Line
+	6700 1450 7600 1450
+Wire Wire Line
+	7600 1450 7600 3400
+Wire Wire Line
+	7600 3400 5500 3400
+Wire Wire Line
+	5500 3400 5500 3200
+Connection ~ 7600 3200
+Wire Wire Line
+	6800 1300 6800 1400
+Wire Wire Line
+	6800 1400 7650 1400
+Wire Wire Line
+	7650 1400 7650 3850
+Wire Wire Line
+	7650 3850 5500 3850
+Wire Wire Line
+	5500 3850 5500 3600
+Wire Wire Line
+	5350 3600 5700 3600
+Connection ~ 5500 3600
+Wire Wire Line
+	7700 3600 7300 3600
+$Comp
+L CONN_9 P1
+U 1 1 4F841E0E
+P 6400 950
+F 0 "P1" V 6350 950 60  0000 C CNN
+F 1 "CONN_9" V 6450 950 60  0000 C CNN
+	1    6400 950 
+	0    1    -1   0   
+$EndComp
+$Comp
+L SW_PUSH SW5
+U 1 1 4F841DDC
+P 5050 3600
+F 0 "SW5" H 5200 3710 50  0000 C CNN
+F 1 "SW_PUSH" H 5050 3520 50  0000 C CNN
+	1    5050 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW10
+U 1 1 4F841DDB
+P 6000 3600
+F 0 "SW10" H 6150 3710 50  0000 C CNN
+F 1 "SW_PUSH" H 6000 3520 50  0000 C CNN
+	1    6000 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW15
+U 1 1 4F841DDA
+P 7000 3600
+F 0 "SW15" H 7150 3710 50  0000 C CNN
+F 1 "SW_PUSH" H 7000 3520 50  0000 C CNN
+	1    7000 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW20
+U 1 1 4F841DD9
+P 8000 3600
+F 0 "SW20" H 8150 3710 50  0000 C CNN
+F 1 "SW_PUSH" H 8000 3520 50  0000 C CNN
+	1    8000 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW4
+U 1 1 4F841DD5
+P 5050 3200
+F 0 "SW4" H 5200 3310 50  0000 C CNN
+F 1 "SW_PUSH" H 5050 3120 50  0000 C CNN
+	1    5050 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW9
+U 1 1 4F841DD4
+P 6000 3200
+F 0 "SW9" H 6150 3310 50  0000 C CNN
+F 1 "SW_PUSH" H 6000 3120 50  0000 C CNN
+	1    6000 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW14
+U 1 1 4F841DD3
+P 7000 3200
+F 0 "SW14" H 7150 3310 50  0000 C CNN
+F 1 "SW_PUSH" H 7000 3120 50  0000 C CNN
+	1    7000 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW19
+U 1 1 4F841DD2
+P 8000 3200
+F 0 "SW19" H 8150 3310 50  0000 C CNN
+F 1 "SW_PUSH" H 8000 3120 50  0000 C CNN
+	1    8000 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW3
+U 1 1 4F841DD1
+P 5050 2850
+F 0 "SW3" H 5200 2960 50  0000 C CNN
+F 1 "SW_PUSH" H 5050 2770 50  0000 C CNN
+	1    5050 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW8
+U 1 1 4F841DD0
+P 6000 2850
+F 0 "SW8" H 6150 2960 50  0000 C CNN
+F 1 "SW_PUSH" H 6000 2770 50  0000 C CNN
+	1    6000 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW13
+U 1 1 4F841DCF
+P 7000 2850
+F 0 "SW13" H 7150 2960 50  0000 C CNN
+F 1 "SW_PUSH" H 7000 2770 50  0000 C CNN
+	1    7000 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW18
+U 1 1 4F841DCE
+P 8000 2850
+F 0 "SW18" H 8150 2960 50  0000 C CNN
+F 1 "SW_PUSH" H 8000 2770 50  0000 C CNN
+	1    8000 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW2
+U 1 1 4F841DC5
+P 5050 2500
+F 0 "SW2" H 5200 2610 50  0000 C CNN
+F 1 "SW_PUSH" H 5050 2420 50  0000 C CNN
+	1    5050 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW7
+U 1 1 4F841DC4
+P 6000 2500
+F 0 "SW7" H 6150 2610 50  0000 C CNN
+F 1 "SW_PUSH" H 6000 2420 50  0000 C CNN
+	1    6000 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW12
+U 1 1 4F841DC3
+P 7000 2500
+F 0 "SW12" H 7150 2610 50  0000 C CNN
+F 1 "SW_PUSH" H 7000 2420 50  0000 C CNN
+	1    7000 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW17
+U 1 1 4F841DC2
+P 8000 2500
+F 0 "SW17" H 8150 2610 50  0000 C CNN
+F 1 "SW_PUSH" H 8000 2420 50  0000 C CNN
+	1    8000 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW1
+U 1 1 4F841DB0
+P 5050 2150
+F 0 "SW1" H 5200 2260 50  0000 C CNN
+F 1 "SW_PUSH" H 5050 2070 50  0000 C CNN
+	1    5050 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW6
+U 1 1 4F841DA3
+P 6000 2150
+F 0 "SW6" H 6150 2260 50  0000 C CNN
+F 1 "SW_PUSH" H 6000 2070 50  0000 C CNN
+	1    6000 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW11
+U 1 1 4F841D90
+P 7000 2150
+F 0 "SW11" H 7150 2260 50  0000 C CNN
+F 1 "SW_PUSH" H 7000 2070 50  0000 C CNN
+	1    7000 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW16
+U 1 1 4F841D87
+P 8000 2150
+F 0 "SW16" H 8150 2260 50  0000 C CNN
+F 1 "SW_PUSH" H 8000 2070 50  0000 C CNN
+	1    8000 2150
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

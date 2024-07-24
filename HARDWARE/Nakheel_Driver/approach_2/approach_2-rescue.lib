@@ -1,0 +1,24 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# DC_stepUP_converter-DC_converter
+#
+DEF DC_stepUP_converter-DC_converter PS 0 40 Y Y 1 F N
+F0 "PS" -150 -100 50 H V C CNN
+F1 "DC_stepUP_converter-DC_converter" -150 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -450 -300 150 -700 0 1 0 f
+P 2 0 1 0 -150 -650 -150 -700 N
+P 2 0 1 0 -150 -550 -150 -600 N
+P 2 0 1 0 -150 -450 -150 -500 N
+P 2 0 1 0 -150 -350 -150 -400 N
+X +Vin 1 -550 -400 100 R 50 50 0 0 W
+X -Vin 2 -550 -600 100 R 50 50 0 0 W
+X +Vout 3 250 -400 100 L 50 50 0 0 w
+X -Vout 4 250 -600 100 L 50 50 0 0 w
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name SKA40)(type Legacy)(uri ${KIPRJMOD}/SKA40.lib)(options "")(descr ""))
+)

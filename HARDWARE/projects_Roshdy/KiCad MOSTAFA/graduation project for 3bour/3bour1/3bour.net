@@ -1,0 +1,261 @@
+# EESchema Netlist Version 1.1 created  5/14/2012 11:16:51 AM
+(
+ ( /4FB0BD4E $noname  SW1 SWITCH_6PIN_MIDDEL {Lib=SWITCH_6PIN_MIDDEL}
+  (    1 ? )
+  (    2 N-000021 )
+  (    3 VDD )
+  (    4 VSS )
+  (    5 N-000022 )
+  (    6 ? )
+ )
+ ( /4FB0B712 $noname  K1 RELAY_2RT {Lib=RELAY_2RT}
+  (    1 N-000002 )
+  (    2 N-000011 )
+  (    3 N-000012 )
+  (    4 N-000013 )
+  (    5 VDD )
+  (    6 N-000006 )
+  (    7 N-000010 )
+  (    8 N-000007 )
+ )
+ ( /4FB0A3D9 $noname  K2 Relay1 {Lib=CONN_3}
+  (    1 N-000007 )
+  (    2 N-000010 )
+  (    3 N-000006 )
+ )
+ ( /4FB0A3D4 $noname  K3 Relay2 {Lib=CONN_3}
+  (    1 N-000011 )
+  (    2 N-000012 )
+  (    3 N-000013 )
+ )
+ ( /4FB0A006 $noname  P2 Power {Lib=CONN_2}
+  (    1 N-000022 )
+  (    2 N-000021 )
+ )
+ ( /4FB09F67 $noname  Q2 C1096 {Lib=NPN}
+  (    1 VSS )
+  (    2 N-000003 )
+  (    3 N-000002 )
+ )
+ ( /4FB09F5E $noname  D1 1N4005 {Lib=DIODE}
+  (    1 N-000014 )
+  (    2 N-000003 )
+ )
+ ( /4FB09ED9 $noname  R6 100K-0.25W {Lib=R}
+  (    1 VDD )
+  (    2 VSS )
+ )
+ ( /4FB09ED4 $noname  R5 10K-0.25W {Lib=R}
+  (    1 N-000020 )
+  (    2 VSS )
+ )
+ ( /4FB09DB6 $noname  P1 Theostat {Lib=CONN_2}
+  (    1 N-000017 )
+  (    2 VDD )
+ )
+ ( /4FB09CEF $noname  C1 0.1UF-50V {Lib=C}
+  (    1 N-000017 )
+  (    2 VSS )
+ )
+ ( /4FB09CDF $noname  R1 10K-0.25W {Lib=R}
+  (    1 VSS )
+  (    2 N-000017 )
+ )
+ ( /4FB09CD8 $noname  R2 1K-0.25W {Lib=R}
+  (    1 N-000018 )
+  (    2 N-000017 )
+ )
+ ( /4FB09CD0 $noname  R3 1K-0.25W {Lib=R}
+  (    1 VDD )
+  (    2 N-000015 )
+ )
+ ( /4FB09CC9 $noname  Q1 C1096 {Lib=NPN}
+  (    1 VSS )
+  (    2 N-000018 )
+  (    3 N-000015 )
+ )
+ ( /4FB09BFA $noname  C2 1OUF-50V {Lib=C}
+  (    1 N-000019 )
+  (    2 VSS )
+ )
+ ( /4FB09BCD $noname  R4 100K-0.25W {Lib=R}
+  (    1 N-000019 )
+  (    2 VDD )
+ )
+ ( /4FB09B2B $noname  U3 4081 {Lib=4081}
+  (    1 N-000020 )
+  (    2 VDD )
+  (    3 N-000014 )
+  (    7 VSS )
+  (   14 VDD )
+ )
+ ( /4FB09AE5 $noname  U2 4013 {Lib=4013}
+  (    1 N-000020 )
+  (    2 ? )
+  (    3 N-000016 )
+  (    4 N-000015 )
+  (    5 VDD )
+  (    6 ? )
+  (    7 VSS )
+  (   14 VDD )
+ )
+ ( /4FB09AD0 $noname  U1 4538 {Lib=4538}
+  (    1 VSS )
+  (    2 N-000019 )
+  (    3 VDD )
+  (    4 N-000015 )
+  (    5 VDD )
+  (    6 N-000016 )
+  (    7 VSS )
+  (    8 VSS )
+  (   16 VDD )
+ )
+)
+*
+{ Allowed footprints by component:
+$component D1
+ D?
+ S*
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "VSS" "VSS"
+ U3 7
+ C2 2
+ Q1 1
+ R1 1
+ C1 2
+ U1 8
+ U1 7
+ U1 1
+ U2 7
+ SW1 4
+ R6 2
+ R5 2
+ Q2 1
+Net 2 "" ""
+ Q2 3
+ K1 1
+Net 3 "" ""
+ Q2 2
+ D1 2
+Net 5 "VDD" "VDD"
+ R6 1
+ P1 2
+ R4 2
+ SW1 3
+ U3 14
+ U3 2
+ U2 14
+ U1 16
+ R3 1
+ K1 5
+ U1 5
+ U1 3
+ U2 5
+Net 6 "" ""
+ K2 3
+ K1 6
+Net 7 "" ""
+ K2 1
+ K1 8
+Net 10 "" ""
+ K2 2
+ K1 7
+Net 11 "" ""
+ K3 1
+ K1 2
+Net 12 "" ""
+ K3 2
+ K1 3
+Net 13 "" ""
+ K3 3
+ K1 4
+Net 14 "" ""
+ U3 3
+ D1 1
+Net 15 "" ""
+ U1 4
+ Q1 3
+ U2 4
+ R3 2
+Net 16 "" ""
+ U2 3
+ U1 6
+Net 17 "" ""
+ P1 1
+ C1 1
+ R1 2
+ R2 2
+Net 18 "" ""
+ Q1 2
+ R2 1
+Net 19 "" ""
+ R4 1
+ C2 1
+ U1 2
+Net 20 "" ""
+ U2 1
+ U3 1
+ R5 1
+Net 21 "" ""
+ SW1 2
+ P2 2
+Net 22 "" ""
+ P2 1
+ SW1 5
+}
+#End

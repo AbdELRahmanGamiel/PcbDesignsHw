@@ -1,0 +1,122 @@
+Cmp-Mod V01 Created by CvPCB (2011-04-29 BZR 2986)-stable date = 2013-07-23 10:44:30 PM
+
+BeginCmp
+TimeStamp = /51EE9FA4;
+Reference = C1;
+ValeurCmp = 10nf;
+IdModule  = C1V8;
+EndCmp
+
+BeginCmp
+TimeStamp = /51EEA398;
+Reference = C2;
+ValeurCmp = 100nf;
+IdModule  = C1V8;
+EndCmp
+
+BeginCmp
+TimeStamp = /51EEA3A4;
+Reference = C3;
+ValeurCmp = 100nf;
+IdModule  = C1V8;
+EndCmp
+
+BeginCmp
+TimeStamp = /51EEA130;
+Reference = D1;
+ValeurCmp = DIAC;
+IdModule  = ZENER_SMALL_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /51EEA133;
+Reference = D2;
+ValeurCmp = DIAC;
+IdModule  = ZENER_SMALL_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /51EE9F76;
+Reference = P1;
+ValeurCmp = CONN_2;
+IdModule  = ROZT_2_PIN_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /51EEA840;
+Reference = P2;
+ValeurCmp = IC_14_PIN;
+IdModule  = DIP-14__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /51EEDB93;
+Reference = P3;
+ValeurCmp = CONN_2;
+IdModule  = ROZT_2_PIN_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /51EE9F83;
+Reference = R1;
+ValeurCmp = 68K;
+IdModule  = R_0.25WATT_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /51EE9F89;
+Reference = R2;
+ValeurCmp = 68K;
+IdModule  = R_0.25WATT_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /51EE9F92;
+Reference = R3;
+ValeurCmp = 68K;
+IdModule  = R_0.25WATT_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /51EE9F9D;
+Reference = R4;
+ValeurCmp = 68K;
+IdModule  = R_0.25WATT_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /51EE9F97;
+Reference = R5;
+ValeurCmp = 68K;
+IdModule  = R_0.25WATT_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /51EEA291;
+Reference = R6;
+ValeurCmp = 24k;
+IdModule  = R_0.25WATT_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /51EEA351;
+Reference = R7;
+ValeurCmp = 24k;
+IdModule  = R_0.25WATT_ETC;
+EndCmp
+
+BeginCmp
+TimeStamp = /51EEA1AD;
+Reference = U1;
+ValeurCmp = PHOTOCOUPLER;
+IdModule  = EL817-POTO-CUPLER;
+EndCmp
+
+BeginCmp
+TimeStamp = /51EEA1B2;
+Reference = U2;
+ValeurCmp = PHOTOCOUPLER;
+IdModule  = EL817-POTO-CUPLER;
+EndCmp
+
+EndListe
