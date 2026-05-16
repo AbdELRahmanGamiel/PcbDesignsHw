@@ -1,0 +1,25 @@
+# Editor / KiCad auto-backup directories
+.history/
+**/.history/
+
+# KiCad lock and autosave files
+*.lck
+~*.kicad_*
+_autosave-*
+#auto_saved_files#
+fp-info-cache
+
+# KiCad backup files
+*-bak
+*.bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.sch-bak
+
+# KiCad project local state (user-specific, often noisy)
+*.kicad_prl
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
