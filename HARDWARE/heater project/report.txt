@@ -1,0 +1,10 @@
+Plotted to 'C:\Users\DELL\Desktop\Mohamed\Working2\heater project\heater gerber1\heater-B_Cu.gbr'.
+Plotted to 'C:\Users\DELL\Desktop\Mohamed\Working2\heater project\heater gerber1\heater-Edge_Cuts.gbr'.
+Created Gerber job file 'C:\Users\DELL\Desktop\Mohamed\Working2\heater project\heater gerber1\heater-job.gbrjob'.
+Info: Done.
+Plotted to 'C:\Users\DELL\Desktop\Mohamed\Working2\heater project\heater gerber1\heater-B_Cu.gbr'.
+Plotted to 'C:\Users\DELL\Desktop\Mohamed\Working2\heater project\heater gerber1\heater-Edge_Cuts.gbr'.
+Created Gerber job file 'C:\Users\DELL\Desktop\Mohamed\Working2\heater project\heater gerber1\heater-job.gbrjob'.
+Info: Done.
+Info: Done.
+Info: Done.

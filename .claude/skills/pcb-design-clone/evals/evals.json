@@ -1,0 +1,23 @@
+{
+  "skill_name": "pcb-design-clone",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Create a KiCad schematic for a 12V to 5V power supply board with a barrel jack input, fuse protection, reverse polarity protection, LED indicator, and screw terminal output.",
+      "expected_output": "A .kicad_sch file with L7805 regulator, 1N5407 diode, fuse, inrush resistor (10ohm/2W), input cap (334), output cap (104), LED with 330ohm resistor, barrel jack and screw terminal. All using the exact footprints and symbols from the methodology.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Design a KiCad schematic for an ATmega328-based sensor board with I2C interface, 3 LED outputs driven by transistors, a buzzer, and 12V power supply with 5V regulation.",
+      "expected_output": "A .kicad_sch file with ATmega328-PU, 16MHz crystal with 22pF caps, reset circuit (10K pullup + 100nF + push button), L7805 power supply chain, three 2N2219 transistor drivers with 1K base resistors, buzzer output, I2C header (SDA/SCL), and proper net labeling following the methodology conventions.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Create a KiCad schematic for a dual-channel AC TRIAC dimmer controlled by a PIC16F877A microcontroller. Include proper isolation, zero-crossing detection, and snubber circuits.",
+      "expected_output": "A .kicad_sch file with PIC16F877A (20MHz crystal), two TRIAC channels each with: MOC3020 optocoupler, 2N2222 driver (15K base resistor, 100ohm collector), BTA24 TRIAC, RC snubber (47ohm + 1uF/300V), gate protection (360ohm/0.5W), EL817 zero-crossing detectors, and capacitive dropper or standard PSU. Multi-MCU architecture with PIC16F628A slaves is a bonus.",
+      "files": []
+    }
+  ]
+}
